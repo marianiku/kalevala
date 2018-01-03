@@ -12,8 +12,8 @@ echo head(array(
 ?>
 <div id="primary">
     <?php if (!$is_home_page): ?>
-    <p id="simple-pages-breadcrumbs"><?php echo simple_pages_display_breadcrumbs(); ?></p>
-    <h1><?php echo metadata('simple_pages_page', 'title'); ?></h1>
+    <!--<p id="simple-pages-breadcrumbs"><?php echo simple_pages_display_breadcrumbs(); ?></p>-->
+    <!--<h3><?php echo metadata('simple_pages_page', 'title'); ?></h3>-->
     <?php endif; ?>
     <?php
     $text = metadata('simple_pages_page', 'text', array('no_escape' => true));
