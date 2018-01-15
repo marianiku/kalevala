@@ -4,19 +4,19 @@
 
 <div class="container-fluid" id="show_container">
   <div class="row" id="show_row_1">
-    <div class="col">
+    <div class="col-4">
     </div>
-    <div class="col">
+    <div class="col-4">
       <span id="pic_nav">
         <a id="prevPic">&#8592;</a>
         <a id="nextPic">&#8594;</a>
       </span>
     </div>
-    <div class="col">
+    <div class="col-4">
     </div>
   </div>
   <div class="row" id="show_row_2">
-    <div class="col" id="show_col_1">
+    <div class="col-4" id="show_col_1">
       <?php
       $item = get_record_by_id('Item', 1);
       $files = $item->Files;
@@ -27,7 +27,7 @@
       }
       ?>
     </div>
-    <div class="col" id="show_col_2">
+    <div class="col-4" id="show_col_2">
       <?php
       $xmlDoc = new DOMDocument();
       $xmlDoc->load("http://localhost/kalevala/files/original/1/kolmas_runo.xml");
@@ -38,7 +38,7 @@
       echo $proc->transformToXML($xmlDoc);
       ?>
     </div>
-    <div class="col" id="show_col_3">
+    <div class="col-4" id="show_col_3">
     </div>
   </div>
 </div>

@@ -13,8 +13,17 @@ $(document).ready(function(){
       $('div#geneettinen-content').show();
       $('div#kaukonen-content').hide();
     });
+
     $('#kaukonen-link').find('a').on('click', function() {
       $('div#geneettinen-content').hide();
       $('div#kaukonen-content').show();
     });
+
+    $('#geneettinen-more').on('click', function() {
+      if ($('#geneettinen-content-2').is(':hidden')) {
+        $('#geneettinen-content-2').show();
+      } else {
+        $('#geneettinen-content-2').hide();
+      }
+    })
 });

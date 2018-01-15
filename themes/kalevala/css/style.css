@@ -2350,9 +2350,17 @@ th {
     cursor:pointer;
   }
 
-  #geneettinen-content h5 {
+  #geneettinen-content h5, #geneettinen-content-2 h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
+  }
+
+  #geneettinen-more {
+    cursor: pointer;
+  }
+
+  #geneettinen-content-2 {
+    display: none;
   }
 
   #kaukonen-content {
@@ -2371,20 +2379,42 @@ th {
 
   #show_row_1 {
     height: 3%;
-    margin-bottom: 0.5em;
+    border-left: solid 0.1px;
+    border-right: solid 0.1px;
+    border-top: solid 0.1px;
+    background-color: #f8f9fa;
+  }
+
+  #show_row_1 .col-4 {
+    max-height: 100%;
   }
 
   #show_row_2 {
     height: 97%;
   }
 
-  #pic_nav {
+  #show_row_2 .col-4 {
     height: 100%;
-    padding: 5px;
+    border: solid 0.1px #999;
+  }
+
+  #show_col_1 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #show_col_1 .pic {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #pic_nav {
+
   }
 
   #prevPic, #nextPic {
     font-size: 25px;
+    max-height: 100%;
     cursor: pointer;
     display: inline;
     border-bottom: none;
@@ -2398,11 +2428,6 @@ th {
     float: right;
   }
 
-  #show_row_2 .col {
-    height: 100%;
-    border: solid 0.1px #999;
-  }
-
   .page {
     width: 100%;
     float: left;
@@ -2411,7 +2436,7 @@ th {
     font-size: 15px;
   }
 
-  #show_col_2 {
+  #show_col_2, #show_col_3 {
     overflow: auto;
   }
 
