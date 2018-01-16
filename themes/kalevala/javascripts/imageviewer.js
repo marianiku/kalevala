@@ -4,36 +4,20 @@ $(document).ready(function() {
 
   // zoomable and movable images, uses javascripts/wheelzoom.js
   wheelzoom(document.querySelectorAll('.pic'));
+  wheelzoom(document.querySelectorAll('.pic2'));
 
   // Lataa kommentit listasta ja tekee jokaiselle popupin
   $.each(comments, function(key, value) {
     var first = $('#show_col_2').text().indexOf(key);
     if (first >= 0) {
       var last = first + key.length;
-      var ext = $('#show_col_2').text().indexOf(' ', last);
-      var ending = $('#show_col_2').text().substring(last, ext);
-
-      if (ending.indexOf(",") >= 0) {
-        ending = ending.substring(0, ending.indexOf(","));
-      } else if (ending.indexOf(".") >= 0) {
-        ending = ending.substring(0, ending.indexOf("."));
-      } else if (ending.indexOf(";") >= 0) {
-        ending = ending.substring(0, ending.indexOf(";"));
-      } else if (ending.indexOf(":") >= 0) {
-        ending = ending.substring(0, ending.indexOf(":"));
-      } else if (ending.indexOf("!") >= 0) {
-        ending = ending.substring(0, ending.indexOf("!"));
-      }
-
-      var str = key + ending;
+      var str = $('#show_col_2').text().substring(first, last);
 
       // insert popup
-      $('#show_col_2').html($('#show_col_2').html()
-      .replace(str, '<a class="comm tooltp bt" href="#">' + str + '</a>'
+      $("#show_col_2").html($("#show_col_2").html().replace(str,'<a class="tooltp" href="#">' + str + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
     }
   });
-
 
   // Kuvien & sivujen näyttö. Aluksi näytetään ensimmäinen kuva & vastavaan sivun transkriptio
   $('.pic').not('.pic:first').hide();

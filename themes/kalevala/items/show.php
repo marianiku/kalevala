@@ -4,30 +4,43 @@
 
 <div class="container-fluid" id="show_container">
   <div class="row" id="show_row_1">
-    <div class="col-4">
+    <div class="col-sm">
     </div>
-    <div class="col-4">
-      <span id="pic_nav">
-        <a id="prevPic">&#8592;</a>
-        <a id="nextPic">&#8594;</a>
-      </span>
+    <div class="col-sm-3">
+      <nav id="pic_nav" class="navbar navbar-expand-md">
+        <ul class="navbar-nav">
+           <li id="prevPic" class="nav-item">
+             <a class="nav-link" href="#">&#8592;</a>
+           </li>
+           <li id="nextPic" class="nav-item">
+             <a class="nav-link" href="#">&#8594;</a>
+           </li>
+         </ul>
+       </nav>
     </div>
-    <div class="col-4">
+    <div class="col-sm">
+      <nav id="pic_nav2" class="navbar navbar-expand-md">
+        <ul class="navbar-nav">
+           <li id="showFacs" class="nav-item">
+             <a class="nav-link" href="#">Faksimile &#8595;</a>
+           </li>
+         </ul>
+       </nav>
     </div>
   </div>
   <div class="row" id="show_row_2">
-    <div class="col-4" id="show_col_1">
+    <div class="col-sm" id="show_col_1">
       <?php
       $item = get_record_by_id('Item', 1);
       $files = $item->Files;
       foreach ($files as $file) {
-        if ($file->getExtension() == 'jpg') {
+        if ($file->getExtension() == 'jpg' && strpos(metadata($file, 'filename'), 'page') !== false) {
           echo '<img class="pic" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
         }
       }
       ?>
     </div>
-    <div class="col-4" id="show_col_2">
+    <div class="col-sm-3" id="show_col_2">
       <?php
       $xmlDoc = new DOMDocument();
       $xmlDoc->load("http://localhost/kalevala/files/original/1/kolmas_runo.xml");
@@ -38,12 +51,22 @@
       echo $proc->transformToXML($xmlDoc);
       ?>
     </div>
-    <div class="col-4" id="show_col_3">
+    <div class="col-sm" id="show_col_3">
     </div>
   </div>
 </div>
 
-
+<div id="pic_storage">
+  <?php
+  $item = get_record_by_id('Item', 1);
+  $files = $item->Files;
+  foreach ($files as $file) {
+    if ($file->getExtension() == 'jpg' && strpos(metadata($file, 'filename'), 'lna038') !== false) {
+      echo '<img class="pic2" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
+    }
+  }
+  ?>
+</div>
 <!-- The following prints a citation for this item. -->
 <!--<div id="item-citation" class="element">
     <h3><?php echo __('Citation'); ?></h3>

@@ -2385,7 +2385,7 @@ th {
     background-color: #f8f9fa;
   }
 
-  #show_row_1 .col-4 {
+  #show_row_1 .col-sm, #show_row_1 .col-sm-3 {
     max-height: 100%;
   }
 
@@ -2393,39 +2393,53 @@ th {
     height: 97%;
   }
 
-  #show_row_2 .col-4 {
+  #show_row_2 .col-sm, #show_row_2 .col-sm-3 {
     height: 100%;
     border: solid 0.1px #999;
   }
 
   #show_col_1 {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
   }
 
   #show_col_1 .pic {
     max-width: 100%;
-    height: auto;
   }
 
   #pic_nav {
+    max-height: 100%;
+    padding: 0px;
+  }
 
+  #pic_nav ul.navbar-nav {
+    max-height: 100%;
+    width: 100%;
   }
 
   #prevPic, #nextPic {
-    font-size: 25px;
-    max-height: 100%;
+    cursor: pointer;
+    display: inline;
+    border-bottom: none;
+    width: 50%;
+  }
+
+  #prevPic a, #nextPic a {
+    font-size: 20px;
     cursor: pointer;
     display: inline;
     border-bottom: none;
   }
 
-  #prevPic {
+  #prevPic a {
     float: left;
   }
 
-  #nextPic {
-    float: right;
+  #nextPic a {
+    float:right;
+  }
+
+  #prevPic a:hover, #nextPic a:hover {
+    background: none;
   }
 
   .page {
@@ -2440,33 +2454,88 @@ th {
     overflow: auto;
   }
 
-  a.bt {
+  #pic_storage .pic2 {
+    display: none;
+  }
+
+  #show_col_3 .pic2 {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    background-size: 100% 100%;
+  }
+
+  #pic_nav2 {
+    max-height: 100%;
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  #showFacs a {
+    font-size: 14px;
+    line-height: 14px;
+    cursor: pointer;
+    display: inline;
+    border-bottom: none;
+  }
+
+  #showFacs a:hover {
+    max-height: 100%;
+    padding: 2px;
+  }
+
+  /* popup comments */
+
+  a.tooltp {
     font-size: 1em;
     text-decoration: none;
     cursor: pointer;
-    background-color: #e7d6ff;
+    color: #444444 !important;
+    background-color: #699cfa;
+    border-bottom: none;
   }
 
-  a.tooltp {
-    outline:none;
-  }
-
-  a.toolp strong {
+  a.tooltp strong {
     line-height:30px;
   }
 
-  .value1 {
-    z-index:10;
+  a.tooltp:hover {
+    text-decoration:none;
+    outline:none;
+  }
+
+  span.value1, span.value2 {
     display:none;
+    z-index:10;
     padding:14px;
-    margin-top:3px;
-    margin-left:-8px;
+    margin-top:15px;
+    margin-left:-20%;
     width: auto;
     line-height:16px;
   }
 
-  .value2 {
-    display: none;
+  a.tooltp:hover + span.value1 {
+    display:inline;
+    text-align: left;
+    position:absolute;
+    color:#111;
+    border:1px solid #DCA;
+    background:#fffAF0;
+  }
+
+  a.tooltp + span.value1:hover {
+    display:inline;
+    text-align: left;
+    position:absolute;
+    color:#111;
+    border:1px solid #DCA;
+    background:#fffAF0;
+  }
+
+  .more {
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #699cfa;
   }
 
 

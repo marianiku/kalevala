@@ -25,5 +25,18 @@ $(document).ready(function(){
       } else {
         $('#geneettinen-content-2').hide();
       }
-    })
+    });
+
+    $('.more').on('click', function() {
+     $('#show_col_3').css('padding','1em');
+     $('#show_col_3').html($(this).parent().next().html());
+    });
+
+    $('#showFacs').find('a').on('click', function() {
+      if ($('#show_col_3').html() !== $('#pic_storage').html()) {
+        $('#show_col_3').html($('#pic_storage').html()).css('padding','0px'); 
+      } else {
+        $('#show_col_3').html('');
+      }
+    });
 });
