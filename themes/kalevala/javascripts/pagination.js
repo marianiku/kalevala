@@ -10,6 +10,6 @@ $(document).ready(function() {
        }
      });
 
-    $('.col:nth-child(2)').find('.page').not('.page:eq(0)').hide();
+    $('.page').not('.page:eq(0)').hide();
 
 });

@@ -21,7 +21,6 @@ $(document).ready(function() {
 
   // Kuvien & sivujen näyttö. Aluksi näytetään ensimmäinen kuva & vastavaan sivun transkriptio
   $('.pic').not('.pic:first').hide();
-
   var i = 0;
   var j = 0;
 
