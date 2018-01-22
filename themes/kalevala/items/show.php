@@ -43,7 +43,7 @@
     <div class="col-sm-3" id="show_col_2">
       <?php
       $xmlDoc = new DOMDocument();
-      $xmlDoc->load("http://localhost/kalevala/files/original/1/kolmas_runo.xml");
+      $xmlDoc->load("http://localhost/kalevala/files/original/1/aino_runo.xml");
       $xslDoc = new DOMDocument();
       $xslDoc->load("http://localhost/kalevala/files/original/TEI-to-HTML.xsl");
       $proc = new XSLTProcessor();
