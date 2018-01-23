@@ -1,22 +1,23 @@
 $(document).ready(function(){
+
     $('#esipuhe-link').find('a').on('click', function() {
-      $('p#esipuhe-content').show();
-      $('p#tekstit-list').hide();
+      $('#esipuhe-content').show();
+      $('#tekstit-list').hide();
     });
 
     $('#tekstit-link').find('a').on('click', function() {
-      $('p#esipuhe-content').hide();
-      $('p#tekstit-list').show();
+      $('#esipuhe-content').hide();
+      $('#tekstit-list').show();
     });
 
     $('#geneettinen-link').find('a').on('click', function() {
-      $('div#geneettinen-content').show();
-      $('div#kaukonen-content').hide();
+      $('#geneettinen-content').show();
+      $('#kaukonen-content').hide();
     });
 
     $('#kaukonen-link').find('a').on('click', function() {
-      $('div#geneettinen-content').hide();
-      $('div#kaukonen-content').show();
+      $('#geneettinen-content').hide();
+      $('#kaukonen-content').show();
     });
 
     $('#geneettinen-more').on('click', function() {
@@ -33,10 +34,45 @@ $(document).ready(function(){
     });
 
     $('#showFacs').find('a').on('click', function() {
-      if ($('#show_col_3').html() !== $('#pic_storage').html()) {
-        $('#show_col_3').html($('#pic_storage').html()).css('padding','0px'); 
+      if ($('#show_col_3').html() !== $('#item1_facsimiles').html()) {
+        $('#show_col_3').html($('#item1_facsimiles').html()).css('padding','0px');
       } else {
         $('#show_col_3').html('');
       }
+    });
+
+    var i = 0;
+
+    $('#esipuheNext').on('click', function(event) {
+
+      if (i == 10) {
+        return false;
+      }
+      var currentPic = $('#esipuhe-content').find('img:eq(' + i + ')');
+      var nextPic = currentPic.next();
+      if (nextPic) {
+        nextPic.show();
+        currentPic.hide();
+      }
+
+      i++;
+    });
+
+    $('#esipuhePrev').on('click', function() {
+
+      if (i == 0) {
+        return false;
+      }
+
+      var currentPic = $('#esipuhe-content').find('img:eq(' + i + ')');
+      var prevPic = currentPic.prev();
+      if (prevPic != null) {
+        prevPic.show();
+        currentPic.hide();
+      } else {
+        return false;
+      }
+
+      i--;
     });
 });

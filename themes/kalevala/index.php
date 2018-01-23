@@ -11,21 +11,21 @@
   <h6>Johan Zacharias Blackstadius: Väinämöinen kiinnittää kielet kanteleeseen (1851)</h6>
 </div>
 <div id="tertiary">
-    <?php
-    $recentItems = get_theme_option('Homepage Recent Items');
-    if ($recentItems === null || $recentItems === ''):
-        $recentItems = 5;
-    else:
-        $recentItems = (int) $recentItems;
-    endif;
-    if ($recentItems):
-    ?>
-    <div id="recent-items">
-        <h2><?php echo __('Tekstit'); ?></h2>
-        <?php echo recent_items($recentItems); ?>
-    </div><!--end recent-items -->
-    <?php endif; ?>
-
+    <h2><?php echo __('Tekstit'); ?></h2>
+    <nav class="navbar navbar-expand-md">
+      <ul class="nav navbar-nav" id="frontpage_list">
+        <?php
+        $items = get_records('Item');
+        set_loop_records('items', $items);
+        foreach (loop('items') as $item) {
+          if (metadata($item, 'id') != 2) {
+          echo '<li><h5>'.link_to_item().'</h5>'
+          .link_to_item(item_image()) ;
+          }
+        }
+        ?>
+      </ul>
+    </nav>
     <?php fire_plugin_hook('public_home', array('view' => $this)); ?>
 
 </div><!-- end secondary -->

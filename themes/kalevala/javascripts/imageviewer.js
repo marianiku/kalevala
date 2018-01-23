@@ -40,7 +40,7 @@ $(document).ready(function() {
       nextPage.show().siblings('.page').hide();
       nextPic.show().siblings('.pic').hide();
       j++;
-    }
+    } 
 
     i++;
 
