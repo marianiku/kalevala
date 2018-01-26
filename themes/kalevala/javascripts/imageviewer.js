@@ -2,11 +2,10 @@
 
 $(document).ready(function() {
 
-  // zoomable and movable images, uses javascripts/wheelzoom.js
-  wheelzoom(document.querySelectorAll('.pic'));
-  wheelzoom(document.querySelectorAll('.pic2'));
+  // zoomable and movable images in first column, uses javascripts/wheelzoom.js
 
-  // Lataa kommentit listasta ja tekee jokaiselle popupin
+  wheelzoom($('.pic'));
+    // Lataa kommentit listasta ja tekee jokaiselle popupin
   $.each(comments, function(key, value) {
     var first = $('#show_col_2').text().indexOf(key);
     if (first >= 0) {
@@ -19,17 +18,18 @@ $(document).ready(function() {
     }
   });
 
-  // Kuvien & sivujen näyttö. Aluksi näytetään ensimmäinen kuva & vastavaan sivun transkriptio
+  // Display pictures and pages, show first picture + corresponding transcription first
   $('.pic').not('.pic:first').hide();
   var i = 0;
   var j = 0;
 
-  // Selaus eteenpäin
+  // Forward
   $('#nextPic').click(function() {
 
     if (i == $('#show_col_2').find('.page').length-1) {
       return false;
     }
+
 
     var currentPage = $('#show_col_2').find('.page:eq(' + i + ')');
     var nextPage = currentPage.next();
@@ -40,13 +40,13 @@ $(document).ready(function() {
       nextPage.show().siblings('.page').hide();
       nextPic.show().siblings('.pic').hide();
       j++;
-    } 
+    }
 
     i++;
 
   });
 
-  // Selaus taaksepäin
+  // Backward
   $('#prevPic').click(function() {
 
     if (i == 0) {
@@ -72,4 +72,13 @@ $(document).ready(function() {
     i--;
   });
 
+  /* display facsimile in third column */
+
+  $('#showFacs').find('a').on('click', function() {
+    $('#show_col_3').html($('#item1_facsimiles').html()).css('padding','0px');
+    $('#show_col_3').find('img').css('padding','0px');
+    setTimeout(function() {
+      wheelzoom($('#show_col_3').find('img'));
+    }, 500);
+  });
 });

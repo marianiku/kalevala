@@ -2464,9 +2464,8 @@ th {
   }
 
   #show_col_3 .pic2 {
-    max-width: 100% !important;
-    max-height: 100% !important;
     background-size: 100% 100%;
+    max-width: 100%;
   }
 
   #pic_nav2 {
@@ -2475,12 +2474,25 @@ th {
     margin-left: 0px;
   }
 
+  #pic_nav2 ul {
+    width: 100%;
+  }
+
+  #showFacs {
+    float: left;
+    display: inline;
+    width: 85%;
+  }
+
   #showFacs a {
-    font-size: 14px;
-    line-height: 14px;
     cursor: pointer;
     display: inline;
     border-bottom: none;
+  }
+
+  #showFacs a {
+    font-size: 14px;
+    line-height: 14px;
   }
 
   #showFacs a:hover {
@@ -2545,16 +2557,17 @@ th {
 
   /* Simple Pages pages */
 
-  #esipuhe-content row .col img {
-    max-width: 100% !important;
-    max-height: 100% !important;
+  #esipuhe-content {
+    height: 800px;
+    width: 100%;
   }
 
-  #esipuhe_nav {
+  #esipuhe_nav, #esipuhe_nav2 {
     display: inline;
+    float: right;
   }
 
-  #esipuhePrev, #esipuheNext {
+  #esipuhePrev, #esipuheNext, #esipuhePrev2, #esipuheNext2 {
     cursor: pointer;
     font-size: 25px;
     line-height: 25px;

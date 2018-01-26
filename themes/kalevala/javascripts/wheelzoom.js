@@ -12,7 +12,7 @@ window.wheelzoom = (function(){
 	var canvas = document.createElement('canvas');
 
 	var main = function(img, options){
-		if (!img || !img.nodeName || img.nodeName !== 'IMG') { return; }
+		/*if (!img || !img.nodeName || img.nodeName !== 'IMG') { return; }*/
 
 		var settings = {};
 		var width;

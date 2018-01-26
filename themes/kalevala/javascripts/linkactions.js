@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    /* Clicking actions in Simple pages page menus */
     $('#esipuhe-link').find('a').on('click', function() {
       $('#esipuhe-content').show();
       $('#tekstit-list').hide();
@@ -28,27 +29,24 @@ $(document).ready(function(){
       }
     });
 
+    /* popup comments, show extended description */
+
     $('.more').on('click', function() {
      $('#show_col_3').css('padding','1em');
      $('#show_col_3').html($(this).parent().next().html());
+     $('#switchImg').hide();
     });
 
-    $('#showFacs').find('a').on('click', function() {
-      if ($('#show_col_3').html() !== $('#item1_facsimiles').html()) {
-        $('#show_col_3').html($('#item1_facsimiles').html()).css('padding','0px');
-      } else {
-        $('#show_col_3').html('');
-      }
-    });
-
+    /* image switching in Simple Pages pages */
     var i = 0;
+    var j = 0;
 
     $('#esipuheNext').on('click', function(event) {
 
       if (i == 10) {
         return false;
       }
-      var currentPic = $('#esipuhe-content').find('img:eq(' + i + ')');
+      var currentPic = $('#esipuhe-content').find('.esipuhe_pic1:eq(' + i + ')');
       var nextPic = currentPic.next();
       if (nextPic) {
         nextPic.show();
@@ -64,7 +62,7 @@ $(document).ready(function(){
         return false;
       }
 
-      var currentPic = $('#esipuhe-content').find('img:eq(' + i + ')');
+      var currentPic = $('#esipuhe-content').find('.esipuhe_pic1:eq(' + i + ')');
       var prevPic = currentPic.prev();
       if (prevPic != null) {
         prevPic.show();
@@ -74,5 +72,40 @@ $(document).ready(function(){
       }
 
       i--;
+
+    });
+
+    $('#esipuheNext2').on('click', function(event) {
+
+        if (j == 10) {
+          return false;
+        }
+
+        var currentPic = $('#esipuhe-content').find('.esipuhe_pic2:eq(' + j + ')');
+        var nextPic = currentPic.next();
+        if (nextPic) {
+          nextPic.show();
+          currentPic.hide();
+        }
+
+        j++;
+    });
+
+    $('#esipuhePrev2').on('click', function() {
+
+        if (j == 0) {
+          return false;
+        }
+
+        var currentPic = $('#esipuhe-content').find('.esipuhe_pic2:eq(' + j + ')');
+        var prevPic = currentPic.prev();
+        if (prevPic != null) {
+          prevPic.show();
+          currentPic.hide();
+        } else {
+          return false;
+        }
+
+        j--;
     });
 });
