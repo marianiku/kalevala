@@ -21,4 +21,30 @@ echo head(array(
     ?>
 </div>
 
+<!-- images for displaying in foreword Simple Page -->
+
+<div id="esipuhe_printed">
+  <?php
+  $item = get_record_by_id('Item', 5);
+  $files = $item->Files;
+  foreach ($files as $file) {
+    if (strpos(metadata($file, 'filename'), 'esipuhe') !== false) {
+      echo '<img class="pic3" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
+    }
+  }
+  ?>
+</div>
+
+<div id="esipuhe_facsimile">
+  <?php
+  $item = get_record_by_id('Item', 5);
+  $files = $item->Files;
+  foreach ($files as $file) {
+    if (strpos(metadata($file, 'filename'), 'lna038') !== false) {
+      echo '<img class="pic4" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
+    }
+  }
+  ?>
+</div>
+
 <?php echo foot(); ?>

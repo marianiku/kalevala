@@ -2379,32 +2379,35 @@ th {
 
   #show_row_1 {
     height: 3%;
+    width: 100%;
     border-left: solid 0.1px;
     border-right: solid 0.1px;
     border-top: solid 0.1px;
     background-color: #f8f9fa;
   }
 
-  #show_row_1 .col-sm, #show_row_1 .col-sm-3 {
-    max-height: 100%;
-  }
-
   #show_row_2 {
     height: 97%;
+    width: 100%;
+  }
+
+  #show_row_1 .col-sm, #show_row_1 .col-sm-3, #show_row_2 .col-sm, #show_row_2 .col-sm-3 {
+    height: 100%;
   }
 
   #show_row_2 .col-sm, #show_row_2 .col-sm-3 {
-    height: 100%;
     border: solid 0.1px #999;
   }
 
   #show_col_1 {
-    padding: 0px;
+    overflow: hidden;
   }
 
-  #show_col_1 .pic {
-    max-height: 100%;
-    width: auto;
+  #show_col_1 .pic, #show_col_3 .pic2 {
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #pic_nav {
@@ -2456,10 +2459,6 @@ th {
   }
 
   #item1_facsimiles .pic2 {
-    display: none;
-  }
-
-  #item2_images .pic3 {
     display: none;
   }
 
@@ -2557,9 +2556,22 @@ th {
 
   /* Simple Pages pages */
 
+  #tekstit-content {
+    padding: 0px;
+  }
+
   #esipuhe-content {
-    height: 800px;
+    height: 750px;
+  }
+
+  #esipuhe-content .row {
     width: 100%;
+    margin: 0px;
+  }
+
+  #esipuhe-content .row:nth-child(2) .col-5, #esipuhe-content .row:nth-child(2) .col-7 {
+    max-height: 100%;
+    padding: 0px;
   }
 
   #esipuhe_nav, #esipuhe_nav2 {
@@ -2572,6 +2584,34 @@ th {
     font-size: 25px;
     line-height: 25px;
     border-bottom: none;
+  }
+
+  #esipuhe_printed .pic3, #esipuhe_facsimile .pic4 {
+    display: none;
+  }
+
+  #esipuhe-content .row:nth-child(2) .col-5 img,
+  #esipuhe-content .row:nth-child(2) .col-7 img {
+    max-width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    display: none;
+  }
+
+  #esipuhe-content .row:nth-child(2) .col-5 img:nth-child(1),
+  #esipuhe-content .row:nth-child(2) .col-7 img:nth-child(1) {
+    display: inline-block;
+    background-position: center;
+  }
+
+  #esipuhe-content .row:nth-child(2) .col-5 img {
+    float: left;
+
+  }
+
+  #esipuhe-content .row:nth-child(2) .col-7 img {
+    float: right;
   }
 
   /* front page texts list */

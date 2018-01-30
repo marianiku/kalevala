@@ -54,7 +54,7 @@
           echo $proc->transformToXML($xmlDoc);
         }
       }
-      ?>
+      ?>  
     </div>
     <div class="col-sm" id="show_col_3">
     </div>
@@ -73,15 +73,8 @@
   ?>
 </div>
 
-<div id="item2_images">
-  <?php
-  $item = get_record_by_id('Item', 2);
-  $files = $item->Files;
-  foreach ($files as $file) {
-    echo '<img class="pic3" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
-  }
-  ?>
-</div>
+
+
 <!-- The following prints a citation for this item. -->
 <!--<div id="item-citation" class="element">
     <h3><?php echo __('Citation'); ?></h3>

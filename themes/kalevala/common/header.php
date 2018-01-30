@@ -100,9 +100,11 @@
     queue_js_file('bootstrap.bundle.min');
     queue_js_file('wheelzoom');
     queue_js_file('comments');
+    queue_js_file('simplepages');
     queue_js_file('imageviewer');
     queue_js_file('linkactions');
     queue_js_file('pagination');
+
     echo head_js();
     ?>
 </head>
