@@ -8,14 +8,11 @@ $(document).ready(function() {
     // Lataa kommentit listasta ja tekee jokaiselle popupin
   $.each(comments, function(key, value) {
     var first = $('#show_col_2').text().indexOf(key);
-    if (first >= 0) {
-      var last = first + key.length;
-      var str = $('#show_col_2').text().substring(first, last);
+    var last = first + key.length;
+    var str = $('#show_col_2').text().substring(first,last);
 
-      // insert popup
-      $("#show_col_2").html($("#show_col_2").html().replace(str,'<a class="tooltp" href="#">' + str + '</a>'
-      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-    }
+    $("#show_col_2").html($("#show_col_2").html().replace(str,'<a class="tooltp" href="#">' + str + '</a>'
+    + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
   });
 
   // Display pictures and pages, show first picture + corresponding transcription first

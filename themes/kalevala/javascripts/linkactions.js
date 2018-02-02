@@ -3,11 +3,13 @@ $(document).ready(function(){
     /* Clicking actions in Simple pages page menus */
     $('#esipuhe-link').find('a').on('click', function() {
       $('#esipuhe-content').show();
+      $('#esipuhe-intro').show();
       $('#tekstit-list').hide();
     });
 
     $('#tekstit-link').find('a').on('click', function() {
       $('#esipuhe-content').hide();
+      $('#esipuhe-intro').hide();
       $('#tekstit-list').show();
     });
 

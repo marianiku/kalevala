@@ -11,10 +11,10 @@
       <nav id="pic_nav" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="prevPic" class="nav-item">
-             <a class="nav-link" href="#">&#8592;</a>
+             <a class="nav-link" >&#8592;</a>
            </li>
            <li id="nextPic" class="nav-item">
-             <a class="nav-link" href="#">&#8594;</a>
+             <a class="nav-link" >&#8594;</a>
            </li>
          </ul>
        </nav>
@@ -23,7 +23,7 @@
       <nav id="pic_nav2" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="showFacs" class="nav-item">
-             <a class="nav-link" href="#">Faksimile &#8595;</a>
+             <a class="nav-link" >Faksimile &#8595;</a>
            </li>
          </ul>
        </nav>
@@ -54,7 +54,7 @@
           echo $proc->transformToXML($xmlDoc);
         }
       }
-      ?>  
+      ?>
     </div>
     <div class="col-sm" id="show_col_3">
     </div>
