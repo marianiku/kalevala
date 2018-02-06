@@ -2521,7 +2521,7 @@ th {
 
   span.value1, span.value2 {
     display:none;
-    z-index:10;
+    z-index:9999;
     padding:14px;
     margin-top:15px;
     margin-left:-20%;
@@ -2536,6 +2536,7 @@ th {
     color:#111;
     border:1px solid #DCA;
     background:#fffAF0;
+    z-index:9999;
   }
 
   a.tooltp + span.value1:hover {
@@ -2545,6 +2546,7 @@ th {
     color:#111;
     border:1px solid #DCA;
     background:#fffAF0;
+    z-index:9999;
   }
 
   .more {
