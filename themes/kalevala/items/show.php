@@ -34,7 +34,8 @@
       <?php
       $files = $item->Files;
       foreach ($files as $file) {
-        if ($file->getExtension() == 'jpg' && strpos(metadata($file, 'filename'), 'page') !== false) {
+        if ($file->getExtension() == 'jpg'
+        && (strpos(metadata($file, 'filename'), 'page') !== false || strpos(metadata($file, 'filename'), 'esipuhe') !== false)) {
           echo '<img class="pic" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
         }
       }

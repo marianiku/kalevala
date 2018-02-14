@@ -11,7 +11,7 @@ var comments = {
   '(Turunen 1979: 395−397.)<br><br>' +
   'Lönnrot itse piti aluksi Väinämöistä myyttisenä sankarina, mutta Uuden Kalevalan esipuheessa hän kallistui' +
   ' historialliseen tulkintaan ja esitti Kalevalan ja Pohjolan heimojen olleen alunperin suomalaisia heimoja.' +
-  ' Ks. lisää Väinämöisestä: Siikala 1999, 2012.<br><br>'],
+  ' Ks. lisää Väinämöisestä: Siikala 1999, 2012.'],
   'Wäinölän':['Väinölä : Väinämöisen asuinpaikaksi kuviteltu paikka (Turunen 1979). <a class="more" >Näytä lisää</a>',
   'Kansanrunoissa Väinölä ei yhdisty Kalevalan käsitteeseen, vaan Lönnrot on itse muodostanut yhteyden niiden välille' +
   ' (Kaukonen 1945: 502−503; ks. myös Turunen 1979).'],
@@ -87,7 +87,7 @@ var comments = {
   'Lönnrot kommentoi Kalevalan säettä 40: "kilpalaulannolle." (Lna 121). Ks. myös Lönnrotin selitys: voitteloille = kiistaan' +
   ' (Lna 38).'],
   'epäsi':['evätä : kieltää'],
-  'Väinön':['Väinö : Väinämöinen'],
+  'Wäinön':['Väinö : Väinämöinen'],
   'silma':['sie : sinä (sinua)'],
   'lausitahan':['lausia : (tässä) manata'],
   'vitihin':['viti : vastasatanut, tuore lumi. <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: vitihin = nuoreen lumeen'],
@@ -127,7 +127,7 @@ var comments = {
   'usisi':['usista : kihistä, suhista, kiehua sihisten. <a class="more">Katso lisää</a>','Vrt. Lönnrotin selitys: usisi = kihisi ulos (Lna 38)'],
   'Kuit':['ku : (tässä) mitä'],
   'varattomasti':['varomattomasti'],
-  'länkäpuiset':['länkäpuinen : vääräpuinen, kiveräpuinen'],
+  'länkä-puiset':['länkäpuinen : vääräpuinen, kiveräpuinen'],
   'Vesa-puiset':['vesapuinen : nuoresta puusta valmistettu'],
   'pilastehiksi':['pilaste : pirstale, sirpale. <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: pilastehiksi = sirpaleiksi (Lna 38)'],
   'Rämäksi':['rämä : rikkinäinen. <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: rämäksi = rikki, pieniksi pirstaleiksi'],
@@ -310,7 +310,7 @@ var comments = {
   'Lainoan':['lainata (lainaan)'],
   'Hulikkojen':['hulikka : puuastia, pytty. <a class="more">Katso lisää</a>',
   'Ks. Lönnrotin selitys: hulikkojen = pyttyjen (Lna 38).'],
-  'vaippojen':['vaippa : hartioille vartalon suojaksi kiedottu asuste, jota käyttivät pääasiassa naiset' +
+  'Vaippojen':['vaippa : hartioille vartalon suojaksi kiedottu asuste, jota käyttivät pääasiassa naiset' +
   ' (Turunen 1979); peitto'],
   'viruttajaksi':['viruttaja : huuhtoja'],
   'Mesileivän':['mesileipä : hunajaleipä, hunajakakku; maustettu leipä tai kakku (Lönnrot 1958); vrt.' +
@@ -343,7 +343,7 @@ var comments = {
   'maammo':['äiti'],
   'sopen kululle':['sopenkulu : nurkassa aikaansa kuluttava vanhus. <a class="more">Katso lisää</a>',
   'Ks. Lönnrotin selitys: sopen kululle = nurkissa asujalle (Lna 38).'],
-  'hykersi':['hykertää : hieroa yhteen'],
+  'Hykersi':['hykertää : hieroa yhteen'],
   'Puhki':['läpi'],
   'polveni':['polvi : (tässä) elinaika, ikä. <a class="more">Katso lisää</a>',
   'Ks. Lönnrotin selitys: polveni = ikäni (Lna 38).'],
@@ -354,7 +354,7 @@ var comments = {
   'Naimattomat tytöt pitivät hiuksensa palmikolla, mutta heidän mentyään naimisiin hiukset leikattiin' +
   ' ja päät hunnutettiin (Turunen 1979).'],
   'Veikon':['veikko : veli'],
-  'veisto-tannerille':['veistotanner : veistopaikka'],
+  'veisto-tanterille':['veistotanner : veistopaikka'],
   'huima':['mieletön, hullu. <a class="more">Katso lisää</a>',
   'Vrt. sanan alkumerkitys ’hurja, raju, villi’ (Turunen 1979). Vrt. myös Lönnrotin' +
   ' selitys: huima = obändig (Lna 122).'],

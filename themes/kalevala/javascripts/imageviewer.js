@@ -7,12 +7,22 @@ $(document).ready(function() {
   wheelzoom($('.pic'));
     // Lataa kommentit listasta ja tekee jokaiselle popupin
   $.each(comments, function(key, value) {
-    var first = $('#show_col_2').text().indexOf(key);
-    var last = first + key.length;
-    var str = $('#show_col_2').text().substring(first,last);
 
-    $("#show_col_2").html($("#show_col_2").html().replace(str,'<a class="tooltp" href="#">' + str + '</a>'
-    + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    var regex = new RegExp(key + '+(?=(\\s|.|,|;)){' + 1 + '}','m');
+    var first = $('#show_col_2').text().indexOf(key);
+
+    var before = $('#show_col_2').text().charAt(first-1);
+    var after = $('#show_col_2').text().charAt(first+key.length);
+    if (key == 'naisen' || key == 'leuan') {
+      $("#show_col_2").html($("#show_col_2").html().replace(' ' + key,' <a class="tooltp" href="#">' + key + '</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    } else if (key == 'tieto') {
+      $("#show_col_2").html($("#show_col_2").html().replace(key,'<a class="tooltp" href="#">' + key + '</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    } else {
+      $("#show_col_2").html($("#show_col_2").html().replace(key,'<a class="tooltp" href="#">' + key + '</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    }
   });
 
   // Display pictures and pages, show first picture + corresponding transcription first

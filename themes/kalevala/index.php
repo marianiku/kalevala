@@ -18,10 +18,8 @@
         $items = get_records('Item');
         set_loop_records('items', $items);
         foreach (loop('items') as $item) {
-          if (metadata($item, 'id') != 5  ) {
           echo '<li><h5>'.link_to_item().'</h5>'
           .link_to_item(item_image()) ;
-          }
         }
         ?>
       </ul>
