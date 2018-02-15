@@ -12,7 +12,7 @@ var comments = {
   'Lönnrot itse piti aluksi Väinämöistä myyttisenä sankarina, mutta Uuden Kalevalan esipuheessa hän kallistui' +
   ' historialliseen tulkintaan ja esitti Kalevalan ja Pohjolan heimojen olleen alunperin suomalaisia heimoja.' +
   ' Ks. lisää Väinämöisestä: Siikala 1999, 2012.'],
-  'Wäinölän':['Väinölä : Väinämöisen asuinpaikaksi kuviteltu paikka (Turunen 1979). <a class="more" >Näytä lisää</a>',
+  'Wäinölä':['Väinölä : Väinämöisen asuinpaikaksi kuviteltu paikka (Turunen 1979). <a class="more" >Näytä lisää</a>',
   'Kansanrunoissa Väinölä ei yhdisty Kalevalan käsitteeseen, vaan Lönnrot on itse muodostanut yhteyden niiden välille' +
   ' (Kaukonen 1945: 502−503; ks. myös Turunen 1979).'],
   'ahoilla':['aho : entinen kaskimaa tai puuttomaksi hakattu maa-ala'],
@@ -48,7 +48,7 @@ var comments = {
   'osoannasta':['osaanta : taito, tietäminen'],
   'suvehen':['suvi : (tässä) etelä. <a class="more">Katso lisää</a>',
   'Lönnrot kommentoi säkeitä 19−20: "yltä ympäritse, kaikille suunnille" (Lna 121).'],
-  'Pohjolahan':['Pohjola : Louhen asuinpaikka Kalevalassa; Kalevalassa ja kansanrunoissa yleisesti esiintyvä' +
+  'Pohjolahan':['Pohjola: Louhen asuinpaikka Kalevalassa; Kalevalassa ja kansanrunoissa yleisesti esiintyvä' +
   ' paikannimi (Turunen 1979.). <a class="more">Katso lisää</a>',
   'Vrt. Pohja, jolla sama merkitys; pohjoinen ilmansuunta käsitettynä paikaksi, joka on pimeän, kylmän ja' +
   ' kaiken pahuuden koti; paikka, jonne kivut ja taudit manataan. Kalevalassa Pohjola on Väinölän eli Kalevalan' +
@@ -58,7 +58,7 @@ var comments = {
   ' Pimentola, Untamola, kylmä kylä, miesten syöjä sija, urosten upottaja, pahan valta. Vaikka Kalevalan Pohjola pohjautuu' +
   ' pääpiirteissään kansanrunoihin, eepoksen Pohjola on saanut Lönnrotin työn vaikutuksesta lisäpiirteitä. Esimerkiksi' +
   ' Kalevalan kolmannessa runossa Pohjola esiintyy Lönnrotin sovittamana. (Turunen 1979: 258−259.)'],
-  'Joukahainen':['(tässä) Ainon nuori veli, Väinämöisen nuori, uhmakas vastustaja. Yleensä nuori Joukahainen, mutta myös' +
+  'Joukahai':['(tässä) Ainon nuori veli, Väinämöisen nuori, uhmakas vastustaja. Yleensä nuori Joukahainen, mutta myös' +
   ' nuori poika lappalainen (Kalevalan 3. runo). <a class="more">Katso lisää</a>',
   'Joukahainen : avoin, rohkea nuori; röyhkeä ja turhamainen lappalainen sankari (Lönnrot 1958). <br><br>' +
   'jouka : joukea, kookas (Krohn 1927). <br><br>' +
