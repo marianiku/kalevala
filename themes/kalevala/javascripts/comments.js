@@ -1,6 +1,6 @@
 var comments = {
   'Vaka':['(Väinämöisen epiteettinä) oikeamielinen, luja, vakava (Turunen 1979)'],
-  'Wäinämöinen':['Väinämöinen : Kalevalan keskushahmo, tietäjä, runonlaulaja. Karjalan eeppisten runojen päähenkilö, jonka' +
+  'Wäinämöi':['Väinämöinen : Kalevalan keskushahmo, tietäjä, runonlaulaja. Karjalan eeppisten runojen päähenkilö, jonka' +
   ' epiteettejä vaka vanha, tietäjä tai laulaja iänikuinen (vrt. inkeriläisissä runoissa V. esiintyy harvoin).' +
   ' <a class="more" >Katso lisää</a>',
   'Väinä : leveä, syvä, tyynesti virtaava joki (Turunen 1979).<br><br>' +

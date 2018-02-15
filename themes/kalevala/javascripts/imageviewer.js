@@ -8,16 +8,17 @@ $(document).ready(function() {
     // Lataa kommentit listasta ja tekee jokaiselle popupin
   $.each(comments, function(key, value) {
 
-    var regex = new RegExp(key + '+(?=(\\s|.|,|;)){' + 1 + '}','m');
+    //regex = new RegExp(key + '.+(?=(\\s|\.|,|;))');
+    regex = new RegExp(key + '[^(\\s|\.|,|\<|;|\"|\?)]*');
+
+
 
     if (key == 'naisen' || key == 'leuan') {
       $("#show_col_2").html($("#show_col_2").html().replace(' ' + key,' <a class="tooltp" href="#">' + key + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-    } else if (key == 'tieto') {
-      $("#show_col_2").html($("#show_col_2").html().replace(key,'<a class="tooltp" href="#">' + key + '</a>'
-      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
     } else {
-      $("#show_col_2").html($("#show_col_2").html().replace(key,'<a class="tooltp" href="#">' + key + '</a>'
+      $("#show_col_2").html($("#show_col_2").html().
+      replace(regex,'<a class="tooltp" href="#">$&</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
     }
   });
