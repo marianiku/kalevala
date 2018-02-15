@@ -37,21 +37,22 @@ var comments = {
   'Vrt. sanella-verbin toinen merkitys: laususkella, laulella (Turunen 1979).'],
   'syntyjä':['synty : syntysana, loitsu, jossa selitetään jonkin alkuperää ja luomista'],
   'syviä':['syvä : syvämielinen (Lna 38). <a class="more" >Katso lisää</a>',
-  'Lönnrot kommentoi Kalevalan säettä 10: "runoja, joissa kerrottaan maailman ja sen ainetten ilmaantumisesta" (Lna 121).'],
+  'Lönnrot kommentoi Kalevalan säettä 10: "runoja, joissa kerrottiin maailman ja sen ainetten ilmaantumisesta" (Lna 121).'],
   'inhalla iällä':['inha ikä : paha aika (ajanjakso), aikakausi. <a class="more">Katso lisää</a>',
   'inha : paha, huono, ikävä <br><br> Ks. Lönnrotin selitys: inhalla = pahalla, rietalla (Lna 38). <br><br> ikä : aikakausi, ajanjakso'],
   'yhet urohot':['yksi uros : kuka tahansa mies. <a class="more">Katso lisää</a>',
-  'yksi : kuka tahansa (Jussila 2009: 508) <br><br> uros : mies, miehinen mies'],
+  'yksi : kuka tahansa (Jussila 2009) <br><br> uros : mies, miehinen mies'],
   'Katovalla kannikalla':['katova kannikka : katoava loppuaika, ajan loppu. <a class="more">Katso lisää</a>',
   'katova : katoava <br><br> kannikka : loppu, loppuaika'],
   'viestit':['sanat, tiedot (Lna 38)'],
   'osoannasta':['osaanta : taito, tietäminen'],
   'suvehen':['suvi : (tässä) etelä. <a class="more">Katso lisää</a>',
   'Lönnrot kommentoi säkeitä 19−20: "yltä ympäritse, kaikille suunnille" (Lna 121).'],
-  'Pohjolahan':['Pohjola : Kalevalassa ja kansanrunoissa yleisesti esiintyvä paikannimi (vrt. Pohja, jolla sama merkitys);' +
-  ' pohjoinen ilmansuunta käsitettynä paikaksi, joka on pimeän, kylmän ja kaiken pahuuden koti; paikka, jonne kivut ja' +
-  ' taudit manataan. (Turunen 1979.). <a class="more">Katso lisää</a>',
-  'Kalevalassa Pohjola on Väinölän eli Kalevalan vastakohta, kokonaisen heimon asuinsijana, jota Louhi eli Pohjolan' +
+  'Pohjolahan':['Pohjola : Louhen asuinpaikka Kalevalassa; Kalevalassa ja kansanrunoissa yleisesti esiintyvä' +
+  ' paikannimi (Turunen 1979.). <a class="more">Katso lisää</a>',
+  'Vrt. Pohja, jolla sama merkitys; pohjoinen ilmansuunta käsitettynä paikaksi, joka on pimeän, kylmän ja' +
+  ' kaiken pahuuden koti; paikka, jonne kivut ja taudit manataan. Kalevalassa Pohjola on Väinölän eli Kalevalan' +
+  ' vastakohta, kokonaisen heimon asuinsijana, jota Louhi eli Pohjolan' +
   ' emäntä hallitsee. Sampo taotaan Pohjolaan ja ryöstetään sieltä; Pohjola on myös esimerkiksi paikka, jonne päivänvalot' +
   ' kätketään. Sekä Kalevalassa että muinaisrunoissa Pohjolasta käytetään nimityksiä, jotka kuvaavat sen luonnetta, kuten' +
   ' Pimentola, Untamola, kylmä kylä, miesten syöjä sija, urosten upottaja, pahan valta. Vaikka Kalevalan Pohjola pohjautuu' +
@@ -102,7 +103,8 @@ var comments = {
   'Kiviharkon':['kiviharkko : kivilohkare. <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: kiviharkon = kivisen lohkareen (Lna 38)'],
   'Kivikintahat':['kivikinnas : kivinen käsine'],
   'paatisen kypärän':['paatinen kypärä : kivinen suojapäähine'],
-  'Säkeniä':['säen : kipinä'],
+  'Säkeniä':['säen : kipinä. <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 69-70: "Niin tulinen, että oikein säkenöitsi" (Lna 121)'],
   'Korjan':['korja : ajoreki, itäsuomalainen laitareki. <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: korjan = matka-reen (Lna 38).'],
   'Kohennaikse korjahansa':['kohennaikse korjahansa : asettuu rekeensä. <a class="more">Katso lisää</a>',
   'kohentaa : refl. asettua, sovittautua; vrt. kohoeli (asettui)'],
@@ -121,10 +123,10 @@ var comments = {
   'Rahe':['rahje : länkien vetohihna, joka yhdistää aisan ja luokin'],
   'takistui':['takistua : tarttua kiinni, vrt. takeltua'],
   'Länget':['hevosvaljaiden kaulaosa, joka koostuu kahdesta kaarevasta toisiinsa kiinnitetystä puusta'],
-  'Vemmel':['vemmel : hevosvaljaiden luokki (luokka), niskan yli kulkeva kaari, jolla länget kiinnitetään aisoihin. <a class="more">Katso lisää</a>',
-  'Lönnrot kommentoi Kalevalan säkeitä 99−100: "tarttuivat niin kovasti toisiinsa, että vesi vääntyi eli pursui' +
-  ' puusta ulos" (Lna 121).'],
-  'usisi':['usista : kihistä, suhista, kiehua sihisten. <a class="more">Katso lisää</a>','Vrt. Lönnrotin selitys: usisi = kihisi ulos (Lna 38)'],
+  'Vemmel':['vemmel : hevosvaljaiden luokki (luokka), niskan yli kulkeva kaari, jolla länget kiinnitetään aisoihin.'],
+  'usisi':['usista : kihistä, suhista, kiehua sihisten. <a class="more">Katso lisää</a>',
+  'Vrt. Lönnrotin selitys: usisi = kihisi ulos (Lna 38). Ks. myös Lönnrotin kommentti Kalevalan säkeisiin' +
+  ' 99-100: "Tarttuivat niin kovasti toisiinsa, että vesi vääntyi eli pursui puusta ulos" (Lna 121)'],
   'Kuit':['ku : (tässä) mitä'],
   'varattomasti':['varomattomasti'],
   'länkä-puiset':['länkäpuinen : vääräpuinen, kiveräpuinen'],
@@ -145,7 +147,9 @@ var comments = {
   'taitajaksi':['taitaja :  runojen ja laulujen osaaja, runonlaulaja, tietäjä'],
   'kaikitenki':['joka tapauksessa'],
   'selvällehen':['selvälleen : selvästi'],
-  'tarkoillehen':['tarkoilleen : tarkasti'],
+  'tarkoillehen':['tarkoilleen : tarkasti. <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 150-182: "J. ylenkatseellisesti ensin laskee mitättömiä' +
+  ' loruja ikään kuin sanoaksensa Wselle, että neki jo olivat hänen tietonsa veroiset" (Lna 121).'],
   'Reppänä':['reppänä : sisäänlämpiävän tuvan tai saunan savuaukko, lakeinen. <a class="more">Katso lisää</a>',
   'Ks. Lönnrotin selitys: reppänä = savureikä katossa (Lna 38).'],
   'lakea':['laki : (tässä) huoneen välikatto, sisäkatto, laipio'],
@@ -162,17 +166,17 @@ var comments = {
   'tarvahalla':['tarvas : hirvieläin. <a class="more">Katso lisää</a>',
   'Alkumerkitys "alkuhärkä" (Turunen 1979). Vrt. Lönnrotin selitys: tarvas = härkä? (Lna 38). Ks. myös Lönnrotin'
   + ' selitys: tarvas = råbock (Lna 122) sekä Lönnrotin kommentti säkeeseen 170: "tarvas = metsäkauris?" (Lna 121).'],
-  'Pisan mäellä':['Pisan mäki : Pisanmäki, tarkoittanee Nilsiän pitäjässä sijaitsevaa Pisavuorta. <a class="more">Katso lisää</a>',
-  'pisa : hiisi <br><br>' + '(Turunen 1979)'],
-  'Hornan kalliolla':['Hornan kallio :  samanniminen vuori sijaitsee Suuren Suvasveden rannalla Soisalossa.'
+  'Pisan mäellä':['Pisan mäki : Pisanmäki, tarkoittanee Nilsiän pitäjässä sijaitsevaa Pisavuorta (Turunen 1979). ' +
+  ' <a class="more">Katso lisää</a>','pisa : hiisi <br><br>' + '(Turunen 1979)'],
+  'Hornan kalliolla':['Hornan kallio :  samanniminen vuori sijaitsee Suuren Suvasveden rannalla Soisalossa (Turunen 1979).'
   + '<a class="more">Katso lisää</a>','horna : pahojen henkien asunpaikka, helvetti, paha henki, hiisi <br><br>' +
   '(Turunen 1979)'],
   'kovoa':['kova : (tässä) voimakas, vuolasvirtainen'],
   'ilman kannen':['ilman kansi : taivaankansi. <a class="more">Katso lisää</a>','ilma: (tässä) taivas'],
   'Hälläpyörä':['Nimi perustuu todennäköisesti eräissä kansanrunoissa esiintyvään nimeen Hällänkoski'
-  + ' (Turunen 1979, 58). Satakunnassa Huittisissa sijaitsee Hälläköski, jota on kutsuttu myös Hälläpyöräksi'
-  + ' (Genetz 1895: 159; Turunen 1979: 58).'],
-  'Kaatrakoski':['Pohjois-Karjalassa sijaitsevan nykyisen Pankakosken aiempi nimi (Turunen 1979: 84)'],
+  + ' (Turunen 1979). Satakunnassa Huittisissa sijaitsee Hälläköski, jota on kutsuttu myös Hälläpyöräksi'
+  + ' (Genetz 1895: 159; Turunen 1979).'],
+  'Kaatrakoski':['Pohjois-Karjalassa sijaitsevan nykyisen Pankakosken aiempi nimi (Turunen 1979)'],
   'Wuoksen':['Vuoksi : joki, joka laskee Saimaasta Laatokkaan'],
   'Imatran':['Imatra : Vuoksen koski'],
   'naisen':['nainen : (tässä) vaimo, vaimoihminen'],
@@ -253,11 +257,14 @@ var comments = {
   'utuisen':['utuinen : (tässä) hieno, pehmeä'],
   'suonivöistä':['suonivyö : vyötärö, vyötärön seutu'],
   'nivuslihoista':['nivusliha : kupeet, vyötärö'],
-  'Jopa':['jopa − jotta : ja − samoin, sekä − että'],
+  'Jopa':['jopa − jotta : ja − samoin, sekä − että. <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 332-336: "Tähän asti matkassa oli hyvin käynyt, nyt vasta tuli tosi eteen" (Lna 121).'],
   'Jaksoitteli':['jaksoitella : irrotella'],
   'Läylemmäksi':['läyli : tukala, vaikea (tukalammaksi). <a class="more">Katso lisää</a>',
   'Vrt. Lönnrotin selitys:  läyliä = svår, besvärlig (Lna 122).'],
-  'Pyörrytä':['pyörryttää : laulaa takaisin, palauttaa entiselleen'],
+  'Pyörrytä':['pyörryttää : laulaa takaisin, palauttaa entiselleen. <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 347-350: "Loihtujensa vaikutuksen taisi loihtija itse purkaa, kun' +
+  ' peräytti sanansa" (Lna 121).'],
   'pälkähästä':['päläs : (tässä) ahdinko, tukala tilanne'],
   'makson':['makso : hinta, palkkio'],
   'kaarta':['kaari : jousi'],
@@ -265,11 +272,14 @@ var comments = {
   'Vrt. Lönnrotin selitys: jalo; ripsas (Lna 38).'],
   'seisoteltu':['seisotella : seisottaa'],
   'vaarnanen':['vaarnanen : puunaula, tappi. <a class="more">Katso lisää</a>',
-  'Ks. Lönnrotin selitys: vaarnanen = naula seinällä (Lna 38). Puunauloja pidettiin tuvan seinissä ja' +
-  ' orsissa, ja niihin ripustettiin esimerkiksi vaatteita, aseita, työkaluja ja metsästysvälineitä (Turunen 1979: 363).'],
+  'Ks. Lönnrotin selitys: vaarnanen = naula seinällä (Lna 38). Ks. myös Lönnrotin kommentti Kalevalan' +
+  ' säkeisiin 369-370: "sijoiteltu joka seinään, varottu joka naulaan" (Lna 121)' +
+  ' Puunauloja pidettiin tuvan seinissä ja orsissa, ja niihin ripustettiin esimerkiksi vaatteita, aseita,' +
+  ' työkaluja ja metsästysvälineitä (Turunen 1979: 363).'],
   'varottu':['varoa : (tässä) varustaa (Lna 38)'],
   'purtta':['pursi : vene, laiva'],
-  'kiistassa':['kiista : kilpa, kilpailu'],
+  'kiistassa':['kiista : kilpa, kilpailu. <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 378-379: "hyvätapaisten veneitten laatu" (Lna 121).'],
   'tempaeltu':['tempaella : vetäistä, kiskaista'],
   'lahtema':['lahden poukama, vrt. lahelma'],
   'vastasään':['vastasää : vastatuuli'],
@@ -336,7 +346,7 @@ var comments = {
   ' nauravia" (Lna 121).'],
   'Nenän suulle langennuisen':['venyneellä, pitkällä nenällä (Lna 38). <a class="more">Katso lisää</a>',
   'langennuinen : pudonnut, langennut; johtimella -inen muodostettu aktiivin toinen partisiippi verbistä' +
-  ' langeta (Turunen 1979: 164).'],
+  ' langeta (Turunen 1979).'],
   'vaaitella':['vaaditella : tiedustella. <a class="more">Katso lisää</a>',
   'Vrt. Lönnrotin selitys: vaaitella = tahtoa, kysyä (Lna 38).'],
   'nureksit':['nureksia : valittaa, itkeä'],
@@ -352,7 +362,8 @@ var comments = {
   'lavertajaksi':['lavertaja : puhuja, puhelija'],
   'kassan':['kassa : hiuspalmikko, tukka. <a class="more">Katso lisää</a>',
   'Naimattomat tytöt pitivät hiuksensa palmikolla, mutta heidän mentyään naimisiin hiukset leikattiin' +
-  ' ja päät hunnutettiin (Turunen 1979).'],
+  ' ja päät hunnutettiin (Turunen 1979). <br><br> Lönnrot kommentoi Kalevalan säkeitä' +
+  ' 552-555: "jos pitäisi kaunis tukkani näin nuorella iällä naisten lakilla peitettämän" (Lna 121).'],
   'Veikon':['veikko : veli'],
   'veisto-tanterille':['veistotanner : veistopaikka'],
   'huima':['mieletön, hullu. <a class="more">Katso lisää</a>',

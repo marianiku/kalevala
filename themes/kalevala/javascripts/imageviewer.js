@@ -9,10 +9,7 @@ $(document).ready(function() {
   $.each(comments, function(key, value) {
 
     var regex = new RegExp(key + '+(?=(\\s|.|,|;)){' + 1 + '}','m');
-    var first = $('#show_col_2').text().indexOf(key);
 
-    var before = $('#show_col_2').text().charAt(first-1);
-    var after = $('#show_col_2').text().charAt(first+key.length);
     if (key == 'naisen' || key == 'leuan') {
       $("#show_col_2").html($("#show_col_2").html().replace(' ' + key,' <a class="tooltp" href="#">' + key + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
