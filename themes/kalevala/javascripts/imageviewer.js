@@ -11,7 +11,7 @@ $(document).ready(function() {
     // Regex to find each key with case endings, until following space/punctuation character
     regex = new RegExp(key + '[^(\\s|\.|,|\<|;|\"|\?)]*');
 
-    // 'Kalevalan' and 'lappalainen' appear first time in popup, hack to find next occurrences
+    // 'Kalevalan', 'lappalainen' and 'sirkeämpi' appear first time in popup, find next occurrences
     if (key == 'Kalevalan') {
       $("#show_col_2").html($("#show_col_2").html()
       .replace(key + ' kankahilla','<a class="tooltp" href="#">' + key + '</a>'
@@ -20,24 +20,56 @@ $(document).ready(function() {
       $("#show_col_2").html($("#show_col_2").html()
       .replace('Laiha poika ' + key,'Laiha poika <a class="tooltp" href="#">' + key + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-    // This appears first in wrong context, hack to find occurrence in correct context
+    } else if (key == 'sirkeämpi') {
+      $("#show_col_2").html($("#show_col_2").html()
+      .replace(key + ',','<a class="tooltp" href="#">' + key + '</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>,'));
+    // This appears first in wrong context, find correct occurrence in from context
     } else if (key == 'kaarta') {
       $("#show_col_2").html($("#show_col_2").html()
       .replace('mulla ' + key,'Laiha poika <a class="tooltp" href="#">' + key + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-    // These appear as part of another word for the first time; find key preceded or followed by space
-    } else if (key == 'naisen' || key == 'leuan' || key == 'ahoilla') {
+    // These appear as part of another word for the first time; find key preceded, followed or surrounded by space
+    } else if (key == 'naisen' || key == 'leuan' || key == 'ahoilla' || key == 'kana' || key == 'yöhyt') {
       $("#show_col_2").html($("#show_col_2").html().replace(' ' + key,' <a class="tooltp" href="#">' + key + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-    } else if (key == 'Vähä' || key == 'kanta' || key == 'Vemmel') {
+    } else if (key == 'Vähä' || key == 'kanta' || key == 'Vemmel' || key == 'vaski' || key == 'saneli') {
       $("#show_col_2").html($("#show_col_2").html().replace(key + ' ','<a class="tooltp" href="#">' + key + '</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
+    } else if (key == 'ikä') {
+      $("#show_col_2").html($("#show_col_2").html().replace(' ' + key + ' ',' <a class="tooltp" href="#">' + key + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
     // Need to account for declinated forms with these
     } else if (key == 'Wäinämöi' || key == 'Joukahai' || key == 'Aino' || key == 'Wäinölä'
-      || key == 'maammo' || key == 'saneli') {
-      $("#show_col_2").html($("#show_col_2").html().
-      replace(regex,'<a class="tooltp" href="#">$&</a>'
+      || key == 'maammo' || key == 'iso' || key == 'nureksi' || key == 'pientare' || key == 'Syän') {
+      $("#show_col_2").html($("#show_col_2").html().replace(regex,'<a class="tooltp" href="#">$&</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    // 'utuisen' and 'katala' have different meanings, key needs preceding word for context, replace substring
+    } else if (key == 'ussakan utuisen') {
+      $("#show_col_2").html($("#show_col_2").html()
+      .replace(key,'ussakan <a class="tooltp" href="#">utuisen</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    } else if (key == 'minun utuisen') {
+      $("#show_col_2").html($("#show_col_2").html()
+      .replace(key,'minun <a class="tooltp" href="#">utuisen</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    } else if (key == 'kanssasi katala') {
+      $("#show_col_2").html($("#show_col_2").html()
+      .replace(key,'kanssasi <a class="tooltp" href="#">katala</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    } else if (key == 'Katkeaisinki katala') {
+      $("#show_col_2").html($("#show_col_2").html()
+      .replace(key, 'Katkeaisinki <a class="tooltp" href="#">katala</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+    } else if (key == 'Vaaksan palttina') {
+      $("#show_col_2").html($("#show_col_2").html()
+      .replace(key, '<a class="tooltp" href="#">Vaaksan</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> palttina'));
+    } else if (key == 'Vaaksan varsi') {
+      $("#show_col_2").html($("#show_col_2").html()
+      .replace(key, '<a class="tooltp" href="#">Vaaksan</a>'
+      + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> varsi'));
+    // otherwise just replace key
     } else {
       $("#show_col_2").html($("#show_col_2").html().replace(key,'<a class="tooltp" href="#">' + key + '</a>'
       + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
