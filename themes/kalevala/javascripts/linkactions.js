@@ -16,10 +16,12 @@ $(document).ready(function(){
     $('#geneettinen-link').find('a').on('click', function() {
       $('#geneettinen-content').show();
       $('#kaukonen-content').hide();
+      $('#kaukonen-content-2').hide();
     });
 
     $('#kaukonen-link').find('a').on('click', function() {
       $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
       $('#kaukonen-content').show();
     });
 
@@ -28,6 +30,14 @@ $(document).ready(function(){
         $('#geneettinen-content-2').show();
       } else {
         $('#geneettinen-content-2').hide();
+      }
+    });
+
+    $('#kaukonen-more').on('click', function() {
+      if ($('#kaukonen-content-2').is(':hidden')) {
+        $('#kaukonen-content-2').show();
+      } else {
+        $('#kaukonen-content-2').hide();
       }
     });
 

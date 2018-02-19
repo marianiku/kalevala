@@ -90,14 +90,14 @@
     </style>
     <!-- JavaScripts -->
     <?php
+    queue_js_file('jquery-1.12.4.min');
+    queue_js_file('bootstrap.bundle.min');
     queue_js_file('vendor/modernizr');
     queue_js_file('vendor/selectivizr', 'javascripts', array('conditional' => '(gte IE 6)&(lte IE 8)'));
     queue_js_file('vendor/respond');
     queue_js_file('vendor/jquery-accessibleMegaMenu');
     queue_js_file('globals');
     queue_js_file('default');
-    queue_js_file('jquery-1.12.4.min');
-    queue_js_file('bootstrap.bundle.min');
     queue_js_file('wheelzoom');
     queue_js_file('comments');
     queue_js_file('simplepages');
