@@ -23,6 +23,7 @@ $(document).ready(function(){
       $('#geneettinen-content').hide();
       $('#geneettinen-content-2').hide();
       $('#kaukonen-content').show();
+      $('#kaukonen-content-2').show();
     });
 
     $('#geneettinen-more').on('click', function() {
@@ -34,10 +35,10 @@ $(document).ready(function(){
     });
 
     $('#kaukonen-more').on('click', function() {
-      if ($('#kaukonen-content-2').is(':hidden')) {
-        $('#kaukonen-content-2').show();
+      if ($('#kaukonen-ohjeet').is(':hidden')) {
+        $('#kaukonen-ohjeet').show();
       } else {
-        $('#kaukonen-content-2').hide();
+        $('#kaukonen-ohjeet').hide();
       }
     });
 

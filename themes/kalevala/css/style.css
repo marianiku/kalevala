@@ -2335,33 +2335,6 @@ th {
     float: none;
   }
 
-  /* Simple pages styles */
-
-  #tekstit-nav li a, #toimitus-nav li a {
-    padding: 0.5em;
-    text-transform: none;
-  }
-
-  #tekstit-nav li a:hover, #toimitus-nav li a:hover {
-    background-color: #f8f9fb;
-  }
-
-  #tekstit-nav li a, #toimitus-nav li a {
-    cursor:pointer;
-  }
-
-  #geneettinen-content h5, #geneettinen-content-2 h5 {
-    margin-top: 1.5em;
-    margin-bottom: 1em;
-  }
-
-  #geneettinen-content-2, #kaukonen-content, #kaukonen-content-2 {
-    display: none;
-  }
-
-  #geneettinen-more, #kaukonen-more {
-    cursor: pointer;
-  }
 
   /* Styles for bootstrap and other elements in show.php */
 
@@ -2556,6 +2529,32 @@ th {
 
   /* Simple Pages pages */
 
+  #tekstit-nav li a, #toimitus-nav li a {
+    padding: 0.5em;
+    text-transform: none;
+  }
+
+  #tekstit-nav li a:hover, #toimitus-nav li a:hover {
+    background-color: #f8f9fb;
+  }
+
+  #tekstit-nav li a, #toimitus-nav li a {
+    cursor:pointer;
+  }
+
+  #geneettinen-content h5, #geneettinen-content-2 h5 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  #geneettinen-content-2, #kaukonen-content, #kaukonen-content-2, #kaukonen-ohjeet {
+    display: none;
+  }
+
+  #geneettinen-more, #kaukonen-more {
+    cursor: pointer;
+  }
+
   #tekstit-content {
     padding: 0px;
   }
@@ -2638,6 +2637,16 @@ th {
     line-height:16px;
   }
 
+  span.kauk3 {
+    display:none;
+    z-index:9999;
+    padding:14px;
+    margin-top:15px;
+    margin-left:-20%;
+    width: 300px;
+    line-height:16px;
+  }
+
   a.kauk1:hover + span.kauk2 {
     display:inline;
     text-align: left;
@@ -2659,7 +2668,7 @@ th {
   }
 
   .kauk1bt {
-    font-size: 1em;
+    font-size: 1.5em;
     text-decoration: none;
     cursor: pointer;
     color: #444444 !important;
@@ -2684,6 +2693,7 @@ th {
     background:#fffAF0;
     z-index:9999;
   }
+
   /* front page texts list */
 
   #frontpage_list li {
