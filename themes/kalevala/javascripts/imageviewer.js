@@ -18,6 +18,9 @@ $(document).ready(function() {
         $("#show_col_2").html($("#show_col_2").html()
         .replace(key + ' kankahilla','<a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> kankahilla'));
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key + ' kannaksia','<a class="tooltp" href="#">' + key + '</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> kannaksia'));
       } else if (key == 'lappalainen') {
         $("#show_col_2").html($("#show_col_2").html()
         .replace('Laiha poika ' + key,'Laiha poika <a class="tooltp" href="#">' + key + '</a>'
@@ -32,10 +35,10 @@ $(document).ready(function() {
         .replace('mulla ' + key,'Laiha poika <a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
         // These appear as part of another word for the first time; find key preceded, followed or surrounded by space
-      } else if (key == 'naisen' || key == 'leuan' || key == 'ahoilla' || key == 'kana' || key == 'yöhyt') {
+      } else if (key == 'naisen' || key == 'leuan' || key == 'ahoilla' || key == 'yöhyt' || key == 'kapo') {
         $("#show_col_2").html($("#show_col_2").html().replace(' ' + key,' <a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-      } else if (key == 'Vähä' || key == 'kanta' || key == 'Vemmel' || key == 'vaski' || key == 'saneli') {
+      } else if (key == 'Vähä' || key == 'kanta' || key == 'Vemmel' || key == 'vaski' || key == 'Syän' || key == 'Ikä') {
         $("#show_col_2").html($("#show_col_2").html().replace(key + ' ','<a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
       } else if (key == 'ikä') {
@@ -43,7 +46,7 @@ $(document).ready(function() {
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
         // Need to account for declinated forms with these
       } else if (key == 'Wäinämöi' || key == 'Joukahai' || key == 'Aino' || key == 'Wäinölä'
-      || key == 'maammo' || key == 'iso' || key == 'nureksi' || key == 'pientare' || key == 'Syän') {
+      || key == 'maammo' || key == 'nureksi' || key == 'pientare' || key == 'saneli') {
         $("#show_col_2").html($("#show_col_2").html().replace(regex,'<a class="tooltp" href="#">$&</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
         // 'utuisen' and 'katala' have different meanings, key needs preceding word for context, replace substring
@@ -55,6 +58,30 @@ $(document).ready(function() {
         $("#show_col_2").html($("#show_col_2").html()
         .replace(key,'minun <a class="tooltp" href="#">utuisen</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+      } else if (key == 'kultia kypärin') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key,'kultia <a class="tooltp" href="#">kypärin</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+      } else if (key == 'utuisen niemen') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key,'<a class="tooltp" href="#">utuisen</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> niemen'));
+      } else if (key == 'emo imettäjäni') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key,'<a class="tooltp" href="#">emo</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> imettäjäni'));
+      } else if (key == 'Ahon lasta') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key,'<a class="tooltp" href="#">Ahon</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> lasta'));
+      } else if (key == 'emo elossa') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key,'<a class="tooltp" href="#">emo</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> elossa'));
+      } else if (key == 'kana katosi') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key,'<a class="tooltp" href="#">kana</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> katosi'));
       } else if (key == 'kanssasi katala') {
         $("#show_col_2").html($("#show_col_2").html()
         .replace(key,'kanssasi <a class="tooltp" href="#">katala</a>'
