@@ -8,7 +8,7 @@ var comments = {
   ' (Ganander), veden jumala (Setälä, Krohn).<br><br> Väinämöinen historiallisena sankarina (Lönnrot, Gottlund,' +
   ' Ahlqvist, K. Krohn).<br><br> Väinämöinen myyttisenä tietäjä-samaanina, laulajana ja loitsijana (Haavio).<br><br>' +
   '(Turunen 1979: 395−397.)<br><br> Lönnrot itse piti aluksi Väinämöistä myyttisenä sankarina, mutta Uuden' +
-  'Kalevalan esipuheessa hän kallistui historialliseen tulkintaan ja esitti Kalevalan ja Pohjolan heimojen olleen' +
+  ' Kalevalan esipuheessa hän kallistui historialliseen tulkintaan ja esitti Kalevalan ja Pohjolan heimojen olleen' +
   ' alunperin suomalaisia heimoja. Ks. lisää Väinämöisestä: Siikala 1999, 2012.'],
   'Wäinölä':['Väinölä : Väinämöisen asuinpaikaksi kuviteltu paikka (Turunen 1979) <a class="more">Katso lisää</a>',
   'Kansanrunoissa Väinölä ei yhdisty Kalevalan käsitteeseen, vaan Lönnrot on itse muodostanut yhteyden niiden välille' +
@@ -78,6 +78,8 @@ var comments = {
   'emo imettäjäni':['emo : äiti'],
   'valta-vanhempansa':['valtavanhempi : arvossa pidetty vanhempi (Turunen 1979) <a class="more">Katso lisää</a>',
   'Ks. Lönnrotin selitys: valta-vanhempansa = varsin vanhempansa (Lna 38).'],
+  'Käet':['kädet'],
+  'suloksi':['sulo : sulostuttaja, ilon tuoja'],
   'käkesi':['käetä : (tässä) uhata, luvata <a class="more">Katso lisää</a>',
   'Vrt. Lönnrotin selitys: käkesi = kiisti; lupasi (Lna 38). Vrt. myös Lönnrotin selitys: käkesi = instunda (Lna 122).'],
   'toivotteli':['toivotella : luvata <a class="more">Katso lisää</a>',
@@ -167,8 +169,7 @@ var comments = {
   'Pisan mäellä':['Pisan mäki : Pisanmäki, tarkoittanee Nilsiän pitäjässä sijaitsevaa Pisavuorta (Turunen 1979). ' +
   ' <a class="more">Katso lisää</a>','pisa : hiisi <br><br>(Turunen 1979)'],
   'Hornan kalliolla':['Hornan kallio :  samanniminen vuori sijaitsee Suuren Suvasveden rannalla Soisalossa (Turunen 1979).'
-  + '<a class="more">Katso lisää</a>','horna : pahojen henkien asunpaikka, helvetti, paha henki, hiisi <br><br>' +
-  '(Turunen 1979)'],
+  + '<a class="more">Katso lisää</a>','horna : pahojen henkien asunpaikka, helvetti, paha henki, hiisi (Turunen 1979)'],
   'kovoa':['kova : (tässä) voimakas, vuolasvirtainen'],
   'ilman kannen':['ilman kansi : taivaankansi <a class="more">Katso lisää</a>','ilma: (tässä) taivas'],
   'Hälläpyörä':['<a class="more">Katso lisää</a>','Nimi perustuu todennäköisesti eräissä kansanrunoissa esiintyvään' +
@@ -368,6 +369,7 @@ var comments = {
   ' selitys: huima = obändig (Lna 122).'],
   'viertokankahilla':['viertokangas : kaskettu metsämaa, kaskimaa'],
   // words/terms in fourth poem, not in third
+  'ani':['aivan hyvin, sangen'],
   'Puna-langat':['punalanka : punaisista langoista punottu pääkoriste'],
   'Kallotellen':['kallotella : itkeä isolla äänellä, parkua'],
   'kirjoavi':['kirjoaella : kirjailla'],
@@ -398,8 +400,8 @@ var comments = {
   'Kaleva : reipas, kyvykäs; myös vallaton, pahankurinen (KKSK). Merkitsee häärunoissa sulhasta. Osman' +
   ' rinnakkaisnimi (Nirvi 1982). Karjalan murteissa myös huonotapainen, epäluotettava ihminen, noituutta' +
   ' käyttävä, toista vahingoittava (Nirvi 1982: 75).'],
-  'kaskesmaalta':['kaskimaa : maa jota käytetty kaskena; kaskeamisen jälkeen maa kasvoi pitkää ruohoa ja' +
-  ' horsmaa, ja oli sen vuoksi sopiva karjan laiduntamiseen (Turunen 1979).'],
+  'kaskesmaalta':['kaskimaa : maa jota käytetty kaskena <a class="more">Katso lisää</a>',
+  'Kaskeamisen jälkeen maa kasvoi pitkää ruohoa ja horsmaa, ja oli sen vuoksi sopiva karjan laiduntamiseen (Turunen 1979).'],
   'Nuorna':['nuori'],
   'suloa':['sulo : sula, pehmeä, joustava, notkea (KKSK) <a class="more">Katso lisää</a>',
   'suloa voita : pelkkää voita (Saarimaa 1927)'],
@@ -423,10 +425,11 @@ var comments = {
   'neinnä':['neitinä <a class="more">Katso lisää</a>','neiti: nuori, naimaikäinen tyttö <br><br>' +
   'Neiti viittaa runoissa myös morsiameen tai loitsuissa naispuoliseen haltijaan: "nouse pois nokini neiti"' +
   ' (SKVR I3 2087; I4 1200, 1219a, 1233, 1234) (Jussila 2009; Krogerus 1999). Ks. myös impi.'],
-  'Impenä':['impi : nuori nainen; myös neitsyt (Genetz 1901). Ks. neiti. <a class="more">Katso lisää</a>',
+  'Impenä':['impi : nuori nainen; myös neitsyt. Ks. neiti. <a class="more">Katso lisää</a>',
   'Runoissa "Mitä itket impi rukka, / impi rukka, neito nuori" (SKVR I2 1164). Vrt. myös loitsuissa' +
   ' (Turunen 1979): "Neiti kosken korvallin[en], / Impi virran vierell[inen]" (SKVR I4 817; myös 836, 905,' +
   ' 1126; VII5 4596).'],
+  'liepehellä':['lieve : lähimaa, lähistö. Liepeellä = lähellä'],
   'vaapukkahan':['vaapukka : vadelma'],
   'Lehon lemmen':['lehto : rehevä lehtimetsä <a class="more">Katso lisää</a>',
   'lempi : (tässä) mieluisa, ihana (Turunen 1979) <br><br>' +
@@ -444,7 +447,7 @@ var comments = {
   'kukkana':['(tässä) nuori neito <a class="more">Katso lisää</a>',
   'Yleensä runokielessä nuoren naisen metafora. Häärunoissa "Olin kukkana kotona, / ilona ison pihoilla"' +
   ' (SKVR XIII2 3800). Häärunoissa ja naisten lauluissa lapsuudenkoti ja nuoruus vertautuvat nykyiseen' +
-  ' elämään anoppilassa (ks. Enäjärvi-Haavio 1935; Apo 1989; Timonen 2004; Hämäläinen 2016).'],
+  ' elämään anoppilassa (ks. Enäjärvi-Haavio 1935; Apo 1989; Ilomäki 1990; Hämäläinen 2016).'],
   'palttinainen':['palttina : pellava- tai hamppukangas <a class="more">Katso lisää</a>',
   'palttinainen: palttinakankaasta tehty'],
   'aivinainen':['aivina : kangaslaji <a class="more">Katso lisää</a>',
@@ -452,8 +455,8 @@ var comments = {
   'Aivina ilmeisesti <em>aiva(n)</em>-sanan johdos sen alkuperäisestä merkityksestä "aito, puhdas" (Turunen 1979).'],
   'verkainen':['verka : villakangas'],
   'vyöhyt':['vyöhyt : vyö; koivun tuohesta valmistettu (Jussila 2009)'],
-  'sulkkuiset':['sulkku : silkki(kangas); tav. mon. silkkivaatteet (KKSK). <a class="more">Katso lisää</a>',
-  'sulkkuinen : silkkinen'],
+  'sulkkuiset':['sulkku : silkki(kangas) <a class="more">Katso lisää</a>',
+  'tav. mon. silkkivaatteet (KKSK); sulkkuinen : silkkinen'],
   'Kautokengät':['kautokenkä : (nahka)kenkä, jossa koristeltu pääliskappale'],
   'Sukukuntasi':['sukukunta : suku, sukulaiset'],
   'hempeäksi':['hempeä : suloinen, viehättävä'],
@@ -467,8 +470,8 @@ var comments = {
   'vellova':['vellova : lainehtiva, läikkyvä'],
   'vetone':['vetonen : vesi'],
   'poloisten':['polo : poloinen, onneton polo, raukka'],
-  'allien':['alli : (tässä) kovaonninen, onneton ihminen; "Miten on poloisten mieli, / kun on allien ajatus?"' +
-  ' <a class="more">Katso lisää</a>','Vesilintu, jääsorsa (Ganander 1997; Kaukonen 1956: 625). Lönnrot kommentoi' +
+  'allien':['alli : (tässä) kovaonninen, onneton ihminen <a class="more">Katso lisää</a>',
+  'Vesilintu, jääsorsa (Ganander 1997; Kaukonen 1956: 625). Lönnrot kommentoi' +
   ' säettä <em>kun on allien ajatus</em>: "Allia pidettiin kovaonnisena, kun ui jäisiä vesiä syksyllä" (Lna 121).' +
   ' Karjalassa suuret alliparvet liikkuivat keväällä Suomenlahden ja Laatokan rannoilta Vienanmerelle ja palasivat' +
   ' sama reittiä syksyllä takaisin Suomenlahdelle (Kuusi 1963: 266). <br><br>' +
@@ -482,7 +485,7 @@ var comments = {
   'utu : sumu, tihkusade; utuine=hämärä, pehmeä (KKSK) <br><br>' +
   'Lönnrot määrittelee sanakirjassaan (1958) utuisen ihmisen seuraavasti: <em>arm, bedröfva flicka</em> [kurja,' +
   ' surullinen tyttö]; <em>omrogsfull, ömhjärtat moder</em> [huolellinen, rakastava äiti]. Lönnrot kommentoi' +
-  ' Kalevalan säkeitä 211−214 seuraavasti: "Onneton käypi pää alahana, niin siitä hänen mielensäkin arvellaan' +
+  ' Kalevalan säkeitä 211−214: "Onneton käypi pää alahana, niin siitä hänen mielensäkin arvellaan' +
   ' alahaisessa esineissä riippuvan, ei ylemmä kohoavan" (Lna 121). <br><br>' +
   'Vrt. Runoissa eri merkityksiä: <em>surullinen</em> (SKVR VII2 2531; XIII2 5899); <em>hämärä, savuinen</em>' +
   ' Läm[mitä] utuinen kyly, / Sausuta simainen sauna (SKVR I1 439; ks. myös I4 1746); <em>sumuinen, hämärä ilma</em>' +
@@ -491,9 +494,9 @@ var comments = {
   'kulossa':['kulo : auringon polttama t. niittämättä jäänyt heinä'],
   'viehkuroivi':['viehkuroida : (tässä) masentuneen mieli (Jussila 2009); pyöriä, kieriä <a class="more">Katso lisää</a>',
   'viehkuroida : pyöriskellä, kieriskellä; ryömiskellä, madella; peuhata, mellastaa (Turunen 1979; Jussila 2009)'],
-  'nuhaelevi':['nuhaella : (tässä) viittaa erityisesti alakuloisen ihmisen mieleen. Masentuneella' +
-  ' "mieli kulkevi kulossa, / nurmessa nuhaelevi". Ks. viehkuroida. <a class="more">Katso lisää</a>',
-  'Vrt. nuhaella : nuhjustella. Myös elää huonosti, vaivaisesti (Kaukonen 1956: 629).'],
+  'nuhaelevi':['nuhaella : (tässä) viittaa erityisesti alakuloisen ihmisen mieleen <a class="more">Katso lisää</a>',
+  'Masentuneella "mieli kulkevi kulossa, / nurmessa nuhaelevi". Ks. viehkuroida. Vrt. nuhaella : nuhjustella. Myös' +
+  ' elää huonosti, vaivaisesti (Kaukonen 1956: 629).'],
   'tervoa':['tervo : terva'],
   'Syän':['sydän <a class="more">Katso lisää</a>','Kalevalan säkeet "mieli ei tervoa parempi, / syän ei syttä' +
   ' valkeampi" kuvastavat Ainon surullista mieltä. Tässä sydän tunteen symbolina (Turunen 1979; Jussila 2009).'],
@@ -502,32 +505,33 @@ var comments = {
   'Kaonnut':['kadonnut <a class="more">Katso lisää</a>','kadota : hävitä, joutua kadoksiin; kuolla; myös viipymistä' +
   ' ilmaiseva (Jussila 2009)'],
   'Vaaksan palttina':['pituusmitta: peukalon ja pikkusormen päiden väli kämmen levitettynä'],
-  'pientare':['pientare : (tässä) maa; muokkaamaton pellon tai ojan reuna; pihamaasta; myös hautapaikasta (Jussila 2009)'],
+  'pientare':['pientare : (tässä) maa <a class="more">Katso lisää</a>',
+  'muokkaamaton pellon tai ojan reuna; pihamaasta; myös hautapaikasta (Jussila 2009)'],
   'väheäkänä':['vähän'],
   'varaksi':['vara : turva, tuki'],
-  'sopen kululle':['sopenkulu : nurkissa oleskelija; tarpeeton, hyödytön (vanha) ihminen (Turunen 1979; Jussila 2009)' +
+  'sopen kululle':['sopenkulu : nurkissa oleskelija; tarpeeton, hyödytön (vanha) ihminen' +
   ' <a class="more">Katso lisää</a>', 'soppi : nurkka <br><br>' + 'kulu : käytössä kulunut, vanhuuttaan' +
   ' huono: hylky, risa, rämä, raukka, parka <br><br>' +
   'Lönnrotilla säkeeseen "suojaksi sopenkululle" seuraava selitys: "sopissa kulkevalle eli istuvalle, ei keskellä' +
   ' lattiata kykenevälle" (Lna 121). Karjalan kielessä soppi merkitsee (uunin puoleista pirtin perä)nurkkaa,' +
   ' kulmaa, joka oli vanhojen ja vaivaisten oleskelupaikka. Kulu taas viittaa käytössä kuluneesta, vanhuuttaan' +
   ' huonosta: hylky, risa, rämä; raukka, parka. Kalevalasta tehdyissä sanakirjoissa sopenkulu määritellään' +
-  ' seuraavasti: nurkissa oleskelija; tarpeeton; hyödytön (vanha) ihminen.'],
+  ' seuraavasti: nurkissa oleskelija; tarpeeton; hyödytön (vanha) ihminen. (Turunen 1979; Jussila 2009)'],
   'suistujalla':['suistuja : lankeeja, kompastuja <a class="more">Katso lisää</a>',
   'suistua : langeta, kaatua <br><br>' + 'Ks. "Sukkahansa suistujalla, / karahkahan kaatujalla": viittaa' +
   ' henkilöön, joka vanhuuttaan lankeilee, kompastuu omiin sukkiinsa ja vähäpätöisiin risuihin (Niemi 1910).'],
   'Karahkahan':['karahka : kuiva havunoksa. Ks. suistujalla'],
-  'vieri':['vieriä : kulkea'],
+  'Vieri':['vieriä : kulkea'],
   'vieriellessänsä':['vieriellä : liikuskella, kuljeskella; kuvastaa myös epämääräistä kulkemista'],
   'tuimelevi':['tuimella : pakottaa, kivistää <a class="more">Katso lisää</a>',
   'Ks. Lönnrot: gväljä (kvälja= plåga, tuska, vaiva, kärsimys) (Lna 122)'],
-  'tuima':['(tässä) kuvastaa Ainon surusta aiheutuvaa kipua; myös ankara, raju, väkevä (KKSK). <a class="more">Katso lisää</a>',
-  'Runoissa tuima esiintyy vaivaisen ja surullisen (huolellisen) synonyymina (SKVR II 1067; VII1 686a; VII2 1727,' +
+  'tuima':['(tässä) kuvastaa Ainon surusta aiheutuvaa kipua <a class="more">Katso lisää</a>',
+  'Myös ankara, raju, väkevä (KKSK). Runoissa tuima esiintyy vaivaisen ja surullisen (huolellisen) synonyymina (SKVR II 1067; VII1 686a; VII2 1727,' +
   ' 1989, 2001, 2030, 2043, 2084). Vrt. tuima myös muissa merkityksissä: Tuurikkaisen epiteettinä: <em>tuima' +
   ' Tuurikkainen, poika veitikka verevä</em> (esim. SKVR IV1 14, 15, 185, 259); Veitsen tai miekan terävyyttä' +
   ' kuvastavana adjektiivina (SKVR I1 658; VI1 464; 800; VII1 209); Loitsuissa ilman / äijän pojan synonyymi' +
   ' (SKVR VII3 43, 44; VII4 2628).'],
-  'koito':['kurja, saukka, parka, onneton <a class="more">Katso lisää</a>',
+  'koito':['kurja, raukka, parka, onneton <a class="more">Katso lisää</a>',
   'Vrt. Lönnrotin sananselityksissä: koito = "mal", koiperhonen sekä koi-iton l. kotiton, utan hem (Lna 122).'],
   'Katkeaisinki katala':['kovaosainen, onneton <a class="more">Katso lisää</a>',
   'Vrt. tarkoittaa myös ilkeää, häijyä ihmistä (Jussila 2009). Lyyrisissä runoissa poloisen ja onnettoman' +
@@ -548,21 +552,21 @@ var comments = {
   'Esiintyy runoissa ja tarinoissa loitsimispaikkana tai muuten epätavallisen, veden väen paikkana (Turunen 1979;' +
   ' ks. SKVR I1 574, 634; I2 1111; VI1 3475; VII1 221a, 611, 625, 632).'],
   'varahin':['varhain, aikaisin'],
-  'Vitsan varpa':['(tässä) viittaa Ainon suureen huoleen: "huolellista kuvataan hoikaksi; vitsan varvan hoikkuus' +
-  ' siis osotta kovin suurta huolta" (Lna 121). <a class="more">Katso lisää</a>',
-  'Ks. Hoikkavartaloinen (Niemi 1910); vrt. viittaa hentouteen (Saarimaa 1927). <br><br>' +
-  'vitsa : varpu <br><br> varpa : varpu, ohut oksa'],
+  'Vitsan varpa':['(tässä) viittaa Ainon suureen huoleen <a class="more">Katso lisää</a>',
+  '"Huolellista kuvataan hoikaksi; vitsan varvan hoikkuus siis osotta kovin suurta huolta" (Lna 121). Ks. Hoikkavartaloinen' +
+  ' (Niemi 1910); vrt. viittaa hentouteen (Saarimaa 1927).<br><br>vitsa : varpu <br><br> varpa : varpu, ohut oksa'],
   'hietarantaselle':['hietaranta : hiekkaranta'],
   'somerikolle':['somerikko : kuiva sora, hietikko'],
-  'Paasi':['kivi, kiven liuska; jauhinkivi (Jussila 2009)'],
+  'Paasi':['kivi, kiven liuska; jauhinkivi'],
+  'paistavainen':['paistava : selvästi näkyvä, hohtava'],
   'Kiistasi':['kiistata : kilvoitella, koettaa <a class="more">Katso lisää</a>','kiista : kilpailu'],
   'Asetaiksen':['asettua; refl. asettautuu – asettaa'],
   'paaterelle':['paatero : kivi'],
   'paaen':['paasi : kivi, kiven liuska; jauhinkivi (Jussila 2009)'],
   'Paaen':['paasi : kivi, kiven liuska; jauhinkivi (Jussila 2009)'],
   'palleassa':['pallea : kylki'],
-  'kana katosi':['tytön tai tai naisen hellittelysana; (runoissa) neidon metafora (myös alli, sorsa, sotka, pyy).' +
-  ' Myös morsiamesta.'],
+  'kana katosi':['tytön tai naisen hellittelysana <a class="more">Katso lisää</a>',
+  'Neidon metafora runoissa (myös alli, sorsa, sotka, pyy). Myös morsiamesta.'],
   'liian surman':['liika surma : luonnoton kuolema (Niemi 1910)'],
   'pesohon':['peso : pesu (Jussila 2009)'],
   'Kieli-kerran':['kielikerta : (suullinen) sanoma'],
@@ -577,30 +581,34 @@ var comments = {
   'lempo':['paholainen, piru'],
   'Tinarinta':['neidosta, jolla rinnassa tinakoriste; nuoren naisen metafora'],
   'vaski':['kupari; myös väristä, äänestä'],
-  'lietohon':['lieto : (merestä) upottava, pohjaton; ks. ihmisestä: huoleton kevytmielinen:' +
-  ' <em>lieto Lemminkäinen</em>'],
+  'lietohon':['lieto : (merestä) upottava, pohjaton <a class="more">Katso lisää</a>',
+  'ks. ihmisestä: huoleton kevytmielinen: <em>lieto Lemminkäinen</em>'],
   'Tuuitelko':['tuuitella : kiikutella; kasvattaa'],
   'liekutelko':['liekutella : kiikutella, tuuditella <a class="more">Katso lisää</a>',
   'Liekku : kehto, kätkyt'],
-  'vetrehet':['vetre : (tässä) katkera (Kaukonen 1956: 628). Äidin katkerat kyyneleet (ks. Lna 121).'],
-  'Ripeille':['ripeä : uhkea, kaunis (Turunen 1979; Jussila 2009); Lna 122: ståtlig = kaunis'],
+  'vetrehet':['vetre : hereä, vuolas; (tässä) katkera <a class="more">Katso lisää</a>',
+  'Lönnrotin käännös sanalle vetre = bitter (Lna 122). Ks. myös Kaukonen 1956: 628.'],
+  'Ripeille':['ripeä : kaunis, uhkea <a class="more">Katso lisää</a>',
+  'Lönnrotin käännös sanalle ripeä = ståtlig [kaunis] (Lna 122). Ks. Turunen 1979; Jussila 2009.'],
   'Puna-suille':['punasuu : sukasta; varren yläosa punainen (Jussila 2009)'],
   'partahalle':['parras : veden äyräs, reuna'],
   'koivahaista':['koivahainen : koivu'],
   'lemmen, lemmen':['lempi : (tässä) Ainon (seksuaalinen) viehätysvoima; maine'],
-  'auvon':['auvo : (tässä) onnellisuuden, riemun synonyymi; myös kunnia, maine; riemu (Lönnrot 122)' +
-  ' <a class="more">Katso lisää</a>','Runoissa ja itkuvirsissä rakas, hyvä, omainen, ystävä. Vrt.' +
+  'auvon':['auvo : (tässä) onnellisuuden, riemun synonyymi <a class="more">Katso lisää</a>',
+  'Myös kunnia, maine; riemu (Lönnrot 122). Runoissa ja itkuvirsissä rakas, hyvä, omainen, ystävä. Vrt.' +
   ' auvo-sanalla myös eroottinen merkitys; halu (SKVR I4 1804; KKSK).'],
   'Hereämmät':['hereä : runsas, vuolas (Lönnrot 122)'],
   'herne-aarta':['herneaari : herneensiemen'],
   'Kyynärän':['kyynärä : (tässä) ajan kulumisen mitta (Jussila 2009). Yleensä pituusmitta: kyynärpään' +
   ' ja keskisormen pään välinen matka'],
   'Vaaksan varsi':['vaaksa : ks. kyynärä. Tässä vaaksa viittaa (huolellisen, onnettoman) aikaan, ei pituuteen.' +
-  ' <a class="more">Katso lisää</a>','Lna 121: 151. "Aikaa runo kuvailee vaaksan ja kyynärän mitattavaksi' +
-  ' ja arvelee sen, surullisen kaihon, jonka käki kukunnallansa vaikutti, lyhentävän sitä".'],
-  'runnahtavi':['runnahtaa : mennä pilalle, vahingoittua; Lna 122: förfalla = huonontua, rappeutua,' +
-  ' pilaantua; lysähtää, painua kokoon (Jussila 2009)'],
-  'luutoa': ['luuta: vasta, vihta (KKSK). Ks. sananselitys: wastaksia'],
+  ' <a class="more">Katso lisää</a>','Lna 121: 151. Lönnrot kommentoi: "Aikaa runo kuvailee vaaksan ja kyynärän mitattavaksi' +
+  ' ja arvelee sen, surullisen kaihon, jonka käki kukunnallansa vaikutti, lyhentävän sitä" (Lna 121).'],
+  'runnahtavi':['runnahtaa : mennä pilalle, vahingoittua <a class="more">Katso lisää</a>',
+  'Lönnrotin käännös sanalle runnahtavi = förfalla; huonontua, rappeutua, pilaantua; lysähtää, painua kokoon (Jussila 2009).'],
+  'luutoa': ['luuta: vasta, vihta. Ks. sananselitys: vastaksia.'],
+  'vastan':['vasta : saunavasta <a class="more">Katso lisää', 'Saunavasta on yleinen itäisellä murrealueella,' +
+  ' Länsi-Suomessa saunavihta (Ruoppila 1967: 58, kartta 65).'],
   'lehosta': ['lehto : lehtimetsä (Lna 38) <a class="more">Katso lisää</a>','Ks. Kosintarunoissa lehtometsä' +
   ' on paikka, jossa kosinta tapahtuu "löysin neitosen lehossa, / hienohelman heinikossa" (SKVR XIII1 1324;' +
   ' ks. myös XIII1 1325, 1326, 1330; V1 1020; VI1 254; VII1 208; VII2 1287, 1288). Ks. metsä kodin ulkopuolinen,' +
@@ -612,10 +620,11 @@ var comments = {
   'varvikosta': ['varvikko : varpua tai nuorta lehtipuuta kasvava paikka (KKSK)'],
   'taatollensa': ['taatto : isä'],
   'Kokoeli': ['kokoella : keräillä'],
+  'kokoelevi': ['kokoella : keräillä'],
   'Verevälle': ['verevä : terveen näköinen, punakka <a class="more">Katso lisää</a>',
   'Ei yleensä esiinny Hirttäytyneen neidon runossa. Lönnrotin runotallenne sisältää kuitenkin säkeen' +
-  ' verevälle veiolleen: "Anni tyttö, kauno tyttö/ Taitto luutoa lehosta,/ Vastapäätä varvikosta,/' +
-  ' Verevälle veiolleen." (SKVR VII1 208: 1−4). Vrt. verevä Anni-tytön kertona muutamissa runoissa:' +
+  ' <em>verevälle veiolleen</em>:<br><br>Anni tyttö, kauno tyttö<br>Taitto luutoa lehosta,<br>Vastapäätä varvikosta,<br>' +
+  'Verevälle veiolleen.<br>(SKVR VII1 208: 1−4).<br><br>Vrt. verevä Anni-tytön kertona muutamissa runoissa:' +
   ' "Anni tyt[ti, aino neiti], / Vienan neitonen verevä, / V[ienan] kavo kaunokain[en]" (SKVR I1 236);' +
   ' "Anni tytti, ainut neiti, / Niemen neitoni verövä" (SKVR I1 454), (KKSK).'],
   'veiollensa': ['veijo : veli'],
@@ -630,7 +639,7 @@ var comments = {
   'Rinnan ristiä':['rinnanristi : ristinmuotoinen rintakoriste <a class="more">Katso lisää</a>',
   'Tarkoittaa myös ristiä, jollainen kreikanuskoisilla on kaulassaan (Niemi 1910; Saarimaa 1927).'],
   'Sio':['sitoa : solmia'],
-  'hivusta':['hivus : tukka; myös palmikko. Karjalan kielessä myös naidun naisen palmikko (KKSK).'],
+  'hivusta':['hivus : tukka; myös palmikko <a class="more">Katso lisää</a>','Karjalan kielessä myös naidun naisen palmikko (KKSK).'],
   'sitaise':['sitaista : sitoa nopeasti'],
   'haahen haljakoista':['haahen haljakka : laivan tuoma ulkomainen verkakangas; hieno kangas; takki (Jussila 2009)' +
   ' <a class="more">Katso lisää</a>','haahti : laiva (Lna 38; Kaukonen 1956; Turunen 1979). <em>Silloin on' +
@@ -646,224 +655,223 @@ var comments = {
   ' / veny verkavaattehissa" (SKVR II 47); "kasva kaioissa somissa /" — (SKVR I1 208, 233, 234); "kasvoin' +
   ' kaioissa tiloissa, / asuin aina ahtahissa" (SKVR VII2 2185).'],
   'kannikoissa':['kannikka: (tav. leivän) reuna, kanta (KKSK)'],
-  'armahan':['armas : rakas, kallis, ihana <a class="more">Katso lisää</a>','Aino-runossa: "kanssa armahan' +
-  ' emoni". <br><br> Yleensä sanan merkitys on rakas, kallis läheisestä ihmisestä (KKSK). Myös kunnioitusta' +
-  ' viittaavana sanana: "Oi armas anoppiseni, / Sukuehen suuri vaimo" (SKVR I1 128). Vrt. rahan armas: karhun' +
-  ' mielittelysanoja (Turunen 1979; Jussila 2009), ks. lisää Nirvi 1982.'],
-    // words/terms in fifth poem, not in others
-    'sanoma':['uutinen, tieto'],
-    'tuonnemmaksi':['kauemmas, loitommas'],
-    'Neien':['neito (neidon)'],
-    'Yöhyet':['yöhyet : yö'],
-    'kaatununna':['kaatua : kuolla (kuolleena) <a class="more">Katso lisää</a>',
-    'Vrt. kaatua-verbin toinen merkitys Kalevalassa: mennä kumoon, langeta (Turunen 1979).'],
-    'nukahtanunna':['nukahtaa : vaipua uneen; kuolla (Jussila 2009)'],
-    'lietohon':['lieto : (merestä) upottava, pohjaton <a class="more">Katso lisää</a>',
-    'Vrt. lieto ihmisestä: huoleton, kevytmielinen: lieto Lemminkäinen; vrt. myös lieto ilmasta: viileä, lauhkea.'],
-    'huollen':['huolla : surra'],
-    'nimesi':['nimetä : lausua, sanoa painokkaasti (Turunen 1979)'],
-    'Untamo':['Untamo : maan alla nukkuva ja venyvä suuri tietäjä (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. Antero Vipunen. Vrt. myös Untamo Kalevalan sankarina ja Kalervon veljenä. <br><br>' +
-    'Ks. Lönnrotin kommentti Kalevalan 5. runoon: "Untamo ehkä = Antero Wipunen" (Lna 121).'],
-    'Maku\'usi':['makuu : unennäkö; unitila <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: makuu = sömnkunskap, vishet (Lna 122).'],
-    'maan venyjä':['kuolleena maassa makaavan Untamon epiteetti (Turunun 1979)'],
-    'Ahtola':['vedenhaltija Ahdin asuinpaikan ja perheen nimitys'],
-    'Wellamon':['Vellamo : veden emäntä, vedenjumala Ahdin puoliso'],
-    'venyvi':['venyä : loikoa, maata pitkänänsä (Turunen 1979)'],
-    'Nenässä':['nenä : pää, kärki <a class="more">Katso lisää</a>',
-    'Vrt. myös sanan muut merkitykset Kalevalassa: kehon osa; itu; veneen etukeula (Turunen 1979).'],
-    'utuisen niemen':['utuinen: sumuinen <a class="more">Katso lisää</a>',
-    'utu : sumu, tihkusade; utuine = hämärä, pehmeä (KKSK) <br><br>Vrt. utuinen ihmisestä: surullinen, onneton.' +
-    ' Vrt. myös sanan muut merkitykset Kalevalassa: hienoinen; auterinen, vieno. (Turunen 1979).'],
-    'terhenisen':['terheninen : sumuinen, usvainen'],
-    'kaitaisessa':['kaitainen : ahdas, kapea'],
-    'Vetihe':['vetää : refl. tulla, mennä, raahautua (veti itsensä) <a class="more">Katso lisää</a>',
-    'Vrt. vetää: hinata mukanaan, kiskoa esiin; uurtaa; laskea; vetää sisäänsä; sanan muista merkityksistä' +
-    ' Kalevalassa ks. esim. Turunen 1979.'],
-    'venesioille':['venesija : veneen pitopaikka, satama'],
-    'Silmeävi':['silmäellä : tarkastella, katsella'],
-    'Väkä-rauan':['väkärauta : koukku'],
-    'väskyhynsä':['väsky : laukku, reppu (Turunen 1979)'],
-    'Soutoa melastelevi':['soutaa melastella : meloa verkalleen <a class="more">Katso lisää</a>',
-    'soutoa: soutaa<br><br>melastella: meloa'],
-    'saauttavi':['saavuttaa : saapua, päästä johonkin paikkaan <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset Kalevalassa: saada käsiinsä; saattaa aikaan (Turunen 1979).'],
-    'Aina siimalla asuja':['ikuinen onkija (Tyrybeb 1979)'],
-    'Käeksellä':['käes : käsiverkko, pienisilmäinen kalaverkko'],
-    'launihin':['launis : alkeellinen kalastin, molemmista päistään terävä puupuikko <a class="more">Katso lisää</a>',
-    'Launis vuoltiin useimmiten katajasta, ja se sidottiin keskeltä kannatuslankaan eli perustimeen. Syöttinä siinä' +
-    ' käytettiin onkimatoa eli sättää, toisinaan myös pientä kalaa. (Turunen 1979: 170.<br><br>' +
-    'Vrt. Lönnrotin selitys: launihin = onki, koukku (?) (Lna 38). Ks. myös Lönnrotin selitys: launis = (träd) krok (Lna 122).'],
-    'Ongitteli':['ongitella : onkia'],
-    'orhitteli':['orhitella : tehdä työtä rehvakkaasti ja uutterasti <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: orhittelu = knycka på, känna efter (Lna 122).'],
-    'Vapa':['ongenvapa, useimmiten vain hieman vitsaa tukevampi puu, jonka joustavaan päähän siiman' +
-    ' vapaa pää kiinnitettiin (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. Lönnrotin selitys: vapa = pahla, raippa (Lna 38).'],
-    'vaskinen':['kuparinen; pronssinen, messinkinen (Jussila 2009)'],
-    'siukui':['siukua : viuhua'],
-    'kulisi':['kulista : helistä'],
-    'Huomenna':['huomen : päivä (Jussila 2009) <a class="more">Katso lisää</a>','Vrt. sanan tavanomaisempi merkitys: huomispäivä.'],
-    'moniahana':['monias : eräs (eräänä)'],
-    'takrarautahansa':['takrarauta : onki <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: takra-rauta = ljuster jern, sirligt jern (Lna 122).'],
-    'Talui':['talua : vetää ongella <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset: taluttaa; tallustella (Turunen 1979). <br><br>' +
-    'Ks. Lönnrotin selitys: talua = leda, draga (Lna 122).'],
-    'talka-pohjahansa':['talkapohja : veneen ulkopohjan puuvahvike (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: talka = köl (Lna 122).'],
-    'Sileähk':['sileähkä : melko sileä (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Lönnrot kommentoi Kalevalan säkeitä 62−70: "oli entisestään jotenki kalan muotoiseksi muuttunut" (Lna 121).'],
-    'Kuleahka':['vaaleahko <a class="more">Katso lisää</a>','Vrt. kulea : vaalea<br><br>' +
-    'Vrt. Lönnrotin selitys: kuleahka = kiiltävä (Lna 38). Ks. myös Lönnrotin selitys: kulea = blek (Lna 122).'],
-    'kuujaseksi':['kuujanen : järvilohi <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: kuujaseksi = kuuja s. o. lohen lajia (Lna 38).'],
-    'Haleahka':['vaaleahko, haalea <a class="more">Katso lisää</a>','Vrt. halea : vaalea<br><br>' +
-    'Ks. Lönnrotin selitys: haleahka = alltför grå (Lna 122).'],
-    'emä-kalaksi':['emäkala : mätikala, naaraskala'],
-    'Ihala':['ihala : kummallinen, eriskummallinen (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. sanan toinen merkitys Kalevalassa: ihana, kuulakka (Turunen 1979).<br><br>' +
-    'Ks. Lönnrotin selitys: ihala = sällsam (Lna 122). Vrt. Lönnrotin selitys: ihala = paljas, alastoin (Lna 38).'],
-    'imehnoksiki':['imehno : ihminen'],
-    'Päärivatoin':['päärivaton : ilman pääripaa <a class="more">Katso lisää</a>',
-    'pääripa : neitojen päänkoru<br><br>Värillinen, yleensä punainen leveä tai kapea verka- tai silkkinauha, jolla oli' +
-    ' kova tuohinen sisus ja joka ulottui juuri pään ympäri tai oli kokonaan umpinainen (Turunen 1979, 271).<br><br>' +
-    'Ks. Lönnrotin selitys: päärivatoin = pääsiteetöin (Lna 38). Ks. myös Lönnrotin selitys: päärivatoin = utan' +
-    ' hufvudbådel (Lna 122).'],
-    'Vyötöin':['vyötön'],
-    'Korvitoin':['korvaton'],
-    'kotikanaksi':['kotikana : vaimo (Turunen 1979)'],
-    'Luopuisin':['luopuisa : sopiva, ominaisuuksiltaan jonkin mukainen (Jussila 2009) <a class="more">Katso lisää</a>',
-    'Vrt. luopuisa Lokan, Ilmarisen äidin, pysyvänä määritteenä: leppeä, hyvänsävyinen (Turunen 1979).<br><br>' +
-    'Vrt. Lönnrotin selitys: luopuisin = laatuisin; kaltaisin (Lna 38).'],
-    'huotrasessa':['huotranen : huotra, veitsen tai miekan tuppi'],
-    'palstoin':['palsta : irti leikattu, pitkä, kapea kappale <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: palstoin = palasittain (Lna 38).'],
-    'pannaksensa':['panna : asettaa, laittaa'],
-    'leikkaellaksensa':['leikkaella : paloitella'],
-    'atrioiksi':['atria : ateria, ruokailu <a class="more">Katso lisää</a>',
-    'Lönnrot kommentoi Kalevalan säkeitä 79−82: "säästöön pannaksensa vastaisiksi ajoiksi" (Lna 121).'],
-    'Murkinaisiksi muruiksi':['murkinainen muru : aamuruoka'],
-    'lounahiksi':['lounas : päivällinen, ateria, joka syötiin auringon paistaessa lounaasta (Turunen 1979)'],
-    'Ilta-ruoiksi':['iltaruoka : illallisruoka <a class="more">Katso lisää</a>',
-    'Entisaikoina iltanen eli illallinen oli yleensä kevyt ateria, joka syötiin hieman ennen nukkumaanmenoa (Turunen 1979).'],
-    'viilteä':['viiltää'],
-    'loimahti':['loimahtaa : hypähtää, ponnahtaa'],
-    'Kala kirjo':['kirjava kala'],
-    'kimmeltihe': ['kimmeltää : refl. kimpoutua (kimposi) <a class="more">Katso lisää</a>',
-    'Vrt. Lönnrotin selitys: kimmeltihe = slingra sig (Lna 122).'],
-    'Äsken':['vasta sitten'],
-    'ylenti':['ylentää : kohottaa, nostaa'],
-    'Vihurilla':['vihuri : tuulenpuuska, kova tuuli'],
-    'Kupahalla':['kuvas: nuotan tai verkon koho, kalanpyydyksen olinpaikan merkki; metonyymisesti korkea aalto' +
-    '(Turunen 1979). <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: kuvas = nätflöte (Lna 122).' +
-    ' Ks. myös Lönnrotin selitys: kupahalla = verkon puulla, laudalla (Lna 38).'],
-    'selällä': ['selkä : (merestä) avoin meri'],
-    'pakisi':['pakista : (karjalaisessa merkityksessä) puhua, haastaa (Turunen 1979)'],
-    'Kainaloiseksi kanaksi':['kainaloinen kana : vaimo, puolison metaforinen nimitys'],
-    'Polviseksi':['polvinen : elinikäinen <a class="more">Katso lisää</a>',
-    'Vrt. sanan toinen merkitys Kalevalassa: ikäinen.'],
-    'Siasi':['sija : vuode <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset Kalevalassa: paikka, kohta (Turunen 1979).'],
-    'Pään-alaisen':['päänalainen : tyyny'],
-    'Pirtin pienen pyyhkijäksi':['pirtin pyyhkijä : pirtin lattian lakaisija; puoliso, vaimo (Turunen 1979)'],
-    'Valkean':['valkea : tuli. Vrt. valkea adjektiivina: valkoinen, valoisa, kirkas.'],
-    'kapo':['tyttö, neito; nainen'],
-    'pyyit':['pyytää : tavoitella <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset Kalevalassa: pyydystää; pyytää, anoa; koettaa saada aikaan; hankkia (Turunen 1979).'],
-    'kuun ikäsi':['kuun ikä : aina, alati, elämänsä ajan'],
-    'Puhki polvesi':['puhki polven : eliniän'],
-    'halasit':['halata : haluta, kaivata, toivoa'],
-    'utra':['kurja, raukka <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: utra = arm (Lna 122).'],
-    'Vähämieli':['tyhmä, hupsu, vähäjärkinen'],
-    'piteä':['pitää : säilyttää huostassaan, pitää omanaan (Jussila 2009) <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset Kalevalassa: ohjata, valita; turmella; miettiä, tuumailla (Turunen 1979).'],
-    'Ahon lasta':['Ahto : veden miespuolinen päähaltija <a class="more">Katso lisää</a>',
-    'Nimi esiintyy Vanhassa Kalevalassa (1835) ja kansanrunoissa yleisemmin muodossa Ahti, mutta Lönnrot erotti' +
-    ' Uudessa Kalevalassa (1849) vedenhaltijan Ahdon sankarinnimestä Ahti. Hän myös vahvisti vedenhaltijan asemaa' +
-    ' ja loi sille nimittämänsä asuinpaikan Ahtolan sekä sovitti sen kohtiin, joihin se ei kuulu alkuperäistoisintojen' +
-    ' mukaan. (Turunen 1979: 14.)<br><br>Vrt. ahti apellatiivina = viritetty pyydysalue; ahtaa = virittää pyydyksiä (Turunen 1979).'],
-    'tullos':['tulla (tule)'],
-    'sinä ikänä':['koskaan, milloinkaan (Turunen 1979)'],
-    'vierähtihe':['vierähtää : refl. pyörähtää, sukeltaa (pyörähti, sukelsi) (Jussila 2009)'],
-    'Maksankarvaisen':['maksankarvainen : ruskea'],
-    'malohon':['malo : rako, halkeama <a class="more">Katso lisää</a>',
-    'Lönnrot kommentoi Kalevalan säkeitä 142-143: "Ahdon kartanoon, joka oli kirjavan kiven" (Lna 121).'],
-    'eleä':['elää'],
-    'kutaisi':['kutaista : kutoa nopeasti'],
-    'sulkku-nuotan':['sulkkunuotta : silkkinuotta <a class="more">Katso lisää</a>',
-    'nuotta : kalastukseen käytetty pitkä, seinämäinen verkkopyydys; vrt. lankapaula, satalauta (Jussila 2009)'],
-    'ristin rastin':['ristiin rastiin, pitkin poikin'],
-    'vienoja':['vieno : (vedestä) tyyni <a class="more">Katso lisää</a>',
-    'Vrt. myös sanan muut merkitykset Kalevalassa: hento, heikko; hieno, pehmeä.'],
-    'Lohiluotojen':['lohiluoto : pieni saari tai kari, jonka lähivesistä pyydetään lohta (Jussila 2009)'],
-    'lomia':['loma : avopaikka, välipaikka (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. sanan alkumerkitys: tasanne (Turunen 1979).'],
-    'kannaksia':['kannas : kahden vesialueen tai suon välillä oleva kapea maakaista'],
-    'syväntehiä':['syvänne : syvä paikka vedessä, syvä kohta erityisesti järvessä tai joessa <a class="more">Katso lisää</a>',
-    'Vrt. Lönnrotin selitys: syväntehiä = niemen kantoja (Lna 38).'],
-    'selän napoja':['selän napa : meren tai järven keskisyvänne (Jussila 2009) <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: napa = hvirfvel (Lna 122)'],
-    'Joukolan':['Joukola : Joukahaisen asuinsija'],
-    'Lapin':['Lappi : Joukahaisen asuinsijan eli Joukolan kiertosana; Suomen pohjoisin maakunta'],
-    'lahti-rantasia':['lahtirantanen : lahdessa oleva ranta, lahden ranta'],
-    'Mitä mielensä pitävi':['mitä mielensä tekee (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. pitää-verbi modaalisena apuverbinä: tulee, täytyy; sanan useista muista merkityksistä' +
-    ' Kalevalassa ks. Jussila 2009, Turunen 1979.'],
-    'Kaiken kallella kypärin':['alakuloisuuden ja melankolian kuvaus (ks. Turunen 1979) <a class="more">Katso lisää</a>',
-    'kypäri : korkea päähine, lakki, vrt. kypärä'],
-    'survottuna':['survoa : sulloa <a class="more">Katso lisää</a>',
-    'Vrt. sanan toinen merkitys Kalevalassa: särkeä, murskata.<br><br>Ks. Lönnrotin selitys: survon = gifva rundligt (Lna 122).'],
-    'ennen aikoinansa':['ennen aikoinaan : kerran, omana aikanaan (Jussila 2009)'],
-    'Puuttuvalla':['puuttuva : loppuva, häviävä (Jussila 2009)'],
-    'polveksella':['polves : ikäkausi, sukupolvi'],
-    'melkeässä':['melkeä : kaukana siitä missä pitäisi olla, niin ja näin (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Sanalla on kyseinen merkitys vain Kalevalan sananlaskusäkeissä "Kaikki on mieli melkeässä, / ajatukset arvoisessa,' +
-    ' / kaikki toimi toisialla". Vrt. sanan toinen merkitys Kalevalassa: melkoinen.<br><br>'+
-    'Lönnrot kommentoi Kalevalan säkeitä 177−179: "sananlaskuna tavallinen" (Lna 121).'],
-    'arvoisessa':['arvoinen : halpa, arvoton <a class="more">Katso lisää</a>',
-    'Sana esiinyy tässä ironisessa merkityksessä (ks. Turunen 1979).'],
-    'toimi':['mieli, järki, ymmärrys, neuvokkuus; henkinen kyky ja taito (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset Kalevalassa: huoli, huolellisuus, huolehtiminen, huolenpito, johto; työ, työnteko,' +
-    ' tehtävä; kankaan kudontakuvio (Turunen 1979).<br><br>Ks. Lönnrotin selitys: toimi = klokhet, ordning (Lna 122).'],
-    'toisialla':['toisaalla, muualla'],
-    'vuotin':['vuottaa : odottaa <a class="more">Katso lisää</a>','Vrt. vuotanta : odotus.'],
-    'polveani':['polvi : elinaika, ikä <a class="more">Katso lisää</a>',
-    'Vrt. myös sanan muut merkitykset Kalevalassa: polvi ruumiinosan nimenä; suku (Turunen 1979).'],
-    'korjaella':['korjaella : ottaa talteen, varastoida <a class="more">Katso lisää</a>',
-    'Vrt. korjelo : kiinniottaminen, pyydystäminen, metsästys (Turunen 1979).'],
-    'jälle':['jälleen, taas'],
-    'ilo-käkeni':['ilokäki : kukkuva käki (Jussila 2009) <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin kommentti säkeisiin 196−204: "kuvallisesti: ennen olin toivova ja iloinen, nyt en enää milloinkaan" (Lna 121).'],
-    'sorti':['sortaa : saattaa painuksiin'],
-    'alenti':['alentaa : vähentää laulumahtia (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. sanan konkreettinen alkumerkitys: painaa alemmaksi. Vrt. myös sanan muut merkitykset Kalevalassa: riisua' +
-    ' valjaista; riisua paita yltään; surmata; halventaa anoppia. (Turunen 1979.'],
-    'huopeheksi':['huove : ajanviete, huvi (Jussila 2009) <a class="more">Katso lisää</a>',
-    'Ks. Lönnrotin selitys: huopeheksi = ratoksi (Lna 38). Ks. myös Lönnrotin selitys: huove = tidsfördrif (Lna 122).'],
-    'tieäkänä':['tietää : osata tai tuntea jokin asia (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. sanan toinen merkitys Kalevalassa: osata loitsulukuja (Turunen 1979).'],
-    'ilmalla':['ilma : maailma <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset Kalevalassa: ilmanhenki maan ja veden vastakohtana; sää; taivas (Turunen 1979).'],
-    'emo elossa':['äiti <a class="more">Katso lisää</a>',
-    'Lönnrot kommentoi Kalevalan säkeitä 212−213: ”W. ei näytä tietävän äitinsä kuolemattoman Luonnottaren olevan” (Lna 121).'],
-    'valvehella':['hereillä'],
-    'pystössä':['pystyssä'],
-    'Murehisin':['mure : murhe, suru'],
-    'havasi':['havata : havahtua, herätä'],
-    'olla oikeana':['olla pystyssä, olla elossa'],
-    'Pohjan':['Pohja : Pohjola, Louhen asuinpaikka, Kalevalassa ja kansanrunoissa yleisesti esiintyvä paikannimi'  +
-    ' (Turunen 1979) <a class="more">Katso lisää</a>',
-    'Vrt. pohja-sanan merkitys pohjoisena ilmansuuntana ja pohjoisena paikkana.<br><br>' +
-    'Lönnrot kommentoi Kalevalan säkeitä 230−241: "tämä neuvo oli alkuperä Wsen moniin tuleviin onnen vaiheisiin" (Lna 121).'],
-    'tyttärihin':['kosimaan tyttäriä'],
-    'virkeämmät':['virkeä : eloisa, vilkas'],
-    'Joukon':['Jouko : viitannee Joukolaan, Joukahaisen asuinsijaan (ks. Turunen 1979)'],
-    'jorottaria':['jorotar : hidasteleva, jurottava nainen; Pohjolan virkeiden ja kauniiden tytärten vastakohta'],
-    'lapsi-lönttäreitä':['lapsilönttäre : hidas, löntystävä lapsi; Pohjolan kauniiden tytärten vastakohta'],
-    'naios':['naida : ottaa vaimo'],
-    'katsannoisiltansa':['katsanto : ulkonäkö <a class="more">Katso lisää</a>',
-    'Vrt. sanan muut merkitykset Kalevalassa: lapsen hoitaminen; katsominen, tarkastus (Turunen 1979).'],
-    'liukas':['nopea, reipas <a class="more">Katso lisää</a>','Vrt. sanan toinen merkitys Kalevalassa: livettävä, luistava.']
+  'armahan':['armas : rakas, kallis, ihana <a class="more">Katso lisää</a>','Yleensä sanan merkitys on rakas, kallis' +
+  ' läheisestä ihmisestä (KKSK). Myös kunnioitusta viittaavana sanana: "Oi armas anoppiseni, / Sukuehen suuri vaimo"' +
+  ' (SKVR I1 128). Vrt. rahan armas: karhun mielittelysanoja (Turunen 1979; Jussila 2009), ks. lisää Nirvi 1982.'],
+  // words/terms in fifth poem, not in others
+  'sanoma':['uutinen, tieto'],
+  'tuonnemmaksi':['kauemmas, loitommas'],
+  'Neien':['neito (neidon)'],
+  'Yöhyet':['yöhyet : yö'],
+  'kaatununna':['kaatua : kuolla (kuolleena) <a class="more">Katso lisää</a>',
+  'Vrt. kaatua-verbin toinen merkitys Kalevalassa: mennä kumoon, langeta (Turunen 1979).'],
+  'nukahtanunna':['nukahtaa : vaipua uneen; kuolla (Jussila 2009)'],
+  'lietohon':['lieto : (merestä) upottava, pohjaton <a class="more">Katso lisää</a>',
+  'Vrt. lieto ihmisestä: huoleton, kevytmielinen: lieto Lemminkäinen; vrt. myös lieto ilmasta: viileä, lauhkea.'],
+  'huollen':['huolla : surra'],
+  'nimesi':['nimetä : lausua, sanoa painokkaasti (Turunen 1979)'],
+  'Untamo':['Untamo : maan alla nukkuva ja venyvä suuri tietäjä (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. Antero Vipunen. Vrt. myös Untamo Kalevalan sankarina ja Kalervon veljenä. <br><br>' +
+  'Ks. Lönnrotin kommentti Kalevalan 5. runoon: "Untamo ehkä = Antero Wipunen" (Lna 121).'],
+  'Maku\'usi':['makuu : unennäkö; unitila <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: makuu = sömnkunskap, vishet (Lna 122).'],
+  'maan venyjä':['kuolleena maassa makaavan Untamon epiteetti (Turunun 1979)'],
+  'Ahtola':['vedenhaltija Ahdin asuinpaikan ja perheen nimitys'],
+  'Wellamon':['Vellamo : veden emäntä, vedenjumala Ahdin puoliso'],
+  'venyvi':['venyä : loikoa, maata pitkänänsä (Turunen 1979)'],
+  'Nenässä':['nenä : pää, kärki <a class="more">Katso lisää</a>',
+  'Vrt. myös sanan muut merkitykset Kalevalassa: kehon osa; itu; veneen etukeula (Turunen 1979).'],
+  'utuisen niemen':['utuinen: sumuinen <a class="more">Katso lisää</a>',
+  'utu : sumu, tihkusade; utuine = hämärä, pehmeä (KKSK) <br><br>Vrt. utuinen ihmisestä: surullinen, onneton.' +
+  ' Vrt. myös sanan muut merkitykset Kalevalassa: hienoinen; auterinen, vieno. (Turunen 1979).'],
+  'terhenisen':['terheninen : sumuinen, usvainen'],
+  'kaitaisessa':['kaitainen : ahdas, kapea'],
+  'Vetihe':['vetää : refl. tulla, mennä, raahautua (veti itsensä) <a class="more">Katso lisää</a>',
+  'Vrt. vetää: hinata mukanaan, kiskoa esiin; uurtaa; laskea; vetää sisäänsä; sanan muista merkityksistä' +
+  ' Kalevalassa ks. esim. Turunen 1979.'],
+  'venesioille':['venesija : veneen pitopaikka, satama'],
+  'Silmeävi':['silmäellä : tarkastella, katsella'],
+  'Väkä-rauan':['väkärauta : koukku'],
+  'väskyhynsä':['väsky : laukku, reppu (Turunen 1979)'],
+  'Soutoa melastelevi':['soutaa melastella : meloa verkalleen <a class="more">Katso lisää</a>',
+  'soutoa: soutaa<br><br>melastella: meloa'],
+  'saauttavi':['saavuttaa : saapua, päästä johonkin paikkaan <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset Kalevalassa: saada käsiinsä; saattaa aikaan (Turunen 1979).'],
+  'Aina siimalla asuja':['ikuinen onkija (Tyrybeb 1979)'],
+  'Käeksellä':['käes : käsiverkko, pienisilmäinen kalaverkko'],
+  'launihin':['launis : alkeellinen kalastin, molemmista päistään terävä puupuikko <a class="more">Katso lisää</a>',
+  'Launis vuoltiin useimmiten katajasta, ja se sidottiin keskeltä kannatuslankaan eli perustimeen. Syöttinä siinä' +
+  ' käytettiin onkimatoa eli sättää, toisinaan myös pientä kalaa. (Turunen 1979: 170.<br><br>' +
+  'Vrt. Lönnrotin selitys: launihin = onki, koukku (?) (Lna 38). Ks. myös Lönnrotin selitys: launis = (träd) krok (Lna 122).'],
+  'Ongitteli':['ongitella : onkia'],
+  'orhitteli':['orhitella : tehdä työtä rehvakkaasti ja uutterasti <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: orhittelu = knycka på, känna efter (Lna 122).'],
+  'Vapa':['ongenvapa, useimmiten vain hieman vitsaa tukevampi puu, jonka joustavaan päähän siiman' +
+  ' vapaa pää kiinnitettiin (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. Lönnrotin selitys: vapa = pahla, raippa (Lna 38).'],
+  'vaskinen':['kuparinen; pronssinen, messinkinen (Jussila 2009)'],
+  'siukui':['siukua : viuhua'],
+  'kulisi':['kulista : helistä'],
+  'Huomenna':['huomen : päivä (Jussila 2009) <a class="more">Katso lisää</a>','Vrt. sanan tavanomaisempi merkitys: huomispäivä.'],
+  'moniahana':['monias : eräs (eräänä)'],
+  'takrarautahansa':['takrarauta : onki <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: takra-rauta = ljuster jern, sirligt jern (Lna 122).'],
+  'Talui':['talua : vetää ongella <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset: taluttaa; tallustella (Turunen 1979). <br><br>' +
+  'Ks. Lönnrotin selitys: talua = leda, draga (Lna 122).'],
+  'talka-pohjahansa':['talkapohja : veneen ulkopohjan puuvahvike (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: talka = köl (Lna 122).'],
+  'Sileähk':['sileähkä : melko sileä (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 62−70: "oli entisestään jotenki kalan muotoiseksi muuttunut" (Lna 121).'],
+  'Kuleahka':['vaaleahko <a class="more">Katso lisää</a>','Vrt. kulea : vaalea<br><br>' +
+  'Vrt. Lönnrotin selitys: kuleahka = kiiltävä (Lna 38). Ks. myös Lönnrotin selitys: kulea = blek (Lna 122).'],
+  'kuujaseksi':['kuujanen : järvilohi <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: kuujaseksi = kuuja s. o. lohen lajia (Lna 38).'],
+  'Haleahka':['vaaleahko, haalea <a class="more">Katso lisää</a>','Vrt. halea : vaalea<br><br>' +
+  'Ks. Lönnrotin selitys: haleahka = alltför grå (Lna 122).'],
+  'emä-kalaksi':['emäkala : mätikala, naaraskala'],
+  'Ihala':['ihala : kummallinen, eriskummallinen (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. sanan toinen merkitys Kalevalassa: ihana, kuulakka (Turunen 1979).<br><br>' +
+  'Ks. Lönnrotin selitys: ihala = sällsam (Lna 122). Vrt. Lönnrotin selitys: ihala = paljas, alastoin (Lna 38).'],
+  'imehnoksiki':['imehno : ihminen'],
+  'Päärivatoin':['päärivaton : ilman pääripaa <a class="more">Katso lisää</a>',
+  'pääripa : neitojen päänkoru<br><br>Värillinen, yleensä punainen leveä tai kapea verka- tai silkkinauha, jolla oli' +
+  ' kova tuohinen sisus ja joka ulottui juuri pään ympäri tai oli kokonaan umpinainen (Turunen 1979, 271).<br><br>' +
+  'Ks. Lönnrotin selitys: päärivatoin = pääsiteetöin (Lna 38). Ks. myös Lönnrotin selitys: päärivatoin = utan' +
+  ' hufvudbådel (Lna 122).'],
+  'Vyötöin':['vyötön'],
+  'Korvitoin':['korvaton'],
+  'kotikanaksi':['kotikana : vaimo (Turunen 1979)'],
+  'Luopuisin':['luopuisa : sopiva, ominaisuuksiltaan jonkin mukainen (Jussila 2009) <a class="more">Katso lisää</a>',
+  'Vrt. luopuisa Lokan, Ilmarisen äidin, pysyvänä määritteenä: leppeä, hyvänsävyinen (Turunen 1979).<br><br>' +
+  'Vrt. Lönnrotin selitys: luopuisin = laatuisin; kaltaisin (Lna 38).'],
+  'huotrasessa':['huotranen : huotra, veitsen tai miekan tuppi'],
+  'palstoin':['palsta : irti leikattu, pitkä, kapea kappale <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: palstoin = palasittain (Lna 38).'],
+  'pannaksensa':['panna : asettaa, laittaa'],
+  'leikkaellaksensa':['leikkaella : paloitella'],
+  'atrioiksi':['atria : ateria, ruokailu <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 79−82: "säästöön pannaksensa vastaisiksi ajoiksi" (Lna 121).'],
+  'Murkinaisiksi muruiksi':['murkinainen muru : aamuruoka'],
+  'lounahiksi':['lounas : päivällinen, ateria, joka syötiin auringon paistaessa lounaasta (Turunen 1979)'],
+  'Ilta-ruoiksi':['iltaruoka : illallisruoka <a class="more">Katso lisää</a>',
+  'Entisaikoina iltanen eli illallinen oli yleensä kevyt ateria, joka syötiin hieman ennen nukkumaanmenoa (Turunen 1979).'],
+  'viilteä':['viiltää'],
+  'loimahti':['loimahtaa : hypähtää, ponnahtaa'],
+  'Kala kirjo':['kirjava kala'],
+  'kimmeltihe': ['kimmeltää : refl. kimpoutua (kimposi) <a class="more">Katso lisää</a>',
+  'Vrt. Lönnrotin selitys: kimmeltihe = slingra sig (Lna 122).'],
+  'Äsken':['vasta sitten'],
+  'ylenti':['ylentää : kohottaa, nostaa'],
+  'Vihurilla':['vihuri : tuulenpuuska, kova tuuli'],
+  'Kupahalla':['kuvas: nuotan tai verkon koho, kalanpyydyksen olinpaikan merkki; metonyymisesti korkea aalto' +
+  '(Turunen 1979). <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: kuvas = nätflöte (Lna 122).' +
+  ' Ks. myös Lönnrotin selitys: kupahalla = verkon puulla, laudalla (Lna 38).'],
+  'selällä': ['selkä : (merestä) avoin meri'],
+  'pakisi':['pakista : (karjalaisessa merkityksessä) puhua, haastaa (Turunen 1979)'],
+  'Kainaloiseksi kanaksi':['kainaloinen kana : vaimo, puolison metaforinen nimitys'],
+  'Polviseksi':['polvinen : elinikäinen <a class="more">Katso lisää</a>',
+  'Vrt. sanan toinen merkitys Kalevalassa: ikäinen.'],
+  'Siasi':['sija : vuode <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset Kalevalassa: paikka, kohta (Turunen 1979).'],
+  'Pään-alaisen':['päänalainen : tyyny'],
+  'Pirtin pienen pyyhkijäksi':['pirtin pyyhkijä : pirtin lattian lakaisija; puoliso, vaimo (Turunen 1979)'],
+  'Valkean':['valkea : tuli. Vrt. valkea adjektiivina: valkoinen, valoisa, kirkas.'],
+  'kapo':['tyttö, neito; nainen'],
+  'pyyit':['pyytää : tavoitella <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset Kalevalassa: pyydystää; pyytää, anoa; koettaa saada aikaan; hankkia (Turunen 1979).'],
+  'kuun ikäsi':['kuun ikä : aina, alati, elämänsä ajan'],
+  'Puhki polvesi':['puhki polven : eliniän'],
+  'halasit':['halata : haluta, kaivata, toivoa'],
+  'utra':['kurja, raukka <a class="more">Katso lisää</a>','Ks. Lönnrotin selitys: utra = arm (Lna 122).'],
+  'Vähämieli':['tyhmä, hupsu, vähäjärkinen'],
+  'piteä':['pitää : säilyttää huostassaan, pitää omanaan (Jussila 2009) <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset Kalevalassa: ohjata, valita; turmella; miettiä, tuumailla (Turunen 1979).'],
+  'Ahon lasta':['Ahto : veden miespuolinen päähaltija <a class="more">Katso lisää</a>',
+  'Nimi esiintyy Vanhassa Kalevalassa (1835) ja kansanrunoissa yleisemmin muodossa Ahti, mutta Lönnrot erotti' +
+  ' Uudessa Kalevalassa (1849) vedenhaltijan Ahdon sankarinnimestä Ahti. Hän myös vahvisti vedenhaltijan asemaa' +
+  ' ja loi sille nimittämänsä asuinpaikan Ahtolan sekä sovitti sen kohtiin, joihin se ei kuulu alkuperäistoisintojen' +
+  ' mukaan. (Turunen 1979: 14.)<br><br>Vrt. ahti apellatiivina = viritetty pyydysalue; ahtaa = virittää pyydyksiä (Turunen 1979).'],
+  'tullos':['tulla (tule)'],
+  'ikänä':['ei ikipäivänä, koskaan'],
+  'vierähtihe':['vierähtää : refl. pyörähtää, sukeltaa (pyörähti, sukelsi) (Jussila 2009)'],
+  'Maksankarvaisen':['maksankarvainen : ruskea'],
+  'malohon':['malo : rako, halkeama <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 142-143: "Ahdon kartanoon, joka oli kirjavan kiven" (Lna 121).'],
+  'eleä':['elää'],
+  'kutaisi':['kutaista : kutoa nopeasti'],
+  'sulkku-nuotan':['sulkkunuotta : silkkinuotta <a class="more">Katso lisää</a>',
+  'nuotta : kalastukseen käytetty pitkä, seinämäinen verkkopyydys; vrt. lankapaula, satalauta (Jussila 2009)'],
+  'ristin rastin':['ristiin rastiin, pitkin poikin'],
+  'vienoja':['vieno : (vedestä) tyyni <a class="more">Katso lisää</a>',
+  'Vrt. myös sanan muut merkitykset Kalevalassa: hento, heikko; hieno, pehmeä.'],
+  'Lohiluotojen':['lohiluoto : pieni saari tai kari, jonka lähivesistä pyydetään lohta (Jussila 2009)'],
+  'lomia':['loma : avopaikka, välipaikka (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. sanan alkumerkitys: tasanne (Turunen 1979).'],
+  'kannaksia':['kannas : kahden vesialueen tai suon välillä oleva kapea maakaista'],
+  'syväntehiä':['syvänne : syvä paikka vedessä, syvä kohta erityisesti järvessä tai joessa <a class="more">Katso lisää</a>',
+  'Vrt. Lönnrotin selitys: syväntehiä = niemen kantoja (Lna 38).'],
+  'selän napoja':['selän napa : meren tai järven keskisyvänne (Jussila 2009) <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: napa = hvirfvel (Lna 122)'],
+  'Joukolan':['Joukola : Joukahaisen asuinsija'],
+  'Lapin':['Lappi : Joukahaisen asuinsijan eli Joukolan kiertosana; Suomen pohjoisin maakunta'],
+  'lahti-rantasia':['lahtirantanen : lahdessa oleva ranta, lahden ranta'],
+  'Mitä mielensä pitävi':['mitä mielensä tekee (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. pitää-verbi modaalisena apuverbinä: tulee, täytyy; sanan useista muista merkityksistä' +
+  ' Kalevalassa ks. Jussila 2009, Turunen 1979.'],
+  'Kaiken kallella kypärin':['alakuloisuuden ja melankolian kuvaus (ks. Turunen 1979) <a class="more">Katso lisää</a>',
+  'kypäri : korkea päähine, lakki, vrt. kypärä'],
+  'survottuna':['survoa : sulloa <a class="more">Katso lisää</a>',
+  'Vrt. sanan toinen merkitys Kalevalassa: särkeä, murskata.<br><br>Ks. Lönnrotin selitys: survon = gifva rundligt (Lna 122).'],
+  'ennen aikoinansa':['ennen aikoinaan : kerran, omana aikanaan (Jussila 2009)'],
+  'Puuttuvalla':['puuttuva : loppuva, häviävä (Jussila 2009)'],
+  'polveksella':['polves : ikäkausi, sukupolvi'],
+  'melkeässä':['melkeä : kaukana siitä missä pitäisi olla, niin ja näin (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Sanalla on kyseinen merkitys vain Kalevalan sananlaskusäkeissä "Kaikki on mieli melkeässä, / ajatukset arvoisessa,' +
+  ' / kaikki toimi toisialla". Vrt. sanan toinen merkitys Kalevalassa: melkoinen.<br><br>'+
+  'Lönnrot kommentoi Kalevalan säkeitä 177−179: "sananlaskuna tavallinen" (Lna 121).'],
+  'arvoisessa':['arvoinen : halpa, arvoton <a class="more">Katso lisää</a>',
+  'Sana esiinyy tässä ironisessa merkityksessä (ks. Turunen 1979).'],
+  'toimi':['mieli, järki, ymmärrys, neuvokkuus; henkinen kyky ja taito (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset Kalevalassa: huoli, huolellisuus, huolehtiminen, huolenpito, johto; työ, työnteko,' +
+  ' tehtävä; kankaan kudontakuvio (Turunen 1979).<br><br>Ks. Lönnrotin selitys: toimi = klokhet, ordning (Lna 122).'],
+  'toisialla':['toisaalla, muualla'],
+  'vuotin':['vuottaa : odottaa <a class="more">Katso lisää</a>','Vrt. vuotanta : odotus.'],
+  'polveani':['polvi : elinaika, ikä <a class="more">Katso lisää</a>',
+  'Vrt. myös sanan muut merkitykset Kalevalassa: polvi ruumiinosan nimenä; suku (Turunen 1979).'],
+  'korjaella':['korjaella : ottaa talteen, varastoida <a class="more">Katso lisää</a>',
+  'Vrt. korjelo : kiinniottaminen, pyydystäminen, metsästys (Turunen 1979).'],
+  'jälle':['jälleen, taas'],
+  'ilo-käkeni':['ilokäki : kukkuva käki (Jussila 2009) <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin kommentti säkeisiin 196−204: "kuvallisesti: ennen olin toivova ja iloinen, nyt en enää milloinkaan" (Lna 121).'],
+  'sorti':['sortaa : saattaa painuksiin'],
+  'alenti':['alentaa : vähentää laulumahtia (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. sanan konkreettinen alkumerkitys: painaa alemmaksi. Vrt. myös sanan muut merkitykset Kalevalassa: riisua' +
+  ' valjaista; riisua paita yltään; surmata; halventaa anoppia. (Turunen 1979.'],
+  'huopeheksi':['huove : ajanviete, huvi (Jussila 2009) <a class="more">Katso lisää</a>',
+  'Ks. Lönnrotin selitys: huopeheksi = ratoksi (Lna 38). Ks. myös Lönnrotin selitys: huove = tidsfördrif (Lna 122).'],
+  'tieäkänä':['tietää : osata tai tuntea jokin asia (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. sanan toinen merkitys Kalevalassa: osata loitsulukuja (Turunen 1979).'],
+  'ilmalla':['ilma : maailma <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset Kalevalassa: ilmanhenki maan ja veden vastakohtana; sää; taivas (Turunen 1979).'],
+  'emo elossa':['äiti <a class="more">Katso lisää</a>',
+  'Lönnrot kommentoi Kalevalan säkeitä 212−213: ”W. ei näytä tietävän äitinsä kuolemattoman Luonnottaren olevan” (Lna 121).'],
+  'valvehella':['hereillä'],
+  'pystössä':['pystyssä'],
+  'Murehisin':['mure : murhe, suru'],
+  'havasi':['havata : havahtua, herätä'],
+  'olla oikeana':['olla pystyssä, olla elossa'],
+  'Pohjan':['Pohja : Pohjola, Louhen asuinpaikka, Kalevalassa ja kansanrunoissa yleisesti esiintyvä paikannimi'  +
+  ' (Turunen 1979) <a class="more">Katso lisää</a>',
+  'Vrt. pohja-sanan merkitys pohjoisena ilmansuuntana ja pohjoisena paikkana.<br><br>' +
+  'Lönnrot kommentoi Kalevalan säkeitä 230−241: "tämä neuvo oli alkuperä Wsen moniin tuleviin onnen vaiheisiin" (Lna 121).'],
+  'tyttärihin':['kosimaan tyttäriä'],
+  'virkeämmät':['virkeä : eloisa, vilkas'],
+  'Joukon':['Jouko : viitannee Joukolaan, Joukahaisen asuinsijaan (ks. Turunen 1979)'],
+  'jorottaria':['jorotar : hidasteleva, jurottava nainen; Pohjolan virkeiden ja kauniiden tytärten vastakohta'],
+  'lapsi-lönttäreitä':['lapsilönttäre : hidas, löntystävä lapsi; Pohjolan kauniiden tytärten vastakohta'],
+  'naios':['naida : ottaa vaimo'],
+  'katsannoisiltansa':['katsanto : ulkonäkö <a class="more">Katso lisää</a>',
+  'Vrt. sanan muut merkitykset Kalevalassa: lapsen hoitaminen; katsominen, tarkastus (Turunen 1979).'],
+  'liukas':['nopea, reipas <a class="more">Katso lisää</a>','Vrt. sanan toinen merkitys Kalevalassa: livettävä, luistava.']
 };

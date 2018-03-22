@@ -25,14 +25,26 @@ $(document).ready(function() {
         $("#show_col_2").html($("#show_col_2").html()
         .replace('Laiha poika ' + key,'Laiha poika <a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+      } else if (key == 'vetone') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace('vellova ' + key,'vellova <a class="tooltp" href="#">' + key + '</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
       } else if (key == 'sirkeämpi') {
         $("#show_col_2").html($("#show_col_2").html()
         .replace(key + ',','<a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>,'));
-        // This appears first in wrong context, find correct occurrence in from context
+        // This appears first in wrong context, find correct occurrence from context
       } else if (key == 'kaarta') {
         $("#show_col_2").html($("#show_col_2").html()
-        .replace('mulla ' + key,'Laiha poika <a class="tooltp" href="#">' + key + '</a>'
+        .replace('mulla ' + key,'mulla <a class="tooltp" href="#">' + key + '</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+      } else if (key == 'vieremähän') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace('virkku ' + key,'virkku <a class="tooltp" href="#">' + key + '</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+      } else if (key == 'sanelemahan') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace('Saakamme ' + key,'Saakamme <a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
         // These appear as part of another word for the first time; find key preceded, followed or surrounded by space
       } else if (key == 'naisen' || key == 'leuan' || key == 'ahoilla' || key == 'yöhyt' || key == 'kapo') {
@@ -41,7 +53,7 @@ $(document).ready(function() {
       } else if (key == 'Vähä' || key == 'kanta' || key == 'Vemmel' || key == 'vaski' || key == 'Syän' || key == 'Ikä') {
         $("#show_col_2").html($("#show_col_2").html().replace(key + ' ','<a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
-      } else if (key == 'ikä') {
+      } else if (key == 'ikä' || key == 'ani') {
         $("#show_col_2").html($("#show_col_2").html().replace(' ' + key + ' ',' <a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
         // Need to account for declinated forms with these
