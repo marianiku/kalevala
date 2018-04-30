@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan ensimmäinen runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_001" />
+        <lg>
+          <l>Mieleni minun tekevi,</l>
+          <l>Aivoni ajattelevi</l>
+          <l>Lähteäni laulamahan,</l>
+          <l>Saa'ani sanelemahan,</l>
+          <l>Sukuvirttä suoltamahan,</l>
+          <l>Lajivirttä laulamahan;</l>
+          <l>Sanat suussani sulavat,</l>
+          <l>Puhe'et putoelevat,</l>
+          <l>Kielelleni kerkiävät,</l>
+          <l>10. Hampahilleni hajoovat.</l>
+        </lg>
+        <lg>
+          <l>Veli kulta, veikkoseni,</l>
+          <l>Kaunis kasvinkumppalini!</l>
+          <l>Lähe nyt kanssa laulamahan,</l>
+          <l>Saa kera sanelemahan.</l>
+          <l>Yhtehen yhyttyämme,</l>
+          <l>Kahta'alta käytyämme;</l>
+          <l>Harvoin yhtehen yhymme,</l>
+          <l>Saamme toinen toisihimme</l>
+          <l>Näillä raukoilla rajoilla,</l>
+          <l>20. Poloisilla Pohjan mailla.</l>
+        </lg>
+        <lg>
+          <l>Lyökämme käsi kätehen,</l>
+          <l>Sormet sormien lomahan,</l>
+          <l>Lauloaksemme hyviä,</l>
+          <l>Parahia pannaksemme,</l>
+          <l>Kuulla noien kultaisien,</l>
+          <l>Tietä mieli-tehtoisien,</l>
+          <l>Nuorisossa nousevassa,</l>
+          <l>Kansassa kasuavassa:</l>
+          <l>Noita saamia sanoja,</l>
+          <l>30. Virsiä virittämiä</l>
+          <l>Vyöltä vanhan Wäinämöisen,</l>
+          <l>Alta ahjon Ilmarisen,</l>
+          <l>Päästä kalvan Kaukomielen,</l>
+        </lg>
+        <pb n="2" facs="page_002" />
+        <lg>
+          <l>Joukahaisen jousen tiestä,</l>
+          <l>Pohjan peltojen periltä,</l>
+          <l>Kalevalan kankahilta.</l>
+        </lg>
+        <lg>
+          <l>Niit' ennen isoni lauloi</l>
+          <l>Kirvesvartta vuollessansa;</l>
+          <l>Niitä äitini opetti</l>
+          <l>40. Väätessänsä värttinätä,</l>
+          <l>Minun lasna lattialla</l>
+          <l>Eessä polven pyöriessä,</l>
+          <l>Maitopartana pahaisna,</l>
+          <l>Piimäsuuna pikkaraisna.</l>
+          <l>Sampo ei puuttunut sanoja</l>
+          <l>Eikä Louhi luottehia:</l>
+          <l>Vanheni sanoihin sampo,</l>
+          <l>Katoi Louhi luottehisin,</l>
+          <l>Virsihin Wipunen kuoli,</l>
+          <l>50. Lemminkäinen leikkilöihin.</l>
+        </lg>
+        <lg>
+          <l>Viel' on muitaki sanoja,</l>
+          <l>Ongelmoita oppimia,</l>
+          <l>Tie-ohesta tempomia,</l>
+          <l>Kanervoista katkomia,</l>
+          <l>Risukoista riipomia,</l>
+          <l>Vesoista vetelemiä,</l>
+          <l>Päästä heinän hieromia,</l>
+          <l>Raitiolta ratkomia,</l>
+          <l>Paimenessa käyessäni,</l>
+          <l>60. Lasna karjan laitumilla,</l>
+          <l>Metisillä mättähillä,</l>
+          <l>Kultaisilla kunnahilla,</l>
+          <l>Mustan Muurikin jälessä,</l>
+          <l>Kimmon kirjavan keralla.</l>
+        </lg>
+        <lg>
+          <l>Vilu mulle virttä virkkoi,</l>
+          <l>Sae saatteli runoja,</l>
+          <l>Virttä toista tuulet toivat,</l>
+          <l>Meren aaltoset ajoivat,</l>
+          <l>Linnut liitteli sanoja,</l>
+          <l>70. Puien latvat lausehia.</l>
+        </lg>
+        <lg>
+          <l>Ne minä kerälle käärin,</l>
+          <l>Sovittelin sommelolle;</l>
+          <l>Kerän pistin kelkkahani,</l>
+          <l>Sommelon rekoseheni;</l>
+          <l>Vein kelkalla kotihin,</l>
+          <l>Rekosella riihen luoksi,</l>
+          <l>Panin aitan parven päähän,</l>
+          <l>Vaskisehen vakkasehen.</l>
+        </lg>
+        <lg>
+          <l>Viikon on virteni vilussa,</l>
+          <l>80. Kauan kaihossa siaisnut;</l>
+          <l>Veänkö vilusta virret,</l>
+          <l>Lapan laulut pakkasesta,</l>
+          <l>Tuon tupahan vakkaseni,</l>
+          <l>Rasian rahin nenähän,</l>
+          <l>Alle kuulun kurkihirren,</l>
+          <l>Alle kaunihin katoksen;</l>
+          <l>Aukaisen sanaisen arkun,</l>
+          <l>Virsilippahan viritän,</l>
+          <l>Kerittelen pään kerältä,</l>
+        </lg>
+        <pb n="3" facs="page_003" />
+        <lg>
+          <l>90. Suorin solmun sommelolta?</l>
+        </lg>
+        <lg>
+          <l>Niin laulan hyvänki virren,</l>
+          <l>Kaunihinki kalkuttelen</l>
+          <l>Ruoalta rukihiselta,</l>
+          <l>Oluelta ohraiselta:</l>
+          <l>Kun ei tuotane olutta,</l>
+          <l>Tarittane taari-vettä,</l>
+          <l>Laulan suulta laihemmalta,</l>
+          <l>Vetoselta vierettelen</l>
+          <l>Tämän iltamme iloksi,</l>
+          <l>100. Päivän kuulun kunniaksi,</l>
+          <l>Vaiko huomenen huviksi,</l>
+          <l>Uuen aamun alkeheksi.</l>
+        </lg>
+        <lg>
+          <l>Noin kuulin saneltavaksi,</l>
+          <l>Tiesin virttä tehtäväksi:</l>
+          <l>Yksin meillä yöt tulevat,</l>
+          <l>Yksin päivät valkeavat,</l>
+          <l>Yksin syntyi Wäinämöinen,</l>
+          <l>Ilmestyi iki-runoja</l>
+          <l>Kapehesta kantajasta,</l>
+          <l>110. Ilmattaresta emosta.</l>
+        </lg>
+        <lg>
+          <l>Olipa impi ilman tyttö,</l>
+          <l>Kave Luonnotar korea,</l>
+          <l>Piti viikoista pyhyyttä,</l>
+          <l>Iän kaiken impeyttä,</l>
+          <l>Ilman pitkillä pihoilla,</l>
+          <l>Tasaisilla tanterilla.</l>
+        </lg>
+        <lg>
+          <l>Ikävystyi aikojansa,</l>
+          <l>Ouostui elämätänsä,</l>
+          <l>Aina yksin ollessansa,</l>
+          <l>120. Impenä eläessänsä</l>
+          <l>Ilman pitkillä pihoilla,</l>
+          <l>Avaroilla autioilla.</l>
+        </lg>
+        <lg>
+          <l>Jop' on astuiksen alemma,</l>
+          <l>Laskeusi lainehille,</l>
+          <l>Meren selvälle selälle,</l>
+          <l>Ulapallen aukealle;</l>
+          <l>Tuli suuri tuulen puuska,</l>
+          <l>Iästä vihainen ilma,</l>
+          <l>Meren kuohuille kohotti,</l>
+          <l>130. Lainehille laikahutti.</l>
+        </lg>
+        <lg>
+          <l>Tuuli neittä tuuitteli,</l>
+          <l>Aalto impeä ajeli,</l>
+          <l>Ympäri selän sinisen,</l>
+          <l>Lakkipäien lainehien;</l>
+          <l>Tuuli tuuli kohtuiseksi,</l>
+          <l>Meri paksuksi panevi.</l>
+        </lg>
+        <lg>
+          <l>Kantoi kohtua kovoa,</l>
+          <l>Vatsan täyttä vaikeata</l>
+          <l>Vuotta seitsemän satoa,</l>
+          <l>140. Yheksän yrön ikeä,</l>
+          <l>Eikä synny syntyminen,</l>
+          <l>Luovu luomatoin sikiö.</l>
+        </lg>
+        <lg>
+          <l>Vieri impi veen emona,</l>
+          <l>Uipi iät, uipi lännet,</l>
+          <l>Uipi luotehet, etelät,</l>
+          <l>Uipi kaikki ilman rannat,</l>
+          <l>Tuskissa tulisen synnyn,</l>
+          <l>Vatsan vaivoissa kovissa;</l>
+          <l>Eikä synny syntyminen,</l>
+          <l>150. Luovu luomatoin sikiö.</l>
+        </lg>
+        <lg>
+          <l>Itkeä hyryttelevi,</l>
+        </lg>
+        <pb n="4" facs="page_004" />
+        <lg>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Voi poloinen päiviäni,</l>
+          <l>Lapsi kurja kulkuani!</l>
+          <l>Jo olen joutunut johonki,</l>
+          <l>Iäkseni ilman alle,</l>
+          <l>Tuulen tuuiteltavaksi,</l>
+          <l>Aaltojen ajeltavaksi,</l>
+          <l>Näillä väljillä vesillä,</l>
+          <l>160. Lakeilla lainehilla."</l>
+        </lg>
+        <lg>
+          <l>"Parempi olisi ollut</l>
+          <l>Ilman impenä eleä,</l>
+          <l>Kun on nyt tätä nykyä</l>
+          <l>Vierähellä veen emona:</l>
+          <l>Vilu tääll' on ollakseni,</l>
+          <l>Vaiva värjätelläkseni,</l>
+          <l>Aalloissa asuakseni,</l>
+          <l>Veessä vierielläkseni."</l>
+        </lg>
+        <lg>
+          <l>"Oi Ukko ylijumala,</l>
+          <l>170. Ilman kaiken kannattaja!</l>
+          <l>Tule tänne tarvittaissa,</l>
+          <l>Käy tänne kutsuttaessa,</l>
+          <l>Päästä piika pintehestä,</l>
+          <l>Vaimo vatsan vääntehestä,</l>
+          <l>Käy pian, välehen jou'u,</l>
+          <l>Välehemmin tarvitahan!"</l>
+        </lg>
+        <lg>
+          <l>Kului aikoa vähäisen,</l>
+          <l>Pirahteli pikkaraisen,</l>
+          <l>Tuli sotka suora lintu,</l>
+          <l>180. Lenteä lekuttelevi,</l>
+          <l>Etsien pesän sioa,</l>
+          <l>Asunmaata arvaellen.</l>
+        </lg>
+        <lg>
+          <l>Lenti iät, lenti lännet,</l>
+          <l>Lenti luotehet, etelät.</l>
+          <l>Ei löyä tiloa tuota,</l>
+          <l>Paikkoa pahintakana,</l>
+          <l>Kuhun laatisi pesänsä,</l>
+          <l>Ottaisi olo-siansa.</l>
+        </lg>
+        <lg>
+          <l>Liitelevi, laatelevi,</l>
+          <l>190. Arvelee, ajattelevi:</l>
+          <l>"Teenkö tuulehen tupani,</l>
+          <l>Aalloillen asuinsiani,</l>
+          <l>Tuuli kaatavi tupasen,</l>
+          <l>Aalto vie asuinsiani."</l>
+        </lg>
+        <lg>
+          <l>Niin silloin veen emonen,</l>
+          <l>Veen emonen, ilman impi,</l>
+          <l>Nosti polvea merestä,</l>
+          <l>Lapaluuta lainehesta</l>
+          <l>Sotkalle pesän siaksi,</l>
+          <l>200. Asunmaaksi armahaksi.</l>
+        </lg>
+        <lg>
+          <l>Tuo sotka sorea lintu,</l>
+          <l>Liiteleikse, laateleikse,</l>
+          <l>Keksi polven veen emosen</l>
+          <l>Sinerväisellä selällä,</l>
+          <l>Luuli heinä-mättähäksi,</l>
+          <l>Tuoreheksi turpeheksi.</l>
+        </lg>
+        <lg>
+          <l>Lentelevi, liitelevi,</l>
+          <l>Päähän polven laskeuvi,</l>
+          <l>Siihen laativi pesänsä,</l>
+          <l>210. Muni kultaiset munansa,</l>
+          <l>Kuusi kultaista munoa,</l>
+          <l>Rauta-munan seitsemännen.</l>
+        </lg>
+        <lg>
+          <l>Alkoi hautoa munia,</l>
+          <l>Päätä polven lämmitellä;</l>
+          <l>Hautoi päivän, hautoi toisen,</l>
+          <l>Hautoi kohta kolmannenki,</l>
+          <l>Jopa tuosta veen emonen,</l>
+        </lg>
+        <pb n="5" facs="page_005" />
+        <lg>
+          <l>Veen emonen, ilman impi,</l>
+          <l>Tuntevi tulistuvaksi,</l>
+          <l>220. Hipiänsä hiiltyväksi:</l>
+          <l>Luuli polvensa palavan,</l>
+          <l>Kaikki suonensa sulavan.</l>
+        </lg>
+        <lg>
+          <l>Vavahutti polveansa,</l>
+          <l>Järkytti jäseniänsä,</l>
+          <l>Munat vierähti vetehen,</l>
+          <l>Meren aaltohon ajaikse;</l>
+          <l>Karskahti munat muruiksi,</l>
+          <l>Katkieli kappaleiksi.</l>
+        </lg>
+        <lg>
+          <l>Ei munat mutahan joua,</l>
+          <l>230. Siepalehet veen sekahan,</l>
+          <l>Muuttuivat murut hyviksi,</l>
+          <l>Kappalehet kaunoisiksi:</l>
+          <l>Munasen alainen puoli</l>
+          <l>Alaiseksi maa-emäksi,</l>
+          <l>Munasen yläinen puoli</l>
+          <l>Yläiseksi taivahaksi,</l>
+          <l>Yläpuoli ruskeaista</l>
+          <l>Päivöseksi paistamahan,</l>
+          <l>Yläpuoli valkeaista</l>
+          <l>240. Se kuuksi kumottamahan;</l>
+          <l>Mi munassa kirjavaista,</l>
+          <l>Ne tähiksi taivahalle,</l>
+          <l>Mi munassa mustukaista,</l>
+          <l>Nepä ilman pilvilöiksi.</l>
+        </lg>
+        <lg>
+          <l>Ajat eellehen menevät,</l>
+          <l>Vuoet tuota tuonnemmaksi,</l>
+          <l>Uuen päivän paistaessa,</l>
+          <l>Uuen kuun kumottaessa;</l>
+          <l>Aina uipi veen emonen,</l>
+          <l>250. Veen emonen, ilman impi,</l>
+          <l>Noilla vienoilla vesillä,</l>
+          <l>Utuisilla lainehilla,</l>
+          <l>Eessänsä vesi vetelä,</l>
+          <l>Takanansa taivas selvä.</l>
+        </lg>
+        <lg>
+          <l>Jo vuonna yheksäntenä,</l>
+          <l>Kymmenentenä kesänä</l>
+          <l>Nosti päätänsä merestä,</l>
+          <l>Kohottavi kokkoansa,</l>
+          <l>Alkoi luoa luomiansa,</l>
+          <l>260. Saautella saamiansa</l>
+          <l>Selvällä meren selällä,</l>
+          <l>Ulapalla aukealla.</l>
+        </lg>
+        <lg>
+          <l>Kussa kättä käännähytti,</l>
+          <l>Siihen niemet siivoeli;</l>
+          <l>Kussa pohjasi jalalla,</l>
+          <l>Kala-hauat kaivaeli;</l>
+          <l>Kussa ilman kuplistihe,</l>
+          <l>Siihen syöverit syventi.</l>
+        </lg>
+        <lg>
+          <l>Kylin maahan kääntelihe,</l>
+          <l>270. Siihen sai sileät rannat;</l>
+          <l>Jaloin maahan kääntelihe,</l>
+          <l>Siihen loi lohi-apajat;</l>
+        </lg>
+        <pb n="6" facs="page_006" />
+        <lg>
+          <l>Päin päätyi maata vasten,</l>
+          <l>Siihen laitteli lahelmat.</l>
+        </lg>
+        <lg>
+          <l>Ui siitä ulomma maasta,</l>
+          <l>Seisattelihe selälle;</l>
+          <l>Luopi luotoja merehen,</l>
+          <l>Kasvatti sala-karia</l>
+          <l>Laivan laskema-siaksi,</l>
+          <l>280. Merimiesten pään menoksi.</l>
+        </lg>
+        <lg>
+          <l>Jo oli saaret siivottuna,</l>
+          <l>Luotu luotoset merehen,</l>
+          <l>Ilman pielet pistettynä,</l>
+          <l>Maat ja manteret sanottu,</l>
+          <l>Kirjattu kivihin kirjat,</l>
+          <l>Veetty viivat kallioihin.</l>
+          <l>Viel' ei synny Wäinämöinen,</l>
+          <l>Ilmau iki-runoja.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>290. Kulki äitinsä kohussa</l>
+          <l>Kolmekymmentä keseä,</l>
+          <l>Yhen verran talviaki,</l>
+          <l>Noilla vienoilla vesillä,</l>
+          <l>Utuisilla lainehilla.</l>
+        </lg>
+        <lg>
+          <l>Arvelee, ajattelevi,</l>
+          <l>Miten olla, kuin eleä</l>
+          <l>Pimeässä piilossansa,</l>
+          <l>Asunnossa ahtahassa,</l>
+          <l>Kuss' ei konsa kuuta nähnyt,</l>
+          <l>300. Eikä päiveä havainnut.</l>
+        </lg>
+        <lg>
+          <l>Sanovi sanalla tuolla,</l>
+          <l>Lausui tuolla lausehella:</l>
+          <l>"Kuu keritä, päivyt päästä,</l>
+          <l>Otava yhä opeta,</l>
+          <l>Miestä ouoilta ovilta,</l>
+          <l>Veräjiltä vierahilta,</l>
+          <l>Näiltä pieniltä pesiltä,</l>
+          <l>Asunnoilta ahtahilta!</l>
+          <l>Saata maalle matkamiestä,</l>
+          <l>310. Ilmoillen inehmon lasta,</l>
+          <l>Kuuta taivon katsomahan,</l>
+          <l>Päiveä ihoamahan,</l>
+          <l>Otavaista oppimahan,</l>
+          <l>Tähtiä tähyämähän!"</l>
+        </lg>
+        <lg>
+          <l>Kun ei kuu kerittänynnä</l>
+          <l>Eikä päivyt päästänynnä,</l>
+          <l>Ouosteli aikojansa,</l>
+          <l>Tuskastui elämätänsä;</l>
+          <l>Liikahutti linnan portin</l>
+          <l>320. Sormella nimettömällä,</l>
+          <l>Lukon luisen luikahutti</l>
+          <l>Vasemmalla varpahalla,</l>
+          <l>Tuli kynsin kynnykseltä,</l>
+          <l>Polvin porstuan ovelta.</l>
+        </lg>
+        <lg>
+          <l>Siitä suistui suin merehen,</l>
+          <l>Käsin kääntyi lainehesen;</l>
+          <l>Jääpi mies meren varahan,</l>
+          <l>Uros aaltojen sekahan.</l>
+        </lg>
+        <lg>
+          <l>Virui siellä viisi vuotta,</l>
+          <l>330. Sekä viisi, jotta kuusi,</l>
+          <l>Vuotta seitsemän, kaheksan,</l>
+          <l>Seisottui selälle viimein,</l>
+          <l>Niemelle nimettömälle,</l>
+          <l>Manterelle puuttomalle.</l>
+        </lg>
+        <pb n="7" facs="page_007" />
+        <lg>
+          <l>Polvin maasta ponnistihe,</l>
+          <l>Käsivarsin käännältihe,</l>
+          <l>Nousi kuuta katsomahan,</l>
+          <l>Päiveä ihoamahan,</l>
+          <l>Otavaista oppimahan,</l>
+          <l>340. Tähtiä tähyämähän.</l>
+        </lg>
+        <lg>
+          <l>Se oli synty Wäinämöisen,</l>
+          <l>Rotu rohkean runojan</l>
+          <l>Kapehesta kantajasta,</l>
+          <l>Ilmattaresta emosta.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

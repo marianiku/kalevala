@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan neljas runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+              <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_040" />
+        <p>Neljäs Runo</p>
+        <p>Wäinämöinen tapaa Joukahaisen sisaren vastan taitossa, ja pyytää häntä puolisoksensa 1–30. Tytär juoksee
+          itkein kotia ja kertoo asian äitillensä 31–116. Äiti kieltää häntä suremasta, ja käskee ennemmin iloitsemaan
+          ja koreissa vaatteissa käymään 117–188. Tytär itkee itkemistänsä ja sanoo, ei tahtovansa vanhalle miehelle
+          puolisoksi mennä 189–254. Huolissansa kävellen eksyy korpeen, joutuu oudolle meren rannalle, lähtee pesemään
+          itsensä ja hukkuu veteen 255–370. Äiti itkee yöt päivät hukkunutta tytärtänsä 371–518.</p>
+        <lg>
+          <l>Tuopa Aino neito nuori,</l>
+          <l>Sisar nuoren Joukahaisen</l>
+          <l>Läksi luutoa lehosta,</l>
+          <l>Vastaksia varvikosta;</l>
+          <l>Taittoi vastan taatollensa,</l>
+          <l>Toisen taittoi maammollensa,</l>
+          <l>Kokoeli kolmannenki</l>
+          <l>Verevälle veiollensa.</l>
+        </lg>
+        <lg>
+          <l>Jo astui kohin kotia,</l>
+          <l>10. Lepikköä leuhautti,</l>
+          <l>Tuli vanha Wäinämöinen,</l>
+          <l>Näki neitosen lehossa,</l>
+          <l>Hienohelmen heinikössä,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Eläpä muille neiti nuori</l>
+          <l>Kun minulle neiti nuori</l>
+          <l>Kanna kaulan helmilöitä,</l>
+          <l>Rinnan ristiä rakenna,</l>
+          <l>Pane päätä palmikolle,</l>
+          <l>20. Sio silkillä hivusta!"</l>
+        </lg>
+        <lg>
+          <l>Neiti tuon sanoiksi virkki:</l>
+          <l>"En sinulle, enkä muille</l>
+          <l>Kanna rinna ristilöitä,</l>
+          <l>Päätä silkillä sitaise,</l>
+          <l>Huoli en haahen haljakoista,</l>
+          <l>Wehnän viploista valita,</l>
+          <l>Asun kaioissa sovissa,</l>
+          <l>kasvan leivän kannikoissa</l>
+          <l>Tykönä hyvän isoni,</l>
+          <l>30. Kanssa armahan emoni."</l>
+        </lg>
+        <lg>
+          <l>Riisti ristin rinnaltansa,</l>
+          <l>Sormukset on sormestansa,</l>
+          <l>Helmet kaulasta karisti,</l>
+          <l>Puna-langat päänsä päältä,</l>
+          <l>Jätti maalle maan hyviksi,</l>
+          <l>Lehtohon lehon hyviksi,</l>
+          <l>Meni itkien kotihin,</l>
+        </lg>
+        <pb n="2" facs="page_041" />
+        <lg>
+          <l>Kallotellen kartanolle.</l>
+        </lg>
+        <lg>
+          <l>Iso istui ikkunalla,</l>
+          <l>40. Kirvesvartta kirjoavi:</l>
+          <l>"Mitä itket, tyttö raukka,</l>
+          <l>Tyttö raukka, neito nuori?"</l>
+        </lg>
+        <lg>
+          <l>"Onpa syytä itkeäni,</l>
+          <l>Vaivoja valittoani,</l>
+          <l>Sitä itken, taattoseni,</l>
+          <l>Sitä itken ja valitan:</l>
+          <l>Kirpoi risti rinnaltani,</l>
+          <l>Kaune vyöstäni karisi,</l>
+          <l>Rinnalta hopea-risti,</l>
+          <l>50. Vaski-langat vyöni päästä."</l>
+        </lg>
+        <lg>
+          <l>Veljensä veräjän suulla</l>
+          <l>Vemmelpuuta veistelevi:</l>
+          <l>"Mitä itket, sisko raukka,</l>
+          <l>Sisko raukka, neito nuori?"</l>
+        </lg>
+        <lg>
+          <l>"Onpa syytä itkeäni,</l>
+          <l>Vaivoja valittoani,</l>
+          <l>Sitä itken, veikko rukka,</l>
+          <l>Sitä itken ja valitan:</l>
+          <l>Kirpoi sormus sormestani,</l>
+          <l>60. Helmet kaulasta katosi,</l>
+          <l>Kullan sormus sormestani,</l>
+          <l>Kaulasta hopea-helmet."</l>
+        </lg>
+        <lg>
+          <l>Sisko sillan korvasella</l>
+          <l>Vyötä kullaista kutovi:</l>
+          <l>"Mitä itket, sisko raukka,</l>
+          <l>Sisko raukka, neito nuori?"</l>
+        </lg>
+        <lg>
+          <l>"Onpa syytä itkiällä,</l>
+          <l>Vaivoja vetistäjällä,</l>
+          <l>Sitä itken, sisko rukka,</l>
+          <l>70. Sitä itken ja valitan:</l>
+          <l>Kirpoi kullat kulmiltani,</l>
+          <l>Hopeat hivuksiltani,</l>
+          <l>Sini-silkit silmiltäni,</l>
+          <l>Puna-nauhat pääni päältä."</l>
+        </lg>
+        <lg>
+          <l>Emo aitan portahalla</l>
+          <l>Kuoretta kokoelevi:</l>
+          <l>"Mitä itket, tytti raukka,</l>
+          <l>Tyttö raukka, neito nuori?"</l>
+        </lg>
+        <lg>
+          <l>"Oi on maammo kantajani,</l>
+          <l>80. Oi emo imettäjäni,</l>
+          <l>Onp' on syitä synkeitä,</l>
+          <l>Apeita ani pahoja,</l>
+          <l>Sitä itken, äiti rukka,</l>
+          <l>Sitä, maammoni, valitan:</l>
+          <l>Läksin luutoa lehosta,</l>
+          <l>Vastan päitä varvikosta,</l>
+          <l>Taitoin vastan taatolleni,</l>
+          <l>Toisen taitoin maammolleni,</l>
+          <l>Kokoelin kolmannenki</l>
+          <l>90. Verevälle veiolleni,</l>
+          <l>Aloin astua kotihin,</l>
+          <l>Astuinpa läpi ahosta,</l>
+          <l>Osmoinen orosta virkkoi,</l>
+          <l>Kalevainen kaskesmaalta:</l>
+          <l>"Eläpä muille, neiti rukka,</l>
+          <l>Kuin minulle, neiti rukka,</l>
+          <l>Kanna kaulan helmilöitä,</l>
+          <l>Rinnan ristiä rakenna,</l>
+          <l>Pane päätä palmikolle,</l>
+          <l>100. Sio silkillä hivusta."</l>
+          <l>"Riistin ristin rinnaltani,</l>
+          <l>Helmet kaulasta karistin,</l>
+          <l>Sini-langat silmiltäni,</l>
+          <l>Puna-langat pääni päältä,</l>
+          <l>Heitin maalle maan hyviksi,</l>
+          <l>Lehtohon lehon hyviksi,</l>
+          <l>Itse tuon sanoiksi virkin:</l>
+          <l>"En sinulle, enkä muille</l>
+          <l>Kanna rinnan ristiäni,</l>
+          <l>110. Päätä silkillä sitaise,</l>
+          <l>Huoli en haahen haljakoista,</l>
+        </lg>
+        <pb n="3" facs="page_042" />
+        <lg>
+          <l>Vehnän viploista valita,</l>
+          <l>Asun kaioissa sovissa,</l>
+          <l>Kasvan leivän kannikoissa</l>
+          <l>Tykönä hyvän isoni,</l>
+          <l>Kanssa armahan emoni."</l>
+        </lg>
+        <lg>
+          <l>Emo tuon sanoiksi virkki,</l>
+          <l>Lausui vanhin lapsellensa:</l>
+          <l>"Elä itke tyttäreni</l>
+          <l>120. Nuorna saamani nureksi,</l>
+          <l>Syö vuosi suloa voita,</l>
+          <l>Tulet muita vuolahampi,</l>
+          <l>Toinen syö sianlihoa,</l>
+          <l>Tulet muita sirkeämpi,</l>
+          <l>Kolmas kuore-kokkaroita,</l>
+          <l>Tulet muita kaunihimpi;</l>
+          <l>Astu aittahan mäelle,</l>
+          <l>Aukaise parahin aitta,</l>
+          <l>Siell' on arkku arkun päällä,</l>
+          <l>130. Lipas lippahan lomassa,</l>
+          <l>Aukaise parahin arkku,</l>
+          <l>Kansi kirjo kimmahuta,</l>
+          <l>Siin' on kuusi kulta-vyötä,</l>
+          <l>Seitsemän sini-hamoista,</l>
+          <l>Ne on Kuuttaren kutomat,</l>
+          <l>Päivättären päättelemät."</l>
+        </lg>
+        <lg>
+          <l>"Ennen neinnä ollessani,</l>
+          <l>Impenä eläessäni</l>
+          <l>Läksin marjahan metsälle,</l>
+          <l>140. Alle vaaran vaapukkahan,</l>
+          <l>Kuulin Kuuttaren kutovan,</l>
+          <l>Päivättären kehreävän</l>
+          <l>Sinisen salon sivulla,</l>
+          <l>Lehon lemmen liepehellä."</l>
+        </lg>
+        <lg>
+          <l>"Minä luoksi luontelime,</l>
+          <l>Likelle lähentelime,</l>
+          <l>Aloinpa anella noita,</l>
+          <l>Itse virkin ja sanelin:</l>
+          <l>Anna Kuutar kultiasi,</l>
+          <l>150. Päivätär hopeitasi</l>
+          <l>Tälle tyhjälle tytölle,</l>
+          <l>Lapsellen anelialle."</l>
+        </lg>
+        <lg>
+          <l>"Antoi Kuutar kultiansa,</l>
+          <l>Päivätär hopeitansa;</l>
+          <l>Minä kullat kulmilleni,</l>
+          <l>Päälleni hyvät hopeat,</l>
+          <l>Tulin kukkana kotihin,</l>
+          <l>Ilona ison pihoille."</l>
+        </lg>
+        <lg>
+          <l>"Kannoin päivän, kannoin toisen,</l>
+          <l>160. Jo päivänä kolmantena</l>
+          <l>Riisuin kullat kulmiltani,</l>
+          <l>Päältäni hyvät hopeat,</l>
+          <l>Vein ne aittahan mäelle,</l>
+          <l>Panin arkun kannen alle;</l>
+          <l>Siit' on asti siellä ollut</l>
+          <l>Ajan kaiken katsomatta."</l>
+        </lg>
+        <lg>
+          <l>"Sio nyt silkit silmillesi,</l>
+          <l>Kullat kulmille kohota,</l>
+          <l>Kaulahan heleät helmet,</l>
+          <l>170. Kullan ristit rinnoillesi,</l>
+          <l>Pane paita palttinainen,</l>
+          <l>Liitä liinan aivinainen,</l>
+          <l>Hame verkainen vetäise,</l>
+          <l>Senp' on päälle silkki-vyöhyt,</l>
+          <l>Sukat sulkkuiset koreat,</l>
+          <l>Kautokengät kaunokaiset,</l>
+          <l>Pääsi kääri palmikolle,</l>
+          <l>Silkkinauhoilla sitaise,</l>
+          <l>Sormet kullan sormuksihin,</l>
+        </lg>
+        <pb n="4" facs="page_043" />
+        <lg>
+          <l>180. Käet kullan käärylöihin!"</l>
+        </lg>
+        <lg>
+          <l>"Niin tulet tupahan tuolta,</l>
+          <l>Astut aitasta sisälle</l>
+          <l>Sukukuntasi suloksi,</l>
+          <l>Koko heimon hempeäksi,</l>
+          <l>Kulet kukkana kujilla,</l>
+          <l>Vaapukkaisena vaellat,</l>
+          <l>Ehompana entistäsi,</l>
+          <l>Parempana muinaistasi."</l>
+        </lg>
+        <lg>
+          <l>Sen emo sanoiksi virkki,</l>
+          <l>180. Senp' on lausui lapsellensa;</l>
+          <l>Ei tytär totellut tuota,</l>
+          <l>Ei kuullut emon sanoja,</l>
+          <l>Meni itkien pihalle,</l>
+          <l>Kaihoellen kartanolle,</l>
+          <l>Sanovi sanalla tuolla,</l>
+          <l>Lausui tuolla lausehella:</l>
+          <l>"Miten on mieli miekkoisien,</l>
+          <l>Autuaallisten ajatus?</l>
+          <l>Niinp' on mieli miekkoisien,</l>
+          <l>200. Autuaallisten ajatus,</l>
+          <l>Kuin on vellova vetone,</l>
+          <l>Eli aalto altahassa;</l>
+          <l>Mitenpä poloisten mieli,</l>
+          <l>Kuten allien ajatus?</l>
+          <l>Niinpä on poloisten mieli,</l>
+          <l>Niinpä allien ajatus,</l>
+          <l>Kuin on hanki harjun alla,</l>
+          <l>Vesi kaivossa syvässä."</l>
+        </lg>
+        <lg>
+          <l>"Usein nyt minun utuisen,</l>
+          <l>210. Usein utuisen lapsen,</l>
+          <l>Mieli kulkevi kulossa,</l>
+          <l>Vesakoissa viehkuroivi,</l>
+          <l>Nurmessa nuhaelevi,</l>
+          <l>Pensahassa piehtaroivi,</l>
+          <l>Mieli ei tervoa parempi,</l>
+          <l>Syän ei syttä valkeampi."</l>
+        </lg>
+        <lg>
+          <l>"Parempi minun olisi,</l>
+          <l>Parempi olisi ollut</l>
+          <l>Syntymättä, kasvamatta,</l>
+          <l>220. Suureksi sukeumatta,</l>
+          <l>Näille päiville pahoille,</l>
+          <l>Ilmoille ilottomille;</l>
+          <l>Oisin kuollut kuusi-öisnä,</l>
+          <l>Kaonnut kaheksan-öisnä,</l>
+          <l>Oisi en paljoa pitänyt,</l>
+          <l>Vaaksan palttina-paloa,</l>
+          <l>Pikkaraisen pientaretta,</l>
+          <l>Emon itkua vähäisen,</l>
+          <l>Ison vieläki vähemmän,</l>
+          <l>230. Veikon ei väheäkänä."</l>
+        </lg>
+        <lg>
+          <l>Itki päivän, itki toisen.</l>
+          <l>Sai emo kyselemähän:</l>
+          <l>"Mitä itket, impi rukka,</l>
+          <l>Kuta, vaivainen, valitat?"</l>
+        </lg>
+        <lg>
+          <l>"Sitä itken impi rukka,</l>
+          <l>Kaiken aikani valitan,</l>
+          <l>Kun annoit minun poloisen,</l>
+          <l>Oman lapsesi lupasit,</l>
+          <l>Käskit vanhalle varaksi,</l>
+          <l>240. Ikäpuolelle iloksi,</l>
+          <l>Turvaksi tutisevalle,</l>
+          <l>Suojaksi sopen kululle;</l>
+          <l>Oisit ennen käskenynnä</l>
+          <l>Alle aaltojen syvien</l>
+          <l>Sisareksi siikasille,</l>
+          <l>Veikoksi ve'en kaloille;</l>
+          <l>Parempi meressä olla,</l>
+          <l>Alla aaltojen asua</l>
+          <l>Sisarena siikasilla,</l>
+          <l>250. Veikkona ve'en kaloilla,</l>
+          <l>Kuin on vanhalla varana,</l>
+          <l>Turvana tutisialla,</l>
+          <l>Sukkahansa suistujalla,</l>
+        </lg>
+        <pb n="5" facs="page_044" />
+        <lg>
+          <l>Karahkahan kaatujalla."</l>
+        </lg>
+        <lg>
+          <l>Siitä astui aittamäelle,</l>
+          <l>Astui aittahan sisälle;</l>
+          <l>Aukaisi parahan arkun,</l>
+          <l>Kannen kirjo kimmahutti,</l>
+          <l>Löysi kuusi kulta-vyötä,</l>
+          <l>260. Seitsemän sini-hametta,</l>
+          <l>Ne on päällensä pukevi,</l>
+          <l>Varrellensa valmistavi;</l>
+          <l>Pani kullat kulmillensa,</l>
+          <l>Hopeat hivuksillensa,</l>
+          <l>Sini-silkit silmillensä,</l>
+          <l>Puna-langat päänsä päälle.</l>
+        </lg>
+        <lg>
+          <l>Läksi siitä astumahan</l>
+          <l>Ahon poikki, toisen pitkin,</l>
+          <l>Vieri soita, vieri maita,</l>
+          <l>270. Vieri synkkiä saloja,</l>
+          <l>Itse lauloi mennessänsä,</l>
+          <l>Virkki vieriellessänsä:</l>
+          <l>"Syäntäni tuimelevi,</l>
+          <l>Päätäni kivistelevi,</l>
+          <l>Eikä tuima tuimemmasti,</l>
+          <l>Kipeämmästi kivistä,</l>
+          <l>Jotta koito kuolisinki,</l>
+          <l>Katkeaisinki katala,</l>
+          <l>Näiltä suurilta suruilta</l>
+          <l>280. Apeilta mielaloilta."</l>
+        </lg>
+        <lg>
+          <l>"Jo oisi minulla aika,</l>
+          <l>Näiltä ilmoilta eritä,</l>
+          <l>Aikani Manalle mennä,</l>
+          <l>Ikä tulla Tuonelahan,</l>
+          <l>Ei mua isoni itke,</l>
+          <l>Ei emo pane pahaksi,</l>
+          <l>Ei kastu sisaren kasvot,</l>
+          <l>Veikon silmät vettä vuoa,</l>
+          <l>Vaikka vierisin vetehen,</l>
+          <l>290. Kaatuisin kalamerehen</l>
+          <l>Alle aaltojen syvien,</l>
+          <l>Päälle mustien murien."</l>
+        </lg>
+        <lg>
+          <l>Astui päivän, astui toisen,</l>
+          <l>Päivänäpä kolmantena</l>
+          <l>Ennätti meri etehen,</l>
+          <l>Ruokoranta vastahansa,</l>
+          <l>Tuohon yöhyt yllättävi,</l>
+          <l>Pimeä piättelevi.</l>
+        </lg>
+        <lg>
+          <l>Siinä itki impi illan,</l>
+          <l>300. Kaikerteli kaiken yötä</l>
+          <l>Rannalla vesikivellä,</l>
+          <l>Laajalla lahen perällä;</l>
+          <l>Aamulla ani varahin</l>
+          <l>Katsoi tuonne niemen päähän,</l>
+          <l>Kolme oli neittä niemen päässä,</l>
+          <l>Ne on merta kylpemässä,</l>
+          <l>Aino neiti neljänneksi,</l>
+          <l>Vitsan varpa viienneksi.</l>
+        </lg>
+        <lg>
+          <l>Heitti paitansa pajulle,</l>
+          <l>310. Hamehensa haapaselle,</l>
+          <l>Sukkansa sulalle maalle,</l>
+          <l>Kenkänsä vesikivelle,</l>
+          <l>Helmet hietarantaselle,</l>
+          <l>Sormukset somerikolle.</l>
+        </lg>
+        <lg>
+          <l>Kivi oli kirjava selällä,</l>
+          <l>Paasi kullan paistavainen,</l>
+          <l>Kiistasi kivellen uia,</l>
+          <l>Tahtoi paaelle paeta.</l>
+        </lg>
+        <lg>
+          <l>Sitte sinne saatuansa,</l>
+          <l>320. Asetaiksen istumahan</l>
+          <l>Kirjavaiselle kivelle,</l>
+          <l>Paistavalle paaterelle;</l>
+          <l>Kilahti kivi vetehen,</l>
+          <l>Paasi pohjahan pakeni,</l>
+          <l>Neitonen kiven keralla,</l>
+          <l>Aino paaen palleassa.</l>
+        </lg>
+        <lg>
+          <l>Siihenpä kana katosi,</l>
+        </lg>
+        <pb n="6" facs="page_045" />
+        <lg>
+          <l>Siihen kuoli impi rukka,</l>
+          <l>Sanoi kerran kuollessansa,</l>
+          <l>330. Virkki vielä vierressänsä:</l>
+          <l>"Menin merta kylpemähän,</l>
+          <l>Sainp' on uimahan selälle,</l>
+          <l>Sinne mä kana katosin,</l>
+          <l>Lintu kuolin liian surman;</l>
+          <l>Elköhön minun isoni</l>
+          <l>Sinä ilmoisna ikänä</l>
+          <l>Vetäkö ve'en kaloja</l>
+          <l>Tältä suurelta selältä!"</l>
+        </lg>
+        <lg>
+          <l>"Läksin rannalle pesohon,</l>
+          <l>340. Menin merta kylpemähän,</l>
+          <l>Sinne mä kana katosin,</l>
+          <l>Lintu kuolin liian surman;</l>
+          <l>Elköhön minun emoni</l>
+          <l>Sinä ilmoisna ikänä</l>
+          <l>Panko vettä taikinahan</l>
+          <l>Laajalta kotilahelta!"</l>
+        </lg>
+        <lg>
+          <l>"Läksin rannalle pesohon,</l>
+          <l>Menin merta kylpemähän,</l>
+          <l>Sinne mä kana katosin,</l>
+          <l>350. Lintu kuolin liian surman;</l>
+          <l>Elköhönp' on veikkoseni</l>
+          <l>Sinä ilmoisna ikänä</l>
+          <l>Juottako sota-oritta</l>
+          <l>Rannalta merelliseltä!"</l>
+        </lg>
+        <lg>
+          <l>"Läksin rannalle pesohon,</l>
+          <l>Menin merta kylpemähän,</l>
+          <l>Sinne mä kana katosin,</l>
+          <l>Lintu kuolin liian surman;</l>
+          <l>Elköhönp' on siskoseni</l>
+          <l>360. Sinä ilmoisna ikänä</l>
+          <l>Peskö tästä silmiänsä</l>
+          <l>Kotilahen laiturilta!</l>
+          <l>Mikäli meren vesiä,</l>
+          <l>Sikäli minun veriä;</l>
+          <l>Mikäli meren kaloja,</l>
+          <l>Sikäli minun lihoja;</l>
+          <l>Mikä rannalla risuja,</l>
+          <l>Se on kurjan kylkiluita;</l>
+          <l>Mikä rannan heinäsiä,</l>
+          <l>370. Se hivusta hierottua."</l>
+        </lg>
+        <lg>
+          <l>Se oli surma nuoren neien,</l>
+          <l>Loppu kaunihin kanasen.</l>
+          <l>Kukas nyt sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan</l>
+          <l>Neien kuuluhun kotihin,</l>
+          <l>Kaunihisen kartanohon?</l>
+        </lg>
+        <lg>
+          <l>Karhu sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan;</l>
+          <l>Ei karhu sanoa saata,</l>
+          <l>380. Lehmikarjahan katosi.</l>
+        </lg>
+        <lg>
+          <l>Kukas sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan</l>
+          <l>Neien kuuluhun kotihin,</l>
+          <l>Kaunihisen kartanohon?</l>
+        </lg>
+        <lg>
+          <l>Susi sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan;</l>
+          <l>Ei susi sanoa saata,</l>
+          <l>Lammaskarjahan katosi.</l>
+        </lg>
+        <lg>
+          <l>Kukas sanan saatantahan,</l>
+          <l>390. Kieli-kerran kerrontahan</l>
+          <l>Neien kuuluhun kotihin,</l>
+          <l>Kaunihisen kartanohon?</l>
+        </lg>
+        <lg>
+          <l>Repo sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan;</l>
+          <l>Ei repo sanoa saata,</l>
+          <l>Hanhikarjahan katosi.</l>
+        </lg>
+        <lg>
+          <l>Kukas sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan</l>
+          <l>Neien kuuluhun kotihin,</l>
+          <l>400. Kaunihisen kartanohon?</l>
+        </lg>
+        <lg>
+          <l>Jänö sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan;</l>
+          <l>Jänis varman vastaeli:</l>
+        </lg>
+        <pb n="7" facs="page_046" />
+        <lg>
+          <l>"Sana ei miehe'en katoa."</l>
+        </lg>
+        <lg>
+          <l>Läksi jänis juoksemahan,</l>
+          <l>Pitkäkorva piippomahan,</l>
+          <l>Vääräsääri vääntämähän,</l>
+          <l>Ristisuu ripottamahan</l>
+          <l>Neien kuuluhun kotihin,</l>
+          <l>410. Kaunihisen kartanohon.</l>
+        </lg>
+        <lg>
+          <l>Juoksi saunan kynnykselle;</l>
+          <l>Kyykistäikse kynnykselle,</l>
+          <l>Sauna täynnä neitosia,</l>
+          <l>Vasta käessä vastoavat:</l>
+          <l>"Saitko kiero keittimiksi,</l>
+          <l>Paltsasilmä paistimiksi,</l>
+          <l>Isännällen iltaseksi,</l>
+          <l>Emännällen eineheksi,</l>
+          <l>Tyttären välipaloiksi,</l>
+          <l>420. Pojan puolipäiväseksi?"</l>
+        </lg>
+        <lg>
+          <l>Jänis saattavi sanoa,</l>
+          <l>Kehräsilmä kerskaella:</l>
+          <l>"Liepä lempo lähtenynnä</l>
+          <l>Kattiloihin kiehumahan,</l>
+          <l>Läksin sanan saatantahan,</l>
+          <l>Kieli-kerran kerrontahan:</l>
+          <l>Jop' on kaunis kaatununna,</l>
+          <l>Tinarinta riutununna,</l>
+          <l>Sortunna hopeasolki,</l>
+          <l>430. Vyö vaski valahtanunna,</l>
+          <l>Mennyt lietohon merehen,</l>
+          <l>Alle aavojen syvien,</l>
+          <l>Sisareksi siikasille,</l>
+          <l>Veikoksi ve'en kaloille."</l>
+        </lg>
+        <lg>
+          <l>Emo tuosta itkemähän,</l>
+          <l>Kyynelvierus vieremähän,</l>
+          <l>Sai siitä sanelemahan,</l>
+          <l>Vaivainen valittamahan:</l>
+          <l>"Elkätte, emot poloiset,</l>
+          <l>440. Sinä ilmoisna ikänä</l>
+          <l>Tuuitelko tyttäriä,</l>
+          <l>Lapsianne liekutelko</l>
+          <l>Vastoin mieltä miehelähän,</l>
+          <l>Niinkuin mie emo poloinen</l>
+          <l>Tuuittelin tyttöjäni,</l>
+          <l>Kasvatin kanasiani!"</l>
+        </lg>
+        <lg>
+          <l>Emo itki, kyynel vieri,</l>
+          <l>Vieri vetrehet vetensä</l>
+          <l>Sinisistä silmistänsä</l>
+          <l>450. Poloisille poskillensa.</l>
+        </lg>
+        <lg>
+          <l>Vieri kyynel, vieri toinen,</l>
+          <l>Vieri vetrehet vetensä</l>
+          <l>Poloisilta poskipäiltä</l>
+          <l>Ripeille rinnoillensa.</l>
+        </lg>
+        <lg>
+          <l>Vieri kyynel, vieri toinen,</l>
+          <l>Vieri vetrehet vetensä</l>
+          <l>Ripeiltä rinnoiltansa</l>
+          <l>Hienoisille helmoillensa.</l>
+        </lg>
+        <lg>
+          <l>460. Vieri kyynel, vieri toinen,</l>
+          <l>Vieri vetrehet vetensä</l>
+          <l>Hienoisilta helmoiltansa</l>
+          <l>Puna-suille sukkasille.</l>
+        </lg>
+        <lg>
+          <l>Vieri kyynel, vieri toinen,</l>
+          <l>Vieri vetrehet vetensä</l>
+          <l>Puna-suilta sukkasilta</l>
+          <l>Kulta-kengän kautosille.</l>
+        </lg>
+        <lg>
+          <l>Vieri kyynel, vieri toinen,</l>
+          <l>Vieri vetrehet vetensä</l>
+          <l>Kulta-kengän kautosilta</l>
+          <l>470. Maahan alle jalkojensa,</l>
+          <l>Vieri maahan maan hyväksi,</l>
+          <l>Vetehen ve'en hyväksi.</l>
+        </lg>
+        <lg>
+          <l>Ve'et maahan tultuansa</l>
+          <l>Alkoivat jokena juosta,</l>
+          <l>Kasvoipa jokea kolme</l>
+          <l>Itkemistänsä vesistä,</l>
+          <l>Läpi päänsä lähtemistä,</l>
+        </lg>
+        <pb n="8" facs="page_047" />
+        <lg>
+          <l>Alta kulman kulkemista.</l>
+        </lg>
+        <lg>
+          <l>Kasvoipa joka jokehen</l>
+          <l>480. Kolme koskea tulista,</l>
+          <l>Joka kosken kuohumalle</l>
+          <l>Kolme luotoa kohosi,</l>
+          <l>Joka luo'on partahalle</l>
+          <l>Kunnas kultainen yleni,</l>
+          <l>Kunki kunnahan kukulle</l>
+          <l>Kasvoi kolme koivahaista,</l>
+          <l>Kunki koivun latvasehen</l>
+          <l>Kolme kullaista käkeä.</l>
+        </lg>
+        <lg>
+          <l>Sai käköset kukkumahan,</l>
+          <l>490. Yksi kukkui: lemmen, lemmen,</l>
+          <l>Toinen kukkui: sulhon, sulhon,</l>
+          <l>Kolmas kukkui: auvon, auvon.</l>
+        </lg>
+        <lg>
+          <l>Kuka kukkui: lemmen, lemmen,</l>
+          <l>Sep' on kukkui kuuta kolme</l>
+          <l>Lemmettömälle tytölle,</l>
+          <l>Meressä makoavalle.</l>
+        </lg>
+        <lg>
+          <l>Kuka kukkui: sulhon, sulhon,</l>
+          <l>Sep' on kukkui kuusi kuuta</l>
+          <l>Sulholle sulottomalle,</l>
+          <l>500. Ikävissä istuvalle.</l>
+        </lg>
+        <lg>
+          <l>Kuka kukkui: auvon, auvon,</l>
+          <l>Se kukkui ikänsä kaiken</l>
+          <l>Auvottomalle emolle,</l>
+          <l>Iän päivät itkevälle.</l>
+        </lg>
+        <lg>
+          <l>Niin emo sanoiksi virkki</l>
+          <l>Kuunnellessansa käkeä:</l>
+          <l>"Elköhön emo poloinen</l>
+          <l>Kauan kuunnelko käkeä,</l>
+          <l>Kun käki kukahtelevi,</l>
+          <l>510. Niin syän sykähtelevi,</l>
+          <l>Itku silmähän tulevi,</l>
+          <l>Ve'et poskille valuvi,</l>
+          <l>Hereämmät herne-aarta,</l>
+          <l>Paksummat pavun jyveä,</l>
+          <l>Kyynärän ikä kuluvi,</l>
+          <l>Vaaksan varsi vanhenevi,</l>
+          <l>Koko ruumis runnahtavi</l>
+          <l>Kuultua kevät-käkösen!"</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

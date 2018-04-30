@@ -11,10 +11,10 @@
       <nav id="pic_nav" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="prevPic" class="nav-item">
-             <a class="nav-link" >&#8592;</a>
+             <a class="nav-link">&#8592;</a>
            </li>
            <li id="nextPic" class="nav-item">
-             <a class="nav-link" >&#8594;</a>
+             <a class="nav-link">&#8594;</a>
            </li>
          </ul>
        </nav>
@@ -23,8 +23,13 @@
       <nav id="pic_nav2" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="showFacs" class="nav-item">
-             <a class="nav-link" >Faksimile &#8595;</a>
+             <a class="nav-link">Faksimile &#8595;</a>
            </li>
+           <?php if (metadata('item', array('Item Type Metadata', 'Text'))): ?>
+             <li id="showComm" class="nav-item">
+               <a class="nav-link">Kommentaari &#8595;</a>
+             </l>
+           <?php endif ?>
          </ul>
        </nav>
     </div>
@@ -36,7 +41,7 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'jpg'
         && (strpos(metadata($file, 'filename'), 'page') !== false || strpos(metadata($file, 'filename'), 'esipuhe') !== false)) {
-          echo '<img class="pic" src="http://128.214.12.169/kalevala/files/original/'.metadata($file, 'filename').'" />';
+          echo '<img class="pic" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
         }
       }
       ?>
@@ -63,12 +68,15 @@
 </div>
 <?php }?>
 
+<div id="item_commentary" style="display:none;">
+  <p><?php echo (metadata('item', array('Item Type Metadata', 'Text'))); ?></p>
+</div>
 <div id="item1_facsimiles">
   <?php
   $files = $item->Files;
   foreach ($files as $file) {
     if ($file->getExtension() == 'jpg' && strpos(metadata($file, 'filename'), 'lna038') !== false) {
-      echo '<img class="pic2" src="http://128.214.12.169/kalevala/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img class="pic2" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>

@@ -607,7 +607,7 @@ var comments = {
   'runnahtavi':['runnahtaa : mennä pilalle, vahingoittua <a class="more">Katso lisää</a>',
   'Lönnrotin käännös sanalle runnahtavi = förfalla; huonontua, rappeutua, pilaantua; lysähtää, painua kokoon (Jussila 2009).'],
   'luutoa': ['luuta: vasta, vihta. Ks. sananselitys: vastaksia.'],
-  'vastan':['vasta : saunavasta <a class="more">Katso lisää', 'Saunavasta on yleinen itäisellä murrealueella,' +
+  'vastan':['vasta : saunavasta <a class="more">Katso lisää</a>', 'Saunavasta on yleinen itäisellä murrealueella,' +
   ' Länsi-Suomessa saunavihta (Ruoppila 1967: 58, kartta 65).'],
   'lehosta': ['lehto : lehtimetsä (Lna 38) <a class="more">Katso lisää</a>','Ks. Kosintarunoissa lehtometsä' +
   ' on paikka, jossa kosinta tapahtuu "löysin neitosen lehossa, / hienohelman heinikossa" (SKVR XIII1 1324;' +

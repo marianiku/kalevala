@@ -18,6 +18,10 @@ html {
  */
 body {
   margin: 0;
+  line-height: 1.5em !important;
+  font-family: 'Overpass', sans-serif !important;
+  font-size: 16px;
+  color: #333 !important;
 }
 
 /* HTML5 display definitions
@@ -295,7 +299,9 @@ input::-moz-focus-inner {
  * the UA stylesheet.
  */
 input {
-  line-height: normal;
+  font-family: 'Overpass', sans-serif !important;
+  border-radius: 0 !important;
+  border: 0 !important;
 }
 
 /**
@@ -403,7 +409,7 @@ th {
 @media screen {
   /* @group ----- Generic styles ----- */
   body {
-    font-family: "PT Serif", Times, serif;
+    font-family: "Overpass", sans-serif !important;
     word-break: break-word;
     font-size: 16px;
   }
@@ -920,8 +926,10 @@ th {
   }
   #advanced-search-form .search-entry select,
   #advanced-search-form .search-entry input[type="text"] {
+    font-family: 'Overpass', sans-serif;
     width: 100%;
     display: block;
+    border-radius: 0px;
   }
   #advanced-search-form .search-entry:first-child .advanced-search-joiner {
     display: none;
@@ -2089,6 +2097,12 @@ th {
     max-width: 70%;
   }
 
+  #secondary p {
+    margin-left: 20%;
+    margin-top: 0.5em;
+    max-width: 70%;
+  }
+
   #home #tertiary {
     width: 100%;
     float: left;
@@ -2097,6 +2111,10 @@ th {
     margin-top: 1em;
     display: inline;
     padding: 0 1.88679%;
+  }
+
+  #home #tertiary #nav #ul #li {
+    margin-right: 2em;
   }
 
 
@@ -2426,6 +2444,7 @@ th {
 
   #show_col_2, #show_col_3 {
     overflow: auto;
+    position: static;
   }
 
   #item1_facsimiles .pic2 {
@@ -2447,19 +2466,19 @@ th {
     width: 100%;
   }
 
-  #showFacs {
+  #showFacs, #showComm {
     float: left;
     display: inline;
-    width: 85%;
+    width: auto;
   }
 
-  #showFacs a {
+  #showFacs a, #showComm a {
     cursor: pointer;
     display: inline;
     border-bottom: none;
   }
 
-  #showFacs a {
+  #showFacs a, #showComm a {
     font-size: 14px;
     line-height: 14px;
   }
@@ -2491,31 +2510,33 @@ th {
 
   span.value1, span.value2 {
     display:none;
-    z-index:9999;
+  }
+
+  span.value1 {
     padding:14px;
     margin-top:15px;
-    margin-left:-20%;
-    width: auto;
+    margin-left:-2%;
+    max-width: 300px;
     line-height:16px;
   }
 
   a.tooltp:hover + span.value1 {
     display:inline;
-    text-align: left;
-    position:absolute;
+    text-align: left
     color:#111;
     border:1px solid #DCA;
     background:#fffAF0;
+    position: absolute;
     z-index:9999;
   }
 
   a.tooltp + span.value1:hover {
     display:inline;
     text-align: left;
-    position:absolute;
     color:#111;
     border:1px solid #DCA;
     background:#fffAF0;
+    position: absolute;
     z-index:9999;
   }
 
@@ -2551,7 +2572,7 @@ th {
     display: none;
   }
 
-  #geneettinen-more, #kaukonen-more {
+  #geneettinen-more, #kaukonen-more, #black {
     cursor: pointer;
   }
 

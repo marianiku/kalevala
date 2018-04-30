@@ -171,12 +171,25 @@ $(document).ready(function() {
     i--;
   });
 
-  // display facsimile images in third column
+  // display/hide facsimile images in third column
   $('#showFacs').find('a').on('click', function() {
-    $('#show_col_3').html($('#item1_facsimiles').html()).css('padding','0px');
-    $('#show_col_3').find('img').css('padding','0px');
-    setTimeout(function() {
-      wheelzoom($('#show_col_3').find('img'));
-    }, 500);
+    if (!$('#show_col_3').find('img').length) {
+      $('#show_col_3').html($('#item1_facsimiles').html()).css('padding','0px');
+      $('#show_col_3').find('img').css('padding','0px');
+      setTimeout(function() {
+        wheelzoom($('#show_col_3').find('img'));
+      }, 500);
+    } else {
+      $('#show_col_3').html('');
+    }
+  });
+
+  // display/hide commentary in third column
+  $('#showComm').find('a').on('click', function() {
+    if (!$('#show_col_3').find('p').length) {
+      $('#show_col_3').html($('#item_commentary').html()).css('padding','1em');
+    } else {
+      $('#show_col_3').html('');
+    }
   });
 });

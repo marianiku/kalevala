@@ -1,7 +1,7 @@
 <?php
 /**
  * Omeka
- * 
+ *
  * @copyright Copyright 2007-2012 Roy Rosenzweig Center for History and New Media
  * @license http://www.gnu.org/licenses/gpl-3.0.txt GNU GPLv3
  */
@@ -31,7 +31,7 @@ class ItemsController extends Omeka_Controller_AbstractActionController
         'batch-edit-save'   => array('POST'),
     );
 
-    public function init() 
+    public function init()
     {
         $this->_helper->db->setDefaultModelName('Item');
     }
@@ -51,12 +51,12 @@ class ItemsController extends Omeka_Controller_AbstractActionController
             }
         }
     }
-    
+
     /**
      * This shows the search form for items by going to the correct URI.
-     * 
+     *
      * This form can be loaded as a partial by calling items_search_form().
-     * 
+     *
      * @return void
      */
     public function searchAction()
@@ -66,20 +66,20 @@ class ItemsController extends Omeka_Controller_AbstractActionController
             $this->render('search-form');
         }
     }
-    
+
     /**
      * Gets the element sets for the 'Item' record type.
-     * 
+     *
      * @return array The element sets for the 'Item' record type
      */
     protected function _getItemElementSets()
     {
         return $this->_helper->db->getTable('ElementSet')->findByRecordType('Item');
     }
-    
+
     /**
      * Adds an additional permissions check to the built-in edit action.
-     * 
+     *
      */
     public function editAction()
     {
@@ -90,7 +90,7 @@ class ItemsController extends Omeka_Controller_AbstractActionController
         }
         parent::editAction();
     }
-    
+
     protected function _getAddSuccessMessage($item)
     {
         $itemTitle = $this->_getElementMetadata($item, 'Dublin Core', 'Title');
@@ -98,9 +98,9 @@ class ItemsController extends Omeka_Controller_AbstractActionController
             return __('The item "%s" was successfully added!', $itemTitle);
         } else {
             return __('The item #%s was successfully added!', strval($item->id));
-        }        
+        }
     }
-    
+
     protected function _getEditSuccessMessage($item)
     {
         $itemTitle = $this->_getElementMetadata($item, 'Dublin Core', 'Title');
@@ -120,11 +120,11 @@ class ItemsController extends Omeka_Controller_AbstractActionController
             return __('The item #%s was successfully deleted!', strval($item->id));
         }
     }
-    
+
     protected function _getDeleteConfirmMessage($item)
     {
         $itemTitle = $this->_getElementMetadata($item, 'Dublin Core', 'Title');
-        if ($itemTitle != '') {        
+        if ($itemTitle != '') {
             return __('This will delete the item "%s" and its associated metadata. It will '
                  . 'also delete all files and file metadata associated with this '
                  . 'item.', $itemTitle);
@@ -134,13 +134,13 @@ class ItemsController extends Omeka_Controller_AbstractActionController
                  . 'item.', strval($item->id));
         }
     }
-    
-    protected function _getElementMetadata($item, $elementSetName, $elementName) 
+
+    protected function _getElementMetadata($item, $elementSetName, $elementName)
     {
         $m = new Omeka_View_Helper_Metadata;
         return strip_formatting($m->metadata($item, array($elementSetName, $elementName)));
     }
-    
+
     public function addAction()
     {
         // Get all the element sets that apply to the item.
@@ -153,7 +153,7 @@ class ItemsController extends Omeka_Controller_AbstractActionController
 
     /**
      * Finds all tags associated with items (used for tag cloud)
-     * 
+     *
      * @return void
      */
     public function tagsAction()
@@ -162,12 +162,12 @@ class ItemsController extends Omeka_Controller_AbstractActionController
         $tags = $this->_helper->db->getTable('Tag')->findBy($params);
         $this->view->assign(compact('tags'));
     }
-    
+
     /**
      * Browse the items.  Encompasses search, pagination, and filtering of
      * request parameters.  Should perhaps be split into a separate
      * mechanism.
-     * 
+     *
      * @return void
      */
     public function browseAction()
@@ -179,17 +179,17 @@ class ItemsController extends Omeka_Controller_AbstractActionController
             // also remove these.
             unset($_GET['user'], $_POST['user']);
         }
-        
+
         parent::browseAction();
     }
 
     protected function _getBrowseDefaultSort()
     {
-        return array('added', 'd');
+        return array('title', 'd');
     }
-    
+
     ///// AJAX ACTIONS /////
-    
+
     /**
      * Find or create an item for this mini-form
      *
@@ -201,17 +201,17 @@ class ItemsController extends Omeka_Controller_AbstractActionController
         } else {
             $item = new Item;
         }
-        
+
         $item->item_type_id = (int) $_POST['type_id'];
         $this->view->assign(compact('item'));
     }
-    
+
     ///// END AJAX ACTIONS /////
-    
+
     /**
      * Batch editing of Items. If this is an AJAX request, it will
      * render the 'batch-edit' as a partial.
-     * 
+     *
      * @return void
      */
     public function batchEditAction()
