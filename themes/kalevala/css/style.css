@@ -1435,6 +1435,19 @@ th {
     overflow: hidden;
     padding-top: 1.5em;
   }
+
+  .item-pagination li  {
+    width: auto;
+    display: inline;
+    float: left;
+    margin-right: 1em;
+    text-transform: uppercase;
+  }
+
+  .item-pagination h5 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
   .item-pagination li.previous {
     width: 48%;
     display: block;

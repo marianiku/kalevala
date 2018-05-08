@@ -97,9 +97,24 @@
 </div>-->
 
 <nav>
+
 <ul class="item-pagination navigation">
-    <li id="previous-item" class="previous"><?php echo link_to_previous_item_show(); ?></li>
-    <li id="next-item" class="next"><?php echo link_to_next_item_show(); ?></li>
+  <h5>Siirry runoon: </h5>
+  <?php
+  $items = get_records('Item');
+  // Sort items by title
+  function cmp($a, $b) {
+    return strcmp(metadata($a, array('Dublin Core', 'Title')), metadata($b, array('Dublin Core', 'Title')));
+  }
+  usort($items, "cmp");
+  $v = $items[3];
+  unset($items[3]);
+  $items[5] = $v;
+  set_loop_records('items', $items);
+  foreach (loop('items') as $item) {
+    echo '<li>'.link_to_item().'</li>';
+  }
+  ?>
 </ul>
 </nav>
 
