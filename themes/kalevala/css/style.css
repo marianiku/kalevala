@@ -2496,23 +2496,30 @@ th {
     line-height: 14px;
   }
 
-  #showFacs a:hover {
+  #showFacs a:hover, #showComm a:hover {
     max-height: 100%;
     padding: 2px;
   }
 
   /* popup comments */
 
-  a.tooltp {
+  a.tooltp, a.tooltp2 {
     font-size: 1em;
     text-decoration: none;
     cursor: pointer;
     color: #444444 !important;
-    background-color: #699cfa;
     border-bottom: none;
   }
 
-  a.tooltp strong {
+  a.tooltp {
+    background-color: #699cfa;
+  }
+
+  a.tooltp2 {
+    background-color: #f89ac6;
+  }
+
+  a.tooltp strong, a.tooltp2 strong {
     line-height:30px;
   }
 
@@ -2521,7 +2528,7 @@ th {
     outline:none;
   }
 
-  span.value1, span.value2 {
+  span.value1, span.value2, span.value3 {
     display:none;
   }
 
@@ -2738,10 +2745,14 @@ th {
     border-bottom: none;
   }
 
-
   #frontpage_list li a img {
     width: 100px;
     height: 100px;
+  }
+
+  /* TEI tag styles */
+  span.bolded {
+    font-weight: bold;
   }
 
 

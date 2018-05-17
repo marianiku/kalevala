@@ -50,4 +50,11 @@ $(document).ready(function(){
      $('#switchImg').hide();
     });
 
+    $('.tooltp2').on('click', function() {
+     $('#show_col_3').css('padding','1em');
+     $('#show_col_3').html($(this).next('.value3').html());
+     $('#show_col_3').html($('#show_col_3').html().replace('JS:','<span class="bolded">JS:</span>'));
+     $('#show_col_3').html($('#show_col_3').html().replace('NH:','<span class="bolded">NH:</span>'));
+    });
+
 });

@@ -41,6 +41,14 @@
       <span class="underline" title="alleviivaus"><xsl:apply-templates/></span>
     </xsl:template>
 
+    <xsl:template match="tei:hi[@rend = 'italic']">
+      <em><xsl:apply-templates/></em>
+    </xsl:template>
+
+    <xsl:template match="//tei:emph">
+      <span class="bolded"><xsl:apply-templates/></span>
+    </xsl:template>
+
     <xsl:template match="tei:del">
       <span class="del" title="poisto"><xsl:apply-templates/></span>
     </xsl:template>
@@ -57,10 +65,18 @@
     </xsl:template>
 
     <xsl:template match="tei:ref" priority="99">
-      <a class="tooltp" href="#">
+      <a class="tooltp2">
         <xsl:value-of select="node()"/>
       </a>
-      <span class="value1"><xsl:value-of select="current()/tei:note" /></span>
+      <span class="value3"><xsl:value-of select="current()/tei:note" /></span>
+    </xsl:template>
+
+    <xsl:template match="tei:ptr">
+      <a href="{current()/@target}"><xsl:text>[1]</xsl:text></a>
+    </xsl:template>
+
+    <xsl:template match="tei:notesStmt/tei:note">
+      <span class="value3"><xsl:value-of select="current()" /></span>
     </xsl:template>
 
     <xsl:template match="tei:table">

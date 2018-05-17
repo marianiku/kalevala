@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Uuden Kalevalan esipuhe</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_001" />
+        <p><l>§. 1. Kalevala-runojen järestyksestä. <hi rend="italic">Tämä kirja esivanhempaamme muinaisesta olosta, elämästä ja
+           toimista ilmestyy nyt paljo täydellisempänti kun minkä entisessä korjuussansa oli, ja tulee uskottavasti
+           nykyisessä muodossansa pysymään, sillä <ref>*<note>NH: Liittyy näkemykseen, että kaikki (tärkeimmät)
+           runot oli kerätty, eikä uusia runoja enää löydy. Varhainen runonkeruu kohdistui etupäässä eeppisiin runoihin
+           rajantakaisessa Karjalassa. Esimerkiksi eri puolilla Suomea, Karjalaa ja Inkeriä elävä uudenlainen laulutapa
+           soittimineen ja piiritansseineen ei samalla tavalla innostanut kerääjiä (ks. Asplund 1981: 95). Lönnrot ja muut
+           kirjallisen kulttuurin piiristä tulevat korostivat lähtökohtaisesti suullisen ja kirjallisen eroa, ja jakoivat
+           huolen suullisen runon rappeutumisesta ja häviämisestä. Runonlaulajille ero suullisen ja kirjallisen runon välillä
+           ei välttämättä ollut merkittävä (ks. Tarkka 2005, 59). Huoli liittyi vanhan ja uuden, riimillisen laulun suhteisiin.
+           Kalevalamittaisen, ns. vanhan runon rinnalla nuorison suosiman uudemman laulumuodon rohkea ja rempseä sanasto tuntui
+           irvokkaalta niin kerääjistä (Asplund 1981: 105) kuin vanhemmista laulajista. Ks. Arhippa Perttusen kommentti:
+           ”Ei enää pidetä vanhoista lauluista niin kuin minun lapsuudessani, jolloin niillä oli etusija, tehtiinpä työtä tai
+           kokoonnuttiin joutohetkinä kylässä” --- nuori väki nyt laulelee omia rivoja laulujaan, joilla en edes tahtoisi
+           huuliani saastuttaa.” (<hi rend="italic">Lönnrotin matkat</hi> I: 221–222). Kantelettaren alkulauseessa Lönnrot
+           vertaili vanhoja runoja ja uudempia lauluja todeten, että uudet kansanlaulut ovat ”kehnompia laadustaan, ei ainoastaan
+           kielen vuoksi, vaan muunki laulusomuutensa” (VT 5: 342).</note></ref>keräämättömiä runoja tästä laadusta ei mahda enää
+           asiaksi löytyä, koska kaikki paikat, joissa vaan vähänki on toivottu runoja laulettavan jo ovat useampia kertoja ja
+           useammilta kerääjiltä ristin rastin käydyt ja etsityt. Hyvin muistaen, että ne tulevat olemaan vanhimpana omi-
+           tuisena jälkimuistona Suomen kansalle ja kielelle, kunnes niitä maailmassa löytyy, on niitä kaikella
+           mahdollisella huolella ja ahkeruudella pyydetty sovitella ja liittää toinen toisiinsa niin hyvästi, kuin
+           vaan on osattu, ja koota niihin kaikki, <ref>*<note>JS: Lönnrot toistaa näkemyksensä runoista tiedonlähteenä
+           suomalaisten historiasta ja kulttuurista. Käsitys yhdistyy vahvasti 1800-luvulla syntyneeseen historistiseen ajatteluun,
+           joka oli hyvin vahva esimerkiksi saksalaisella kielialueella. <ptr target="#n1" />[1] (Toews 2006, XXX) Sen mukaan erilaisia (kansallisia)
+           kulttuureja tuli tarkastella niiden sisäisten lainalaisuuksien mukaisesti. Jokainen kulttuuri oli ainutlaatuinen, eikä
+           ollut mitään universaalia mittaa, jonka kautta niitä voitaisiin arvioida. Tässä käsityksessä 1800-luku irtautui eräässä
+           mielessä valistuksen perinnöstä, joka etsi yleispätevää määritelmää ihmisyydestä. (Beiser 2011, 13) Silti historismin
+           juuret ovat valistuksen sisäisessä kritiikissä, kuten J. G. Herderin (1744–1803) ajattelussa. Häneltä voidaan katsoa
+           periytyvän 1800-luvun kansallisen historismin universaali ihmiskäsitys, jonka mukaan ihmisyyttä määrittää kyky
+           kulttuuriin (Oergel 2006, 287). Historismi näkyi paitsi tieteellisen historiankirjoituksen synnyssä, myös muilla
+           tieteenaloilla, joissa tutkimuksen kohteita alettiin tarkastella historiallisesti. Esimerkiksi historiallinen
+           lakitiede tai historiallinen kielitiede, joista ensimmäistä Saksassa edusti F-C. Savigny (1779–1861) ja jälkimmäistä
+           hänen oppilaansa veljet Jacob (1785–1863) ja Wilhelm (1786–1859) Grimm. (Toews 2006, XXX) He uskoivat Lönnrot tavoin,
+           että kansalta kerätty perimätieto ja runous pystyivät paljastamaan erityisen kansallisen luonteen. Runoudella
+           käsitteen laajassa merkityksessä oli olennainen osa kansallisen kulttuurin määrittelyssä erityisesti Suomessa,
+           koska kirjallisia lähteitä menneisyydestä ei ollut. Näin Kalevala oli myös tieteellinen projekti. Se tutki
+           suomalaisten menneisyyttä, kertoi heidän historiastaan, kielestään, tavoistaan ja kansallisesta luonteestaan.
+           </note></ref>mitä runot senaikuisesta elämästä, tavoista ja vaiheista ovat tiedoksi säilyttäneet.
+           Sovittamisessa on kuitenki paljo mielivaltaa ollut, sillä paraimmiltaki laulajoilta ei ole kovin monta runoa yhteen
+           jaksoon saatu, eikä sitäkään aina yhteen laatuun, jonka tähden usein kyllä on täytynyt itse aineen keskinäinen vaade
+           perusteeksi panna, ja katsomatta entisen Kalevala-laitoksen järestystä välistä siitäki poiketa. Arvattavasti ei hän
+           siis lienekään järestyttämisen työ niin luonnistunut että taitaiu olla kaikille mielen mukainen, ja ettei siinä aina
+           yhtä ja toista jäisi muistuttamista.</hi></l>
+           <l><note xml:id="n1">Toews 2006, XXX</note></l>
+         </p>
+      </div>
+    </body>
+  </text>
+</TEI>

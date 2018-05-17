@@ -50,10 +50,11 @@ $(document).ready(function() {
       } else if (key == 'naisen' || key == 'leuan' || key == 'ahoilla' || key == 'yöhyt' || key == 'kapo') {
         $("#show_col_2").html($("#show_col_2").html().replace(' ' + key,' <a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-      } else if (key == 'Vähä' || key == 'kanta' || key == 'Vemmel' || key == 'vaski' || key == 'Syän' || key == 'Ikä') {
+      } else if (key == 'Vähä' || key == 'kanta' || key == 'Vemmel' || key == 'vaski' || key == 'Syän' || key == 'Ikä' ||
+        key == 'toimi') {
         $("#show_col_2").html($("#show_col_2").html().replace(key + ' ','<a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
-      } else if (key == 'ikä' || key == 'ani') {
+      } else if (key == 'ikä' || key == 'ani' || key == 'tieto') {
         $("#show_col_2").html($("#show_col_2").html().replace(' ' + key + ' ',' <a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span> '));
         // Need to account for declinated forms with these
@@ -114,7 +115,7 @@ $(document).ready(function() {
       } else {
         $("#show_col_2").html($("#show_col_2").html().replace(key,'<a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
-      }
+      } 
     }
   });
 
