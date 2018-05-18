@@ -21,7 +21,6 @@ $(document).ready(function(){
 
     $('#kaukonen-link').find('a').on('click', function() {
       $('#geneettinen-content').hide();
-      $('#geneettinen-content-2').hide();
       $('#kaukonen-content').show();
       $('#kaukonen-content-2').show();
     });

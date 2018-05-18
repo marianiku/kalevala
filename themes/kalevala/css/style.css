@@ -396,11 +396,12 @@ optgroup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  border: none !important;
 }
 
-td,
-th {
+td, th, tr {
   padding: 0;
+  border: none !important;
 }
 
 /* == Support == */
