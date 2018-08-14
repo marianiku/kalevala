@@ -58,21 +58,17 @@ class SolrSearch_Helpers_Index
       foreach ($item->getFiles() as $file) {
         if ($file->getExtension() == 'xml') {
           // Fetch TEI file for indexing, reads it into string
-          $contents = file_get_contents("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
-          // Cut out teiHeader and opener elements
-          $cut = strpos($contents, '</opener>') + strlen('</opener>');
+          $contents = file_get_contents("http://128.214.12.169/kalevala/files/original/".metadata($file,'filename'));
+          // Cut out teiHeader
+          $cut = strpos($contents, '</teiHeader>') + strlen('</teiHeader>');
           $end = strlen($contents);
           $contents = substr($contents, $cut, $end);
-          // Fetch TEI file as object, needed for access to specific elements
-          $xml = simplexml_load_file("http://lonnrot.finlit.fi/omeka/files/original/".metadata($file,'filename'));
         }
       }
 
-      if ($field->label == 'XML File') {
+      if ($field->label == 'Format') {
         // Replace indexed text value of TEI file url field with contents of TEI file
         $text->text = $contents;
-        // Append writing location element from TEI file fetched as object for indexing
-        $text->location = (string)$xml->text->body->div->opener->dateline->placeName;
       }
 
       // Set text field.
@@ -82,30 +78,7 @@ class SolrSearch_Helpers_Index
 
       // Set string field.
       if ($field->is_facet) {
-        // For TEI file url field, set only writing location as facet
-        if ($field->label == 'XML File') {
-          $doc->setMultiValue($field->facetKey(), $text->location);
-        // For Date facet, replace individual years with decades
-        } else if ($field->label == 'Date') {
-          if (substr($text->text,0,3) === '182') {
-            $text->text = str_replace($text->text, '1826 - 1829', $text->text);
-          } else if (substr($text->text,0,3) === '183') {
-            $text->text = str_replace($text->text, '1830 - 1839', $text->text);
-          } else if (substr($text->text,0,3) === '184') {
-            $text->text = str_replace($text->text, '1840 - 1849', $text->text);
-          } else if (substr($text->text,0,3) === '185') {
-            $text->text = str_replace($text->text, '1850 - 1859', $text->text);
-          } else if (substr($text->text,0,3) === '186') {
-            $text->text = str_replace($text->text, '1860 - 1869', $text->text);
-          } else if (substr($text->text,0,3) === '187') {
-            $text->text = str_replace($text->text, '1870 - 1879', $text->text);
-          } else if (substr($text->text,0,3) === '188') {
-            $text->text = str_replace($text->text, '1880 - 1884', $text->text);
-          }
-          $doc->setMultiValue($field->facetKey(), $text->text);
-        } else {
-          $doc->setMultiValue($field->facetKey(), $text->text);
-        }
+        $doc->setMultiValue($field->facetKey(), $text->text);
       }
     }
   }
@@ -137,37 +110,6 @@ class SolrSearch_Helpers_Index
     // Title:
     $title = metadata($item, array('Dublin Core', 'Title'));
     $doc->setField('title', $title);
-
-    // Elements:
-
-    foreach ($item->getFiles() as $file) {
-      if ($file->getExtension() == 'xml') {
-
-      // Load TEI file again as object
-        $xml = simplexml_load_file("http://localhost/omeka/files/original/".metadata($file,'filename'));
-
-        // Create new Solr search field from writing location element for indexing
-        $locField = new SolrSearchField();
-        $locField->slug = 70; // needed for indexing key below
-        $locField->is_indexed = 1; // field is indexed
-        $locField->is_facet = 0; // field is not facet
-        $locField->text = (string)$xml->text->body->div->opener->dateline->placeName; //field text value
-        $doc->setMultiValue($locField->indexKey(), $locField->text); //append to Solr search document
-
-        // Create new Solr search field for letter recipient element for indexing
-        $rcField = new SolrSearchField();
-
-        $rcField->slug = 75; // slug for indexing key below
-        $rcField->is_indexed = 1; // field is indexed
-        $rcField->is_facet = 0; // field is not facet
-        // field text value
-        $rcField->text = (string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->surname.
-        ", ".(string)$xml->teiHeader->fileDesc->sourceDesc->msDesc->msContents->msItem[0]->title->forename;
-
-        $doc->setMultiValue($rcField->indexKey(), $rcField->text); //append to Solr search document
-
-      }
-    }
 
     self::indexItem($fields, $item, $doc);
 

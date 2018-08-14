@@ -38,6 +38,7 @@
     <body>
       <div type="runo">
         <pb n="1" facs="page_001" />
+        <p>Ensimmäinen Runo</p>
         <lg>
           <l>Mieleni minun tekevi,</l>
           <l>Aivoni ajattelevi</l>

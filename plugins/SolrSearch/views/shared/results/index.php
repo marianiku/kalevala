@@ -40,8 +40,8 @@
         <?php $value = $f[1]; ?>
         <!-- Translations for applied facet labels (language files) -->
         <?php switch ($label) {
-          case "Collection":
-            $label = __('Collection');
+          case "Title":
+            $label = "Runo";
             break;
           case "Type":
             $label = __('Type');
@@ -57,9 +57,6 @@
             break;
 
         }
-        $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
-        $value = str_replace('kirjekonsepti', __('draft letter'), $value);
-        $value = str_replace('kirje', __('letter'), $value);
         ?>
 
         <span class="applied-facet-label" style="font-weight:bold;"><?php echo $label." - "; ?></span>
@@ -85,14 +82,7 @@
 <!-- Facets. -->
 <div id="solr-facets">
 
-  <h2><?php echo __('Limit Your Search'); ?></h2>
-
-
-
-  <form class="csv-solr" method='post' action=''>
-    <label for="csv"><i class="fa fa-download"></i> <?php echo __('Export to table'); ?></label>
-    <input id="csv" type='submit' name='csv' hidden />
-  </form>
+  <h2><?php echo "Rajaa hakua"; ?></h2>
 
   <?php foreach ($results->facet_counts->facet_fields as $name => $facets): ?>
     <!-- Does the facet have any hits? -->
@@ -103,20 +93,8 @@
 
       <!-- Translations for labels in facet list (language files) -->
       <?php switch ($label) {
-        case "Collection":
-          $label = __('Collection');
-          break;
-        case "Type":
-          $label = __('Type');
-          break;
-        case "Language":
-          $label = __('Language');
-          break;
-        case "XML File":
-          $label = __('Sent from');
-          break;
-        case "Date":
-          $label = __('Date');
+        case "Title":
+          $label = "Nimeke";
           break;
       }
       ?>
@@ -140,11 +118,6 @@
                 $value = __($value);
               }
               ?>
-              <?php
-                $value = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $value);
-                $value = str_replace('kirjekonsepti', __('draft letter'), $value);
-                $value = str_replace('kirje', __('letter'), $value);
-              ?>
               <?php echo $value; ?>
             </a>
 
@@ -165,26 +138,9 @@
     <p>
     <!-- Number found. -->
     <h2 id="num-found">
-      <?php echo __('Letters found: %s', $results->response->numFound); ?>
-      <span style="display:inline-block;float:right;">
-        <form class="zip-solr" method='post' action=''>
-          <label for="tei"><i class="fa fa-download"></i> <?php echo __('Download TEI Files'); ?></label>
-          <input id="tei" type='submit' name='tei' hidden />
-        </form>
-        <form class="txt-solr" method='post' action=''>
-          <label for="txt"><i class="fa fa-download"></i> <?php echo __('Download transcriptions'); ?></label>
-          <input id="txt" type='submit' name='txt' hidden />
-        </form>
-      </span>
+      <?php echo "Tuloksia löytyi: ".$results->response->numFound; ?>
     </h2>
 
-    <!-- Results sorted according to date. -->
-    <?php
-    $result_list = usort($results->response->docs, function($a, $b) {
-      $date = '40_t';
-      return strcmp($a->$date, $b->$date);
-    });
-    ?>
     <?php foreach ($results->response->docs as $doc): ?>
       <!-- Document. -->
       <div class="result">
@@ -201,19 +157,7 @@
           if (empty($title)) {
             $title = '<i>' . __('[Untitled]') . '</i>';
           }
-          // Display letter number and date in d.m.YYYY along with title in search results
-          // If day/month is '00', display just year/month or year
-          $number = '43_t';
-          $date = '40_t';
-          $temp_date = $doc->$date;
-          if (substr_count($doc->$date, '-00') == 0) {
-            $temp_date = date('j.n.Y', strtotime($doc->$date));
-          } else if (substr_count($doc->$date, '-00') == 1) {
-            $temp_date = date('n.Y', strtotime(substr($doc->$date, 0, 7)));
-          } else if (substr_count($doc->$date, '-00') > 1) {
-            $temp_date = substr($doc->$date, 0, 4);
-          }
-          echo $doc->$number." - ".$title.", ".$temp_date;
+          echo $title;
           ?></a>
 
           <!-- Result type. -->
@@ -230,44 +174,19 @@
             which field a specific result was found in -->
             <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
               <?php foreach($field as $hl): ?>
-                <?php $hl = str_replace('Konsepti kirjeeseen', __('Draft for letter'), $hl); ?>
-                <?php $hl = str_replace('Konseptit kirjeisiin', __('Drafts for letters'), $hl); ?>
                 <!-- Proper names for Solr field codes, translated in language files -->
                 <?php echo '<li class="snippet">';?>
                   <?php
                   switch ($prop) {
-                    case "40_t":
-                    $prop = __('Date');
-                    break;
-                    case "43_t":
-                    $prop = __('Letter number');
-                    break;
-                    case "44_t":
-                    $prop = __('Language');
-                    break;
-                    case "46_t":
-                    $prop = __('Signum');
-                    break;
                     case "50_t":
-                    $prop = __('Title');
-                    break;
-                    case "51_t":
-                    $prop = __('Document type');
-                    break;
-                    case "52_t":
-                    $prop = __('Text');
-                    break;
-                    case "70_t":
-                    $prop = __('Sent from');
-                    break;
-                    case "75_t":
-                    $prop = __('Recipient');
-                    break;
-                  }
-                  if ($prop != __('Text')) {
-                    $hl = str_replace('merkinta_konseptikirjassa', __('note in draft letter book'), $hl);
-                    $hl = str_replace('kirjekonsepti', __('draft letter'), $hl);
-                    $hl = str_replace('kirje', __('letter'), $hl);
+                      $prop = __('Title');
+                      break;
+                    case "41_t":
+                      $prop = 'Kuvaus';
+                      break;
+                    case "42_t":
+                      $prop = 'Runoteksti';
+                      break;
                   }
                   ?>
                   <?php echo '<b>'.$prop.'</b>: '.strip_tags($hl, '<em>').'</li>';?>

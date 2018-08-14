@@ -38,7 +38,7 @@
     <body>
       <div type="runo">
         <pb n="1" facs="page_001" />
-        <p><l>§. 1. Kalevala-runojen järestyksestä. <hi rend="italic">Tämä kirja esivanhempaamme muinaisesta olosta, elämästä ja
+        <p>§. 1. Kalevala-runojen järestyksestä. <hi rend="italic">Tämä kirja esivanhempaamme muinaisesta olosta, elämästä ja
            toimista ilmestyy nyt paljo täydellisempänti kun minkä entisessä korjuussansa oli, ja tulee uskottavasti
            nykyisessä muodossansa pysymään, sillä <ref>*<note>NH: Liittyy näkemykseen, että kaikki (tärkeimmät)
            runot oli kerätty, eikä uusia runoja enää löydy. Varhainen runonkeruu kohdistui etupäässä eeppisiin runoihin
@@ -60,7 +60,7 @@
            mahdollisella huolella ja ahkeruudella pyydetty sovitella ja liittää toinen toisiinsa niin hyvästi, kuin
            vaan on osattu, ja koota niihin kaikki, <ref>*<note>JS: Lönnrot toistaa näkemyksensä runoista tiedonlähteenä
            suomalaisten historiasta ja kulttuurista. Käsitys yhdistyy vahvasti 1800-luvulla syntyneeseen historistiseen ajatteluun,
-           joka oli hyvin vahva esimerkiksi saksalaisella kielialueella. <ptr target="#n1" />[1] (Toews 2006, XXX) Sen mukaan erilaisia (kansallisia)
+           joka oli hyvin vahva esimerkiksi saksalaisella kielialueella. (Toews 2006, XXX) Sen mukaan erilaisia (kansallisia)
            kulttuureja tuli tarkastella niiden sisäisten lainalaisuuksien mukaisesti. Jokainen kulttuuri oli ainutlaatuinen, eikä
            ollut mitään universaalia mittaa, jonka kautta niitä voitaisiin arvioida. Tässä käsityksessä 1800-luku irtautui eräässä
            mielessä valistuksen perinnöstä, joka etsi yleispätevää määritelmää ihmisyydestä. (Beiser 2011, 13) Silti historismin
@@ -79,8 +79,7 @@
            jaksoon saatu, eikä sitäkään aina yhteen laatuun, jonka tähden usein kyllä on täytynyt itse aineen keskinäinen vaade
            perusteeksi panna, ja katsomatta entisen Kalevala-laitoksen järestystä välistä siitäki poiketa. Arvattavasti ei hän
            siis lienekään järestyttämisen työ niin luonnistunut että taitaiu olla kaikille mielen mukainen, ja ettei siinä aina
-           yhtä ja toista jäisi muistuttamista.</hi></l>
-           <l><note xml:id="n1">Toews 2006, XXX</note></l>
+           yhtä ja toista jäisi muistuttamista.</hi>
          </p>
       </div>
     </body>

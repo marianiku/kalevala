@@ -65,7 +65,7 @@
     </xsl:template>
 
     <xsl:template match="tei:ref" priority="99">
-      <a class="tooltp2">
+      <a class="tooltp2" title="kommentaari">
         <xsl:value-of select="node()"/>
       </a>
       <span class="value3"><xsl:value-of select="current()/tei:note" /></span>
