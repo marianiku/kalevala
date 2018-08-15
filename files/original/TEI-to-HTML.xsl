@@ -75,10 +75,6 @@
       <a href="{current()/@target}"><xsl:text>[1]</xsl:text></a>
     </xsl:template>
 
-    <xsl:template match="tei:notesStmt/tei:note">
-      <span class="value3"><xsl:value-of select="current()" /></span>
-    </xsl:template>
-
     <xsl:template match="tei:table">
       <table>
         <xsl:apply-templates/>
@@ -101,4 +97,17 @@
       <span style="background-color:grey;color:grey;"><xsl:text>gap</xsl:text></span>
     </xsl:template>
 
+    <xsl:template match="tei:label">
+      <a class="tooltp"><xsl:value-of select="current()" /></a>
+      <span class="value1">
+        <xsl:value-of select="//tei:note[@n=current()/@n]/tei:span[1]" />
+        <xsl:if test="//tei:note[@n=current()/@n]/tei:span[2]">
+          <xsl:text> </xsl:text>
+          <a class="more"><xsl:text>Katso lisää</xsl:text></a>
+        </xsl:if>
+      </span>
+      <xsl:if test="//tei:note[@n=current()/@n]/tei:span[2]">
+        <span class="value2"><xsl:value-of select="//tei:note[@n=current()/@n]/tei:span[2]" /></span>
+      </xsl:if>
+    </xsl:template>
   </xsl:stylesheet>
