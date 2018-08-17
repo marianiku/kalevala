@@ -41,7 +41,7 @@
       <span class="underline" title="alleviivaus"><xsl:apply-templates/></span>
     </xsl:template>
 
-    <xsl:template match="tei:hi[@rend = 'italic']">
+    <xsl:template match="tei:hi[@rend = 'italics']">
       <em><xsl:apply-templates/></em>
     </xsl:template>
 
@@ -100,14 +100,18 @@
     <xsl:template match="tei:label">
       <a class="tooltp"><xsl:value-of select="current()" /></a>
       <span class="value1">
-        <xsl:value-of select="//tei:note[@n=current()/@n]/tei:span[1]" />
-        <xsl:if test="//tei:note[@n=current()/@n]/tei:span[2]">
+        <xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab[1]" />
+        <xsl:if test="//tei:note[@n=current()/@n]/tei:ab[2]">
           <xsl:text> </xsl:text>
           <a class="more"><xsl:text>Katso lisää</xsl:text></a>
         </xsl:if>
       </span>
-      <xsl:if test="//tei:note[@n=current()/@n]/tei:span[2]">
-        <span class="value2"><xsl:value-of select="//tei:note[@n=current()/@n]/tei:span[2]" /></span>
+      <xsl:if test="//tei:note[@n=current()/@n]/tei:ab[2]">
+        <span class="value2"><xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab[2]" /></span>
       </xsl:if>
+    </xsl:template>
+
+    <xsl:template match="tei:lb">
+       <xsl:text disable-output-escaping="yes">&lt;br/&gt;</xsl:text>
     </xsl:template>
   </xsl:stylesheet>

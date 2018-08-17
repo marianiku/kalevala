@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
   /* Add image content dynamically in Simple Pages page for Kalevala foreword, images
   stored in plugins/SimplePages/views/public/page/show.html */
 
@@ -36,7 +37,7 @@ $(document).ready(function() {
       currentPic.hide();
       nextPic.show();
     }
-    
+
     i++;
   });
 

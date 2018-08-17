@@ -68,7 +68,7 @@ var comments = {
   ' alunperin suomalaisia heimoja. Ks. lisää Väinämöisestä: Siikala 1999, 2012.'],
   'ahjon':['ahjo : pajan tulisija <a class="more">Katso lisää</a>',
   'Alun perin ahjo oli yksinkertainen kiviladelma, jossa sijaitsi hiillos (Turunen 1979).'],
-  'Ilmarisen':['Ilmarinen : Kalevalan pääsankareita, seppä, sammon ja taivaankannen takoja, Pohjolan neidon kosija <a class="more">Katso lisää</a>',
+  'Ilmari':['Ilmarinen : Kalevalan pääsankareita, seppä, sammon ja taivaankannen takoja, Pohjolan neidon kosija <a class="more">Katso lisää</a>',
   '"Ilmarinen" on johdos sanasta ilma ja lukeutuu vanhimpiin suomalais-ugrilaisiin nimiin (Turunen 1979).'],
   'kalvan':['kalpa : pistomiekka <a class="more">Katso lisää</a>',
   'Ks. Lönnrotin selitys: kalvan = lyömämiekan, sapelin (Lna 38).'],
@@ -141,7 +141,7 @@ var comments = {
   'Wipunen':['Antero Vipunen : maassa makaava jättiläinen, ammoin kuollut suuri tietäjä <a class="more">Katso lisää</a>',
   'Antero Vipunen oli suuritietoinen, haudassa virsien ja nuottien kanssa maannut jättiläinen, jolta Väinämöinen' +
   ' kävi hakemassa sanoja ja tietoa (ks. Turunen 1979: 22).'],
-  'Lemminkäinen':['Kalevalan pääsankareita, naistenhurmaaja, laulaja, tietäjä ja taitava soturi <a class="more">Katso lisää</a>',
+  'Lemminkäi':['Lemminkäinen : Kalevalan pääsankareita, naistenhurmaaja, laulaja, tietäjä ja taitava soturi <a class="more">Katso lisää</a>',
   'Lemminkäinen on Kalevalassa huikentelevainen naistenhurmaaja, Väinämöisen jälkeen huomattavin laulaja, suuri' +
   ' tietäjä sekä etevä ja sotaisa soturi. Vaikka Kalevala antaa yhtenäisen kuvan Lemminkäisen luonteesta, häntä' +
   ' esittävät runot on koottu varsin erilaisista aineksista ja kansanrunouden eri henkilöitä esittävistä runoista' +

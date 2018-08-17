@@ -12,9 +12,10 @@ $(document).ready(function() {
     var regex = new RegExp(key + '[^(\\s|\.|,|\<|;|\"|\?)]*');
 
     var keys1 = ['naisen', 'leuan', 'ahoilla', 'yöhyt', 'kapo', 'eritä', 'aisa', 'lakea', 'kirjat', 'rahin','ilmalla','iät','aloa','ahoja'];
-    var keys2 = ['Vähä', 'kanta', 'Vemmel', 'vaski', 'Syän', 'Ikä', 'toimi', 'kuulun', 'Uros', 'Otava', 'Luovu', 'Rotu','Mi','Ku','Untamo','Vaski','mokoma', 'Koko'];
-    var keys3 = ['ikä','ani','tieto','eleä','impi','iät','mielin','sanoma'];
-    var keys4 = ['Wäinämöi','Joukahai','Aino','Wäinölä','maammo','nureksi','pientare','saneli','sorea','taatto','korea'];
+    var keys2 = ['Vähä', 'kanta', 'Vemmel', 'vaski', 'Syän', 'Ikä', 'toimi', 'kuulun', 'Uros', 'Otava', 'Luovu', 'Rotu','Mi','Ku','Untamo',
+    'Vaski','mokoma', 'Koko', 'runojan','ikänä','suora'];
+    var keys3 = ['ikä','ani','tieto','eleä','impi','iät','mielin','sanoma','kassan'];
+    var keys4 = ['Wäinämöi','Joukahai','Lemminkäi','Ilmari','Aino','Wäinölä','maammo','nureksi','pientare','saneli','sorea','taatto','korea'];
 
     if ($("#show_col_2").html() != undefined) {
       // Appear first as part of another word, find key preceded, followed or surrounded by space
@@ -260,6 +261,9 @@ $(document).ready(function() {
         $("#show_col_2").html($("#show_col_2").html().replace(key,'<a class="tooltp" href="#">' + key + '</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
       }
+
+
+
     }
   });
 
@@ -267,7 +271,7 @@ $(document).ready(function() {
   $('.pic').not('.pic:first').hide();
   var i = 0;
   var j = 0;
-
+  
   // Forward
   $('#nextPic').click(function() {
 

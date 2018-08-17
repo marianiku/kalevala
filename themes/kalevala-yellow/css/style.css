@@ -2808,6 +2808,11 @@ td, th, tr {
     padding-top: 1em !important;
   }
 
+  #show_col_2 {
+    z-index: 1;
+    padding-bottom: 3em;
+  }
+
   #item1_facsimiles .pic2 {
     display: none;
   }
@@ -2860,7 +2865,7 @@ td, th, tr {
   }
 
   a.tooltp {
-    background-color: #699cfa;
+    background-color: #92b6f9;
   }
 
   a.tooltp2 {
@@ -2878,19 +2883,21 @@ td, th, tr {
 
   span.value1, span.value2, span.value3 {
     display:none;
+    font-style: normal !important;
   }
 
   span.value1 {
     padding:14px;
     margin-top:17px;
-    margin-left: -10%;
+    /*margin-left: -10%;*/
     max-width: 300px;
     line-height:16px;
-    position: absolute;
+
   }
 
   a.tooltp:hover + span.value1 {
     display:inline-block;
+    position: absolute;
     text-align: left;
     color:#111;
     border:1px solid #DCA;
@@ -2900,6 +2907,7 @@ td, th, tr {
 
   a.tooltp + span.value1:hover {
     display:inline-block;
+    position: absolute;
     text-align: left;
     color:#111;
     border:1px solid #DCA;

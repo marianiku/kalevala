@@ -14,4 +14,14 @@ $(document).ready(function() {
     // hide all but first page at start
     $('.page').not('.page:eq(0)').hide();
 
+    $('a.tooltp').each(function() {
+      $(this).hover(function() {
+        if ($(this).position().left >= 240) {
+          $(this).next('.value1').css('margin-left','-30%');
+        } else {
+          $(this).next('.value1').css('margin-left','-10%');
+        }
+      });
+    });
+
 });

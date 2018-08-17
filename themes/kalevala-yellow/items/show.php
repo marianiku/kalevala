@@ -50,7 +50,7 @@
       ?>
     </div>
     <div class="col-sm" id="show_col_2">
-      <div style="position:relative">
+      <div style="position:relative;">
       <?php
       // Fetch each item's XML file and convert to XHTML using DOMDocument()
       $files = $item->Files;
