@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     var keys1 = ['naisen', 'leuan', 'ahoilla', 'yöhyt', 'kapo', 'eritä', 'aisa', 'lakea', 'kirjat', 'rahin','ilmalla','iät','aloa','ahoja'];
     var keys2 = ['Vähä', 'kanta', 'Vemmel', 'vaski', 'Syän', 'Ikä', 'toimi', 'kuulun', 'Uros', 'Otava', 'Luovu', 'Rotu','Mi','Ku','Untamo',
-    'Vaski','mokoma', 'Koko', 'runojan','ikänä','suora'];
+    'Vaski','mokoma', 'Koko', 'runojan','ikänä','suora','Sai'];
     var keys3 = ['ikä','ani','tieto','eleä','impi','iät','mielin','sanoma','kassan'];
     var keys4 = ['Wäinämöi','Joukahai','Lemminkäi','Ilmari','Aino','Wäinölä','maammo','nureksi','pientare','saneli','sorea','taatto','korea'];
 
@@ -103,6 +103,10 @@ $(document).ready(function() {
       } else if (key == 'Kuu keritä') {
         $("#show_col_2").html($("#show_col_2").html()
         .replace(key,'Kuu <a class="tooltp" href="#">keritä</a>'
+        + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
+      } else if (key == 'vaarnanen varottu') {
+        $("#show_col_2").html($("#show_col_2").html()
+        .replace(key,'vaarnanen <a class="tooltp" href="#">varottu</a>'
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
       } else if (key == 'miestä oppimahan') {
         $("#show_col_2").html($("#show_col_2").html()
@@ -271,7 +275,7 @@ $(document).ready(function() {
   $('.pic').not('.pic:first').hide();
   var i = 0;
   var j = 0;
-  
+
   // Forward
   $('#nextPic').click(function() {
 
