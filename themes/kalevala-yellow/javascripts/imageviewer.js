@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     var keys1 = ['naisen', 'leuan', 'ahoilla', 'yöhyt', 'kapo', 'eritä', 'aisa', 'lakea', 'kirjat', 'rahin','ilmalla','iät','aloa','ahoja'];
     var keys2 = ['Vähä', 'kanta', 'Vemmel', 'vaski', 'Syän', 'Ikä', 'toimi', 'kuulun', 'Uros', 'Otava', 'Luovu', 'Rotu','Mi','Ku','Untamo',
-    'Vaski','mokoma', 'Koko', 'runojan','ikänä','suora','Sai'];
+    'Vaski','mokoma', 'Koko', 'runojan','ikänä','suora','Sai','Kaleva'];
     var keys3 = ['ikä','ani','tieto','eleä','impi','iät','mielin','sanoma','kassan'];
     var keys4 = ['Wäinämöi','Joukahai','Lemminkäi','Ilmari','Aino','Wäinölä','maammo','nureksi','pientare','saneli','sorea','taatto','korea'];
 

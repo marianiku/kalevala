@@ -122,19 +122,16 @@
                    <a class="nav-link" href="/kalevala">Etusivu</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/tekstit">Tekstit</a>
+                   <a class="nav-link" href="/kalevala/esittely">Esittely</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/esittely">Esittely</a>
+                   <a class="nav-link" href="/kalevala/tekstit">Esipuhe</a>
                  </li>
                  <li class="nav-item">
                    <a class="nav-link" href="/kalevala/toimitustasot">Toimitustasot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/luennot">Luennot</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/linkit">Linkit</a>
+                   <a class="nav-link" href="/kalevala/linkit">Kirjallisuus</a>
                  </li>
                </ul>
             </nav>
