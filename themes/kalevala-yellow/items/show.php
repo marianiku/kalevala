@@ -30,7 +30,7 @@
            <?php if (metadata('item', array('Item Type Metadata', 'Text'))): ?>
              <li id="showComm" class="nav-item">
                <a class="nav-link">Kommentaari &#8595;</a>
-             </l>
+             </li>
            <?php endif ?>
          </ul>
        </nav>

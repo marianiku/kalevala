@@ -18,9 +18,13 @@ $(document).ready(function() {
     $('a.tooltp').each(function() {
       $(this).hover(function() {
         if ($(this).position().left >= 240) {
-          $(this).next('.value1').css('margin-left','-30%');
+          $(this).next('.value1').css('margin-left','-50%');
         } else {
           $(this).next('.value1').css('margin-left','-10%');
+        }
+
+        if ($(this).position().top >= 1000) {
+          $(this).next('.value1').css('margin-top','-20px');
         }
       });
     });
