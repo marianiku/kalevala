@@ -2938,12 +2938,30 @@ td, th, tr {
     cursor:pointer;
   }
 
-  #geneettinen-content h5, #geneettinen-content-2 h5 {
+  #geneettinen-vertailu h5, #geneettinen-content h5, #geneettinen-content-2 h5, #temaattinen-toimitustavat h5 {
     margin-top: 1.5em;
     margin-bottom: 1em;
   }
 
-  #geneettinen-content-2, #kaukonen-content, #kaukonen-content-2, #kaukonen-ohjeet, #temaattinen-content {
+  #geneettinen-content, #geneettinen-content-2, #kaukonen-content, #kaukonen-content-2, #kaukonen-ohjeet, #temaattinen-content {
+    display: none;
+  }
+
+  #temaattinen-submenu, #geneettinen-submenu {
+    display: none;
+  }
+
+  #temaattinen-submenu1, #temaattinen-submenu2, #temaattinen-submenu3, #geneettinen-submenu1, #geneettinen-submenu2,
+  #geneettinen-submenu3, #geneettinen-submenu4 {
+    margin-left: 1em !important;
+  }
+
+  #temaattinen-submenu1 a, #temaattinen-submenu2 a, #temaattinen-submenu3 a, #geneettinen-submenu1 a, #geneettinen-submenu2 a,
+  #geneettinen-submenu3 a, #geneettinen-submenu4 a {
+    font-weight: normal !important;
+  }
+
+  #temaattinen-esittely, #temaattinen-toimitustavat, #geneettinen-esittely, #geneettinen-versiot, #geneettinen-vertailu {
     display: none;
   }
 

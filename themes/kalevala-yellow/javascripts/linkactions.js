@@ -14,24 +14,113 @@ $(document).ready(function(){
     });
 
     $('#geneettinen-link').find('a').on('click', function() {
-      $('#geneettinen-content').show();
+      if ($('#geneettinen-submenu').is(':hidden')) {
+        $('#geneettinen-submenu').show();
+      } else {
+        $('#geneettinen-submenu').hide();
+      }
+    });
+
+    $('#geneettinen-submenu1').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#geneettinen-esittely').show();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
       $('#kaukonen-content').hide();
       $('#kaukonen-content-2').hide();
-      $('#temaattinen-content').hide();
+    });
+
+    $('#geneettinen-submenu2').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').show();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#kaukonen-content').hide();
+      $('#kaukonen-content-2').hide();
+    });
+
+    $('#geneettinen-submenu3').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').show();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+      $('#temaattinen-esittely').hide();
+      $('#temaattinen-toimitustavat').hide();
+      $('#kaukonen-content').hide();
+      $('#kaukonen-content-2').hide();
+    });
+
+    $('#geneettinen-submenu4').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').show();
+      $('#geneettinen-content-2').show();
+      $('#temaattinen-esittely').hide()
+      $('#temaattinen-toimitustavat').hide();
+      $('#kaukonen-content').hide();
+      $('#kaukonen-content-2').hide();
     });
 
     $('#kaukonen-link').find('a').on('click', function() {
+      $('#yleisesittely').hide();
       $('#geneettinen-content').hide();
-      $('#temaattinen-content').hide();
       $('#kaukonen-content').show();
       $('#kaukonen-content-2').show();
+      $('#temaattinen-esittely').hide()
+      $('#temaattinen-toimitustavat').hide()
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
     });
 
     $('#temaattinen-link').find('a').on('click', function() {
+      if ($('#temaattinen-submenu').is(':hidden')) {
+        $('#temaattinen-submenu').show();
+      } else {
+        $('#temaattinen-submenu').hide();
+      }
+    });
+
+    $('#temaattinen-submenu1').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').show()
+      $('#temaattinen-toimitustavat').hide()
       $('#geneettinen-content').hide();
       $('#kaukonen-content').hide();
       $('#kaukonen-content-2').hide();
-      $('#temaattinen-content').show();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
+    });
+
+    $('#temaattinen-submenu2').find('a').on('click', function() {
+      $('#yleisesittely').hide();
+      $('#temaattinen-esittely').hide()
+      $('#temaattinen-toimitustavat').show()
+      $('#geneettinen-content').hide();
+      $('#kaukonen-content').hide();
+      $('#kaukonen-content-2').hide();
+      $('#geneettinen-esittely').hide();
+      $('#geneettinen-versiot').hide();
+      $('#geneettinen-vertailu').hide();
+      $('#geneettinen-content').hide();
+      $('#geneettinen-content-2').hide();
     });
 
     $('#geneettinen-more').on('click', function() {
