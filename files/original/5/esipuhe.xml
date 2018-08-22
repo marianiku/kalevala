@@ -140,6 +140,46 @@
         <note n="101"><ab>sellaisenaankin</ab></note>
         <note n="102"><ab>värsy : säe</ab></note>
         <note n="104"><ab>arvioida, käsittää</ab></note>
+        <note n="a">
+          <ab> Suomalais-karjalaisessa runokulttuurissa ei tunnettu Kalevalan tapaista eeppistä kokonaisuutta, eeposta. Lönnrotilla itsellään oli jo varhain
+            ajatus runojen oikeanlaisesta järjestämisestä: "saattaa kaikki runot, joita löytyy Väinämöisestä, Ilmarisesta, Pohjolasta ja Kalevalasta,
+            jonkinlaiseen parempaan yhteyteen--" (Lönnrotin kirje). Ajatukseen runojen järjestämisestä eepoksen kaltaiseksi kokonaisuudeksi vaikuttivat myös
+            Lönnrotin työskentelyä seuranneet kollegat (ks. esim. VK:n esipuhe).</ab>
+        </note>
+        <note n="b">
+          <ab>Eepoksen aloittava esipuhe määrittelee Kalevalan kirjaksi. Siten Lönnrot erottaa teoksena suullisesta kansanperinteestä. Lönnrot palaa myöhemmin
+            (§6) näiden kahden eroon todeten, että kirja pystyy muistamaan paljon enemmän kuin yksittäinen laulaja. Siten kirjan muotoon saatetut kansanrunot
+            poikkeavat merkittävästi suullisesta runoudesta. Näin Lönnrot muistuttaa, että Kalevala on kirjallisen kulttuurin tuote, vaikka se perustuu suulliseen
+             laulukulttuuriin.</ab>
+        </note>
+        <note n="c">
+          <ab> Lönnrot täsmentää Kalevalan kertovan kaukaisesta menneisyydestä. Näin se kertoo muinaisten suomalaisten elintavoista ja toiminnasta. Koska
+            suomalaisten menneisyydestä ei ollut kirjallisia lähteitä, korostettiin kansanrunouden historiallista merkitystä. Toisessa yhteydessä ("Historian
+            arvo ja olento", Mehiläisen historialiite 12/1837) Lönnrot on kuitenkin todennut, että vaikka kansanrunoutta voidaan käyttää lähteenä menneisyydestä,
+            sen antama käsitys menneisyyden maailmasta pitää ymmärtää oikein. Kansanrunot eivät kerro "historiallista totuutta" (s. 5), vaan ne esittävät Lönnrotin
+            määritelmän mukaan "luonnollisen totuuden" (s. 5-6). 1800-luvulle oli tyypillistä käsittää kansanrunous anonyymiksi ja kollektiiviseksi kansaluonteen
+            tuotteeksi. (Toews 2008, 320) Siksi kansanrunot tai niistä koottu Kalevala ei ole empiirinen kertomus todellisista historiallisista tapahtumista,
+            vaan kuvaus suomalaisten kansanluonteesta, kielestä, menneisyydestä, uskomuksista, tavoista ja kulttuurista.</ab>
+        </note>
+        <note n="d">
+          <ab> Lönnrot viittaa siihen, että uusittu laitos on selkeästi laajempi kuin Kalevalan ensimmäinen painos vuodelta 1835, eikä hän toisaalta usko, että
+            uusia Kalevalan kokonaisuuteen sopivia runoja löytyisi enää niin paljoa, että laajuutta voitaisiin enää kasvattaa.</ab>
+        </note>
+        <note n="e">
+          <ab> Lönnrot ei ollut ainoa runojen kerääjä, vaan erityisesti Kalevalan ensimmäisen painoksen jälkeen monet muutkin alkoivat innokkaasti etsiä uutta
+             kansanrunoutta. Ks. myös § 12.</ab>
+        </note>
+        <note n="f">
+          <ab> Liittyy näkemykseen, että kaikki (tärkeimmät) runot on kerätty, eikä uusia enää löydy. Varhainen keruu kohdistui etupäässä eeppisiin runoihin
+            rajantakaisessa Karjalassa. Uudenlainen laulutapa eri puolilla Suomea, Karjalaa ja Inkeriä soittimineen ja piiritansseineen ei innostanut kerääjiä
+            (ks. Asplund 1981: 95). Lönnrot ja muut kirjallisen kulttuurin piiristä tulevat korostivat suullisen ja kirjallisen eroa, ja he jakoivat huolen
+            suullisen runon rappeutumisesta ja häviämisestä. Runonlaulajille ero suullisen ja kirjallisen runon välillä ei välttämättä ollut merkittävä (ks.
+            Tarkka 2005: 59). Huoli liittyi vanhan ja uuden, riimillisen laulun suhteisiin. Kalevalamittaisen, ns. vanhan runon rinnalla nuorison suosiman
+            uudemman laulumuodon rohkea ja rempseä sanasto kuulosti moraaliltaan arveluttavalta niin kerääjistä (Asplund 1981: 105) kuin vanhemmista laulajista.
+            Ks. Arhippa Perttusen kommentti: "Ei enää pidetä vanhoista lauluista niin kuin minun lapsuudessani, jolloin niillä oli etusija, tehtiinpä työtä
+            tai kokoonnuttiin joutohetkinä kylässä --- nuori väki nyt laulelee omia rivoja laulujaan, joilla en edes tahtoisi huuliani saastuttaa." (Lönnrotin
+            matkat I: 221–222).</ab>
+        </note>
       </notesStmt>
       <sourceDesc>
         <msDesc>
@@ -167,34 +207,35 @@
       <div type="esipuhe">
         <pb n="1" facs="esipuhe_01" />
         <p><emph>Alkulause.</emph></p>
-        <p>§. 1. Kalevala-runojen <label n="1">järestyksestä</label>. <hi rend="italics">Tämä kirja esivanhempaimme muinaisesta olosta, elämästä ja toimista ilmestyy nyt paljo täydellisempänä,
-          kun minkä entisessä <label n="2">korjuussansa</label> oli, ja tulee uskottavasti nykyisessä muodossansa pysymään, sillä keräämättömiä runoja tästä laadusta ei mahda enää asiaksi
-          löytyä, koska kaikki paikat, joissa vaan vähänki on toivottu runoja laulettavan, jo ovat useampia kertoja ja useammilta kerääjiltä ristin rastin käydyt ja etsityt.
-          Hyvin muistaen, että ne tulevat olemaan vanhimpana <label n="3">omituisena</label> jälkimuistona Suomen kansalle ja kielelle, kunnes niitä maailmassa löytyy, on niitä kaikella
-          mahdollisella huolella ja ahkeruudella <label n="4">pyydetty</label> sovitella ja liittää toinen toisiinsa niin hyvästi, kuin vaan on osattu, ja koota niihin kaikki, mitä runot
-          <label n="5">senaikuisesta</label> elämästä, tavoista ja vaiheista ovat tiedoksi säilyttäneet. Sovittamisessa on kuitenki paljo mielivaltaa ollut, sillä paraimmiltaki laulajoilta ei
+        <p>§. 1. Kalevala-runojen <label type="popup" n="1">järestyksestä</label><label type="commentary" n="a">*</label>. <hi rend="italics">Tämä kirja<label type="commentary" n="b">*</label> esivanhempaimme
+          muinaisesta olosta, elämästä ja toimista<label type="commentary" n="c">*</label> ilmestyy nyt paljo täydellisempänä,
+          kun minkä entisessä <label type="popup" n="2">korjuussansa</label> oli, ja tulee uskottavasti nykyisessä muodossansa pysymään, sillä keräämättömiä runoja tästä laadusta ei mahda enää asiaksi
+          löytyä<label type="commentary" n="d">*</label>, koska kaikki paikat, joissa vaan vähänki on toivottu runoja laulettavan, jo ovat useampia kertoja ja useammilta kerääjiltä<label type="commentary" n="e">*</label>
+          ristin rastin käydyt ja etsityt<label type="commentary" n="f">*</label>. Hyvin muistaen, että ne tulevat olemaan vanhimpana <label type="popup" n="3">omituisena</label> jälkimuistona Suomen kansalle ja kielelle, kunnes niitä maailmassa löytyy, on niitä kaikella
+          mahdollisella huolella ja ahkeruudella <label type="popup" n="4">pyydetty</label> sovitella ja liittää toinen toisiinsa niin hyvästi, kuin vaan on osattu, ja koota niihin kaikki, mitä runot
+          <label type="popup" n="5">senaikuisesta</label> elämästä, tavoista ja vaiheista ovat tiedoksi säilyttäneet. Sovittamisessa on kuitenki paljo mielivaltaa ollut, sillä paraimmiltaki laulajoilta ei
           ole kovin monta runoa yhteen jaksoon saatu, eikä sitäkään aina yhteen laatuun, jonka tähden usein kyllä on täytynyt itse aineen keskinäinen vaade perusteeksi panna,
           ja katsomatta entisen Kalevala-laitoksen järestystä välistä siitäki poiketa. Arvattavasti ei hän siis lienekään järestyttämisen työ niin luonnistunut, että taitaisi
-          olla kaikille mielen mukainen, ja ettei siinä aina yhtä ja toista jäisi <label n="6">muistuttamista</label>.</hi></p>
+          olla kaikille mielen mukainen, ja ettei siinä aina yhtä ja toista jäisi <label type="popup" n="6">muistuttamista</label>.</hi></p>
         <p>§. 2. Erityisistä nimistä runoissa. <hi rend="italics">Ei ainoastansa järestyksessä, vaan usein nimissäki, eroavat eri laulajoilta ja eri paikoilta saadut runot
           toisistansa. Yksi laulaa</hi> Wäinämöisestä, <hi rend="italics">minkä toinen</hi> Ilmarisesta, <hi rend="italics">kolmas</hi> Lemminkäisestä; <hi rend="italics">yksi</hi>
-          Lemminkäisestä, <hi rend="italics">minkä toinen</hi> <label n="7">Kullervosta</label> <hi rend="italics"><label n="8">eli</label></hi> Joukahaisesta. Kullervon <hi rend="italics">siassa veronvientimatkallansa
-          (45: 69−358) on toisilla</hi> <label n="9">Tuiretuinen</label>, <label n="10">Tuurikkinen</label>, Lemminkäinen <hi rend="italics">eli</hi> vanha Wäinön poika. </p>
-        <p><hi rend="italics">Sama epävakaisuus on myös paikkojen nimissä haittaava. Kerran toisenki hämmentyvät</hi> Kalevalan, Wäinölän, <label n="11">Luotolan</label>, <label n="12">Luotelan</label>, <label n="13">Päivölän</label>, <label n="14">Päivilän</label>,
-          <label n="15">Jumalisten</label>, <label n="16">Wuojelan</label>, Joukolan, <label n="17">Saarelan</label>, <label n="18">Sariolan</label>, <label n="19">Saraojan</label>, <label n="20">Sarajahan</label>, <label n="21">Pohjolan</label>, Lapin, <label n="22">Ruijan</label> <hi rend="italics">nimet toisiinsa, joka hämmennys niin näiden, kuin
-            edellisten nimien välillä on varsinki vähäpätöisemmissä asioissa tavallinen, pää-asioissa harvemmin tapahtuva. Kaikessa semmoisessa <label n="23">nimiseossa</label></hi></p>
+          Lemminkäisestä, <hi rend="italics">minkä toinen</hi> <label type="popup" n="7">Kullervosta</label> <hi rend="italics"><label type="popup" n="8">eli</label></hi> Joukahaisesta. Kullervon <hi rend="italics">siassa veronvientimatkallansa
+          (45: 69−358) on toisilla</hi> <label type="popup" n="9">Tuiretuinen</label>, <label type="popup" n="10">Tuurikkinen</label>, Lemminkäinen <hi rend="italics">eli</hi> vanha Wäinön poika. </p>
+        <p><hi rend="italics">Sama epävakaisuus on myös paikkojen nimissä haittaava. Kerran toisenki hämmentyvät</hi> Kalevalan, Wäinölän, <label type="popup" n="11">Luotolan</label>, <label type="popup" n="12">Luotelan</label>, <label type="popup" n="13">Päivölän</label>, <label type="popup" n="14">Päivilän</label>,
+          <label type="popup" n="15">Jumalisten</label>, <label type="popup" n="16">Wuojelan</label>, Joukolan, <label type="popup" n="17">Saarelan</label>, <label type="popup" n="18">Sariolan</label>, <label type="popup" n="19">Saraojan</label>, <label type="popup" n="20">Sarajahan</label>, <label type="popup" n="21">Pohjolan</label>, Lapin, <label type="popup" n="22">Ruijan</label> <hi rend="italics">nimet toisiinsa, joka hämmennys niin näiden, kuin
+            edellisten nimien välillä on varsinki vähäpätöisemmissä asioissa tavallinen, pää-asioissa harvemmin tapahtuva. Kaikessa semmoisessa <label type="popup" n="23">nimiseossa</label></hi></p>
         <pb n="2" facs="esipuhe_02" />
-        <p><hi rend="italics">on kuitenki kaksi opasta hyvänä apuna ollut, nimittäin</hi> <label n="24">aineen</label> johto <hi rend="italics">ja</hi> paraimpien laulupaikkojen runot.</p>
-        <p>§. 3. Kalevala-runojen nykyisestä kotipesästä. <hi rend="italics">Paras ja rikkain runokoti on ainaki</hi> Wuokkiniemen <hi rend="italics">pitäjä</hi> <label n="25">Wienan
+        <p><hi rend="italics">on kuitenki kaksi opasta hyvänä apuna ollut, nimittäin</hi> <label type="popup" n="24">aineen</label> johto <hi rend="italics">ja</hi> paraimpien laulupaikkojen runot.</p>
+        <p>§. 3. Kalevala-runojen nykyisestä kotipesästä. <hi rend="italics">Paras ja rikkain runokoti on ainaki</hi> Wuokkiniemen <hi rend="italics">pitäjä</hi> <label type="popup" n="25">Wienan
           <hi rend="italics">eli</hi> Arkankelin <hi rend="italics">lääniä</hi></label>. <hi rend="italics">Siitä itään päin</hi> Jyskyjärvelle <hi rend="italics">ja</hi> Paanajärvelle, <hi rend="italics">tahi
           pohjaiseen päin</hi> Tuoppajärvelle <hi rend="italics">ja</hi> Pääjärvelle <hi rend="italics">tullessa huononevat runot huononemistaan. Paremmin ovat etelään päin
           säilyneet ensin</hi> Repolassa <hi rend="italics">ja</hi> Himolassa Aunuksen <hi rend="italics">lääniä ja siitä rajan poikki Suomen maahan tullen</hi> Ilomantsissa,
-          Suojärvellä, Suistamossa, Impilahdessa, Sortavalassa <hi rend="italics">ja Laatokan läntisiä rantamaita myöten</hi> <label n="26">Inkereen</label> <hi rend="italics">asti, jossa viimeisessäki
+          Suojärvellä, Suistamossa, Impilahdessa, Sortavalassa <hi rend="italics">ja Laatokan läntisiä rantamaita myöten</hi> <label type="popup" n="26">Inkereen</label> <hi rend="italics">asti, jossa viimeisessäki
           vielä myös joita kuita Kalevalan runoja, ehkä vajanaisesti, muistellaan.</hi></p>
-        <p>§.4. Ensimmäiset Kalevala-runojen kotipesän ja järestyttämisen viittaajat. <hi rend="italics">Entisen läänin-lääkärin, tohtori</hi> <label n="27">Zakarias Topeliuksen</label>
-          <hi rend="italics">ansioksi mainittakoon, että hän viidessä osassa, vuosina 1822−1836, ilmestyneillä <label n="28">runokokouksillansa</label>: </hi> Suomen Kansan Vanhoja Runoja ynnä myös
+        <p>§.4. Ensimmäiset Kalevala-runojen kotipesän ja järestyttämisen viittaajat. <hi rend="italics">Entisen läänin-lääkärin, tohtori</hi> <label type="popup" n="27">Zakarias Topeliuksen</label>
+          <hi rend="italics">ansioksi mainittakoon, että hän viidessä osassa, vuosina 1822−1836, ilmestyneillä <label type="popup" n="28">runokokouksillansa</label>: </hi> Suomen Kansan Vanhoja Runoja ynnä myös
           Nykyisempiä Lauluja, <hi rend="italics">laitti ensimmäisen tiedon näiden runojen varsinaisesta kotipesästä. Jo sitä ennen oli Akatemian apulainen, nykyinen professori</hi>
-          <label n="29">Reinhold von Becker</label>, <hi rend="italics">Pohjanmaalta koonnut muutamia runoja Wäinämöisestä ja 1820 vuoden Turun Viikko-Sanomissa suorittanut niitä johonkuhun
+          <label type="popup" n="29">Reinhold von Becker</label>, <hi rend="italics">Pohjanmaalta koonnut muutamia runoja Wäinämöisestä ja 1820 vuoden Turun Viikko-Sanomissa suorittanut niitä johonkuhun
           järestykseen keskenänsä, joka oli ensimmäinen yritys sitä laatua. Ilman näittä kahdetta miehettä Kalevalan runot ehkä vieläkin olisivat entisessä piilossansa; sillä
           kenpä ilman Topeliuksen johdotta olisi arvannut niitä Wenäjän Karjalasta etsimään lähteä, ja kenenkä päähän olisi juuri äkisti taitanut tulla niiden yhteen kutomisen
           ajatus, jos von Beckerin yritys ei olisi ohjannut siihen? </hi></p>
@@ -202,17 +243,17 @@
           synty <hi rend="italics">(r. 9),</hi> metsämiehen lu 'ut <hi rend="italics">(r. 14),</hi> karjan lu'ut <hi rend="italics">(r. 32),</hi> tulen synty <hi rend="italics">
           (r. 47) ja muut</hi> loihturunot, häävirret <hi rend="italics">(r. 21−25), </hi> otson runot <hi rend="italics">(r. 46). Kalevala-laulajien johdolla, jotka semmoisiin
           paikkoihin tultuansa useinki jättävät ne laulamatta sanoen: »siitä lähtee se tavallista raudan lu 'un jälkeä», taikka: »siitä tulee häävirret laulettavaksi, joita saatta
-          naisilta», on niitä korjattu ja <label n="30">täydellisyytetty</label> kaikkein senlaatuisten runojen yhteisellä avulla katsomatta, laulettiinko niitä yhteen jaksoon Kalevala-runojen kanssa,
-          <label n="31">elikkä</label> erilleen niistä. Semmoisia käytetään vielä nykyaikoinaki tavallisissa tarpeissansa yli koko Karjalan maan, niin Suomen, kuin Wenäjän puolella rajaa, myös Inkeressä
+          naisilta», on niitä korjattu ja <label type="popup" n="30">täydellisyytetty</label> kaikkein senlaatuisten runojen yhteisellä avulla katsomatta, laulettiinko niitä yhteen jaksoon Kalevala-runojen kanssa,
+          <label type="popup" n="31">elikkä</label> erilleen niistä. Semmoisia käytetään vielä nykyaikoinaki tavallisissa tarpeissansa yli koko Karjalan maan, niin Suomen, kuin Wenäjän puolella rajaa, myös Inkeressä
           ja paikoittain Savossaki ja Pohjan maalla, ja ehkä niihin, kuin arvattavasti muihinki runoihin, aikaa voittaen on uusia sanoja ja mietteitä paikoillensa lisäksi tullut,
           niin on kuitenki hankala, jopa mahdotoinki, eroittaa</hi></p>
         <pb n="3" facs="esipuhe_03" />
         <p><hi rend="underline">ne alkuperäisistä Kalevalan aikuisista. Parempi on heittää semmoinen tarkempi eroittaminen ja ennemmin pitää ne alkuperäiset runot ei muuna,
           kun tarina-maalle kylvettyinä siemeninä, joista nykyinen runotouko vuosisatojen, ehkä tuhansienki, kuluessa on nousnut ja paisunut.</hi></p>
-        <p><hi rend="italics">Laulujen alkuperäisyyden kanssa käypi miltei seuraavaan tapaan. Pitopaikoissa eli muissa seuroissa kuulee joku uuden laulun ja <label n="32">kokee</label> sen muistoonsa
+        <p><hi rend="italics">Laulujen alkuperäisyyden kanssa käypi miltei seuraavaan tapaan. Pitopaikoissa eli muissa seuroissa kuulee joku uuden laulun ja <label type="popup" n="32">kokee</label> sen muistoonsa
           panna. Sitte toisessa tilassa sitä jo itse uusille kuulioille laulaessansa muistaa tarkemmin itsen aineen, kun sen sana sanalta joka mutkassansa kertomisen. Ne paikat,
           joita ei muista juuri entisillä sanoillansa, kertoo omillansa, paikoin ehkä somemmasti, kun sitä ennen olivatkaan, ja jos joku vähä arvoisempi seikka lomasta jäisi pois,
-          niin taitaa toinen laulajan omasta päästä tulla <label n="33">siaan</label>. Samalla tavalla menettelevät sitte toiset ja kolmannet kuuliat laulua, ja laulu muuttuu, minkä muuttuu, enemmin
+          niin taitaa toinen laulajan omasta päästä tulla <label type="popup" n="33">siaan</label>. Samalla tavalla menettelevät sitte toiset ja kolmannet kuuliat laulua, ja laulu muuttuu, minkä muuttuu, enemmin
           erinäisissä sanoissa ja mutkissa, kun itsessä aineessa. Tämän laatuisen laulutarinan rinnalla kulkee kuitenki toinen, joka paremmin säilyttää sitä vanhoissa sanoissa
           ja saranoissansa, nimittäin lapsen vanhemmiltansa polvi polvelta oppiminen, mutta samassa kun se estää toisen kulkusisarensa ylen kauas poikkeamasta, täytyy sen itsenki
           toisinaan sitä noudattaa, ettei muuten jäisi kovin jälelle.</hi></p>
@@ -221,19 +262,19 @@
           vuosisatoja tätä ennen niitä ehk' ei olisi löytynyt siihen paljouteen, vaikka kyllä jo silloinki kaikki olivat taimella ja heristymässä. Tästälähin alkavat ne taas
           pikemmin supistua, kun uusilla lisäyksillä enetä, sillä kun, ken ikänänsä tahtoo, saapi ne valmiina kirjana käteensä, ja täydellisempänä, kun minkä kenen erinäinen muisto
           kannattaisi, niin katoaa muistolta laulamisen arvo, ja arvon kadottua itse muistolta laulaminenki. Se käypi samate kun jonkun kielen eri murretten kanssa yhteisen
-          kirjakielen voimiin päästyänsä. Sitä ennen erkanivat erkanemistansa yksi murre toisesta, ja väliin <label n="34">ilmautui</label> uusia; kirjakielen saatua alkoivat taas kaikki sen ympärille
+          kirjakielen voimiin päästyänsä. Sitä ennen erkanivat erkanemistansa yksi murre toisesta, ja väliin <label type="popup" n="34">ilmautui</label> uusia; kirjakielen saatua alkoivat taas kaikki sen ympärille
           yhdistyä.</hi></p>
-        <p>§. 7. Vierassukuisista sanoista. <hi rend="italics">Edellä mainitusta runojen kulkuja säilyntätavasta on <label n="35">huokeasti</label> ymmärrettävä, kuinka niihin tuo tuostakin on tainnut
-          yhtyä semmoisia sanoja, jotka arvattavasti vasta myöhempinä aikoina ovat kieleen tulleet, joista siis ei suinkaan ole <label n="36">päättämistä</label>, itse runojenkin ei vanhempia olevan.
+        <p>§. 7. Vierassukuisista sanoista. <hi rend="italics">Edellä mainitusta runojen kulkuja säilyntätavasta on <label type="popup" n="35">huokeasti</label> ymmärrettävä, kuinka niihin tuo tuostakin on tainnut
+          yhtyä semmoisia sanoja, jotka arvattavasti vasta myöhempinä aikoina ovat kieleen tulleet, joista siis ei suinkaan ole <label type="popup" n="36">päättämistä</label>, itse runojenkin ei vanhempia olevan.
           Sanat ja kieli runoissa ei ole muu, kun tarinan ulkonainen ajan mukiin muodostuva puku. Myös on monta vanhoissa runoissa löytyvää ruotsin eli venäjän sukuista sanaa
-          tainnut jo <label n="37">Permian</label> vallan aikana</hi></p>
+          tainnut jo <label type="popup" n="37">Permian</label> vallan aikana</hi></p>
         <pb n="4" facs="esipuhe_04" />
-        <p><hi rend="underline">tavallinen olla, koska muinaistietojen mukaan <label n="38">Permialaiset</label> kävivät kauppaa niin Islandilaisten ja Norjalaisten, kuin Wenäläistenki kanssa, ja
+        <p><hi rend="underline">tavallinen olla, koska muinaistietojen mukaan <label type="popup" n="38">Permialaiset</label> kävivät kauppaa niin Islandilaisten ja Norjalaisten, kuin Wenäläistenki kanssa, ja
           kaupankäviät kansat aina saavat kaupan päällisiksi uusia sanoja kieleensä. Suuri osa semmoisia ruotsin sukuisia sanoja, joita tavallisesti arvellaan vasta myöhemmin,
           Suomen maan Ruotsin yhteyteen jouduttua, Ruotsalaisilta saaduksi, löytyy rajanki takana Wenäjän maalla Karjalassa ja Aunuksessa. Niiden siellä löytyminen on vaikea muulla
           ehdolla selittää, kun sillä, että olivat tuttuja jo ennen Suomalaisten eroamista Ruotsin ja Wenäjän vallan alaisiksi.</hi></p>
         <p>§. 8. Runojen syntyajoista ja alkuperäisestä kodista. <hi rend="italics">Montakin arvelua on näiden runojen syntyajoista ja paikasta ollut. Muita asianmukaisemmalle näyttää
-          se, joka pitää niitä Permian vallan aikana syntyneinä Wienan (eli Walkean) meren kaakkoisrannoilla, taikka niiden isojen järvien, Woikojärven, <label n="39">Oniekan</label> ja Laatokan, seuduilla,
+          se, joka pitää niitä Permian vallan aikana syntyneinä Wienan (eli Walkean) meren kaakkoisrannoilla, taikka niiden isojen järvien, Woikojärven, <label type="popup" n="39">Oniekan</label> ja Laatokan, seuduilla,
           jotka kaaressa makaavat Oniekan lahden välillä Wienan merta yhdellä, ja Suomenlahden Itämerta, toisella puolella. Se osa Suomalaisia Wenäjän Karjalassa, joiden tykönä nämät
           runot ovat halki vuosisatojen säilyneet, näyttää kun olisi vanhan rikkaan, voimakkaan ja kuuluisan Permian kansan suoraa jälkisukua. Sillä on vielä yli muiden Suomalaisten
           joku ulkonainen perintösivistys vanhoista ajoista, omituisia jälkiä jonkunlaisesta yhteis-elämästä, erinomainen, kaikkia kieltoja ja vastuksia kiertelevä kaupan into, nopsa
@@ -242,10 +283,10 @@
           Suomen maan Pohjalaiset ja Karjalaiset heidän lähimpiä sukulaisiansa, jälkimmäiset ynnä Inkeriläisten kanssa runomuistissaki.</hi></p>
         <p>§. 9. Pohjolan asukkaista. <hi rend="italics">Löytyy kyllä aihetta siihenki luuloon, että Pohjolan eli Pohjan kansalla näissä runoissa ymmärrettäisi Lappalaisia, mutta
           asianmukaisemmalta näyttää kuitenki, Pohjolassa ei Lappalaisia, vaan jonkun eri lahkokunnan Suomalaisia asuneen. Tosin nimitetään lausekerroissa (parallelismoissa) Pohjolata
-          välistä Lapiksiki, mutta se näyttää ainoastansa joku herjausnimi olleen samate kun</hi> <label n="40">Pimentola</label>, <label n="41">Untamola</label>, Kylmä kylä, Miesten syöjä sia <hi rend="italics">j. m.
+          välistä Lapiksiki, mutta se näyttää ainoastansa joku herjausnimi olleen samate kun</hi> <label type="popup" n="40">Pimentola</label>, <label type="popup" n="41">Untamola</label>, Kylmä kylä, Miesten syöjä sia <hi rend="italics">j. m.
           Ainoastansa yhdessä paikassa (12: 199, 200) osoitetaan Pohjolassa outoa kieltä puhutuksi, mutta sen paikan voipi silläki tavalla selittää, että Lemminkäisen äiti, kun
           kielsi poikaansa Pohjolaan lähtemästä ja ynnä muiden syiden, jotka pidättäisivät häntä lähtemästä, sanoi »etkä tunne kieltä Turjan, maha et lausua lapiksi,» kielellä
-          tarkoitti ei puhetta, vaan Pohjolan omituista <label n="42">loihtutaitoa</label>. Myös on se paikka voinut myöhemmin runoon tulla, eli josta kusta alkuansa toisesta runosta siihen sekautua,
+          tarkoitti ei puhetta, vaan Pohjolan omituista <label type="popup" n="42">loihtutaitoa</label>. Myös on se paikka voinut myöhemmin runoon tulla, eli josta kusta alkuansa toisesta runosta siihen sekautua,
           eikä,</hi></p>
         <pb n="5" facs="esipuhe_05" />
         <p><hi rend="underline">jos kuinkin olkoon, merkitse paljo mitään niitä moninaisia muita paikkoja vasten, jotka osoittavat Pohjolan ja Kalevalan asukasten huokeasti toinen
@@ -257,63 +298,63 @@
           veron-alaisuudelle. Juuri siinä onki Kalevala-runojen keskinäinen side eli yhteys, että kertovat, kuinka Kalevala vähitellen vauristui Pohjolan vertaiseksi ja viimein
           pääsi voitolle.</hi></p>
         <p>§. 10. Kielenlaatu näissä runoissa <hi rend="italics">on Karjalan tavallista suomea, eikä paljo poikkeava muidenki Suomen maakuntain puheesta, jonka tähden Suomalainen
-          mistä tahansa vähällä tottumisella ne helposti ymmärtää. Muutamia oudompia sanoja on kuitenki koettu <label n="43">erittäin</label> selittää ja tässä ehkä sopinee eräitä muita selityksen
+          mistä tahansa vähällä tottumisella ne helposti ymmärtää. Muutamia oudompia sanoja on kuitenki koettu <label type="popup" n="43">erittäin</label> selittää ja tässä ehkä sopinee eräitä muita selityksen
           viittoja antaa.</hi></p>
         <p><hi rend="italics">Semmoiset sanat, jotka matkivat jota kuta ääntä eli liikuntoa</hi> (onomatopoëtica) <hi rend="italics">ovat ylensä suomessa tavalliset, ja saavat
-          usein paikalta, jossa tavataan yhteydessä toisten sanojen kanssa, paraan selityksensä. Senlaisia ovat esimerkiksi</hi> <label n="44">suihkii</label>, <label n="45">piukkii</label>, <label n="46">loruu</label>, <label n="47">noruu</label>, <label n="48">kamuaa</label>, <label n="49">remuaa</label>,
-          <label n="50">nuhajaa</label>, <label n="51">sohajaa</label>, <label n="52">ratisee</label>, <label n="53">vatisee</label>, ärähtää, <label n="54">sorahtaa</label>, <label n="55">sirettää</label>, <label n="56">hyräytyy</label>, <label n="57">viehkuroi</label>, <label n="58">kääperöitsee</label>, <label n="59">häiläyttää</label>,
-          <label n="60">nauskahuttaa</label>, <label n="61">tölläyttää</label>, <label n="62">tuivertaa</label>, <label n="63">haivertaa</label>, <label n="64">karittelee</label>,
-          <label n="65">kahattelee</label>, <label n="66">suhuttelee</label>, <label n="67">siuottelee</label>, <label n="68">luskuttelee</label>, <label n="69">juhmuttelee</label>, <label n="70">käärämöittelee</label>
+          usein paikalta, jossa tavataan yhteydessä toisten sanojen kanssa, paraan selityksensä. Senlaisia ovat esimerkiksi</hi> <label type="popup" n="44">suihkii</label>, <label type="popup" n="45">piukkii</label>, <label type="popup" n="46">loruu</label>, <label type="popup" n="47">noruu</label>, <label type="popup" n="48">kamuaa</label>, <label type="popup" n="49">remuaa</label>,
+          <label type="popup" n="50">nuhajaa</label>, <label type="popup" n="51">sohajaa</label>, <label type="popup" n="52">ratisee</label>, <label type="popup" n="53">vatisee</label>, ärähtää, <label type="popup" n="54">sorahtaa</label>, <label type="popup" n="55">sirettää</label>, <label type="popup" n="56">hyräytyy</label>, <label type="popup" n="57">viehkuroi</label>, <label type="popup" n="58">kääperöitsee</label>, <label type="popup" n="59">häiläyttää</label>,
+          <label type="popup" n="60">nauskahuttaa</label>, <label type="popup" n="61">tölläyttää</label>, <label type="popup" n="62">tuivertaa</label>, <label type="popup" n="63">haivertaa</label>, <label type="popup" n="64">karittelee</label>,
+          <label type="popup" n="65">kahattelee</label>, <label type="popup" n="66">suhuttelee</label>, <label type="popup" n="67">siuottelee</label>, <label type="popup" n="68">luskuttelee</label>, <label type="popup" n="69">juhmuttelee</label>, <label type="popup" n="70">käärämöittelee</label>
           <hi rend="italics">ynnä monilukuisten muiden. Useammin, kuin itsepäällänsä, tavattaan ne
           jonkun toisen lausukan eli toimisanan vieressä tarkemmin osoittamassa jonkun toimituksen erityistä ääntä eli liikuntotapaa, esimerkiksi:</hi> lyödä lynnähyttelee
-          <hi rend="italics"> s. o. lyö niin että <label n="103">heläjää</label>,</hi> itkeä hyryttelee <hi rend="italics">s. o. itkee hiljaisella äänellä</hi>, huutaa huikahuttaa <hi rend="italics">s. o.
-          huutaa raikkaalla äänellä, </hi> käydä kulleroittelee  <hi rend="italics">s. o. käy keveästi ja <label n="71">ripsaasti</label> jalkojansa nostellen, </hi>  astua lykyttelee
-          <hi rend="italics">s. o. astuu joutuisasti, </hi> hiihtää hivittää <hi rend="italics">s.o. hiihtää <label n="72">terävään</label> ja <label n="73">uutteraan</label>, </hi> juosta puikkii <hi rend="italics">s. o.
-          juoksee suoraan suurella vauhdilla. Tavataan välistä melkein samanlaatuisia nimi- ja <label n="74">mainesanojaki</label>, esimerkiksi: </hi> <label n="75">huitukka</label>, <label n="76">haitukka</label>,
-          <label n="77">ressukka</label>, <label n="78">rehvana</label>, <label n="79">pöyhtöhäntä</label>, <label n="80">röyhetyinen</label>,</p>
+          <hi rend="italics"> s. o. lyö niin että <label type="popup" n="103">heläjää</label>,</hi> itkeä hyryttelee <hi rend="italics">s. o. itkee hiljaisella äänellä</hi>, huutaa huikahuttaa <hi rend="italics">s. o.
+          huutaa raikkaalla äänellä, </hi> käydä kulleroittelee  <hi rend="italics">s. o. käy keveästi ja <label type="popup" n="71">ripsaasti</label> jalkojansa nostellen, </hi>  astua lykyttelee
+          <hi rend="italics">s. o. astuu joutuisasti, </hi> hiihtää hivittää <hi rend="italics">s.o. hiihtää <label type="popup" n="72">terävään</label> ja <label type="popup" n="73">uutteraan</label>, </hi> juosta puikkii <hi rend="italics">s. o.
+          juoksee suoraan suurella vauhdilla. Tavataan välistä melkein samanlaatuisia nimi- ja <label type="popup" n="74">mainesanojaki</label>, esimerkiksi: </hi> <label type="popup" n="75">huitukka</label>, <label type="popup" n="76">haitukka</label>,
+          <label type="popup" n="77">ressukka</label>, <label type="popup" n="78">rehvana</label>, <label type="popup" n="79">pöyhtöhäntä</label>, <label type="popup" n="80">röyhetyinen</label>,</p>
         <pb n="6" facs="esipuhe_06" />
-        <p><label n="81">källeröinen</label>, <hi rend="italics">jotka samate kun sellaiset toimisanatkin ovat huokeammat ym märtää, kun oikein <label n="82">säntillensä</label> selittää eli muilla kielillä sanoa. </hi></p>
-        <p><hi rend="italics">Toisenlaatuisia ovat <label n="83">itsekohtaiset eli itseyntyvät toimisanat</label>, joita ainoastansa Karjalan ja Savon kielessä näihin asti on käytetty, vaan muissa
+        <p><label type="popup" n="81">källeröinen</label>, <hi rend="italics">jotka samate kun sellaiset toimisanatkin ovat huokeammat ym märtää, kun oikein <label type="popup" n="82">säntillensä</label> selittää eli muilla kielillä sanoa. </hi></p>
+        <p><hi rend="italics">Toisenlaatuisia ovat <label type="popup" n="83">itsekohtaiset eli itseyntyvät toimisanat</label>, joita ainoastansa Karjalan ja Savon kielessä näihin asti on käytetty, vaan muissa
           murteissa kahdella eri sanalla toimitettu, esimerkiksi</hi> käänteleikse <hi rend="italics">s. o. kääntelee itseänsä, </hi> ajaikse <hi rend="italics">s. o. ajaa itsensä,
           </hi> siirräikse <hi rend="italics">s. o. siirtää itsensä eli itseänsä,</hi> siirräime (siirräihen) <hi rend="italics">s. o. siirrän itseni eli itseäni, </hi> siirtihe
           <hi rend="italics">s. o. siirti itsensä eli itseänsä, </hi> siirrime (siirrihin) <hi rend="italics">s. o. siirrin itseni, itseäni,</hi> siirrihet (siirrihit)
           <hi rend="italics">siirrit itsesi, itseäsi,</hi> tungeite <hi rend="italics">s. o. tunge itsesi, itseäsi,</hi> veäite <hi rend="italics">s. o. vedä itsesi, itseäsi,</hi>
           pannaita <hi rend="italics">s. o. panna itsensä,</hi> laskeita <hi rend="italics">s. o. laskea itsensä, itseänsä,</hi> vetäitä <hi rend="italics">s. o. vetää itsensä,
           itseänsä.</hi></p>
-        <p><hi rend="italics">Semmoiset toimisanat, kun</hi> käännäItää, väännältää, veältää, sivaltaa, työnnäItää, <label n="84">nostaltaa</label>, <label n="85">murraltaa</label> <hi rend="italics">j. m. myös ovat entiselle
+        <p><hi rend="italics">Semmoiset toimisanat, kun</hi> käännäItää, väännältää, veältää, sivaltaa, työnnäItää, <label type="popup" n="84">nostaltaa</label>, <label type="popup" n="85">murraltaa</label> <hi rend="italics">j. m. myös ovat entiselle
           kirjakielelle enimmäksi osaksi oudonlaiset. Ne osoittavat toimituksen äkillisyyttä ja väkevyyttä, esimerk.</hi> työnnältää <hi rend="italics">yhtä kun työntää äkisti ja
-          väkevällä kädellä. Äkillisyyttä yksinänsä merkitään semmoisilla toimisanoilla, jotka päättyvät tavuella</hi> see, <hi rend="italics">esimerk.</hi> vetäisee, <label n="86">tarpaisee</label>,
-          <label n="87">sitaisee</label>, <label n="88">kutaisee</label>, <label n="89">tahkaisee</label>, parkaisee, ärjäisee, <hi rend="italics">joista enin osa jo vanhastaan on kirjakielelle tuttu.</hi></p>
+          väkevällä kädellä. Äkillisyyttä yksinänsä merkitään semmoisilla toimisanoilla, jotka päättyvät tavuella</hi> see, <hi rend="italics">esimerk.</hi> vetäisee, <label type="popup" n="86">tarpaisee</label>,
+          <label type="popup" n="87">sitaisee</label>, <label type="popup" n="88">kutaisee</label>, <label type="popup" n="89">tahkaisee</label>, parkaisee, ärjäisee, <hi rend="italics">joista enin osa jo vanhastaan on kirjakielelle tuttu.</hi></p>
         <p><hi rend="italics">Kun jota kuta sanaa tahdotaan somistellen eli mielitellen sanoa, niin annetaan sille Wenäjän Karjalan murteessa useampiakin eri päätteitä, esimerk.
           sanasta reki:</hi> reyt, rekonen; <hi rend="italics">käki:</hi> käyt, käkönen; <hi rend="italics">vesi:</hi> veyt, vetonen; <hi rend="italics">susi:</hi> sutonen;
           <hi rend="italics">kivi:</hi> kivyt, kivonen; <hi rend="italics">hanhi:</hi> hanhut, hanhonen; <hi rend="italics">meri:</hi> meryt, meronen; <hi rend="italics">mesi:</hi>
           meto, metonen; <hi rend="italics">neiti:</hi> neiyt, neito, neitonen; <hi rend="italics">veli:</hi> velo, vello, veljyt, veijo, veito, veitonen; <hi rend="italics">lehti:</hi>
           lehyt', lehtyinen, lehtonen; <hi rend="italics">kesä:</hi> kesyt, kesonen; <hi rend="italics">koivu:</hi> koivas, koivahainen; <hi rend="italics">päivä:</hi> päivyt,
           päivönen; <hi rend="italics">marja:</hi> marjut, marjanen; <hi rend="italics">sampo:</hi> sammut, samponen; <hi rend="italics">syän:</hi> syämmyt;
-          <hi rend="italics">taivas:</hi> taivo, taivonen; <hi rend="italics">lammas:</hi> lampahut, lampahuinen; <hi rend="italics"><label n="90">rove</label>:</hi> ropehut; <hi rend="italics">vene:</hi>
+          <hi rend="italics">taivas:</hi> taivo, taivonen; <hi rend="italics">lammas:</hi> lampahut, lampahuinen; <hi rend="italics"><label type="popup" n="90">rove</label>:</hi> ropehut; <hi rend="italics">vene:</hi>
           veno, venonen, venehyt; <hi rend="italics">pyörä</hi>: pyörykkä, pyöryläinen; <hi rend="italics">puola:</hi> puolukka, puolukkainen; <hi rend="italics">pääsky:</hi>
           pääskynen, pääskyläinen; <hi rend="italics">sirkku:</hi> sirkkunen, sirkkulainen; <hi rend="italics">juoma:</hi> juomukkainen; <hi rend="italics">olut:</hi> olo, olonen,
           oluoinen, olukkainen; <hi rend="italics">yö:</hi> yöhyt; <hi rend="italics">vyö:</hi> vyöhyt; <hi rend="italics">suo:</hi> suohut; <hi rend="italics">pyy:</hi> pyyhyt;
           <hi rend="italics">puu:</hi> puuhut; <hi rend="italics">tie:</hi> tiehyt <hi rend="italics">j. n. e.</hi></p>
         <p><hi rend="italics">Monilu'ussa on Karjalan ja Savonki murteella ynnä tavallisten kirjakielen päätetten myös toiset omalaatuisensa, esimerk.</hi> tähtilöiksi, helmilöiksi,
           helmilöitä, ristilöitä, jokiloita, lukkoloita, käärylöihin, kelloloissa <hi rend="italics">j. n. e., jotka eivät merkitse muuta kun tavalliset:</hi> tähdiksi, helmiksi,
-          helmiä, ristiä, jokia, lukkoja, <label n="91">kääryihin</label>, kelloissa, <hi rend="italics">eivätkä käytetä useampi kun kaksitavuisissa sanoissa, eikä niissäkään, jos nimentäsiassa päättyvät</hi>
+          helmiä, ristiä, jokia, lukkoja, <label type="popup" n="91">kääryihin</label>, kelloissa, <hi rend="italics">eivätkä käytetä useampi kun kaksitavuisissa sanoissa, eikä niissäkään, jos nimentäsiassa päättyvät</hi>
           a<hi rend="italics">-lla eli</hi> ä<hi rend="italics">-llä.</hi></p>
         <pb n="7" facs="esipuhe_07" />
         <p>§. 11. Kielen kirjoitustavasta. <hi rend="italics">Kirjoitustapaa nykyisessä laitoksessa on mahdollisuutta myöten mukailtu tavalliseen kirjakieleen ja yhteisiin kielenopin
-          johtoihin *). Siitä syystä tavataan nyt kirjoitettuna:</hi> osoittaa, tavoittaa, milloin, syytöin, kultainen, vetäisee, naukaisee, <label n="92">muutaime</label>, käännäikse, antoi, annoin,
-          nauris, neula, paula, kaura, seula, kauris, äyräs, koura, ohra, <label n="93">teiri</label>, peura, aura, ottakamme, ottakatte, <label n="94">heittäömme</label>, <label n="95">heittäötte</label>, <hi rend="italics">jossa entisen,
+          johtoihin *). Siitä syystä tavataan nyt kirjoitettuna:</hi> osoittaa, tavoittaa, milloin, syytöin, kultainen, vetäisee, naukaisee, <label type="popup" n="92">muutaime</label>, käännäikse, antoi, annoin,
+          nauris, neula, paula, kaura, seula, kauris, äyräs, koura, ohra, <label type="popup" n="93">teiri</label>, peura, aura, ottakamme, ottakatte, <label type="popup" n="94">heittäömme</label>, <label type="popup" n="95">heittäötte</label>, <hi rend="italics">jossa entisen,
           Karjalan-murteisen, kirjoitustavan mukaan oli:</hi> osottaa, tavottaa, millon, syytön, kultanen, vetäsee, naukasee, muutame, käännäksen, anto, annon, nakris, niekla,
           pakla, kakra, siekla, kapris, äpräs, kopra, otra, tetri, petra, aatra, ottakame, ottakate, heittäöme, heittäöte. </p>
-        <p><hi rend="italics">Samasta syystä on nykyisessä laitoksessa kirjoitettu:</hi> hopea, valkea, sorea, usea, <label n="96">käpeä</label>, leveä, <label n="97">melkeä</label> **); laji, neuvo, sauva; enpä, onpi,
+        <p><hi rend="italics">Samasta syystä on nykyisessä laitoksessa kirjoitettu:</hi> hopea, valkea, sorea, usea, <label type="popup" n="96">käpeä</label>, leveä, <label type="popup" n="97">melkeä</label> **); laji, neuvo, sauva; enpä, onpi,
           hänpä; <hi rend="italics">entisessä:</hi> hopia, valkia, soria, usia, käpiä, leviä, melkiä; lai neuo, saua; empä, ompi, hämpä.</p>
         <p><hi rend="italics">Paitsi sanan ensimäisessä tavuessa jakauvat pitkät äänekkäät ja</hi> pitkät <hi rend="italics">kaksois-äänet eri tavuihin, esimerk.</hi> keihä'än,
-          paha'an, talohon, kylähän, vetehen, käyähän, saatihin, use'in, melke'in, <hi rend="italics">kolmitavuisiksi, ja</hi> keihä'illä, <label n="99">kätky'ille</label>, hope'ita, <label n="100">rehe'ille</label>, otetahan,
+          paha'an, talohon, kylähän, vetehen, käyähän, saatihin, use'in, melke'in, <hi rend="italics">kolmitavuisiksi, ja</hi> keihä'illä, <label type="popup" n="99">kätky'ille</label>, hope'ita, <label type="popup" n="100">rehe'ille</label>, otetahan,
           annettihin <hi rend="italics">nelitavuisiksi sen siaan, kun tavallisesti sanotaan ja kirjoitetaan</hi> keihään, pahaan, kylään, veteen, käyään, saatiin, usein, melkein
           <hi rend="italics">kaksitavuisina, ja</hi> keihäillä, kätkyille, hopeita, reheille, otetaan, annettiin <hi rend="italics">kolmitavuisina. Merkkiä</hi> (')
           <hi rend="italics">käytetään ainoastaan, missä pitkä äänekäs jakautuu kahteen tavueen taikka usiampia yhdenäänellisiä äänekkäitä kohtautuu, niinkuin sanoissa:</hi>
-          ve'en, puhe'et, sana'an, nää'än, <hi rend="italics">ja missä <label n="101">äänikäs</label> sanan lopusta on runomitan tähden poisheitetty.</hi> </p>
-        <p><hi rend="italics">Missä kirjoitustapaa ei ole yhteiseen kirjakieleen sovitettu, ymmärrettänee se huokeasti <label n="102">sillänsäki</label>. Niin esimerkiksi lienevät sanat</hi> kielti,
+          ve'en, puhe'et, sana'an, nää'än, <hi rend="italics">ja missä <label type="popup" n="101">äänikäs</label> sanan lopusta on runomitan tähden poisheitetty.</hi> </p>
+        <p><hi rend="italics">Missä kirjoitustapaa ei ole yhteiseen kirjakieleen sovitettu, ymmärrettänee se huokeasti <label type="popup" n="102">sillänsäki</label>. Niin esimerkiksi lienevät sanat</hi> kielti,
           väänti, murti, löyti, löynnyt, löytty, löytähän, käätty, käätähän, väätty, souttu, kaata, kaatahan, kaannut, oisi, uunna, kuunna, miesnä, tänä päänä
           <hi rend="italics">huokeat käsittää niilläki paikoin, joissa on totuttu sanomaan:</hi> kielsi, väänsi, mursi, löysi, löytänyt, löyetty (löydetty), löyetään (löydetään),
           käännetty, käännetään, väännetty, soudettu, kaattaa, kaaetaan (kaadetaan), kaata-</p>
@@ -336,9 +377,9 @@
           onnistui Europæukselle*) paljo sekä uusia runoja että toisintoja entisiin, vuosina 1845, 1846 ja 1848, kerätyksi saada. Näistä hänen ja muiden ilmi saattamista suurista
           runokokouksista, jotka ynnä entisten kokousten kanssa tulevat Helsingissä olevalta Suomalaisen Kirjallisuuden Seuralta säilytettäväksi, on nykyinen Kalevalan laitos
           kasvanut pian toistansa isommaksi ja laajemmaksi, kun minkä entinen oli. Minkä ilmanki, runojen järestyksessä ja muussa sisällisessä kohdassa, lienee entistä laitosta
-          parempi, se asia jääköön itsekunki lukian <label n="104">arvata</label>.</hi></p>
+          parempi, se asia jääköön itsekunki lukian <label type="popup" n="104">arvata</label>.</hi></p>
         <p>§. 13. Nykyisen Kalevala-laitoksen ko’osta ja järestyksestä entisen suhteen. <hi rend="italics">Entisessä laitoksessa oli kaikkinansa 32 runoa, jotka yhteensä
-          sisältivät ei täyttä 12,100 <label n="102">värsyä</label>, nykyisessä sitä vasten on 50 runoa, ja yhteensä lähes 22,800 värsyä. Mitenkä muuten kummanki laitoksen paikat vastaavat toinen
+          sisältivät ei täyttä 12,100 <label type="popup" n="102">värsyä</label>, nykyisessä sitä vasten on 50 runoa, ja yhteensä lähes 22,800 värsyä. Mitenkä muuten kummanki laitoksen paikat vastaavat toinen
           toisiansa, sen saattaa seuraavasta osotuksesta nähdä.</hi></p>
         <p>________________</p>
         <p>*) <hi rend="italics">Hän on myös kirjaansa: </hi> Pieni Runon-seppä, Hels. 1847 <hi rend="italics">liitetyssä</hi> johdatuksessa runon tekoon <hi rend="italics">laatinut

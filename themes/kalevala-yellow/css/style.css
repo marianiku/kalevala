@@ -2892,7 +2892,6 @@ td, th, tr {
     /*margin-left: -10%;*/
     max-width: 300px;
     line-height:16px;
-
   }
 
   a.tooltp:hover + span.value1 {
