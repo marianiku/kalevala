@@ -83,8 +83,9 @@
 <div id="solr-facets">
 
   <h2><?php echo "Rajaa hakua"; ?></h2>
-
   <?php foreach ($results->facet_counts->facet_fields as $name => $facets): ?>
+    <?php $hits = 0; ?>
+
     <!-- Does the facet have any hits? -->
     <?php if (count(get_object_vars($facets))): ?>
 
@@ -104,6 +105,7 @@
       <ul>
         <!-- Facets. -->
         <?php foreach ($facets as $value => $count): ?>
+
           <li class="<?php echo $value; ?>">
 
             <!-- Facet URL. -->
@@ -122,7 +124,7 @@
             </a>
 
             <!-- Facet count. -->
-            (<span class="facet-count"><?php echo $count; ?></span>)
+            <!--(<span class="facet-count"><?php echo $count; ?></span>)-->
 
           </li>
           <?php endforeach; ?>
@@ -138,13 +140,17 @@
     <p>
     <!-- Number found. -->
     <h2 id="num-found">
-      <?php echo "Tuloksia löytyi: ".$results->response->numFound; ?>
+      <?php echo "Tuloksia löytyi: "/*.$results->response->numFound*/; ?>
     </h2>
-
     <?php foreach ($results->response->docs as $doc): ?>
+      <?php $hits = 0; ?>
+      <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
+        <?php foreach($field as $hl): ?>
+          <?php $hits += 1;?>
+        <?php endforeach ?>
+      <?php endforeach ?>
       <!-- Document. -->
       <div class="result">
-
         <!-- Header. -->
         <div class="result-header">
 
@@ -157,9 +163,10 @@
           if (empty($title)) {
             $title = '<i>' . __('[Untitled]') . '</i>';
           }
+
           echo $title;
           ?></a>
-
+          <span><?php echo ': '.$hits; ?></span>
           <!-- Result type. -->
           <!--<span class="result-type">(<?php echo $doc->resulttype; ?>)</span>-->
 
@@ -174,7 +181,7 @@
             which field a specific result was found in -->
             <?php foreach($results->highlighting->{$doc->id} as $prop=>$field): ?>
               <?php foreach($field as $hl): ?>
-                <!-- Proper names for Solr field codes, translated in language files -->
+                <!-- Proper names for Solr field codes -->
                 <?php echo '<li class="snippet">';?>
                   <?php
                   switch ($prop) {
@@ -186,6 +193,12 @@
                       break;
                     case "42_t":
                       $prop = 'Runoteksti';
+                      break;
+                    case "7_t":
+                        $prop = 'Runoteksti';
+                        break;
+                    case "simple_pages_text_t":
+                      $prop = 'Tietosivut';
                       break;
                   }
                   ?>
@@ -204,6 +217,7 @@
               false,
               $item
             );
+
             ?>
 
           </div>

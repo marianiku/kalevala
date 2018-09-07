@@ -66,7 +66,7 @@ class SolrSearch_Helpers_Index
         }
       }
 
-      if ($field->label == 'Format') {
+      if ($field->label == 'Original Format') {
         // Replace indexed text value of TEI file url field with contents of TEI file
         $text->text = $contents;
       }

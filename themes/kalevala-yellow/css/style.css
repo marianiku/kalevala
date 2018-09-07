@@ -2740,6 +2740,12 @@ td, th, tr {
     height: 100%;
   }
 
+  #show_row_1 .col-sm:nth-child(2) {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0px !important;
+  }
+
   #show_row_2 .col-sm, #show_row_2 .col-sm-3 {
     border: solid 0.1px #999;
   }
@@ -2758,21 +2764,53 @@ td, th, tr {
 
   #pic_nav {
     max-height: 100%;
-    width: 100%;
-    padding: 0px;
+    width: 100% !important;
     margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   #pic_nav ul.navbar-nav {
-    max-height: 100%;
     width: 100%;
+    max-height: 100%;
   }
 
-  #prevPic, #nextPic {
+  #pic_nav1, #pic_nav3, #pic_nav3 {
     cursor: pointer;
     display: inline;
     border-bottom: none;
-    width: 50%;
+  }
+
+  #pic_nav1, #pic_nav2 {
+    float:left;
+    margin-left: 0px;
+    text-transform: uppercase;
+  }
+
+  #pic_nav1, #pic_nav2 {
+    font-size: 14px;
+  }
+
+  #pic_nav3 {
+    float:right;
+    margin-left: auto;
+  }
+
+  #pic_nav3 a {
+    font-size: 20px;
+    cursor: pointer;
+    display: inline;
+    border-bottom: none;
+    margin-bottom: 6px !important;
+  }
+
+  /*#prevPic, #nextPic {
+    cursor: pointer;
+    display: inline;
+    border-bottom: none;
+    width: auto;
+    float: right;
   }
 
   #prevPic a, #nextPic a {
@@ -2780,18 +2818,19 @@ td, th, tr {
     cursor: pointer;
     display: inline;
     border-bottom: none;
-  }
+    float: right;
+  }*/
 
-  #prevPic a {
+  /*#prevPic a {
     float: left;
   }
 
   #nextPic a {
     float:right;
-  }
+  }*/
 
-  #prevPic a:hover, #nextPic a:hover {
-    background: none;
+  #pic_nav3 a:hover {
+    background: transparent;
   }
 
   .page {
@@ -2842,6 +2881,7 @@ td, th, tr {
     cursor: pointer;
     display: inline;
     border-bottom: none;
+    font-weight: normal !important;
   }
 
   #showFacs a, #showComm a {
@@ -2856,7 +2896,7 @@ td, th, tr {
 
   /* popup comments */
 
-  a.tooltp, a.tooltp2 {
+  a.tooltp, a.tooltp2, a.tooltp3 {
     font-size: 1em;
     text-decoration: none;
     cursor: pointer;
@@ -2865,14 +2905,16 @@ td, th, tr {
   }
 
   a.tooltp {
-    background-color: #92b6f9;
+    background-color: #fff;
   }
 
-  a.tooltp2 {
-    background-color: #f89ac6;
+  a.tooltp2, a.tooltp3 {
+    color: #085c01 !important;
+    font-weight: bold !important;
+    display: none;
   }
 
-  a.tooltp strong, a.tooltp2 strong {
+  a.tooltp strong, a.tooltp2 strong, a.tooltp3 strong {
     line-height:30px;
   }
 
@@ -2881,7 +2923,7 @@ td, th, tr {
     outline:none;
   }
 
-  span.value1, span.value2, span.value3 {
+  span.value1, span.value2, span.value3, span.value4 {
     display:none;
     font-style: normal !important;
   }
@@ -2922,19 +2964,69 @@ td, th, tr {
     color: #444444 !important;
   }
 
-  /* Simple Pages pages */
+  /* Pages linked in header */
 
-  #tekstit-nav li a, #toimitus-nav li a {
-    padding: 0.5em;
+  #poems ul {
+    width: 100% !important;
+  }
+
+  #poems ul li {
+    width: 100% !important;
+    display: inline;
+    margin-bottom: 1em;
+  }
+
+  #poems ul li span:nth-child(1) {
+    float: left;
+    width: 10%;
+  }
+
+  #poems ul li span:nth-child(2) {
+    width: 89.5%;
+    float: left;
+    margin-left:0.5%;
+    margin-bottom: 1em;
+  }
+
+  #poems ul li span:nth-child(2) span:nth-child(1), #poems ul li span:nth-child(2) span:nth-child(2) {
+    width: 100%;
+  }
+
+  #poems ul li span:nth-child(1) {
+    float: left;
+  }
+
+  #poems ul li span:nth-child(1) a img {
+    width: 100px;
+    /*box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+    -moz-box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+    -webkit-box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);*/
+    border-radius: 5px !important;
+    padding: 5px;
+    float: left !important;
+  }
+
+
+
+  #poems ul li span:nth-child(2) span a {
+    color: #999;
     text-transform: none;
   }
 
-  #tekstit-nav li a:hover, #toimitus-nav li a:hover {
-    background-color: #f8f9fb;
+
+  #poems ul:not(:nth-child(1)) {
+    display: none;
   }
 
-  #tekstit-nav li a, #toimitus-nav li a {
-    cursor:pointer;
+  #tekstit-nav li a, #toimitus-nav li a, #runot-nav li a {
+    padding: 0.5em;
+    text-transform: none;
+    color: #333 !important;
+    cursor: pointer;
+  }
+
+  #tekstit-nav li a:hover, #toimitus-nav li a:hover, #runot-nav li a:hover {
+    background-color: #f8f9fb;
   }
 
   #geneettinen-vertailu h5, #geneettinen-content h5, #geneettinen-content-2 h5, #temaattinen-toimitustavat h5 {
@@ -3111,6 +3203,16 @@ td, th, tr {
   span.bolded {
     font-weight: bold;
   }
+
+  /* Kaukonen commentary styles */
+  span.red {
+    color: #ff0606!important;
+  }
+
+  span.blue {
+    color: #2806ff !important;
+  }
+
 
 
   /* @end */

@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function() {
+
 
     /* Clicking actions in Simple pages page menus: hide/show */
     $('#esipuhe-link').find('a').on('click', function() {
@@ -139,6 +140,24 @@ $(document).ready(function(){
       }
     });
 
+    $('#runot-nav').find('li').eq(0).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(0).show();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+    });
+
+    $('#runot-nav').find('li').eq(1).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(1).show();
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(2).hide();
+    });
+
+    $('#runot-nav').find('li').eq(2).find('a').click(function() {
+      $(this).parent().parent().parent().next().find('ul').eq(2).show();
+      $(this).parent().parent().parent().next().find('ul').eq(0).hide();
+      $(this).parent().parent().parent().next().find('ul').eq(1).hide();
+    });
+
     /* popup comments, show extended description */
 
     $('.more').on('click', function() {
@@ -147,11 +166,36 @@ $(document).ready(function(){
      $('#switchImg').hide();
     });
 
+    /* show longer commentaries in third column */
     $('.tooltp2').on('click', function() {
      $('#show_col_3').css('padding','1em');
-     $('#show_col_3').html($(this).find('.value3').html());
-     $('#show_col_3').html($('#show_col_3').html().replace('JS:','<span class="bolded">JS:</span>'));
-     $('#show_col_3').html($('#show_col_3').html().replace('NH:','<span class="bolded">NH:</span>'));
+     $('#show_col_3').html($(this).next('.value3').html());
+     $('#show_col_3').html($('#show_col_3').html().replace('Väinö Kaukonen','<span class="blue">Väinö Kaukonen</span>'));
+     $('#show_col_3').html($('#show_col_3').html().replace('Niina Hämäläinen','<br /><br /><span class="red">Niina Hämäläinen</span>'));
+     $.each(skvr, function(key, value) {
+        var regex = new RegExp(key, 'gi');
+        $('#show_col_3').html($('#show_col_3')
+        .html()
+        .replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>'));
+      });
+    });
+
+    /* show/hide popup comments and links for longer commentaries in third column */
+    $('#pic_nav1').find('input').on('click',function() {
+      if ($(this).is(':checked')) {
+        $('.tooltp').css('background-color','#92b6f9');
+      } else {
+        $('.tooltp').css('background-color','');
+      }
+    });
+
+    $('#pic_nav2').find('input').on('click',function() {
+      if ($(this).is(':checked')) {
+        $('.tooltp2').show();
+
+      } else {
+        $('.tooltp2').hide();
+      }
     });
 
 });

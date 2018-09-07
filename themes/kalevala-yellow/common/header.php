@@ -100,6 +100,7 @@
     queue_js_file('default');
     queue_js_file('wheelzoom');
     queue_js_file('comments');
+    queue_js_file('skvr');
     queue_js_file('simplepages');
     queue_js_file('imageviewer');
     queue_js_file('linkactions');
@@ -125,13 +126,16 @@
                    <a class="nav-link" href="/kalevala/esittely">Esittely</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/tekstit">Esipuhe</a>
+                   <a class="nav-link" href="/kalevala/esipuhe">Esipuhe</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="/kalevala/collections">Runot</a>
                  </li>
                  <li class="nav-item">
                    <a class="nav-link" href="/kalevala/toimitustasot">Toimitustasot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/linkit">Kirjallisuus</a>
+                   <a class="nav-link" href="/kalevala/kirjallisuus">Kirjallisuus</a>
                  </li>
                </ul>
             </nav>

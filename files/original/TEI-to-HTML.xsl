@@ -64,17 +64,6 @@
       </a>
     </xsl:template>
 
-    <xsl:template match="tei:ref" priority="99">
-      <a class="tooltp2" title="kommentaari">
-        <xsl:value-of select="node()"/>
-      </a>
-      <span class="value3"><xsl:value-of select="current()/tei:note" /></span>
-    </xsl:template>
-
-    <xsl:template match="tei:ptr">
-      <a href="{current()/@target}"><xsl:text>[1]</xsl:text></a>
-    </xsl:template>
-
     <xsl:template match="tei:table">
       <table>
         <xsl:apply-templates/>
@@ -97,6 +86,10 @@
       <span style="background-color:grey;color:grey;"><xsl:text>gap</xsl:text></span>
     </xsl:template>
 
+    <xsl:template match="//tei:lb">
+      <xsl:text disable-output-escaping="yes">&lt;br&gt;</xsl:text>
+    </xsl:template>
+
     <xsl:template match="tei:label[@type = 'popup']">
       <a class="tooltp"><xsl:value-of select="current()" /></a>
       <span class="value1">
@@ -114,11 +107,22 @@
     <xsl:template match="tei:label[@type = 'commentary']">
       <a class="tooltp2">
         <xsl:value-of select="current()" />
-        <span class="value3"><xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab" /></span>
       </a>
+      <span class="value3"><xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab" /></span>
     </xsl:template>
 
-    <xsl:template match="tei:lb">
-       <xsl:text disable-output-escaping="yes">&lt;br/&gt;</xsl:text>
+    <xsl:template match="tei:label[@type = 'kaukonen']">
+      <a class="tooltp2">
+        <xsl:value-of select="current()" />
+      </a>
+      <span class="value3">
+        <xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab" />
+      </span>
     </xsl:template>
+
+    <xsl:template match="tei:ref">
+      <xsl:variable name="url"><xsl:value-of select="current()/@target" /></xsl:variable>
+      <a href="{$url}"><xsl:value-of select="current()" /></a>
+    </xsl:template>
+
   </xsl:stylesheet>

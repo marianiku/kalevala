@@ -266,15 +266,16 @@ $(document).ready(function() {
         + '<span class="value1">' + value[0] + '</span><span class="value2">' + value[1] + '</span>'));
       }
 
-
-
     }
   });
+
+
 
   // Display pictures and pages, show first picture + corresponding transcription first
   $('.pic').not('.pic:first').hide();
   var i = 0;
   var j = 0;
+
 
   // Forward
   $('#nextPic').click(function() {

@@ -63,7 +63,6 @@ extends Omeka_Controller_AbstractActionController
 
     // Execute the query.
     $results = $this->_search($start, $limit, $limitToPublicItems);
-
     // Set the pagination.
     Zend_Registry::set('pagination', array(
       'page'          => $page,

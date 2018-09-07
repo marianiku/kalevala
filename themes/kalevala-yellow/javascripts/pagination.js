@@ -24,7 +24,7 @@ $(document).ready(function() {
         }
 
         if ($(this).position().top >= 1000) {
-          $(this).next('.value1').css('margin-top','-20px');
+          $(this).next('.value1').css('margin-top','-30px');
         }
       });
     });

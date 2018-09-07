@@ -141,10 +141,10 @@
         <note n="102"><ab>värsy : säe</ab></note>
         <note n="104"><ab>arvioida, käsittää</ab></note>
         <note n="a">
-          <ab> Suomalais-karjalaisessa runokulttuurissa ei tunnettu Kalevalan tapaista eeppistä kokonaisuutta, eeposta. Lönnrotilla itsellään oli jo varhain
-            ajatus runojen oikeanlaisesta järjestämisestä: "saattaa kaikki runot, joita löytyy Väinämöisestä, Ilmarisesta, Pohjolasta ja Kalevalasta,
-            jonkinlaiseen parempaan yhteyteen--" (Lönnrotin kirje). Ajatukseen runojen järjestämisestä eepoksen kaltaiseksi kokonaisuudeksi vaikuttivat myös
-            Lönnrotin työskentelyä seuranneet kollegat (ks. esim. VK:n esipuhe).</ab>
+          <ab>Suomalais-karjalaisessa runokulttuurissa ei tunnettu Kalevalan tapaista eeppistä kokonaisuutta, eeposta. <lb /><lb />Lönnrotilla itsellään oli jo varhain
+             ajatus runojen oikeanlaisesta järjestämisestä: “saattaa kaikki runot, joita löytyy Väinämöisestä, Ilmarisesta, Pohjolasta ja Kalevalasta,
+             jonkinlaiseen parempaan yhteyteen--” (Lönnrotin kirje). Ajatukseen runojen järjestämisestä eepoksen kaltaiseksi kokonaisuudeksi vaikuttivat myös
+             Lönnrotin työskentelyä seuranneet kollegat (ks. esim. VK:n esipuhe).</ab>
         </note>
         <note n="b">
           <ab>Eepoksen aloittava esipuhe määrittelee Kalevalan kirjaksi. Siten Lönnrot erottaa teoksena suullisesta kansanperinteestä. Lönnrot palaa myöhemmin
@@ -207,14 +207,14 @@
       <div type="esipuhe">
         <pb n="1" facs="esipuhe_01" />
         <p><emph>Alkulause.</emph></p>
-        <p>§. 1. Kalevala-runojen <label type="popup" n="1">järestyksestä</label><label type="commentary" n="a">*</label>. <hi rend="italics">Tämä kirja<label type="commentary" n="b">*</label> esivanhempaimme
-          muinaisesta olosta, elämästä ja toimista<label type="commentary" n="c">*</label> ilmestyy nyt paljo täydellisempänä,
+        <p>§. 1. Kalevala-runojen <label type="popup" n="1">järestyksestä</label><label type="commentary" n="a">*)</label>. <hi rend="italics">Tämä kirja<label type="commentary" n="b">*)</label> esivanhempaimme
+          muinaisesta olosta, elämästä ja toimista<label type="commentary" n="c">*)</label> ilmestyy nyt paljo täydellisempänä,
           kun minkä entisessä <label type="popup" n="2">korjuussansa</label> oli, ja tulee uskottavasti nykyisessä muodossansa pysymään, sillä keräämättömiä runoja tästä laadusta ei mahda enää asiaksi
-          löytyä<label type="commentary" n="d">*</label>, koska kaikki paikat, joissa vaan vähänki on toivottu runoja laulettavan, jo ovat useampia kertoja ja useammilta kerääjiltä<label type="commentary" n="e">*</label>
-          ristin rastin käydyt ja etsityt<label type="commentary" n="f">*</label>. Hyvin muistaen, että ne tulevat olemaan vanhimpana <label type="popup" n="3">omituisena</label> jälkimuistona Suomen kansalle ja kielelle, kunnes niitä maailmassa löytyy, on niitä kaikella
+          löytyä<label type="commentary" n="d">*)</label>, koska kaikki paikat, joissa vaan vähänki on toivottu runoja laulettavan, jo ovat useampia kertoja ja useammilta kerääjiltä<label type="commentary" n="e">*)</label>
+          ristin rastin käydyt ja etsityt<label type="commentary" n="f">*)</label>. Hyvin muistaen, että ne tulevat olemaan vanhimpana <label type="popup" n="3">omituisena</label> jälkimuistona Suomen kansalle ja kielelle, kunnes niitä maailmassa löytyy, on niitä kaikella
           mahdollisella huolella ja ahkeruudella <label type="popup" n="4">pyydetty</label> sovitella ja liittää toinen toisiinsa niin hyvästi, kuin vaan on osattu, ja koota niihin kaikki, mitä runot
           <label type="popup" n="5">senaikuisesta</label> elämästä, tavoista ja vaiheista ovat tiedoksi säilyttäneet. Sovittamisessa on kuitenki paljo mielivaltaa ollut, sillä paraimmiltaki laulajoilta ei
-          ole kovin monta runoa yhteen jaksoon saatu, eikä sitäkään aina yhteen laatuun, jonka tähden usein kyllä on täytynyt itse aineen keskinäinen vaade perusteeksi panna,
+          ole kovin monta runoa yhteen jaksoon saatu, eikä sitäkään aina yhteen laatuun, jonka tähden usein kyllä on täytynyt itse <label type="popup" n="24">aineen</label> keskinäinen vaade perusteeksi panna,
           ja katsomatta entisen Kalevala-laitoksen järestystä välistä siitäki poiketa. Arvattavasti ei hän siis lienekään järestyttämisen työ niin luonnistunut, että taitaisi
           olla kaikille mielen mukainen, ja ettei siinä aina yhtä ja toista jäisi <label type="popup" n="6">muistuttamista</label>.</hi></p>
         <p>§. 2. Erityisistä nimistä runoissa. <hi rend="italics">Ei ainoastansa järestyksessä, vaan usein nimissäki, eroavat eri laulajoilta ja eri paikoilta saadut runot
@@ -225,7 +225,7 @@
           <label type="popup" n="15">Jumalisten</label>, <label type="popup" n="16">Wuojelan</label>, Joukolan, <label type="popup" n="17">Saarelan</label>, <label type="popup" n="18">Sariolan</label>, <label type="popup" n="19">Saraojan</label>, <label type="popup" n="20">Sarajahan</label>, <label type="popup" n="21">Pohjolan</label>, Lapin, <label type="popup" n="22">Ruijan</label> <hi rend="italics">nimet toisiinsa, joka hämmennys niin näiden, kuin
             edellisten nimien välillä on varsinki vähäpätöisemmissä asioissa tavallinen, pää-asioissa harvemmin tapahtuva. Kaikessa semmoisessa <label type="popup" n="23">nimiseossa</label></hi></p>
         <pb n="2" facs="esipuhe_02" />
-        <p><hi rend="italics">on kuitenki kaksi opasta hyvänä apuna ollut, nimittäin</hi> <label type="popup" n="24">aineen</label> johto <hi rend="italics">ja</hi> paraimpien laulupaikkojen runot.</p>
+        <p><hi rend="italics">on kuitenki kaksi opasta hyvänä apuna ollut, nimittäin</hi> aineen johto <hi rend="italics">ja</hi> paraimpien laulupaikkojen runot.</p>
         <p>§. 3. Kalevala-runojen nykyisestä kotipesästä. <hi rend="italics">Paras ja rikkain runokoti on ainaki</hi> Wuokkiniemen <hi rend="italics">pitäjä</hi> <label type="popup" n="25">Wienan
           <hi rend="italics">eli</hi> Arkankelin <hi rend="italics">lääniä</hi></label>. <hi rend="italics">Siitä itään päin</hi> Jyskyjärvelle <hi rend="italics">ja</hi> Paanajärvelle, <hi rend="italics">tahi
           pohjaiseen päin</hi> Tuoppajärvelle <hi rend="italics">ja</hi> Pääjärvelle <hi rend="italics">tullessa huononevat runot huononemistaan. Paremmin ovat etelään päin

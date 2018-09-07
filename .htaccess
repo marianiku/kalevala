@@ -55,12 +55,12 @@ RewriteRule .* index.php
 # Uncomment the lines below in order to enable caching of some files
 # (after a finished site has gone live)
 #
-# <IfModule mod_expires.c>
-#    <FilesMatch "\.(js|ico|gif|jpg|png|css)$">
-#        ExpiresActive on
-#        ExpiresDefault "access plus 10 day"
-#    </FilesMatch>
-# </IfModule>
+ <IfModule mod_expires.c>
+    <FilesMatch "\.(js|ico|gif|jpg|png|css)$">
+        ExpiresActive on
+        ExpiresDefault "access plus 10 day"
+    </FilesMatch>
+ </IfModule>
 
 # ------------ #
 # PHP Settings #

@@ -185,7 +185,7 @@ class ItemsController extends Omeka_Controller_AbstractActionController
 
     protected function _getBrowseDefaultSort()
     {
-        return array('title', 'd');
+        return array('Dublin Core, Identifier', 'a');
     }
 
     ///// AJAX ACTIONS /////

@@ -12,11 +12,20 @@
     <div class="col-sm">
       <nav id="pic_nav" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
-           <li id="prevPic" class="nav-item">
-             <a class="nav-link">&#8592;</a>
+           <li id="pic_nav1" class="nav-item">
+             <input type="checkbox"> Sananselitykset
            </li>
-           <li id="nextPic" class="nav-item">
-             <a class="nav-link">&#8594;</a>
+           <?php if (metadata('item', array('Dublin Core', 'Title')) == 'Neljäs runo'): ?>
+             <li id="pic_nav2" class="nav-item">
+               <input type="checkbox"> Säeviitteet
+             </li>
+          <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Uuden Kalevalan esipuhe'): ?>
+            <li id="pic_nav2" class="nav-item">
+              <input type="checkbox"> Kommentaarit
+            </li>
+          <?php endif ?>
+           <li id="pic_nav3" class="nav-item">
+             <a id="prevPic" class="nav-link">&#8592;</a><a id="nextPic" class="nav-link">&#8594;</a>
            </li>
          </ul>
        </nav>
@@ -25,13 +34,8 @@
       <nav id="pic_nav2" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="showFacs" class="nav-item">
-             <a class="nav-link">Faksimile &#8595;</a>
+             <a class="nav-link">Faksimile</a>
            </li>
-           <?php if (metadata('item', array('Item Type Metadata', 'Text'))): ?>
-             <li id="showComm" class="nav-item">
-               <a class="nav-link">Kommentaari &#8595;</a>
-             </li>
-           <?php endif ?>
          </ul>
        </nav>
     </div>
@@ -103,25 +107,9 @@
 </div>-->
 
 <nav>
-
-<!-- Extra navigation to go directly to other poems -->
 <ul class="item-pagination navigation">
-  <h5>Siirry runoon: </h5>
-  <?php
-  $items = get_records('Item');
-  // Sort items by id
-  function cmp($a, $b) {
-    return strcmp(metadata($a, array('Dublin Core', 'Identifier')), metadata($b, array('Dublin Core', 'Identifier')));
-  }
-  usort($items, "cmp");
-  $v = $items[5];
-  unset($items[5]);
-  $items[6] = $v;
-  set_loop_records('items', $items);
-  foreach (loop('items') as $item) {
-    echo '<li>'.link_to_item().'</li>';
-  }
-  ?>
+    <li id="previous-item" class="previous"><?php echo link_to_previous_item_show(); ?></li>
+    <li id="next-item" class="next"><?php echo link_to_next_item_show(); ?></li>
 </ul>
 </nav>
 

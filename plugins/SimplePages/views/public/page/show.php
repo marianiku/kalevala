@@ -29,7 +29,7 @@ echo head(array(
   $files = $item->Files;
   foreach ($files as $file) {
     if (strpos(metadata($file, 'filename'), 'esipuhe') !== false) {
-      echo '<img class="pic3" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img class="pic3" src="http://10.214.32.27/kalevala/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>
@@ -41,7 +41,7 @@ echo head(array(
   $files = $item->Files;
   foreach ($files as $file) {
     if (strpos(metadata($file, 'filename'), 'lna038') !== false) {
-      echo '<img class="pic4" src="http://localhost/kalevala/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img class="pic4" src="http://10.214.32.27/kalevala/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>
