@@ -171,7 +171,7 @@ $(document).ready(function() {
      $('#show_col_3').css('padding','1em');
      $('#show_col_3').html($(this).next('.value3').html());
      $('#show_col_3').html($('#show_col_3').html().replace('Väinö Kaukonen','<span class="blue">Väinö Kaukonen</span>'));
-     $('#show_col_3').html($('#show_col_3').html().replace('Niina Hämäläinen','<br /><br /><span class="red">Niina Hämäläinen</span>'));
+     $('#show_col_3').html($('#show_col_3').html().replace('Niina Hämäläinen','<span class="red">Niina Hämäläinen</span>'));
      $.each(skvr, function(key, value) {
         var regex = new RegExp(key, 'gi');
         $('#show_col_3').html($('#show_col_3')

@@ -17,9 +17,9 @@
         return strcmp(metadata($a, array('Dublin Core', 'Identifier')), metadata($b, array('Dublin Core', 'Identifier')));
       }
       usort($items, "cmp");
-      $v = $items[5];
-      unset($items[5]);
-      $items[6] = $v;
+      $v = $items[6];
+      unset($items[6]);
+      $items[7] = $v;
       set_loop_records('items', $items);
       foreach (loop('items') as $item) {
         echo '<li><h5>'.link_to_item(item_image()).' '.link_to_item().'</h5></li>';

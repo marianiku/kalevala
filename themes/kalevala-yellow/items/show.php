@@ -19,7 +19,8 @@
              <li id="pic_nav2" class="nav-item">
                <input type="checkbox"> Säeviitteet
              </li>
-          <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Uuden Kalevalan esipuhe'): ?>
+          <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Uuden Kalevalan esipuhe'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Vanhan Kalevalan esipuhe'): ?>
             <li id="pic_nav2" class="nav-item">
               <input type="checkbox"> Kommentaarit
             </li>
@@ -85,8 +86,8 @@
   <?php
   $files = $item->Files;
   foreach ($files as $file) {
-    if ($file->getExtension() == 'jpg' && strpos(metadata($file, 'filename'), 'lna038') !== false) {
-      echo '<img class="pic2" src="http://128.214.12.169/kalevala/files/original/'.metadata($file, 'filename').'" />';
+    if ($file->getExtension() == 'jpg' && (strpos(metadata($file, 'filename'), 'lna038') !== false || strpos(metadata($file, 'filename'), 'lna036') !== false)) {
+      echo '<img class="pic2" src="http://10.214.32.27/kalevala/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>

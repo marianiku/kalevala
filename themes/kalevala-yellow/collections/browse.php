@@ -14,7 +14,10 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
         <?php $collections = get_records('Collection',array('sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a')); ?>
         <?php set_loop_records('collections',$collections);?>
         <?php foreach (loop('collections') as $collection): ?>
-          <li class="nav-item"><a class="nav-link"><?php echo metadata('collection', array('Dublin Core', 'Title')) ;?></a></li>
+          <?php $collId = metadata($collection, array('Dublin Core', 'Identifier')); ?>
+          <?php if (strpos($collId, 'coll') !== false):?>
+            <li class="nav-item"><a class="nav-link"><?php echo metadata('collection', array('Dublin Core', 'Title')) ;?></a></li>
+          <?php endif;?>
         <?php endforeach; ?>
       </ul>
     </div>
@@ -22,7 +25,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
     <div class="col-10" id="poems">
       <?php foreach (loop('collections') as $collection): ?>
         <?php $collId = metadata('collection', array('Dublin Core', 'Identifier')); ?>
-
+        <?php if (strpos($collId, 'coll') !== false):?>
           <ul id="<?php echo $collId;?>" class="navbar-nav">
             <h4 style="margin-bottom:2em;"><?php echo metadata($collection,array('Dublin Core', 'Title'));?></h4>
             <?php $items = get_records('Item', array('collection'=>$collection)); ?>
@@ -38,6 +41,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
               </li>
             <?php endforeach; ?>
           </ul>
+        <?php endif;?>
       <?php endforeach; ?>
 
     </div>

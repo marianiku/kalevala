@@ -86,8 +86,12 @@
       <span style="background-color:grey;color:grey;"><xsl:text>gap</xsl:text></span>
     </xsl:template>
 
-    <xsl:template match="//tei:lb">
-      <xsl:text disable-output-escaping="yes">&lt;br&gt;</xsl:text>
+    <xsl:template match="tei:lb[@type='kauk-lb']">
+      <xsl:value-of select="current()" /><xsl:text>&lt;br/&gt;</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="tei:lb[@type='runo-lb']">
+      <xsl:value-of select="current()" /><xsl:text>&lt;br/&gt;</xsl:text>
     </xsl:template>
 
     <xsl:template match="tei:label[@type = 'popup']">
@@ -99,9 +103,12 @@
           <a class="more"><xsl:text>Katso lisää</xsl:text></a>
         </xsl:if>
       </span>
-      <xsl:if test="//tei:note[@n=current()/@n]/tei:ab[2]">
-        <span class="value2"><xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab[2]" /></span>
-      </xsl:if>
+        <span class="value2">
+          <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab[2]/text()">
+            <xsl:value-of select="current()" /><xsl:text disable-output-escaping="yes">&lt;br&gt;&lt;br&gt;</xsl:text>
+          </xsl:for-each>
+          <!--<xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab[2]" />-->
+        </span>
     </xsl:template>
 
     <xsl:template match="tei:label[@type = 'commentary']">
@@ -116,8 +123,11 @@
         <xsl:value-of select="current()" />
       </a>
       <span class="value3">
-        <xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab" />
+        <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab/text()">
+          <xsl:value-of select="current()" /><xsl:text disable-output-escaping="yes">&lt;br&gt;&lt;br&gt;</xsl:text>
+        </xsl:for-each>
       </span>
+
     </xsl:template>
 
     <xsl:template match="tei:ref">
