@@ -19,13 +19,22 @@
              <li id="pic_nav2" class="nav-item">
                <input type="checkbox"> Säeviitteet
              </li>
+             <li id="pic_nav3" class="nav-item">
+               <input type="checkbox"> Kommentaarit
+             </li>
           <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Uuden Kalevalan esipuhe'
-          || metadata('item', array('Dublin Core', 'Title')) == 'Vanhan Kalevalan esipuhe'): ?>
-            <li id="pic_nav2" class="nav-item">
+          || metadata('item', array('Dublin Core', 'Title')) == 'Vanhan Kalevalan esipuhe'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Ensimmäinen runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Toinen runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Kolmas runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Viides runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Kahdestoista runo'
+          || metadata('item', array('Dublin Core', 'Title')) == 'Yhdestoista runo'): ?>
+            <li id="pic_nav3" class="nav-item">
               <input type="checkbox"> Kommentaarit
             </li>
           <?php endif ?>
-           <li id="pic_nav3" class="nav-item">
+           <li id="pic_nav4" class="nav-item">
              <a id="prevPic" class="nav-link">&#8592;</a><a id="nextPic" class="nav-link">&#8594;</a>
            </li>
          </ul>
@@ -35,7 +44,17 @@
       <nav id="pic_nav2" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="showFacs" class="nav-item">
-             <a class="nav-link">Faksimile</a>
+             <a class="nav-link">Käsikirjoitus</a>
+           </li>
+           <li class="nav-item">
+             <?php
+             $files = $item->Files;
+             foreach ($files as $file) {
+               if ($file->getExtension() == 'xml') {
+                 echo '<a href="http://128.214.12.169/kalevala/files/original/'.metadata($file, 'filename').'" download>TEI</a>';
+               }
+             }
+             ?>
            </li>
          </ul>
        </nav>

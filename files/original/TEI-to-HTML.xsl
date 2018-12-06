@@ -42,7 +42,15 @@
     </xsl:template>
 
     <xsl:template match="tei:hi[@rend = 'italics']">
-      <em><xsl:apply-templates/></em>
+      <em><xsl:apply-templates /></em>
+    </xsl:template>
+
+    <xsl:template match="tei:lb">
+      <xsl:text disable-output-escaping="yes">&lt;br&gt;</xsl:text>
+    </xsl:template>
+
+    <xsl:template match="tei:ref">
+      <a href="{current()/@target}" target="_blank"><xsl:apply-templates /></a>
     </xsl:template>
 
     <xsl:template match="//tei:emph">
@@ -86,14 +94,6 @@
       <span style="background-color:grey;color:grey;"><xsl:text>gap</xsl:text></span>
     </xsl:template>
 
-    <xsl:template match="tei:lb[@type='kauk-lb']">
-      <xsl:value-of select="current()" /><xsl:text>&lt;br/&gt;</xsl:text>
-    </xsl:template>
-
-    <xsl:template match="tei:lb[@type='runo-lb']">
-      <xsl:value-of select="current()" /><xsl:text>&lt;br/&gt;</xsl:text>
-    </xsl:template>
-
     <xsl:template match="tei:label[@type = 'popup']">
       <a class="tooltp"><xsl:value-of select="current()" /></a>
       <span class="value1">
@@ -102,12 +102,15 @@
           <xsl:text> </xsl:text>
           <a class="more"><xsl:text>Katso lisää</xsl:text></a>
         </xsl:if>
+        <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab[1]/tei:ref">
+          <xsl:variable name="url"><xsl:value-of select="current()/@target" /></xsl:variable>
+          <a href="{$url}" target="_blank"><xsl:text>Kansallisbiografia</xsl:text></a>
+        </xsl:for-each>
       </span>
         <span class="value2">
-          <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab[2]/text()">
-            <xsl:value-of select="current()" /><xsl:text disable-output-escaping="yes">&lt;br&gt;&lt;br&gt;</xsl:text>
+          <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab[2]">
+            <xsl:apply-templates />
           </xsl:for-each>
-          <!--<xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab[2]" />-->
         </span>
     </xsl:template>
 
@@ -115,24 +118,35 @@
       <a class="tooltp2">
         <xsl:value-of select="current()" />
       </a>
-      <span class="value3"><xsl:value-of select="//tei:note[@n=current()/@n]/tei:ab" /></span>
+      <span class="value3">
+        <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab">
+          <xsl:apply-templates />
+        </xsl:for-each>
+        <!--<xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab/tei:ref">
+          <xsl:variable name="url"><xsl:value-of select="current()/@target" /></xsl:variable>
+          <a href="{$url}" target="_blank"><xsl:text>Kansallisbiografia</xsl:text></a>
+        </xsl:for-each>-->
+      </span>
     </xsl:template>
 
     <xsl:template match="tei:label[@type = 'kaukonen']">
-      <a class="tooltp2">
+      <a class="tooltp3">
         <xsl:value-of select="current()" />
       </a>
       <span class="value3">
-        <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab/text()">
-          <xsl:value-of select="current()" /><xsl:text disable-output-escaping="yes">&lt;br&gt;&lt;br&gt;</xsl:text>
+        <xsl:for-each select="//tei:note[@n=current()/@n]/tei:ab">
+          <xsl:apply-templates />
         </xsl:for-each>
       </span>
-
     </xsl:template>
 
-    <xsl:template match="tei:ref">
-      <xsl:variable name="url"><xsl:value-of select="current()/@target" /></xsl:variable>
-      <a href="{$url}"><xsl:value-of select="current()" /></a>
+    <xsl:template match="tei:label[@type = 'red']">
+      <span class="red"><xsl:apply-templates /></span>
     </xsl:template>
+
+    <xsl:template match="tei:label[@type = 'blue']">
+      <span class="blue"><xsl:apply-templates /></span>
+    </xsl:template>
+
 
   </xsl:stylesheet>

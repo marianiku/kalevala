@@ -115,7 +115,10 @@
 
         <header role="banner">
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
-            <div id="site-title"><?php echo link_to_home_page(theme_logo()); ?></div>
+            <div id="site-title">
+              <?php echo link_to_home_page(theme_logo()); ?>
+              <img src="http://128.214.12.169/kalevala/logo-SKS@2x.png" />
+            </div>
             <div style="width: 100%; display:inline;">
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
@@ -141,6 +144,9 @@
             </nav>
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
+                <li class="nav-item" id ="search_help">
+                  <a class="nav-link" href="/kalevala/hakuohjeet" target="_blank">Hakuohjeet</a>
+                </li>
                 <li class="nav-item" id="solr_box">
                   <?php echo search_form(); ?>
                 </li>

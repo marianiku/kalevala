@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Uuden Kalevalan esipuhe</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-08-17">17.8.2018</date>
+      </publicationStmt>
+      <notesStmt>
+        <note n="1"><ab>järestys : järjestys; asettelu, jäsennys</ab></note>
+        <note n="2"><ab>korjuu : kunto, tila; säilö</ab></note>
+        <note n="3"><ab>omituinen : oma, ominainen, alkuperäinen</ab></note>
+        <note n="4"><ab>pyytää : yrittää, pyrkiä</ab></note>
+        <note n="5"><ab>senaikuinen : siihen aikaan esiintynyt, silloinen</ab></note>
+        <note n="6"><ab>muistuttaa : huomauttaa</ab></note>
+        <note n="7"><ab>Kullervo : Kalevalan traagisen Kullervo-runoston pääsankari (runot 31−36), Kalervon poika</ab></note>
+        <note n="8"><ab>tai</ab></note>
+        <note n="9"><ab>Sanaa 'tuiretuinen' käytetään Kalevalan 35. runoon sisältyvässä Sisaren turmellus -runossa määritteenä sekä Kullervolle että tämän siskolle eli vietellylle
+          neidolle: pahainen, mitätön, ymmärtämätön  (ks. UK 35:203−204; 215−216; Turunen 1979).</ab></note>
+        <note n="10"><ab>Sisaren turmellus -runon toisinnoissa käytetty nimi sisaren turmelijasta</ab></note>
+        <note n="11"><ab>Luotola : paikannimi, joka kansanrunoissa usein esiintyy Päivölän, joskus Pohjolan yhteydessä</ab></note>
+        <note n="12"><ab>Luotela : luoteeseen viittaava paikannimi suomalaisessa kansanrunoudessa, Pohjolaan rinnakkaisnimi</ab><ab>Vrt. Luode.</ab></note>
+        <note n="13"><ab>Päivölä : paikannimi suomalaisessa kansanrunoudessa, Pohjolan rinnakkaisnimi</ab><ab>Myös päivän eli auringon koti suomalaisessa mytologiassa. Vrt.
+          Päivälä, Päivölä.</ab></note>
+        <note n="14"><ab>Päivilä : paikannimi suomalaisessa kansanrunoudessa, Pohjolan rinnakkaisnimi</ab><ab>Myös päivän eli auringon koti suomalaisessa mytologiassa. Vrt.
+          Päivälä, Päivölä.</ab></note>
+        <note n="15"><ab>Jumalinen :  Pohjolan rinnakkaisnimi suomalaisessa kansanrunoudessa</ab></note>
+        <note n="16"><ab>Vuojela : paikannimi suomalaisessa kansanrunoudessa, Pohjolan rinnakkaisnimi</ab></note>
+        <note n="17"><ab>Saarela : paikannimi suomalaisessa kansanrunoudessa</ab></note>
+        <note n="18"><ab>Sariola : Pohjolan rinnakkaisnimi Kalevalassa, Päivilän rinnakkaisnimi suomalaisessa kansanrunoudessa</ab><ab>Mahdollisesti Jerusalem-nimen kansanomainen
+          väännös (ks. Turunen 1979).</ab></note>
+        <note n="19"><ab>Saraoja : Pohjolan rinnakkaisnimi suomalaisessa kansanrunoudessa</ab><ab>Vrt. Saraja.</ab></note>
+        <note n="20"><ab>Saraja :  Pohjolan rinnakkaisnimi suomalaisessa kansanrunoudessa</ab><ab>Vrt. Saraoja. Vrt. myös sarajan merkitys yleissanana: ylinen, ullakko, vintti.</ab></note>
+        <note n="21">
+          <ab>Pohjola : Louhen asuinpaikka, Kalevalassa ja kansanrunoissa yleisesti esiintyvä paikannimi</ab>
+          <ab>Vrt. pohja-sanan merkitys pohjoisena ilmansuuntana ja käsitettynä paikaksi, joka on pimeän, kylmän ja kaiken pahuuden kotina, paikkana, jonne kivut ja taudit manataan.
+            Kalevalassa Pohjola on Väinölän eli Kalevalan vastakohta, kokonaisen heimon asuinsijana, jota Louhi eli Pohjolan emäntä hallitsee. Sampo taotaan Pohjolaan ja ryöstetään
+            sieltä; Pohjola on myös esimerkiksi paikka, jonne päivänvalot kätketään. Sekä Kalevalassa että muinaisrunoissa Pohjolasta käytetään nimityksiä, jotka kuvaavat sen luonnetta,
+            kuten Pimentola, Untamola, kylmä kylä, miesten syöjä sija, urosten upottaja, pahan valta. Vaikka Kalevalan Pohjola pohjautuu pääpiirteissään kansanrunoihin, eepoksen Pohjola
+            on saanut Lönnrotin työn vaikutuksesta lisäpiirteitä. Esimerkiksi Kalevalan kolmannessa runossa Pohjola esiintyy Lönnrotin sovittamana. (Turunen 1979: 258−259.)</ab>
+        </note>
+        <note n="22"><ab>Ruija : Pohjois-Norjan historiallinen maakunta Finnmark, jota asuttivat suomalaisperäiset kveenit</ab></note>
+        <note n="23"><ab>nimiseko : nimien sekoitus, nimien sekamelska</ab></note>
+        <note n="24"><ab>runon</ab></note>
+        <note n="25"><ab>Arkangelin kuvernementti, vuosina 1784-1929 Venäjän keisarikunnan ja myöhemmin Venäjän sosialistisen federatiivisen neuvostotasavallan hallinnollinen alue
+          valtakunnan luoteisosassa</ab></note>
+        <note n="26"><ab>Inkere : Inkeri</ab></note>
+        <note n="27"><ab>Zacharias Topelius vanhempi (1781−1831), lääkäri, kansanrunoudentutkija. Julkaisi ennen Lönnrotia kansanrunokokoelman <hi rend="italics">Suomen Kansan Vanhoja Runoja</hi>
+          ynnä myös Nykyisempiä Lauluja 1822–1831. Osoitti Lönnrotille Vienan runorikkaat kylät.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/6487" /></ab></note>
+        <note n="28"><ab>runokokous : runokokoelma</ab></note>
+        <note n="29"><ab>Reinhold von Becker (1788−1858), suomen kielen kehittäjä, professori. Laati suomen kieliopin ja toimi Turun Wiikko-Sanomien (ilmestyi Turussa 1820-1827 ja 1829-1831) toimittajana. 
+          Kirjoitti runonkeruumatkan pohjalta artikkelin Väinämöisestä (1820), jonka tulkitsi historialliseksi sankariksi. Lönnrotin opettaja ja innoittaja.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3128" /></ab></note>
+        <note n="30"><ab>täydellisyyttää : tehdä täydellisemmäksi</ab></note>
+        <note n="31"><ab>tai</ab></note>
+        <note n="32"><ab>kokea : yrittää, koettaa</ab></note>
+        <note n="33"><ab>tilalle</ab></note>
+        <note n="34"><ab>ilmautua : ilmaantua</ab></note>
+        <note n="35"><ab>helposti</ab></note>
+        <note n="36"><ab>päättää : päätellä</ab></note>
+        <note n="37"><ab>Permia : Bjarmia, keskiaikaisissa lähteissä mainittu alue, joka sijaitsi nykyisen Arkangelin seuduilla </ab></note>
+        <note n="38"><ab>permialaiset : bjarmit, keskiaikaisissa lähteissä mainittua, nykyisen Arkangelin seuduilla asunutta väestöä, joka todennäköisesti oli suomensukuista mutta ei kuitenkaan permiläistä</ab></note>
+        <note n="39"><ab>Onieka : Ääninen, Euroopan toiseksi suurin järvi, joka sijaitsee Luoteis-Venäjällä isoilta osin nykyisen Karjalan tasavallan alueella</ab></note>
+        <note n="40"><ab>pimeä paikka, Pohjolan rinnakkaisnimi</ab></note>
+        <note n="41"><ab>Untamon asuinpaikka; Pohjolan talon nimi</ab></note>
+        <note n="42"><ab>loihtutaito : loitsimisen taito</ab>
+          <ab>Loitsuja käytettiin tavallisesti tautien parantamiseen mutta myös muiden erilaisten tarpeiden täyttämiseen. Loitsimisen tavoitteena oli
+            saada yhteys jumaliin ja henkiolentoihin, joilta apua pyydettiin. (Turunen 1979: 182.) </ab></note>
+        <note n="43"><ab>erikseen</ab></note>
+        <note n="44"><ab>suihkia : viuhua, suhista; liehua, huiskia, heilua</ab></note>
+        <note n="45"><ab>piukkia : paukkua, helähdellä</ab></note>
+        <note n="46"><ab>lorua : vuotaa, valua </ab></note>
+        <note n="47"><ab>norua : valua, tippua </ab></note>
+        <note n="48"><ab>kamuta : jylistä, jymistä</ab></note>
+        <note n="49"><ab>remuta : pitää rätinää, käristä</ab></note>
+        <note n="50"><ab>nuhata : nyhjöttää, olla toimettomana</ab></note>
+        <note n="51"><ab>sohata : mumista, supista</ab></note>
+        <note n="52"><ab>ratista : pitää ratisevaa ääntä</ab></note>
+        <note n="53"><ab>vatista : natista</ab></note>
+        <note n="54"><ab>sorahtaa : särähtää, surista</ab></note>
+        <note n="55"><ab>sirettää : juoda, ryypätä; tihkua, valua</ab></note>
+        <note n="56"><ab>hyräytyä : ruveta itkemään, puhjeta itkuun</ab></note>
+        <note n="57"><ab>viehkuroida : pyöriä, kieriä</ab></note>
+        <note n="58"><ab>kääperöitä :  pyöriä, vaappua</ab></note>
+        <note n="59"><ab>häiläyttää : heilauttaa</ab></note>
+        <note n="60"><ab>nauskahuttaa : lyödä rivakasti, napauttaa (niin että syntyy navahtava ääni)</ab></note>
+        <note n="61"><ab>tölläyttää : kääntää, keikauttaa</ab></note>
+        <note n="62"><ab>tuivertaa : vääntää, tempoa irti</ab></note>
+        <note n="63"><ab>haivertaa : tarttua, siepata</ab></note>
+        <note n="64"><ab>karitella : ajaa niin että kuuluu kariseva ääni</ab></note>
+        <note n="65"><ab>kahatella : huristella; ajaa niin, että kuuluu kahinaa</ab></note>
+        <note n="66"><ab>suhutella : ajaa niin, että kuuluu suhinaa</ab></note>
+        <note n="67"><ab>siuotella : liikkua tai tehdä jotakin keveästi ja nopeasti</ab></note>
+        <note n="68"><ab>luskutella : haukahtaa, nalkuttaa</ab></note>
+        <note n="69"><ab>juhmutella : haukkua harvakseen ja kuuluvasti</ab></note>
+        <note n="103"><ab>helätä : laulaa; helistä</ab></note>
+        <note n="70"><ab>käärämöitellä : liikkua kaarrellen</ab></note>
+        <note n="71"><ab>ripeästi, reippaasti</ab></note>
+        <note n="72"><ab>nopeasti</ab></note>
+        <note n="73"><ab>tarmokkaasti</ab></note>
+        <note n="74"><ab>mainesana : adjektiivi, määre, lisänimi</ab></note>
+        <note n="75"><ab>huoleton, kevytmielinen; raukka, pelkuri</ab></note>
+        <note n="76"><ab>huoleton, kevytmielinen; raukka, pelkuri</ab></note>
+        <note n="77"><ab>hutilus, rukka, poloinen</ab></note>
+        <note n="78"><ab>heittiö, renttu, ryökäle</ab></note>
+        <note n="79"><ab>tuuheahäntäinen</ab></note>
+        <note n="80"><ab>pöyheä, tuuhea, tuuheakarvainen, pörröinen</ab></note>
+        <note n="81"><ab>palleroinen, pyöreä, kerämäinen</ab></note>
+        <note n="82"><ab>kunnolla, tarkalleen</ab></note>
+        <note n="83"><ab></ab>
+          <ab>Viittaa refleksiiveihin eli sellaisiin verbeihin, jotka kuvaavat tilanteita, joissa toiminnan suorittaja kohdistaa itseensä verbin
+            ilmaiseman toiminnan (Koivisto 1995: 29). Itämerensuomen refleksiivityypit voidaan jakaa refleksiivijohdoksiin, refleksiivitaivutukseen,
+            itse-rakenteisiin ja implisiittisiin reflekseihin (Koivisto 1995: 34). Lönnrotin viittaa tässä Kalevalan kielessä esiintyvään
+            refleksiivitaivutukseen, joka realisoituu omina taivutuspäätteinään eli nominaalitaivutuksesta poikkeavina refleksiivisinä
+            taivutusmorfeemeina.. Itämerensuomalaisissa kielissä refleksiivitaivutusta tavataan suomen itämurteissa Päijät-Hämeetä, Kainuun murteita
+            ja savolaiskiilaa lukuun ottamatta, karjala-aunuksessa, lyydissä, vepsässä, inkeroisissa ja vatjassa (Koivisto 1995: 57.)</ab>
+        </note>
+        <note n="84"><ab>nostaltaa : nostaa nopeasti ja voimakkaasti</ab></note>
+        <note n="85"><ab>murtaa väkivalloin; riuhtoa</ab></note>
+        <note n="86"><ab>tarpaista : lyödä äkkiä</ab></note>
+        <note n="87"><ab>sitaista : sitoa nopeasti</ab></note>
+        <note n="88"><ab>kutaista : kutoa äkkiä</ab></note>
+        <note n="89"><ab>tahkaista : hioa äkkiä</ab></note>
+        <note n="90"><ab>tuohesta tehty pieni nelikulmainen astia, tuohinen</ab></note>
+        <note n="91"><ab>kääry : käärö</ab></note>
+        <note n="92"><ab>eräs</ab></note>
+        <note n="93"><ab>teeri</ab></note>
+        <note n="94"><ab>heitämme</ab></note>
+        <note n="95"><ab>heitätte</ab></note>
+        <note n="96"><ab>nopea, vikkelä</ab></note>
+        <note n="97"><ab>melkoinen</ab><ab>Vrt. sanan merkitys sananlaskusäkeissä 5:177−179: kaukana siitä missä pitäisi olla, niin ja näin (ks. Turunen 1979).</ab></note>
+        <note n="98"><ab>äänikäs : vokaali</ab></note>
+        <note n="99"><ab>kätkyt : kehto, hihnojen varassa tai jalaksilla keinuva lapsen vuode</ab></note>
+        <note n="100"><ab>reheä :  rehevä, tuhti</ab></note>
+        <note n="101"><ab>sellaisenaankin</ab></note>
+        <note n="102"><ab>värsy : säe</ab></note>
+        <note n="104"><ab>arvioida, käsittää</ab></note>
+        <note n="105"><ab>Ilmestyi Turussa vuosina 1820 - 1827 ja 1829 - 1831. Lehden perusti Reinhold von Becker.</ab></note>
+        <note n="106"><ab>August Engelbrekt Ahlqvist (myös Oksanen) (1826−1889), suomen kielen ja kirjallisuuden professori, yliopiston rehtori, runoilija. Toimi Lönnrotin jälkeen suomen kielen
+          ja kirjallisuuden professorin virassa. Ahlqvist teki runonkeruumatkoja eri puolilla Karjalaa 1840-luvulla. <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3105"/></ab></note>
+        <note n="107"><ab>Fr. [Rietrikki] Polén (1823−1884), toimittaja, kielenkääntäjä. Teki Z. Sireliuksen kanssa runonkeruumatkan Karjalaan 1847. Keräsi runojen lisäksi kuvauksia
+          kansanelämästä, tavoista ja sivistyksestä. <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2933" /></ab></note>
+        <note n="108"><ab>Zacharias Emanuel Sirelius, (1822−1848), Fr. Polénin matkatoveri keruumatkalla Karjalassa 1847.</ab></note>
+        <note n="109"><ab>Henrik August Reinholm (1819−1883), kansanrunouden ja -tietouden kerääjä. Keräsi runoja 1840-luvun keruumatkoilla Karjalassa ja Inkerissä. Europaeuksen matkatoveri
+          Etelä-Karjalassa ja Inkerissä 1847. Reinholm oli ensimmäinen varsinainen suurkerääjä.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3598"/></ab></note>
+        <note n="110"><ab>David Emmanuel Daniel Europaeus (1820−1884), runonkerääjä, kielitieteilijä ja lehtimies. Avusti Lönnrotia tämän sanakirjatyössä, myöhemmin Europaeuksen runonkeruut
+          Etelä-Karjalassa ja Inkerissä kartuttivat merkittävästi Kalevalan uutta laitosta (1849).
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/4434"/></ab></note>
+        <note n="111">
+          <ab>Johan Fredrik Cajan (1815−1877), pappi, historioitsija ja runonkerääjä, Lönnrotin matkatoveri runonkeruumatkalla 1836–1837. Lönnrot mainitsee Europaeuksen lisäksi Cajanin runsaiden
+            runomuistiinpanojen rikastuttaneen Uuden Kalevalan kokoonpanoa (ks. mm. Lönnrotin kirjeet F. J. Rabbelle 1845, 1847).</ab>
+        </note>
+        <note n="112">
+          <ab>Matias Alexander Castrén (1813−1852), siperialaisten kansojen parissa työskennellyt kielitieteilijä ja tutkimusmatkailija. Castrén ja Lönnrot tekivät yhteisen
+            kielitieteellisen keruumatkan 1841−1842. Castrén julkaisi Kalevalan ruotsinnoksen vuonna 1841. Lönnrot hyödynsi Kalevalassa Castrénin keräämää vienankarjalaista
+            loitsuaineistoa. <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3164"/></ab>
+        </note>
+        <note n="113">
+          <ab>Fabian Collan (1817−1851), historiantutkija, toimittaja, kirjailija. Collan innostui Kalevalan ansiosta tutkimaan suomalaista mytologiaa ja Kantelettaren ilmestyttyä
+            hän piti ihailevan esitelmän lyyrisestä runoudesta Savo-karjalaisessa osakunnassa. <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/4448"/></ab>
+        </note>
+        <note n="114">
+          <ab>Frans Johan Rabbe (1801−1879), lääkäri, lääkintöylihallituksen kamreeri, kamarineuvos. Lönnrotin läheinen ystävä ja tukija, hoiti Keckmanin kuoleman (1838) jälkeen
+            Lönnrotin asioita Helsingistä käsin. <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3591"/></ab>
+        </note>
+        <note n="115">
+          <ab>Carl Niklas Keckman (1793−1838), suomen kielen rehtori, toimittaja. Keckmanin ja Lönnrotin välinen kirjeenvaihto käsitteli mm. suomen kieltä ja sen ortografiaa sekä
+            Kalevalan kokoonpanoa. Keckman hoiti myös Lönnrotin kirjalähetyksiä, raha-asioita ja oikovedoksia Kajaaniin.
+            <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2902"/></ab>
+        </note>
+        <note n="116">
+          <ab>Carl Axel Gottlund (1796−1875), suomen kielen lehtori, kirjailija, kansanrunouden kerääjä ja julkaisija. Gottlundin Pieniä runoja Suomen poijille ratoxi (1818, 1821)
+            oli ensimmäinen suomalainen kansanrunokokoelma. Gottlund oli Lönnrotin Kalevalan ankara kritisoija, jonka oma eeposrunoelma Runola (1840) sai tyrmistyneen vastaanoton.
+            <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2817"/></ab>
+        </note>
+        <note n="117">
+          <ab>Litteraturblad, Litteraturblad för allmän medborgerlig bildning ("Kirjallisuuslehti yleistä kansalaissivistystä varten") oli Kuopiossa ja Helsingissä vuosina 1847–1863 
+            ilmestynyt ruotsinkielinen aikakauslehti. J. V. Snellman ja Lönnrot olivat lehden keskeisiä toimittajia.</ab>
+        </note>
+        <note n="118">
+          <ab>Mehiläinen, ensimmäinen suomenkielinen aikakauslehti, joka ilmestyi vuosina 1836−1837 ja 1839−1840. Lönnrot oli lehden toimittaja.</ab>
+        </note>
+        <note n="e1">
+          <ab>1.<lb/><lb/>Suomalais-karjalaisessa runolaulukulttuurissa ei tunnettu Kalevalan tapaista eeppistä kokonaisuutta, eeposta. Lönnrotilla itsellään oli jo varhain ajatus runojen oikeanlaisesta
+            järjestämisestä: "Mitenkä kävisi tuo, jos Seura pranttäyttäisi uudestansa kaikki Suomen Runot, jotka sen arvon ovat ansainneet, ja niitä koottaisi järjestykseen, niin että, mitä
+            Wäinämöisestä, Ilmarisesta, Lemminkäisestä j.m. on eripaikoissa löyttävä, lyötäisi taikka jatkettaisi yhteen--" (kirje <label type="popup" n="115">C. N. Keckmanille</label>
+            <ref target="http://lonnrot.finlit.fi/omeka/items/show/153">17.8.1833</ref>). Ajatukseen runojen järjestämisestä eepoksen kaltaiseksi kokonaisuudeksi vaikuttivat myös Lönnrotin työskentelyä seuranneet
+            kollegat (ks. esim. Vanhan Kalevalan esipuhe) sekä aikakauden kirjalliset konventiot ja aatteelliset keskustelut (Apo 2002; Karkama 2001).</ab>
+        </note>
+        <note n="e2">
+          <ab>2.<lb/><lb/>Eepoksen aloittava esipuhe määrittelee Kalevalan kirjaksi. Siten Lönnrot erotti teoksena suullisesta kansanperinteestä ja muistutti sen olevan kirjallisen kulttuurin tuote,
+            vaikka se perustuukin suulliseen laulukulttuuriin. Taustalla vaikutti romantiikan eeposkäsitys, jonka seurauksena Lönnrot tavoitteli runoihin juonellista eheyttä. Lönnrot ja muutkin
+            koulutuksen saaneet korostivat suullisen ja kirjallisen eroa, ja jakoivat huolen suullisen runon rappeutumisesta ja häviämisestä. Kuitenkin runonlaulajille ero suullisen ja
+            kirjallisen runon välillä ei välttämättä ollut merkittävä. (Tarkka 2005: 57, 59.) Huoli saattoi liittyä vanhan ja uuden, riimillisen laulun suhteisiin. Kalevalamittaisen, ns. vanhan
+            runon rinnalla nuorison suosiman uudemman laulun rohkea ja rempseä sanasto kuulosti moraaliltaan arveluttavalta niin kerääjistä (Asplund 1981: 105) kuin vanhemmista laulajista. Ks.
+            Arhippa Perttusen kommentti: "Ei enää pidetä vanhoista lauluista niin kuin minun lapsuudessani, jolloin niillä oli etusija, tehtiinpä työtä tai kokoonnuttiin joutohetkinä kylässä"
+            --- nuori väki nyt laulelee omia rivoja laulujaan, joilla en edes tahtoisi huuliani saastuttaa." (<hi rend="italics">Lönnrotin matkat</hi> I: 221–222; myös Vanhan Kalevalan esipuhe).
+            Ks. Timonen 2008:16. Vrt. Perttusen sanojen taustalla saattoivat vaikuttaa myös ortodoksinen uskonto, jonka mukaan uudemmat laulut (aikalaisrunot) kuuluivat synnin kategoriaan (Tarkka 2005:41)
+            tai kerääjien odotukset (haluttiin talteen vanhoja, myyttisiä runoja), joista laulajat saattoivat olla hyvinkin tietoisia.</ab>
+        </note>
+        <note n="e3">
+          <ab>3.<lb/><lb/>Lönnrot täsmentää Kalevalan kertovan kaukaisesta menneisyydestä. Näin se kertoo muinaisten suomalaisten elintavoista ja toiminnasta. Koska suomalaisten menneisyydestä ei ollut
+            kirjallisia lähteitä, korostettiin kansanrunouden historiallista merkitystä (Karkama 2008: 125). <label type="popup" n="118"><hi rend="italics">Mehiläisensä</hi></label> historialiitteessä
+            (<ref target="https://digi.kansalliskirjasto.fi/aikakausi/binding/502100">12/1837</ref>) Lönnrot kirjoitti
+            saksalaista C. F. Beckeriä mukaillen, että kansanrunoutta voidaan käyttää lähteenä menneisyydestä, mutta siinä tapauksessa sen antama tieto menneisyyden maailmasta pitää ymmärtää
+            oikein. Kansanrunot eivät kerro "historiallista totuutta", vaan ne esittävät Lönnrotin määritelmän mukaan "luonnollisen totuuden". 1800-luvulle oli tyypillistä käsittää kansanrunous
+            anonyymiksi ja kollektiiviseksi kansanluonteen tuotteeksi (Toews 2008: 320). Siksi kansanrunot tai niistä koottu Kalevala ei ollut niinkään empiirinen kertomus todellisista
+            historiallisista tapahtumista, vaan kuvaus suomalaisten kansanluonteesta, kielestä, menneisyydestä, uskomuksista, tavoista ja kulttuurista.</ab>
+        </note>
+        <note n="e4">
+          <ab>4.<lb/><lb/>Lönnrot ei ollut ainoa runojen kerääjä, vaan erityisesti Kalevalan ensimmäisen painoksen jälkeen monet muutkin ryhtyivät innokkaasti etsimään ja tallentamaan kansanrunoutta. Ks.
+            myös § 12.</ab>
+        </note>
+        <note n="e5">
+          <ab>5.<lb/><lb/>Lönnrot viittaa siihen, että uusittu laitos on selkeästi laajempi kuin Kalevalan ensimmäinen painos vuodelta 1835, eikä hän toisaalta usko, että uusia Kalevalan kokonaisuuteen
+            sopivia runoja löytyisi enää niin paljoa, että laajuutta voitaisiin kasvattaa. Tämä liittyy ajatukseen, että kaikki (tärkeimmät) runot oli jo kerätty. Varhainen keruu kohdistui
+            etupäässä eeppisiin runoihin rajantakaisessa Karjalassa. Uudenlainen laulutapa soittimineen ja piiritansseineen eri puolilla Suomea, Karjalaa ja Inkeriä ei innostanut kerääjiä
+            (Asplund 1981: 95).</ab>
+        </note>
+        <note n="e6">
+          <ab>6.<lb/><lb/>Esteettisten ja historiallisten tavoitteiden ohella kansanrunouden keräämisen keskeisiä motiiveja oli suomen kielen tutkiminen (Sulkunen 2004: 65). Myös Lönnrot on korostanut
+            useissa yhteyksissä, että laulut tuottavat tietoa suomen kielestä itsestään (Ks. esim. <ref target="http://lonnrot.finlit.fi/omeka/items/show/174">Lönnrotin kirje Keckmanille 2.6.1837</ref>).
+            Kansanrunous käsitettiin kielen alkuperäiseksi muodoksi, jossa suomalaisten sisäiset ominaisuudet tulevat esille. Lönnrotin ymmärrys kielestä oli kuitenkin orgaaninen ja hän korosti usein
+            kielen muutosta ajassa. Menneisyyden suulliseen kansanperinteen luonnollinen kehitys oli kulkea kohti kirjoitettua kieltä. Tästä hän piti esimerkkinä skandinaavista Edda -kirjallisuutta
+            (Hyvönen 2004: 329–330). Koska suullisen runouden perinne oli vielä elossa kansan parissa, oli mahdollista ajatella siitä voitavan orgaanisesti kehittää moderni kirjakieli joka edelleen pystyisi
+            ilmentämään erityistä suomalaista identiteettiä.</ab>
+        </note>
+        <note n="e7">
+          <ab>7.<lb/><lb/>Lönnrot toistaa näkemyksensä kansanrunoista tiedonlähteenä suomalaisten menneisyydestä ja kulttuurista. Hänen tavoitteenaan oli edistää suomen kieltä ja kuvata runojen avulla
+            mahdollisimman monipuolisesti vanhakantaista elämää, ihmisiä ja tapoja. Tämän vuoksi Lönnrot otti Kalevalaan mukaan myös loitsuja ja lyyrisiä lauluja. (Borenius ja Krohn 1895: 4.)
+            Kantele-vihkon esipuheessa Lönnrot määrittelee tavoitteensa seuraavasti: "-- toivoisin niistä ei ainoastansa voittoa ja etua Suomen kielelle, vaan myöskin jonkunlaista tiedonlisäntöä
+            esivanhempainme menneistä ajoista,--" (<hi rend="italics">VT</hi> 5: 165). Lönnrotin toimitustapaa on tältä osin nimitetty ensyklopediseksi (Hyvönen 2008: 344; 2004). Näin Kalevala
+            oli myös monitieteellinen projekti, joka liittyy 1700- ja 1800-lukujen taitteessa syntyneeseen historistiseen perinteeseen. Sen mukaan erilaisia (kansallisia) kulttuureja tuli
+            tarkastella niiden sisäisten lainalaisuuksien mukaisesti (Toews 2008: 326–327). Kieli, kulttuuri ja historia käsitettiin kontekstisidonnaiseksi. Tähän perinteeseen vaikutti
+            merkittävästi J. G. Herderin ajatukset, jotka tunnettiin hyvin Suomessa. Hänen mukaansa kansanrunous muodostaa täysin ainutlaatuisen kansallisen olemuksen (Saariluoma 2006: 195–196).
+            Muinaisaikana ennen kulttuurin osa-alueiden eriytymistä runouden uskottiin edustaneen kollektiivisesti taidetta, uskontoa, historiankirjoista ja yhteisön normeja. Herderiltä voidaan
+            katsoa periytyvän myös 1800-luvun kansallisen historismin universaali ihmiskäsitys, jonka mukaan ihmisyyttä määrittää kyky kulttuuriin (Oergel 2006: 287). Juuri siksi kansanrunouden
+            merkitys korostui, sillä sen olemassaolo todisti suomalaisten sisäisestä mahdollisuudesta kehittää omaa kulttuuriaan.</ab>
+        </note>
+        <note n="e8">
+          <ab>8.<lb/><lb/>Lönnrot reflektoi omaa rooliaan Kalevalan kokoajana myöntäen, että kokonaisuus on hänen oman työnsä lopputulos. Perusteena eri osien yhdistämisessä on Lönnrotin mukaan ollut
+            sisällön yhtenäisyys. Tieteellisen tutkimuksen piirissä Kalevala on käsitetty Lönnrotin luomaksi teokseksi 1800-luvun lopulta lähtien, eikä sen ole katsottu enää sen jälkeen vastaavan
+            alkuperäistä kansanrunoutta (Anttonen 2014: 61–62). Tämä on mahdollistanut Kalevalan tulkitsemisen epäautenttiseksi. Kuitenkin Lönnrotin aikana autenttisuuden käsite ja vaatimus oli
+            varsin toisenlainen kuin myöhemmin (Anttonen 2014: 79). Runoja kerättiin julkaisemista varten, ja niiden muokkaamiseen suhtauduttiin käytännöllisesti, sillä niiden säilyttämiseen ei
+            ollut vielä asianmukaisia arkistoja. Runotoisintojen murre-eroja siloteltiin ja runot kirjoitettiin yleiskielisempään muotoon. Valistukseen ja määrään perustuva keruuintressi pyrki
+            tuomaan kalevalamittaista runoutta yleiseen tietoon mahdollisimman kattavasti. (Saarinen 2018: 17−18.) Lönnrot jäljitteli suullisen esityksen piirteitä ja ymmärsi itsensä sen
+            perinteen jatkajana (Honko 1987: 152−153). Silti tarkoitus ei ollut toistaa suullisen kulttuurin runoutta sellaisenaan, vaan kehittää sitä eteenpäin kohti kirjallisuutta. 1980-luvulta
+            alkaen on korostettu uudelleen kansanrunouden merkitystä Kalevalan syntyprosessissa. Lönnrot ei olisi voinut koostaa eeposta ilman kansan laulukulttuuria, joka oli käytännössä
+            Kalevalan jokaisen säkeen lähteenä.</ab>
+        </note>
+        <note n="e9">
+          <ab>9.<lb/><lb/>Omien keruumatkojen ja muiden kerääjien ansiosta runovarat kasvoivat vuosi vuodelta. Aineistoa oli runsaasti, se vaati siivoamista, moneen kertaan puhtaaksikirjoittamista ja
+            aineksien erottelua. Olihan tarkoituksena runojen julkaiseminen ja sen vuoksi niiden mahdollisimman selkeä luettavuus, yleistajuistaminen (Kaukonen 1939: 32).</ab>
+        </note>
+        <note n="e10">
+          <ab>10.<lb/><lb/>Passiivimuoto painottaa esipuheen kollektiivista ääntä (ks. Hämäläinen 2012: 70–71). Lönnrot häivyttää itseään taka-alalle ja puhuttelee lukijoita sovittelevaan sävyyn, omaa
+            työtään hienoisesti vähätellen. Lönnrotin työn taustalla vaikuttivat muiden odotukset, kriittinen lukijakunta, jolle Lönnrot pyrki vakuuttamaan Kalevalan aitouden eli kansanomaisuuden
+            (ks. Hyvönen 2004: 307–308; Hämäläinen 2012: 70–78). Ks. miten Lönnrot pohti Kalevalaan liittyviä ratkaisuja ja lukijoiden odotuksia esimerkiksi yksityisissä kirjeissään; ks.
+            Lönnrotin ja C. N. Keckmanin kirjeenvaihto (Pääkkönen 1994).</ab>
+        </note>
+        <note n="e11">
+          <ab>11.<lb/><lb/>Runojen järjestyksestä puhuessaan Lönnrot viittaa omaan näkemykseen Kalevalan runoista ja niiden keskinäisistä suhteista (ks. myös Borenius ja Krohn 1895: 4). Lönnrot luopui
+            Alku-Kalevalan valmistumisen jälkeen syksyllä 1833 seuraamasta laulajien järjestystä silloin kun se ei sopinut hänen omaan suunnitelmaansa. Keskeistä oli saada johdonmukainen
+            kokonaisuus ja runojen sankariteot aikajärjestykseen. (Kaukonen 1939: 479.) Suomalais-karjalaisella runolaulualueella laulettiin Väinämöisestä, Lemminkäisestä ja muista sankareista,
+            mutta harva laulaja ketjutti runoja seuraamaan juonellisesti toisiaan samalla tavoin kuin Lönnrot Kalevalassa. Toisaalta Lönnrot pyrki seuraamaan parhaimpien runonlaulajien
+            järjestystä ja toisintoja, mikäli mahdollista (ks. esim. Kaukonen 1939: 4).</ab>
+        </note>
+        <note n="e12">
+          <ab>12.<lb/><lb/>Kalevalan runojen vienalaista alkuperää korostivat Lönnrotin lisäksi myös muut aikalaiset. Ks. miten Lönnrot painottaa erityisesti Vuokkiniemen alueen runojen selkeyttä (Borenius
+            ja Krohn 1895: 1). Suomalaisten menneisyyttä haettiin rajan takaa, myyttis-eeppisistä, etupäässä miesten laulamista runoista. Kalevalan ilmestymisen 1835 jälkeen kerääjät tallensivat
+            nimenomaan lisäyksiä Kalevalaan, ja saattoivat näin jättää tallentamatta runoja, jos olettivat niiden jo olevan Kalevalassa (ks. Kaukonen 1956: 407). Vienan Karjalan laulukulttuuri
+            poikkesi muista alueista siten, että siellä harrastettiin runsaammin pidempää kerrontaa. Toisin kuin runojen kerääjät otaksuivat, kyse ei ollut siitä, että syrjäinen seutu olisi
+            ainoastaan säilyttänyt runouden vanhimman ja arkaaisimman kerrostuman, vaan paikallista laulutapaa määritti myös erilaisten itäisten ja läntisten perinteiden sekoittuminen, variointi
+            ja ajallinen muutos. (Siikala 2002: 26, 40–42.) Vrt. Kalevala sisältää runsaasti myös muualta kerättyä runoutta, esimerkiksi lyyrisiä runoja, joita laulettiin erityisesti
+            Etelä-Karjalassa ja Inkerissä.</ab>
+        </note>
+        <note n="e13"><ab>13.<lb/><lb/>Painovirhe, oikea vuosiluku on 1831.</ab></note>
+        <note n="e14">
+          <ab>14.<lb/><lb/>Lönnrot kiittää Topelius vanhempaa siitä, että hänen työnsä ansiosta saatiin ensimmäistä kertaa tietoon, mistä parhaiten kansanrunoja saatettaisiin löytää. Topeliuksen esimerkin
+            innoittamana Lönnrot lähti neljännelle keruumatkalle Vienan Karjalaan 1833. Topeliuksen runokokoelma oli Lönnrotin mukana jo ensimmäisellä matkalla 1828. Myös Lönnrotin tavoitteena
+            oli julkaista pitkiä, eeppisiä kokonaisuuksia, joista sittemmin kehittyi Kalevala-eepos. (Kaukonen 1979: 19.)</ab>
+        </note>
+        <note n="e15">
+          <ab>15.<lb/><lb/>Yliopistoaikaiselle opettajalleen von Beckerille Lönnrot antaa tunnustuksen ajatuksesta yhdistää erillisiä runoja suuremmiksi kokonaisuuksiksi. Tutkimuksessa on usein huomautettu,
+            että <label type="popup" n="116">C. A. Gottlund</label> (1796–1875) esitti <hi rend="italics">Svensk Litteratur Tidningissä</hi> jo vuonna 1817 ja siten ensimmäisenä ehdotuksen, että yksittäisiä lauluja voitaisiin koota
+            eepokseksi tai muuksi pidemmäksi kirjalliseksi esitykseksi (esim. Siikala 2008: 306). On myös arveltu, että Lönnrot pyrki aktiivisesti vaikenemaan Gottlundin merkityksestä
+            suomalaisen kansanrunoudessa tehtävän työn parissa, koska ei arvostanut häntä ja toisaalta halusi korostaa omaa asemaansa (Sulkunen 2004: 69).</ab>
+        </note>
+        <note n="e16">
+          <ab>16.<lb/><lb/>Loitsurunot ja rituaalisissa yhteyksissä (häät, peijaiset) käytetyt laulut on otettu osaksi Kalevalan eeppistä kerrontaa. Tätä ratkaisua sekoittaa eri lajeja kritisoitiin jo
+            Vanhan Kalevalan yhteydessä (Sulkunen 2004: 63; Karkama 2008: 148). Ks. kritiikistä Castrén 1841; Gottlund 1843; Tengström 1844. Tässä Lönnrot vastaa kritiikkiin toteamalla, että
+            myös runonlaulajat toimivat samaan tapaan. Lisäksi sekoittaminen palveli tieteellistä tarkoitusta esitellä suullisen runouden eri lajeja (Hyvönen 2004: 327; ks. myös Honko 1987: 153).
+            Ks. Lönnrot puolustaa Vanhan Kalevalan välilehdillä eri lajeja Kalevalan kokonaisuudessa: eri laululajit (epiikka, lyriikka, loitsut) ovat sekoittuneet alkuperäisessä runonlaulussa
+            toisiinsa (Borenius ja Krohn 1895: 3). Ks. myös Lönnrotin kirjoitus "Anmärkningar till den nya Kalevala upplagen"
+            (<label type="popup" n="117"><hi rend="italics">Litteraturblad</hi></label> <ref target="https://digi.kansalliskirjasto.fi/aikakausi/binding/102473">1849: 1</ref>). Vrt. suullisen
+            kansanrunon (perinteen) lajit (genret) ovat tutkijoiden luomia käsitteellisiä kategorioita, jotka eivät olleet välttämättä samalla tavalla tunnistettavia itse perinteenkäyttäjille.
+            Käsitys lajista saattaa runonlaulajilla pohjautua esim. käyttötilanteeseen (lasta nukuttaessa) tai sävelmään (tulovirsi). (Ks. Timonen 2004b: 86−92.)</ab>
+        </note>
+        <note n="e17">
+          <ab>17.<lb/><lb/>Lönnrot kehottaa lukijoita hyväksymään runot sellaisenaan, "tarina-maalle kylvettyinä siemeninä". Lönnrot ymmärsi runojen elävän sekoittuneina, eri kerroksissa, aikojen ja ihmisten
+            käytössä eläneinä teksteinä, joista on lähes mahdotonta erottaa alkuperäinen runotoisinto. (Tarkka 2005: 57.) Hän argumentoi sen puolesta, että hänen aikakautensa kansanrunot eroavat
+            vanhoista edellisten sukupolvien lauluista. Ne ovat muodostuneet prosessuaalisesti satojen ja tuhansien vuosien aikana, koko ajan lisääntyen. Lönnrot käyttää tässä hänelle hyvin
+            tyypillistä orgaanista metaforaa. Alkuperäiset runot ovat siemeniä, jotka on kylvetty maahan. Kasvien tavoin ne kehittyvät ja lisääntyvät. Kylvön ja viljan vertaukset myös
+            assosioituivat kulttuurin käsitteeseen, joka vielä 1800-luvulla saatettiin ymmärtää myös alkuperäisessä maanviljelyksen merkityksessä (Rantala 2013: 77). Tässä tapauksessa maan-
+            ja hengenviljely sekoittuvat toisiinsa. Muinaiset kansanrunot ovat suomalaisen kielen ja kulttuurin alkuperä, joka Kalevalassa kasvaa uuteen kirjalliseen muotoon. Kulttuurin
+            historiallinen kehittyminen ja sivistyminen (ruots <hi rend="italics">bildning</hi>, saks. <hi rend="italics">Bildung</hi>) oli 1800-luvun merkittävimpiä ajatuksellisia paradigmoja
+            (Koselleck 2006: 112. Suomen tapauksesta ks. esim. Rantala 2010: 39). Sekä ihmisen kulttuuri että luonto nähtiin ajallisten prosessien tuloksena. Lönnrot vertaa runoutta ja kieltä
+            toistuvasti orgaanisiin eläviin olioihin. Päiväkirjaansa hän kirjoitti eksplisiittisesti kielen itsensä olevan kuin elävä olio, joka syntyy, kasvaa ja kehittyy sekä myös aikanaan
+            kuolee (<hi rend="italics">VT</hi> 3: 116). Kyse ei ole kuitenkaan ainoastaan vertauksesta, vaan aikakaudelle tyypillinen metafyysinen maailmankatsomus, jossa koko todellisuutta
+            tarkasteltiin perimmältään dynaamisena ja muuttuvana prosessuaalisena kokonaisuutena (Saarelainen 2016: 123–124).</ab>
+        </note>
+        <note n="e18">
+          <ab>18.<lb/><lb/>Tässä pykälässä Lönnrot näyttää väittävän, että hänen kirjansa julkaisu tulee ennen pitkää aiheuttamaan kansanrunojen laulukulttuurin katoamisen. Lönnrotin mukaan kirjan
+            materiaaliset ominaisuudet ylittävät tietyissä yhteyksissä inhimilliset kyvyt: kukaan yksittäinen laulaja ei pysty muistamaan yhtä laajaa runoteosta, joka kirjassa on mahdollista.
+            Siten suullinen laulukulttuuri hiljalleen menettää merkityksensä. Kirja keskeyttää suulliselle runoudelle tyypillisen varioinnin, koska painettu sana ei muutu. Toisaalta se tarjoaa
+            kattavamman esityksen, kuin kukaan yksittäinen runonlaulaja. (Saarelainen 2014: 170–171.) Tämän kulttuurin kirjallistumisen prosessin Lönnrot yhdistää yleiskielen kehitykseen, jonka
+            hän uskoo syrjäyttävän paikalliset murteet. Historiantutkija Benedict Anderson on korostanut painetun kirjallisuuden synnyttämää yhteenkuuluvuuden tunnetta kansakunnan synnyn
+            mahdollistajana (Anderson 2007: 85). Lönnrotin tässä esittämä käsitys on periaatteessa sama, yleinen kirjakieli tulee korvaamaan paikalliset murteet ja siten yhdistämään eri heimot
+            yhdeksi suomalaiseksi kansaksi.</ab>
+        </note>
+        <note n="e19">
+          <ab>19.<lb/><lb/>Permia (nyk. Bjarmia) tunnetaan keskiaikaisista saagoista, joissa siihen yhdistettiin maantieteellinen läheisyys Vienan kanssa ja kielen sukulaisuus suomeen (Koskela Vasaru 2016).
+            Nämä tiedot auttoivat Lönnrotia argumentoimaan bjarmien olevan suomalaisten esi-isiä. Lönnrotin käsitystä tuki myös M. A. Castrén, joka samaisti bjarmit ja
+            suomalaiset <ref target="https://digi.kansalliskirjasto.fi/aikakausi/binding/498486?page=5">vuonna 1844 <hi rend="italics">Suomi</hi> -lehdessä</ref> (Kaukonen 1956: 432). Toiset, kuten Robert
+            Tengström tai Fabian Collan, eivät puolestaan uskoneet bjarmien ja Kalevalan yhteyteen (Kaukonen 1956: 431, 436). Toive oman kansan ja
+            kulttuurin kunniakkaasta menneisyydestä on tyypillistä 1800-luvun kansallismielistä diskurssia. On todennäköistä, että bjarmit puhuivat meille tuntematonta suomalais-ugrilaista kieltä, mutta heitä
+            ei voi kuitenkaan liittää etnisesti tai kulttuurisesti suomalaisiin tai mihinkään muuhun nykyisin elävään ihmisryhmään (Koskela Vasaru 2016: 410).</ab>
+        </note>
+        <note n="e20">
+          <ab>20.<lb/><lb/>Lappi ja lappalainen merkitsevät Kalevalan kontekstissa rajaseutua ja rajaseudun asukasta. Vrt. Joukahaisen epiteetti Kalevalassa: <hi rend="italics">laiha poika Lappalainen</hi>
+            (esim. UK 3: 22). Joukahaisen kohdalla Lappalainen ei myöskään viittaa Lapin asukkaaseen, vaan, kuten Lönnrot huomauttaa, henkilöön, joka asuu rajalla (Lna 121). (Ks. myös Kaukonen
+            1956: 460.)</ab>
+        </note>
+        <note n="e21">
+          <ab>21.<lb/><lb/>Esipuheen käsikirjoituksessa on yliviivattu ja siten painamatta jätetty <hi rend="italics">§ 10 Tarpeellisista selityksistä</hi> ja vasta sen jälkeen uudelleennumeroitu <hi rend="italics">§ 10
+          Kielenlaatu näissä runoissa</hi>. Yliviivatussa pykälässä Lönnrot kertoo loitsurunojen merkityksistä ja neuvoo tulkitsemaan eepoksen monia yliluonnollisia elementtejä metaforisesti kuvallisena runokielenä.
+          Ks. tarkemmin erillinen teksti "Eroja painetun Kalevalan ja käsikirjoituksen välillä" [ks. Kalevala osana 1800-lukua osion artikkeli "Eroja painetun Kalevalan esipuheen ja käsikirjoituksen välillä"]</ab>
+        </note>
+        <note n="e22">
+          <ab>22.<lb/><lb/>Lönnrotin tavoitteena oli sovittaa yhteen eri murteita ja kieleen liittyviä käsityksiä, jotta kieli olisi ymmärrettävissä mahdollisimman laajasti, ja kielen
+            uudistajana hän vältti vierasperäisiä sanoja ja loi uusia, suomalaisia sivistyssanoja, kuten kirjallisuus (Anttila 1985: 448-450). Lönnrot myös pyrki erottamaan kielestä äänteet ja
+            kirjaimet (Häkkinen 2002: 125). Vrt. myös miten Lönnrotin valintojen seurauksena runot ja niiden kieli menettivät maantieteellisen paikkansa. Tämän on katsottu olleen Lönnrotin tietoinen pyrkimys,
+            jotta Kalevala viittaisi yhtenäiseen kansaan ja kansakuntaan (Anttonen 2002: 45; Honko 1987).</ab>
+        </note>
+        <note n="e23">
+          <ab>23.<lb/><lb/>Lönnrot toteaa, että Kalevala pyrkii yleiskieliseen esitykseen. Hän oli jo varhain omaksunut käsityksen, että tällainen olisi paras keino kirjallistaa suullista runoutta ja
+            perusteli vuonna 1829 kantaansa C. A. Gottlundille osoitetussa kirjeessä kertoen valinneensa murteita yhdistelevän kirjoitustavan siinä toivossa, että kaikki suomalaiset "voisivat
+            lukea ja ymmärtää esi-isiensä viisauden täyttämiä runoja niiden yksinkertaisella ja voimakkaalla kielellä." (kirje Gottlundille 22.9.1829). Ks. myös § 6.</ab>
+        </note>
+        <note n="e24">
+          <ab>24.<lb/><lb/>D. E. D. Europaeuksen erityisesti Inkeristä kerätty aineisto toi Kalevalaan merkittävät eeppiset lisät (mm. Kullervo-runosto) (ks. kirje <label type="popup" n="114">F. J. Rabbelle</label>
+            <ref target="http://lonnrot.finlit.fi/omeka/items/show/615">30.10.1845</ref>). Lönnrot itse ei koskaan tehnyt varsinaista keruumatkaa Inkeriin. Europaeuksen mielestä Kalevala tulisi olemaan
+            epätäydellinen ilman inkeriläistä aineistoa. Lönnrot hyödynsi Europaeuksen runotallenteita, mutta niiden yhä lisääntyvästä runsaudesta (Europaeus lähetti Lönnrotille yhtenään runoja ja parannusehdotuksia) johtuen hän
+            ei hyödyntänyt kaikkea saamaansa aineistoa. (Kaukonen 1956: 416; 1988.) Ks. myös miten Europaeuksen ja Lönnrotin näkemykset eepoksesta erosivat toisistaan. Europaeus katsoi, että
+            runojen kielen tuli olla mahdollisimman lähellä kansan laulamaa runoutta. Lönnrot puolestaan ymmärsi, että Kalevalan esittämistapaa ja kieltä tuli muokata niin että mahdollisimman
+            moni kykenisi sitä ymmärtämään. Ks. lisää Kuusi &amp; Timonen 1988; Knuuttila 2008; Apo 2009; Hämäläinen 2012.</ab>
+        </note>
+        <note n="e25">
+          <ab>25.<lb/><lb/>Kuten Lönnrot tässä mainitsee, hän kehitteli Kalevalaa varhaisten runokokoelmien pohjalta. Zacharias Topeliuksen julkaisun lisäksi C. A. Gottlundin <hi rend="italics">Pieniä
+          Runoja Suomen Pojille Ratoxi</hi> ilmestyi kahdessa osassa vuosina 1818 ja 1821 sekä eeppinen runoelma <hi rend="italics">Runola</hi> 1840. Myös Europaeus oli julkaissut vuonna 1847
+          inkeriläisiin runomuistiinpanoihin pohjautuvan kokoelman <hi rend="italics">Pieni Runon-Seppä</hi>.</ab>
+        </note>
+        <note n="e26">
+          <ab>26.<lb/><lb/>Tässä kuuluu kertojan ääni. Lönnrot kohdistaa huomion itse runoihin, niiden alkuperään, järjestykseen ja historiallisuuteen. Lukija voi itse tarkistaa uuden Kalevala-laitoksen
+          erot suhteessa Vanhaan Kalevalaan. Näin Lönnrot siirtää lopullisen vastuun runojen kokoonpanosta lukijoille (DuBois 2000: 128).</ab>
+        </note>
+        <note n="e27">
+          <ab>27.<lb/><lb/>Esipuhe sisältää vain Lönnrotin nimikirjaimet (nimi ei myöskään ole Kalevalan kansilehdellä). Nimimerkkien käyttö tai nimettömyys oli tyypillistä kaikille julkisille kirjoituksille
+          1800-luvulla (Hirvonen 2002: 437–438). Ks. miten Lönnrot kirjoittaa itsestään ja työstään passiivissa: "On runoja kaikella ahkeruudella pyritty sovittamaan". Tämä saattoi olla
+          tyylikeino, mutta myös nimettömyyteen liittyvä valinta. Nimettömyydellä, passiivin tai monikon käytöllä luodaan vaikutelma yhteisestä kirjoituksesta tai tarinasta, josta vastuun kantaa
+          kirjoittajan kanssa tekstin lukija (Foucault 1979: 145–149). Kalevalan kansallisen merkityksen kannalta oli olennaista, että Lönnrot ei nimennyt itseään Kalevalan tekijäksi, vaan häivytti osuutensa
+          kollektiivisen kansan taakse (Anttonen 2002: 45).</ab>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+      <div type="esipuhe">
+        <pb n="1" facs="esipuhe_01" />
+        <p><emph>Alkulause.</emph></p>
+        <p>§. 1. Kalevala-runojen <label type="popup" n="1">järestyksestä</label><label type="commentary" n="e1">1</label>. <hi rend="italics">Tämä kirja<label type="commentary" n="e2">2</label>
+          esivanhempaimme muinaisesta olosta, elämästä ja toimista<label type="commentary" n="e3">3</label> ilmestyy nyt paljo täydellisempänä, kun minkä entisessä
+          <label type="popup" n="2">korjuussansa</label> oli, ja tulee uskottavasti nykyisessä muodossansa pysymään, sillä keräämättömiä runoja tästä laadusta ei mahda enää asiaksi
+          löytyä, koska kaikki paikat, joissa vaan vähänki on toivottu runoja laulettavan, jo ovat useampia kertoja ja useammilta kerääjiltä<label type="commentary" n="e4">4</label>
+          ristin rastin käydyt ja etsityt<label type="commentary" n="e5">5</label>. Hyvin muistaen, että ne tulevat olemaan vanhimpana <label type="popup" n="3">omituisena</label> jälkimuistona
+          Suomen kansalle ja kielelle<label type="commentary" n="e6">6</label>, kunnes niitä maailmassa löytyy, on niitä kaikella mahdollisella huolella ja ahkeruudella
+          <label type="popup" n="4">pyydetty</label> sovitella ja liittää toinen toisiinsa niin hyvästi, kuin vaan on osattu, ja koota niihin kaikki, mitä runot
+          <label type="popup" n="5">senaikuisesta</label> elämästä, tavoista ja vaiheista ovat tiedoksi säilyttäneet.<label type="commentary" n="e7">7</label> Sovittamisessa on kuitenki paljo
+          mielivaltaa<label type="commentary" n="e8">8</label> ollut, sillä paraimmiltaki laulajoilta ei ole kovin monta runoa yhteen jaksoon saatu, eikä sitäkään aina yhteen laatuun, jonka tähden
+          usein kyllä on täytynyt itse <label type="popup" n="24">aineen</label> keskinäinen vaade perusteeksi panna, ja katsomatta entisen Kalevala-laitoksen järestystä välistä siitäki
+          poiketa.<label type="commentary" n="e9">9</label> Arvattavasti ei hän siis lienekään järestyttämisen työ niin luonnistunut, että taitaisi olla kaikille mielen mukainen, ja ettei siinä
+          aina yhtä ja toista jäisi <label type="popup" n="6">muistuttamista</label>.</hi><label type="commentary" n="e10">10</label></p>
+        <p>§. 2. Erityisistä nimistä runoissa. <hi rend="italics">Ei ainoastansa järestyksessä, vaan usein nimissäki, eroavat eri laulajoilta ja eri paikoilta saadut runot
+          toisistansa.<label type="commentary" n="e11">11</label> Yksi laulaa</hi> Wäinämöisestä, <hi rend="italics">minkä toinen</hi> Ilmarisesta, <hi rend="italics">kolmas</hi> Lemminkäisestä;
+          <hi rend="italics">yksi</hi> Lemminkäisestä, <hi rend="italics">minkä toinen</hi> <label type="popup" n="7">Kullervosta</label> <hi rend="italics"><label type="popup" n="8">eli</label></hi>
+          Joukahaisesta. Kullervon <hi rend="italics">siassa veronvientimatkallansa(45: 69−358) on toisilla</hi> <label type="popup" n="9">Tuiretuinen</label>,
+          <label type="popup" n="10">Tuurikkinen</label>, Lemminkäinen <hi rend="italics">eli</hi> vanha Wäinön poika. </p>
+        <p><hi rend="italics">Sama epävakaisuus on myös paikkojen nimissä haittaava. Kerran toisenki hämmentyvät</hi> Kalevalan, Wäinölän, <label type="popup" n="11">Luotolan</label>,
+          <label type="popup" n="12">Luotelan</label>, <label type="popup" n="13">Päivölän</label>, <label type="popup" n="14">Päivilän</label>, <label type="popup" n="15">Jumalisten</label>,
+          <label type="popup" n="16">Wuojelan</label>, Joukolan, <label type="popup" n="17">Saarelan</label>, <label type="popup" n="18">Sariolan</label>, <label type="popup" n="19">Saraojan</label>,
+          <label type="popup" n="20">Sarajahan</label>, <label type="popup" n="21">Pohjolan</label>, Lapin, <label type="popup" n="22">Ruijan</label> <hi rend="italics">nimet toisiinsa, joka hämmennys
+          niin näiden, kuin edellisten nimien välillä on varsinki vähäpätöisemmissä asioissa tavallinen, pää-asioissa harvemmin tapahtuva. Kaikessa semmoisessa
+          <label type="popup" n="23">nimiseossa</label></hi></p>
+        <pb n="2" facs="esipuhe_02" />
+        <p><hi rend="italics">on kuitenki kaksi opasta hyvänä apuna ollut, nimittäin</hi> aineen johto <hi rend="italics">ja</hi> paraimpien laulupaikkojen runot.</p>
+        <p>§. 3. Kalevala-runojen nykyisestä kotipesästä. <hi rend="italics">Paras ja rikkain runokoti on ainaki</hi> Wuokkiniemen <hi rend="italics">pitäjä</hi> <label type="popup" n="25">Wienan
+          <hi rend="italics">eli</hi> Arkankelin <hi rend="italics">lääniä</hi></label>. <hi rend="italics">Siitä itään päin</hi> Jyskyjärvelle <hi rend="italics">ja</hi> Paanajärvelle,
+          <hi rend="italics">tahi pohjaiseen päin</hi> Tuoppajärvelle <hi rend="italics">ja</hi> Pääjärvelle <hi rend="italics">tullessa huononevat runot huononemistaan. Paremmin ovat etelään päin
+          säilyneet ensin</hi> Repolassa <hi rend="italics">ja</hi> Himolassa Aunuksen <hi rend="italics">lääniä ja siitä rajan poikki Suomen maahan tullen</hi> Ilomantsissa,
+          Suojärvellä, Suistamossa, Impilahdessa, Sortavalassa <hi rend="italics">ja Laatokan läntisiä rantamaita myöten</hi> <label type="popup" n="26">Inkereen</label> <hi rend="italics">asti,
+          jossa viimeisessäki vielä myös joita kuita Kalevalan runoja, ehkä vajanaisesti, muistellaan.</hi><label type="commentary" n="e12">12</label></p>
+        <p>§.4. Ensimmäiset Kalevala-runojen kotipesän ja järestyttämisen viittaajat. <hi rend="italics">Entisen läänin-lääkärin, tohtori</hi> <label type="popup" n="27">Zakarias Topeliuksen</label>
+          <hi rend="italics">ansioksi mainittakoon, että hän viidessä osassa, vuosina 1822−1836<label type="commentary" n="e13">13</label>, ilmestyneillä
+          <label type="popup" n="28">runokokouksillansa</label>: </hi> Suomen Kansan Vanhoja Runoja ynnä myös Nykyisempiä Lauluja, <hi rend="italics">laitti ensimmäisen tiedon näiden runojen
+          varsinaisesta kotipesästä.<label type="commentary" n="e14">14</label> Jo sitä ennen oli Akatemian apulainen, nykyinen professori</hi> <label type="popup" n="29">Reinhold von Becker</label>,
+          <hi rend="italics">Pohjanmaalta koonnut muutamia runoja Wäinämöisestä ja 1820 vuoden <label type="popup" n="105">Turun Viikko-Sanomissa</label> suorittanut niitä johonkuhun järestykseen keskenänsä, joka oli ensimmäinen yritys
+          sitä laatua.<label type="commentary" n="e15">15</label> Ilman näittä kahdetta miehettä Kalevalan runot ehkä vieläkin olisivat entisessä piilossansa; sillä kenpä ilman Topeliuksen johdotta
+          olisi arvannut niitä Wenäjän Karjalasta etsimään lähteä, ja kenenkä päähän olisi juuri äkisti taitanut tulla niiden yhteen kutomisen ajatus, jos von Beckerin yritys ei olisi ohjannut siihen?
+          </hi></p>
+        <p>§. 5. Kalevala-runojen alkuperäisyydestä. <hi rend="italics">Useampia paikkoja näistä Kalevalassa löytyvistä runoista laulellaan itsekseenki. Semmoisia ovat</hi> raudan synty
+          <hi rend="italics">(r. 9),</hi> metsämiehen lu 'ut <hi rend="italics">(r. 14),</hi> karjan lu'ut <hi rend="italics">(r. 32),</hi> tulen synty <hi rend="italics">(r. 47) ja muut</hi>
+          loihturunot, häävirret <hi rend="italics">(r. 21−25), </hi> otson runot <hi rend="italics">(r. 46). Kalevala-laulajien johdolla, jotka semmoisiin paikkoihin tultuansa useinki jättävät ne
+          laulamatta sanoen: »siitä lähtee se tavallista raudan lu 'un jälkeä», taikka: »siitä tulee häävirret laulettavaksi, joita saatta naisilta», on niitä korjattu ja
+          <label type="popup" n="30">täydellisyytetty</label> kaikkein senlaatuisten runojen yhteisellä avulla katsomatta, laulettiinko niitä yhteen jaksoon Kalevala-runojen kanssa,
+          <label type="popup" n="31">elikkä</label> erilleen niistä.<label type="commentary" n="e16">16</label> Semmoisia käytetään vielä nykyaikoinaki tavallisissa tarpeissansa yli koko Karjalan
+          maan, niin Suomen, kuin Wenäjän puolella rajaa, myös Inkeressä ja paikoittain Savossaki ja Pohjan maalla, ja ehkä niihin, kuin arvattavasti muihinki runoihin, aikaa voittaen on uusia sanoja
+          ja mietteitä paikoillensa lisäksi tullut, niin on kuitenki hankala, jopa mahdotoinki, eroittaa</hi></p>
+        <pb n="3" facs="esipuhe_03" />
+        <p><hi rend="underline">ne alkuperäisistä Kalevalan aikuisista. Parempi on heittää semmoinen tarkempi eroittaminen ja ennemmin pitää ne alkuperäiset runot ei muuna,
+          kun tarina-maalle kylvettyinä siemeninä, joista nykyinen runotouko vuosisatojen, ehkä tuhansienki, kuluessa on nousnut ja paisunut.</hi><label type="commentary" n="e17">17</label></p>
+        <p><hi rend="italics">Laulujen alkuperäisyyden kanssa käypi miltei seuraavaan tapaan. Pitopaikoissa eli muissa seuroissa kuulee joku uuden laulun ja <label type="popup" n="32">kokee</label>
+          sen muistoonsa panna. Sitte toisessa tilassa sitä jo itse uusille kuulioille laulaessansa muistaa tarkemmin itsen aineen, kun sen sana sanalta joka mutkassansa kertomisen. Ne paikat,
+          joita ei muista juuri entisillä sanoillansa, kertoo omillansa, paikoin ehkä somemmasti, kun sitä ennen olivatkaan, ja jos joku vähä arvoisempi seikka lomasta jäisi pois, niin taitaa toinen
+          laulajan omasta päästä tulla <label type="popup" n="33">siaan</label>. Samalla tavalla menettelevät sitte toiset ja kolmannet kuuliat laulua, ja laulu muuttuu, minkä muuttuu, enemmin
+          erinäisissä sanoissa ja mutkissa, kun itsessä aineessa. Tämän laatuisen laulutarinan rinnalla kulkee kuitenki toinen, joka paremmin säilyttää sitä vanhoissa sanoissa ja saranoissansa,
+          nimittäin lapsen vanhemmiltansa polvi polvelta oppiminen, mutta samassa kun se estää toisen kulkusisarensa ylen kauas poikkeamasta, täytyy sen itsenki toisinaan sitä noudattaa, ettei muuten
+          jäisi kovin jälelle.</hi></p>
+        <p>§. 6. Vanhojen runojen pelätystä häviämisestä. <hi rend="italics">Siitä että Wenäjän Karjalassa vanhoja runoja ja niiden laulajoita näihin aikoihin asti on kunniassa pidetty, voisi päättää,
+          laulajien runojansa ei unohtaneen, vaan ennemmin niitä parannelleen ja kaunistelleen nykyiseen muotoonsa monilukuisissa toisinnoissa. Muutamia vuosisatoja tätä ennen niitä ehk' ei olisi
+          löytynyt siihen paljouteen, vaikka kyllä jo silloinki kaikki olivat taimella ja heristymässä. Tästälähin alkavat ne taas pikemmin supistua, kun uusilla lisäyksillä enetä, sillä kun, ken
+          ikänänsä tahtoo, saapi ne valmiina kirjana käteensä, ja täydellisempänä, kun minkä kenen erinäinen muisto kannattaisi, niin katoaa muistolta laulamisen arvo, ja arvon kadottua itse muistolta
+          laulaminenki. Se käypi samate kun jonkun kielen eri murretten kanssa yhteisen kirjakielen voimiin päästyänsä. Sitä ennen erkanivat erkanemistansa yksi murre toisesta, ja väliin
+          <label type="popup" n="34">ilmautui</label> uusia; kirjakielen saatua alkoivat taas kaikki sen ympärille yhdistyä.</hi><label type="commentary" n="e18">18</label></p>
+        <p>§. 7. Vierassukuisista sanoista. <hi rend="italics">Edellä mainitusta runojen kulkuja säilyntätavasta on <label type="popup" n="35">huokeasti</label> ymmärrettävä, kuinka niihin tuo
+          tuostakin on tainnut yhtyä semmoisia sanoja, jotka arvattavasti vasta myöhempinä aikoina ovat kieleen tulleet, joista siis ei suinkaan ole <label type="popup" n="36">päättämistä</label>,
+          itse runojenkin ei vanhempia olevan. Sanat ja kieli runoissa ei ole muu, kun tarinan ulkonainen ajan mukiin muodostuva puku. Myös on monta vanhoissa runoissa löytyvää ruotsin eli venäjän
+          sukuista sanaa tainnut jo <label type="popup" n="37">Permian</label> vallan aikana</hi></p>
+        <pb n="4" facs="esipuhe_04" />
+        <p><hi rend="underline">tavallinen olla, koska muinaistietojen mukaan <label type="popup" n="38">Permialaiset</label> kävivät kauppaa niin Islandilaisten ja Norjalaisten, kuin Wenäläistenki
+          kanssa, ja kaupankäviät kansat aina saavat kaupan päällisiksi uusia sanoja kieleensä. Suuri osa semmoisia ruotsin sukuisia sanoja, joita tavallisesti arvellaan vasta myöhemmin, Suomen maan
+          Ruotsin yhteyteen jouduttua, Ruotsalaisilta saaduksi, löytyy rajanki takana Wenäjän maalla Karjalassa ja Aunuksessa. Niiden siellä löytyminen on vaikea muulla ehdolla selittää, kun sillä,
+          että olivat tuttuja jo ennen Suomalaisten eroamista Ruotsin ja Wenäjän vallan alaisiksi.</hi></p>
+        <p>§. 8. Runojen syntyajoista ja alkuperäisestä kodista. <hi rend="italics">Montakin arvelua on näiden runojen syntyajoista ja paikasta ollut. Muita asianmukaisemmalle näyttää
+          se, joka pitää niitä Permian vallan aikana syntyneinä Wienan (eli Walkean) meren kaakkoisrannoilla, taikka niiden isojen järvien, Woikojärven, <label type="popup" n="39">Oniekan</label> ja
+          Laatokan, seuduilla, jotka kaaressa makaavat Oniekan lahden välillä Wienan merta yhdellä, ja Suomenlahden Itämerta, toisella puolella. Se osa Suomalaisia Wenäjän Karjalassa, joiden tykönä
+          nämät runot ovat halki vuosisatojen säilyneet, näyttää kun olisi vanhan rikkaan, voimakkaan ja kuuluisan Permian kansan suoraa jälkisukua.<label type="commentary" n="e19">19</label> Sillä
+          on vielä yli muiden Suomalaisten joku ulkonainen perintösivistys vanhoista ajoista, omituisia jälkiä jonkunlaisesta yhteis-elämästä, erinomainen, kaikkia kieltoja ja vastuksia kiertelevä
+          kaupan into, nopsa sekä ruumiin liike että mielen maltti yrityksissänsä, joka kaikki samassa kun heidän nykyinen asunsiansa, runomuistinsa, kielessänsä tavattavat ruotsinsukuiset sanat,
+          vaimoväen omalaatuiset koristukset y. m. saapi vanhoista Permian ajoista paraan selityksensä. Ruumiin nopeudessa, pian hoksaavassa mielen maltissa ja kaupanhalussa ovat Suomen maan Pohjalaiset
+          ja Karjalaiset heidän lähimpiä sukulaisiansa, jälkimmäiset ynnä Inkeriläisten kanssa runomuistissaki.</hi></p>
+        <p>§. 9. Pohjolan asukkaista. <hi rend="italics">Löytyy kyllä aihetta siihenki luuloon, että Pohjolan eli Pohjan kansalla näissä runoissa ymmärrettäisi
+          Lappalaisia<label type="commentary" n="e20">20</label>, mutta asianmukaisemmalta näyttää kuitenki, Pohjolassa ei Lappalaisia, vaan jonkun eri lahkokunnan Suomalaisia asuneen. Tosin
+          nimitetään lausekerroissa (parallelismoissa) Pohjolata välistä Lapiksiki, mutta se näyttää ainoastansa joku herjausnimi olleen samate kun</hi>
+          <label type="popup" n="40">Pimentola</label>, <label type="popup" n="41">Untamola</label>, Kylmä kylä, Miesten syöjä sia <hi rend="italics">j. m. Ainoastansa yhdessä paikassa
+          (12: 199, 200) osoitetaan Pohjolassa outoa kieltä puhutuksi, mutta sen paikan voipi silläki tavalla selittää, että Lemminkäisen äiti, kun kielsi poikaansa Pohjolaan lähtemästä ja ynnä
+          muiden syiden, jotka pidättäisivät häntä lähtemästä, sanoi »etkä tunne kieltä Turjan, maha et lausua lapiksi,» kielellä tarkoitti ei puhetta, vaan Pohjolan omituista
+          <label type="popup" n="42">loihtutaitoa</label>. Myös on se paikka voinut myöhemmin runoon tulla, eli josta kusta alkuansa toisesta runosta siihen sekautua, eikä,</hi></p>
+        <pb n="5" facs="esipuhe_05" />
+        <p><hi rend="underline">jos kuinkin olkoon, merkitse paljo mitään niitä moninaisia muita paikkoja vasten, jotka osoittavat Pohjolan ja Kalevalan asukasten huokeasti toinen toisensa
+          kielen ymmärtäneen. Muuten on koko elämän laatu Pohjolassa paljo eroava Lapin niin nykyisestä, kuin arvattavasti muinaisestakin elämän laadusta, ja koko edellisessä Kalevalan osassa
+          pysyy Pohjolan kansa voimakkaampana, kun mikä milloinkaan Lappalaisiin sopisi. Lemminkäinen muistuttaa (27: 109−114) sekä muiden että omistansa Pohjolaan viemistä ohrista, joilla kyllä
+          ei muuta kun verojyviä ja veron-alaisuutta tarkoitettane, jota, myös toisessaki paikassa (35: 65−74) osoitetaan; mutta koskas olisi joku muu kansa Lappalaisille veron-alainen ollut?
+          Entistä ylivaltaansa muistelee Pohjolan emäntä myös runoissa 42: 335, 336 ja 43: 371−374. Uskottavinta on siis Pohjolassaki jonkun Suomalaislahkokunnan asuneen, jolle Kalevalasta
+          aikoinansa maksettiin veroa, kunnes Wäinämöinen, Ilmarinen ja Lemminkäinen tekivät lopun veron-alaisuudelle. Juuri siinä onki Kalevala-runojen keskinäinen side eli yhteys, että kertovat,
+          kuinka Kalevala vähitellen vauristui Pohjolan vertaiseksi ja viimein pääsi voitolle.</hi></p>
+        <p>§. 10. Kielenlaatu näissä runoissa <label type="commentary" n="e21">21</label><hi rend="italics">on Karjalan tavallista suomea, eikä paljo poikkeava muidenki Suomen maakuntain puheesta, jonka tähden Suomalainen mistä tahansa
+          vähällä tottumisella ne helposti ymmärtää.<label type="commentary" n="e22">22</label> Muutamia oudompia sanoja on kuitenki koettu <label type="popup" n="43">erittäin</label> selittää
+          ja tässä ehkä sopinee eräitä muita selityksen viittoja antaa.</hi></p>
+        <p><hi rend="italics">Semmoiset sanat, jotka matkivat jota kuta ääntä eli liikuntoa</hi> (onomatopoëtica) <hi rend="italics">ovat ylensä suomessa tavalliset, ja saavat usein paikalta,
+          jossa tavataan yhteydessä toisten sanojen kanssa, paraan selityksensä. Senlaisia ovat esimerkiksi</hi> <label type="popup" n="44">suihkii</label>,
+          <label type="popup" n="45">piukkii</label>, <label type="popup" n="46">loruu</label>, <label type="popup" n="47">noruu</label>, <label type="popup" n="48">kamuaa</label>,
+          <label type="popup" n="49">remuaa</label>, <label type="popup" n="50">nuhajaa</label>, <label type="popup" n="51">sohajaa</label>, <label type="popup" n="52">ratisee</label>,
+          <label type="popup" n="53">vatisee</label>, ärähtää, <label type="popup" n="54">sorahtaa</label>, <label type="popup" n="55">sirettää</label>,
+          <label type="popup" n="56">hyräytyy</label>, <label type="popup" n="57">viehkuroi</label>, <label type="popup" n="58">kääperöitsee</label>,
+          <label type="popup" n="59">häiläyttää</label>, <label type="popup" n="60">nauskahuttaa</label>, <label type="popup" n="61">tölläyttää</label>,
+          <label type="popup" n="62">tuivertaa</label>, <label type="popup" n="63">haivertaa</label>, <label type="popup" n="64">karittelee</label>,
+          <label type="popup" n="65">kahattelee</label>, <label type="popup" n="66">suhuttelee</label>, <label type="popup" n="67">siuottelee</label>,
+          <label type="popup" n="68">luskuttelee</label>, <label type="popup" n="69">juhmuttelee</label>, <label type="popup" n="70">käärämöittelee</label>
+          <hi rend="italics">ynnä monilukuisten muiden. Useammin, kuin itsepäällänsä, tavattaan ne jonkun toisen lausukan eli toimisanan vieressä tarkemmin osoittamassa jonkun toimituksen
+          erityistä ääntä eli liikuntotapaa, esimerkiksi:</hi> lyödä lynnähyttelee <hi rend="italics"> s. o. lyö niin että <label type="popup" n="103">heläjää</label>,</hi> itkeä hyryttelee
+          <hi rend="italics">s. o. itkee hiljaisella äänellä</hi>, huutaa huikahuttaa <hi rend="italics">s. o. huutaa raikkaalla äänellä, </hi> käydä kulleroittelee  <hi rend="italics">s. o.
+          käy keveästi ja <label type="popup" n="71">ripsaasti</label> jalkojansa nostellen, </hi> astua lykyttelee <hi rend="italics">s. o. astuu joutuisasti,</hi> hiihtää hivittää
+          <hi rend="italics">s.o. hiihtää <label type="popup" n="72">terävään</label> ja <label type="popup" n="73">uutteraan</label>, </hi> juosta puikkii <hi rend="italics">s. o.
+          juoksee suoraan suurella vauhdilla. Tavataan välistä melkein samanlaatuisia nimi- ja <label type="popup" n="74">mainesanojaki</label>, esimerkiksi: </hi>
+          <label type="popup" n="75">huitukka</label>, <label type="popup" n="76">haitukka</label>, <label type="popup" n="77">ressukka</label>, <label type="popup" n="78">rehvana</label>,
+          <label type="popup" n="79">pöyhtöhäntä</label>, <label type="popup" n="80">röyhetyinen</label>,</p>
+        <pb n="6" facs="esipuhe_06" />
+        <p><label type="popup" n="81">källeröinen</label>, <hi rend="italics">jotka samate kun sellaiset toimisanatkin ovat huokeammat ym märtää, kun oikein <label type="popup" n="82">säntillensä</label> selittää eli muilla kielillä sanoa. </hi></p>
+        <p><hi rend="italics">Toisenlaatuisia ovat <label type="popup" n="83">itsekohtaiset eli itseyntyvät toimisanat</label>, joita ainoastansa Karjalan ja Savon kielessä näihin asti on käytetty, vaan muissa
+          murteissa kahdella eri sanalla toimitettu, esimerkiksi</hi> käänteleikse <hi rend="italics">s. o. kääntelee itseänsä, </hi> ajaikse <hi rend="italics">s. o. ajaa itsensä,
+          </hi> siirräikse <hi rend="italics">s. o. siirtää itsensä eli itseänsä,</hi> siirräime (siirräihen) <hi rend="italics">s. o. siirrän itseni eli itseäni, </hi> siirtihe
+          <hi rend="italics">s. o. siirti itsensä eli itseänsä, </hi> siirrime (siirrihin) <hi rend="italics">s. o. siirrin itseni, itseäni,</hi> siirrihet (siirrihit)
+          <hi rend="italics">siirrit itsesi, itseäsi,</hi> tungeite <hi rend="italics">s. o. tunge itsesi, itseäsi,</hi> veäite <hi rend="italics">s. o. vedä itsesi, itseäsi,</hi>
+          pannaita <hi rend="italics">s. o. panna itsensä,</hi> laskeita <hi rend="italics">s. o. laskea itsensä, itseänsä,</hi> vetäitä <hi rend="italics">s. o. vetää itsensä,
+          itseänsä.</hi></p>
+        <p><hi rend="italics">Semmoiset toimisanat, kun</hi> käännältää, väännältää, veältää, sivaltaa, työnnältää, <label type="popup" n="84">nostaltaa</label>,
+          <label type="popup" n="85">murraltaa</label> <hi rend="italics">j. m. myös ovat entiselle kirjakielelle enimmäksi osaksi oudonlaiset. Ne osoittavat toimituksen äkillisyyttä ja
+          väkevyyttä, esimerk.</hi> työnnältää <hi rend="italics">yhtä kun työntää äkisti ja väkevällä kädellä. Äkillisyyttä yksinänsä merkitään semmoisilla toimisanoilla, jotka päättyvät
+            tavuella</hi> see, <hi rend="italics">esimerk.</hi> vetäisee, <label type="popup" n="86">tarpaisee</label>,
+          <label type="popup" n="87">sitaisee</label>, <label type="popup" n="88">kutaisee</label>, <label type="popup" n="89">tahkaisee</label>, parkaisee, ärjäisee, <hi rend="italics">joista enin osa jo vanhastaan on kirjakielelle tuttu.</hi></p>
+        <p><hi rend="italics">Kun jota kuta sanaa tahdotaan somistellen eli mielitellen sanoa, niin annetaan sille Wenäjän Karjalan murteessa useampiakin eri päätteitä, esimerk.
+          sanasta reki:</hi> reyt, rekonen; <hi rend="italics">käki:</hi> käyt, käkönen; <hi rend="italics">vesi:</hi> veyt, vetonen; <hi rend="italics">susi:</hi> sutonen;
+          <hi rend="italics">kivi:</hi> kivyt, kivonen; <hi rend="italics">hanhi:</hi> hanhut, hanhonen; <hi rend="italics">meri:</hi> meryt, meronen; <hi rend="italics">mesi:</hi>
+          meto, metonen; <hi rend="italics">neiti:</hi> neiyt, neito, neitonen; <hi rend="italics">veli:</hi> velo, vello, veljyt, veijo, veito, veitonen; <hi rend="italics">lehti:</hi>
+          lehyt', lehtyinen, lehtonen; <hi rend="italics">kesä:</hi> kesyt, kesonen; <hi rend="italics">koivu:</hi> koivas, koivahainen; <hi rend="italics">päivä:</hi> päivyt,
+          päivönen; <hi rend="italics">marja:</hi> marjut, marjanen; <hi rend="italics">sampo:</hi> sammut, samponen; <hi rend="italics">syän:</hi> syämmyt; <hi rend="italics">taivas:</hi>
+          taivo, taivonen; <hi rend="italics">lammas:</hi> lampahut, lampahuinen; <hi rend="italics"><label type="popup" n="90">rove</label>:</hi> ropehut; <hi rend="italics">vene:</hi>
+          veno, venonen, venehyt; <hi rend="italics">pyörä</hi>: pyörykkä, pyöryläinen; <hi rend="italics">puola:</hi> puolukka, puolukkainen; <hi rend="italics">pääsky:</hi>
+          pääskynen, pääskyläinen; <hi rend="italics">sirkku:</hi> sirkkunen, sirkkulainen; <hi rend="italics">juoma:</hi> juomukkainen; <hi rend="italics">olut:</hi> olo, olonen,
+          oluoinen, olukkainen; <hi rend="italics">yö:</hi> yöhyt; <hi rend="italics">vyö:</hi> vyöhyt; <hi rend="italics">suo:</hi> suohut; <hi rend="italics">pyy:</hi> pyyhyt;
+          <hi rend="italics">puu:</hi> puuhut; <hi rend="italics">tie:</hi> tiehyt <hi rend="italics">j. n. e.</hi></p>
+        <p><hi rend="italics">Monilu'ussa on Karjalan ja Savonki murteella ynnä tavallisten kirjakielen päätetten myös toiset omalaatuisensa, esimerk.</hi> tähtilöiksi, helmilöiksi,
+          helmilöitä, ristilöitä, jokiloita, lukkoloita, käärylöihin, kelloloissa <hi rend="italics">j. n. e., jotka eivät merkitse muuta kun tavalliset:</hi> tähdiksi, helmiksi,
+          helmiä, ristiä, jokia, lukkoja, <label type="popup" n="91">kääryihin</label>, kelloissa, <hi rend="italics">eivätkä käytetä useampi kun kaksitavuisissa sanoissa, eikä niissäkään, jos nimentäsiassa päättyvät</hi>
+          a<hi rend="italics">-lla eli</hi> ä<hi rend="italics">-llä.</hi></p>
+        <pb n="7" facs="esipuhe_07" />
+        <p>§. 11. Kielen kirjoitustavasta. <hi rend="italics">Kirjoitustapaa nykyisessä laitoksessa on mahdollisuutta myöten mukailtu tavalliseen kirjakieleen ja yhteisiin kielenopin
+          johtoihin.<label type="commentary" n="e23">23</label> *) Siitä syystä tavataan nyt kirjoitettuna:</hi> osoittaa, tavoittaa, milloin, syytöin, kultainen, vetäisee, naukaisee,
+          <label type="popup" n="92">muutaime</label>, käännäikse, antoi, annoin, nauris, neula, paula, kaura, seula, kauris, äyräs, koura, ohra, <label type="popup" n="93">teiri</label>,
+          peura, aura, ottakamme, ottakatte, <label type="popup" n="94">heittäömme</label>, <label type="popup" n="95">heittäötte</label>, <hi rend="italics">jossa entisen, Karjalan-murteisen,
+          kirjoitustavan mukaan oli:</hi> osottaa, tavottaa, millon, syytön, kultanen, vetäsee, naukasee, muutame, käännäksen, anto, annon, nakris, niekla, pakla, kakra, siekla, kapris, äpräs,
+          kopra, otra, tetri, petra, aatra, ottakame, ottakate, heittäöme, heittäöte. </p>
+        <p><hi rend="italics">Samasta syystä on nykyisessä laitoksessa kirjoitettu:</hi> hopea, valkea, sorea, usea, <label type="popup" n="96">käpeä</label>, leveä,
+          <label type="popup" n="97">melkeä</label> **); laji, neuvo, sauva; enpä, onpi, hänpä; <hi rend="italics">entisessä:</hi> hopia, valkia, soria, usia, käpiä, leviä, melkiä; lai neuo,
+          saua; empä, ompi, hämpä.</p>
+        <p><hi rend="italics">Paitsi sanan ensimäisessä tavuessa jakauvat pitkät äänekkäät ja</hi> pitkät <hi rend="italics">kaksois-äänet eri tavuihin, esimerk.</hi> keihä'än,
+          paha'an, talohon, kylähän, vetehen, käyähän, saatihin, use'in, melke'in, <hi rend="italics">kolmitavuisiksi, ja</hi> keihä'illä, <label type="popup" n="99">kätky'ille</label>, hope'ita,
+          <label type="popup" n="100">rehe'ille</label>, otetahan, annettihin <hi rend="italics">nelitavuisiksi sen siaan, kun tavallisesti sanotaan ja kirjoitetaan</hi> keihään, pahaan, kylään,
+          veteen, käyään, saatiin, usein, melkein <hi rend="italics">kaksitavuisina, ja</hi> keihäillä, kätkyille, hopeita, reheille, otetaan, annettiin <hi rend="italics">kolmitavuisina.
+          Merkkiä</hi> (') <hi rend="italics">käytetään ainoastaan, missä pitkä äänekäs jakautuu kahteen tavueen taikka usiampia yhdenäänellisiä äänekkäitä kohtautuu, niinkuin sanoissa:</hi>
+          ve'en, puhe'et, sana'an, nää'än, <hi rend="italics">ja missä <label type="popup" n="101">äänikäs</label> sanan lopusta on runomitan tähden poisheitetty.</hi></p>
+        <p><hi rend="italics">Missä kirjoitustapaa ei ole yhteiseen kirjakieleen sovitettu, ymmärrettänee se huokeasti <label type="popup" n="102">sillänsäki</label>. Niin esimerkiksi lienevät
+          sanat</hi> kielti, väänti, murti, löyti, löynnyt, löytty, löytähän, käätty, käätähän, väätty, souttu, kaata, kaatahan, kaannut, oisi, uunna, kuunna, miesnä, tänä päänä
+          <hi rend="italics">huokeat käsittää niilläki paikoin, joissa on totuttu sanomaan:</hi> kielsi, väänsi, mursi, löysi, löytänyt, löyetty (löydetty), löyetään (löydetään),
+          käännetty, käännetään, väännetty, soudettu, kaattaa, kaaetaan (kaadetaan), kaata-</p>
+        <p>_______________</p>
+        <p><hi rend="italics">*) Katso:</hi> Finsk Språklära af <label type="popup" n="113">Fab. Collan</label>. Helsingfors 1847.</p>
+        <p><hi rend="italics">**) Alkuperäisesti kuuluivat ne:</hi> hopeta, valketa, soreta <hi rend="italics">j. n. e.</hi> T<hi rend="italics">:n jo aikoja äänekästen väliltä kadottua, on
+          niitä kuitenki parempi</hi> e<hi rend="italics">:llä kun </hi> i<hi rend="italics">:llä kirjoittaa. Jos kohta paikoin sanotaan</hi> hopia, valkia, soria, leviä, <hi rend="italics">niin
+          sanotaanpa taas toisin paikoin</hi> hopee, valkee, soree, levee, <hi rend="italics">joka ynnä</hi> e<hi rend="italics">:n alkuperäisyyden kanssa vaatii niitä</hi>
+          e<hi rend="italics">:llä kirjoittamaan. Paikoin kuuluvat viäläki täydellisesti</hi> hopea, valkea, sorea, leveä <hi rend="italics">j. n. e. </hi></p>
+        <pb n="8" facs="esipuhe_08" />
+        <p>nut, olisi, uutena, kuutena, miehenä, tänä päivänä. <hi rend="italics">Samoin ovat semmoiset sanat kun:</hi> päivää, kehräävi, rantaa, hakkaavi <hi rend="italics">kieliopin sääntöjä
+          vasten pidetyt entisessä Karjalan murteisessa muodossansa ja kirjoitetut:</hi> päiveä, kehreävi, rantoa, hakkoavi, <hi rend="italics">sen vuoksi , että kun se niissä löytyvä pitkä
+          äänekäs</hi> (aa, ää) <hi rend="italics">runomitassa jakautuu kahteen tavueen, niin on tämä jakautuminen helpompi sekä merkitä että puhua näin kirjottain kun millä muulla tavalla,
+          esim. jos tämmöiset sanat kirjoitettaisi:</hi> päivä'ä, kehrä'ävi, ranta'a, hakka'avi.</p>
+        <p>§. 12. Kalevala-runojen kokouksista ja kerääjistä. <hi rend="italics">Niinä neljänätoista vuotena, jotka ovat jääneet siitä ajasta, kun ensimäinen Kalevalan laitos
+          v. 1835 painettiin, on paljo uusia runokokouksia tehty, ja niiden kerääjät ovat olleet: Akatemian oppilas</hi> <label type="popup" n="111">J. Fr. Cajan</label>,
+          <hi rend="italics">majisteri</hi> <label type="popup" n="112">M. A. Castren</label>, <hi rend="italics">oppilaat</hi> <label type="popup" n="110">D. E. D. Europæus</label>, <label type="popup" n="106">A. E. Ahlqvist</label>,
+          <label type="popup" n="107">Fr. Polen</label>, <label type="popup" n="108">Z. Sirelius</label>, <hi rend="italics">majisteri</hi> <label type="popup" n="109">H. A. Reinholm</label>
+          <hi rend="italics">ja myös nykyisen laitoksen suorittaja, joista ensiksi nimitetty kulki omilla varoillansa niitä keräämässä, muut Suomalaisen Kirjallisuuden Seuran avulla.
+          Erittäinkin onnistui Europæukselle*) paljo sekä uusia runoja että toisintoja entisiin, vuosina 1845, 1846 ja 1848, kerätyksi saada.<label type="commentary" n="e24">24</label> Näistä
+          hänen ja muiden ilmi saattamista suurista runokokouksista<label type="commentary" n="e25">25</label>, jotka ynnä entisten kokousten kanssa tulevat Helsingissä olevalta Suomalaisen
+          Kirjallisuuden Seuralta säilytettäväksi, on nykyinen Kalevalan laitos kasvanut pian toistansa isommaksi ja laajemmaksi, kun minkä entinen oli. Minkä ilmanki, runojen järestyksessä
+          ja muussa sisällisessä kohdassa, lienee entistä laitosta parempi, se asia jääköön itsekunki lukian <label type="popup" n="104">arvata</label>.</hi></p>
+        <p>§. 13. Nykyisen Kalevala-laitoksen ko’osta ja järestyksestä entisen suhteen. <hi rend="italics">Entisessä laitoksessa oli kaikkinansa 32 runoa, jotka yhteensä
+          sisältivät ei täyttä 12,100 <label type="popup" n="102">värsyä</label>, nykyisessä sitä vasten on 50 runoa, ja yhteensä lähes 22,800 värsyä. Mitenkä muuten kummanki laitoksen paikat
+          vastaavat toinen toisiansa, sen saattaa seuraavasta osotuksesta nähdä.</hi></p>
+        <p>________________</p>
+        <p>*) <hi rend="italics">Hän on myös kirjaansa: </hi> Pieni Runon-seppä, Hels. 1847 <hi rend="italics">liitetyssä</hi> johdatuksessa runon tekoon <hi rend="italics">laatinut
+          osaavasti runojen mitteellisestä rakennuksesta ja antanut hyviä neuvoja siitä asiasta tarkempaa tietoa haluaville.</hi></p>
+        <pb n="9" facs="esipuhe_09" />
+        <p>[taulukkoa, ks. kuva]</p>
+        <pb n="10" facs="esipuhe_10" />
+        <p>[taulukkoa, ks. kuva]</p>
+        <pb n="11" facs="esipuhe_11" />
+        <p>[taulukkoa, ks. kuva]</p>
+        <p><hi rend="italics">Tästä osoituksesta voipi itsekuki pian ja huokeasti nähdä, missä nykyisen Kalevala- laitoksen järestys runojen välillä on entisestä eroava,
+          kuin myös kaikki ne paikat, jotka ovat myöhemmin saatuja, lisäksi tulleita.<label type="commentary" n="e26">26</label> Kun niillä entisessä laitoksessa ei ole mitään vastaavata, niin
+          on niiden kohdalla oleva sia sen värsypalstassa jätetty tyhjäksi. Mutta ilman näitä näin merkityitä on läpensä paljo uusia värsyjä semmoisillaki paikoilla, joilla entisen laitoksen
+          palstoissa on jotain vastassaki, joka jo on mainittuin paikkojen värsylu'ustaki toinen toisensa rinnalla arvattava. Pienempiä lisiä ei kuitenkaan ole taittu erittäin osoittaa,
+          koska osoitus sen kautta olisi kovin pitkäksi venynyt. Joka niistä haluaa tarkempata tietoa saada, tutkikoon niitä toinen toisensa rinnalla kummassaki laitoksessa.</hi></p>
+        <p><hi rend="italics">Laukossa 17 huhtikuuta 1849.</hi></p>
+        <p><hi rend="bold">E. L.</hi><label type="commentary" n="e27">27</label></p>
+      </div>
+    </body>
+  </text>
+</TEI>

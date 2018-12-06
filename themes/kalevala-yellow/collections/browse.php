@@ -6,7 +6,7 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
 
 
 
-<div class="content-fluid">
+<div class="content-fluid" style="margin-top:2em;">
   <div class="row">
     <!-- list collections in menu to the left -->
     <div class="col-2">
@@ -24,10 +24,12 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
     <!-- list items for each collection -->
     <div class="col-10" id="poems">
       <?php foreach (loop('collections') as $collection): ?>
+
         <?php $collId = metadata('collection', array('Dublin Core', 'Identifier')); ?>
         <?php if (strpos($collId, 'coll') !== false):?>
+
           <ul id="<?php echo $collId;?>" class="navbar-nav">
-            <h4 style="margin-bottom:2em;"><?php echo metadata($collection,array('Dublin Core', 'Title'));?></h4>
+            <?php echo metadata($collection,array('Dublin Core', 'Description'));?>
             <?php $items = get_records('Item', array('collection'=>$collection)); ?>
             <?php set_loop_records('items',$items); ?>
             <?php foreach(loop('items') as $item): ?>

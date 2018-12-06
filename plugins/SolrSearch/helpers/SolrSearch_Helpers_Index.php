@@ -62,13 +62,20 @@ class SolrSearch_Helpers_Index
           // Cut out teiHeader
           $cut = strpos($contents, '</teiHeader>') + strlen('</teiHeader>');
           $end = strlen($contents);
-          $contents = substr($contents, $cut, $end);
+          $contents1 = substr($contents, $cut, $end);
+          $contents2 = substr($contents, 0, $cut);
         }
       }
 
       if ($field->label == 'Original Format') {
         // Replace indexed text value of TEI file url field with contents of TEI file
-        $text->text = $contents;
+        $text->text = $contents1;
+      }
+
+
+      if ($field->label == 'Format') {
+        // Replace indexed text value of TEI file url field with contents of TEI file
+        $text->text = $contents2;
       }
 
       // Set text field.

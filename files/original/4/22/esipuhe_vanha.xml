@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vanhan Kalevalan esipuhe</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-09-12">12.9.2018</date>
+      </publicationStmt>
+      <notesStmt>
+        <note n="1"><ab>Kappaleessa käytetty erikoismerkkejä, ks. kuva</ab></note>
+        <note n="2"><ab>Ks. taulu I esipuheen lopussa</ab></note>
+        <note n="3"><ab>Ks. taulu II esipuheen lopussa</ab></note>
+        <note n="4"><ab>Ks. taulu III esipuheen lopussa</ab></note>
+        <note n="5"><ab>Frans Johan Rabbe (1801−1879), lääkäri, lääkintöylihallituksen kamreeri, kamarineuvos. Lönnrotin läheinen ystävä ja tukija, hoiti Keckmanin kuoleman (1838) jälkeen
+          Lönnrotin asioita Helsingistä käsin. <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3591"/></ab></note>
+        <note n="6"><ab>Carl Niklas Keckman (1793−1838), suomen kielen rehtori, toimittaja. Keckmanin ja Lönnrotin välinen kirjeenvaihto käsitteli mm. suomen kieltä ja sen ortografiaa sekä
+          Kalevalan kokoonpanoa. Keckman hoiti myös Lönnrotin kirjalähetyksiä, raha-asioita ja oikovedoksia Kajaaniin.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2902"/></ab></note>
+        <note n="7"><ab>Carl Axel Gottlund (1796−1875), suomen kielen lehtori, kirjailija, kansanrunouden kerääjä ja julkaisija. Gottlundin Pieniä runoja Suomen poijille ratoxi (1818, 1821)
+          oli ensimmäinen suomalainen kansanrunokokoelma. Gottlund oli Lönnrotin Kalevalan ankara kritisoija, jonka oma eeposrunoelma Runola (1840) sai tyrmistyneen vastaanoton.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2817"/></ab></note>
+        <note n="8"><ab>Reinhold von Becker (1788−1858), suomen kielen kehittäjä, professori. Laati suomen kieliopin ja toimi Turun Wiikko-Sanomien toimittajana. Kirjoitti runonkeruumatkan pohjalta artikkelin
+          Väinämöisestä (1820), jonka tulkitsi historialliseksi sankariksi. Lönnrotin opettaja ja innoittaja.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/3128" /></ab></note>
+        <note n="9"><ab>Arhippa Perttunen (1769−1841), vuokkiniemeläinen runonlaulaja, jonka Lönnrot tapasi viidennellä keruumatkallaan 1834. Perttusen runotekstit vaikuttivat merkittävästi Kalevalan 
+          valmistumiseen. Arhippa Perttusta on pidetty runonlaulajan arkkityyppinä, joka on innoittanut erilaisiin taiteellisiin ja tieteellisiin tulkintoihin.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/4720" /></ab></note>
+        <note n="10"><ab>Zacharias Topelius vanhempi (1781−1831), lääkäri, kansanrunoudentutkija. Julkaisi ennen Lönnrotia kansanrunokokoelman <hi rend="italics">Suomen Kansan Vanhoja Runoja</hi>
+          ynnä myös Nykyisempiä Lauluja 1822–1831. Osoitti Lönnrotille Vienan runorikkaat kylät.
+          <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/6487" /></ab></note>
+        <note n="11"><ab>Erik Lencqvist (1719−1808), kirkkoherra, historiantutkija, julkaisi muinaisten suomalaisten taikauskoa käsittelevän väitöskirjan <hi rend="italics">De Superstitione 
+          veterum fennorum theoretica et practica</hi> (1782). <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2473" /></ab></note>
+        <note n="12"><ab>Henrik Gabriel Porthan (1739−1804), Turun Akatemian professori, historiantutkija, oli 1700-luvun suomalaisen kulttuurin merkittävin hahmo. Porthanin kansanrunoesmerkkejä sisältävä 
+          teos <hi rend="italics">De Poesi Fennica</hi> (1766−1778) oli Lönnrotille tärkeä. <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2599" /></ab></note>
+        <note n="13"><ab>Christfried Ganander (1741−1790), kansanperinteen kerääjä, sanankirjatekijä, pappi. Gananderin merkittävin teos on suomalaisen kansanuskon hakuteos 
+          <hi rend="italics">Mythologia Fennica</hi> (1789). <ref target="https://kansallisbiografia.fi/kansallisbiografia/henkilo/2649" /></ab></note>
+        <note n="14"><ab>Mnemosyne oli Turussa vuosina 1819–1823 ilmestynyt ruotsinkielinen aikakauslehti.</ab></note>
+        <note n="15"><ab>Turun Wiikko-Sanomat oli Reinhold von Beckerin perustama, Turussa vuosina 1820–1827 ja 1829–1831 ilmestynyt sanomalehti.</ab></note>
+        <note n="c1">
+          <ab>1.<lb/><lb/>Vanhan Kalevalan esipuheessa Lönnrot puhuu kautta linjan yksikön ensimmäisessä persoonassa.Tässä vaiheessa eepostyöskentelyssä on kyse nimenomaan "minun tavoitteistani"
+            (ks. DuBois 2000: 127−128). Vrt. Uuden Kalevalan esipuheen passiivimuoto.</ab>
+        </note>
+        <note n="c2">
+          <ab>2.<lb/><lb/>Lönnrot toteaa heti ensimmäisessä kappaleessa, että pitää eeposta keskeneräisenä ja toivoo vielä uusia täydentäviä runoja löytyvän. Hän puolustaa omaa työtään vetoamalla
+            sen laajuuteen ja vaikeuteen. Muilta työ on jäänyt kesken, hän itse on saattanut sen päätökseen, vaikkakin vaillinaisena. Näin Lönnrot myös painottaa työnsä jatkuvuutta:
+            runojen yhä lisääntyessä myös itse työ saa täydellisemmän muodon. Ks. vielä suorapuheisemmin Lönnrot puolustaa työtään Vanhan Kalevalan välilehdillä (Borenius ja Krohn 1895: 323).
+            Vanhan Kalevalan julkaisun jälkeen eepoksen rakennetta arvosteltiinkin epäkoherentiksi (esim. Karkama 2001: 273, 275). On myös arveltu Lönnrotin toivoneen, että keskeneräinen
+            julkaisu kasvattaisi kiinnostusta kansanrunoihin ja rohkaisevan muitakin keräämään niitä (Honko 1999: viii).</ab>
+        </note>
+        <note n="c3">
+          <ab>3.<lb/><lb/>Lönnrot nimeää Suomen ja Vienan Karjalan tärkeimmiksi runolaulupaikoiksi. Vanhassa Kalevalassa hyödynnetty runoaineisto oli lähinnä Lönnrotin itsensä tallentamia tekstejä
+            Vienan Karjalasta. Uuden Kalevalan lähdeaineisto puolestaan tuli maantieteellisesti paljon laajemmalta alueelta ja pohjautui myös muiden kerääjien muistiinpanoihin (ks. Kaukonen
+            1956: 407−424). Vrt. Uuden Kalevalan esipuheessa Lönnrot korostaa ainoastaan Vuokkiniemen aluetta. Lähdeaineiston maantieteellinen laajentuminen Kalevala-versioiden välillä
+            tarkoitti myös kansallisidentiteetin laajentamista yhdistämällä laajat itäiset ja rajantakaiset suomenkieliset sekä samaan kieliperheeseen kuuluvat alueet kulttuurisesti
+            suomalaisuuden käsitteeseen (Anttonen 2008: 215, 223).</ab>
+        </note>
+        <note n="c4">
+          <ab>4.<lb/><lb/>Kajaani esiintyy esipuheen alussa merkityksellisenä runonkeruupaikkana, kun taas Uuden Kalevalan alkusanoissa Kajaania ei mainita lainkaan. Kajaanin merkitykseen oli syynsä.
+            Vanhan Kalevalan esipuhe on päivätty Kajaanissa. Lönnrot oli vuonna 1833 muuttanut Kajaaniin piirilääkäriksi, ja sieltä käsin hänen oli vaivatonta tehdä keruumatkoja Venäjän
+            Karjalan puolelle, alueelle, jota Z. Topelius oli kehunut runoista rikkaana paikkana. Kalevalan kokoonpanon kannalta merkittävää oli neljäs keruumatka syyskuussa 1833 (yhdistettynä
+            piirilääkärin tarkastusmatkaan) Vuonniseen, missä Lönnrot tapasi runonlaulajat Ontrei Malisen ja Vaassila Kieleväisen. Erityisesti Vaassilan kertomus runojen järjestyksestä
+            vaikutti Kalevalan ensimmäisen version syntymiseen (Runokokous Väinämöisestä 1833). Seuraavalla matkalla vuonna 1834 Lönnrot tapasi Latvajärvellä Arhippa Perttusen. Alku-Kalevalan
+            muotoutuminen Vanhaksi Kalevalaksi pohjautui suurelta osin Perttusen runotoisintojen yhdistämiseen eepoksen valmiiseen runkoon (Kaukonen 1939: 44). Vrt. Martiska Karjalaisen laajat
+            eeppiset runotekstit, joita Lönnrot ei kuitenkaan nosta esiin esipuheessa, sillä piti niitä sekavina ja epätäydellisinä. Kaukonen arvelee tämän osittain johtuvan siitä, että Lönnrot
+            tapasi Martiska Karjalaisen vasta laulatettuaan Arhippa Perttusta, jonka runoihin vertasi Martiskan toisintoja (Kaukonen 1939: 45). </ab>
+        </note>
+        <note n="c5">
+          <ab>5.<lb/><lb/>Lönnrot viittaa tässä ainoastaan niihin kansanrunoihin, jotka ovat olleet Kalevalan lähteenä tarkoittaen nimenomaan runouden vanhempia kerrostumia. (Kaukonen 1979: 71). Vrt.
+            Uuden Kalevalan esipuhe § 5, jossa Lönnrot kirjoitti uskovansa kansanrunojen ylipäätään lisääntyneen aikojen saatossa. Pian Kalevalan julkaisun jälkeen vuonna 1836 Lönnrot perustelikin
+            SKS:lle pikaista tarvetta kansanrunouden keruulle, koska suomen kielessä on tapahtumassa murtuma, jonka myötä tullaan menettämään tietoa suomen runouden ja kulttuurin vanhemmista
+            ajoista (kirje <ref target="http://lonnrot.finlit.fi/omeka/items/show/3036">16.3.1836 SKS</ref>. Ks. myös <ref target="http://lonnrot.finlit.fi/omeka/items/show/1139">kirje 6.2.1834
+            Johan Gabriel Linsén</ref>, SKS:n esimies).</ab>
+        </note>
+        <note n="c6">
+          <ab>6.<lb/><lb/>Lönnrot nostaa tässä Arhippa Perttusen Kalevalan runojen laulajaksi. Muuten hän ei laulajia nimeä, Uuden Kalevalan esipuheessa Lönnrot ei mainitse laulajia lainkaan. Laulajien
+            nimeämättömyys oli tyypillistä varhaiselle runonkeruulle, mutta myös Lönnrotin tietoinen valinta Kalevalan kokoonpanossa. "Laulajien nimettömyydellä ja persoonattomuudella runous
+            näyttäytyi "kansan" runoutena, kollektiivisesti luotuna menneisyyden jäänteenä" (Anttonen 2002: 46).</ab>
+        </note>
+        <note n="c7">
+          <ab>7.<lb/><lb/>Arhippa Perttunen viittaa uudempiin riimillisiin kansanlauluihin, jotka kertoivat esimerkiksi rakkaudesta, sen kaipuusta ja pettymyksistä (Asplund 2006: 148). Riimillisiä lauluja
+            lauloivat ja osasivat lähestulkoon kaikki, vaikka iäkäs runonlaulaja tulkitsi niiden olevan nuorten kevytmielistä viihdettä. Runonlaulajille oli tyypillistä korostaa, että laulut
+            heikkenivät sukupolvelta toiselle. Toisaalta laulajat olivat omaksuneet runonkerääjien ajatuksen kiireesti rappeutuvasta perinteestä. (Tarkka 2005: 40−41.)</ab>
+        </note>
+        <note n="c8">
+          <ab>8.<lb/><lb/>Lönnrotin työtä Kalevalan parissa on luonnehdittu monella tavalla. Tarkoituksena on ollut saada selvää työn laadusta: miten Lönnrot muokkasi kerättyjä runoja ja mikä oli Lönnrotin
+            oma osuus Kalevalassa. Mm. Lauri Honko vertasi Lönnrotia Homerokseen ja Vergiliukseen (1987). Lönnrot itse oli arkisempi kuvatessaan eepostyöskentelyään. Erityisesti Vanhan Kalevalan
+            kohdalla hän käyttää ilmaisua <hi rend="italics">järjestäminen</hi> kuvatessaan työnsä luonnetta (ks. myös Kaukonen 1939: I;
+            <ref target="http://neba.finlit.fi/blogi/vainamoinen-on-kylliksi-antanut-tyota/">Hämäläinen 2017</ref>).</ab>
+        </note>
+        <note n="c9">
+          <ab>9.<lb/><lb/>Vanha Kalevala ei ollut Lönnrotin ensimmäinen yritys pidemmän runoelman luomiseksi. Hän kirjoitti <label type="popup" n="6">C. N. Keckmanille</label> 1833 kokeilleensa yhdistää kaikki Lemminkäisestä kertovat runot
+            yhdeksi kokonaisuudeksi (<ref target="http://lonnrot.finlit.fi/omeka/items/show/152">25.7.1833</ref>). Myöhemmin samana vuonna hän hahmotteli yhtenäisen kokonaisuuden häärunoja otsikolla
+            Naimakansan virsiä sekä Runokokous Väinämöisestä. Jälkimmäisessä oli jo paljon yhtäläisyyksiä Kalevalan kanssa ja sitä voidaan pitää sen luonnoksena (Kaukonen 1979: 54–55).</ab>
+        </note>
+        <note n="c10">
+          <ab>10.<lb/><lb/>Lönnrot toteaa myös, ettei kukaan ennen häntä itseään ole edes esittänyt ajatusta, että kansanrunoja voisi järjestää pidemmäksi kertomukseksi. Samassa yhteydessä kuvataan Ganander,
+            <label type="popup" n="8">von Becker</label> ja Topelius vanhempi ikään kuin inspiraation lähteenä. Entisen opettajan von Beckerin mainitaan vaikuttaneen maisterinväitöksen <hi rend="italics">Väinämöinen –
+            muinaissuomalaisten jumala</hi> (<hi rend="italics">De Väinämöine priscorum Fennorum numine</hi>, ks <hi rend="italics">VT</hi> 3, 11) syntyyn, mutta ei ideaan koota runoja yhteen.
+            Vrt. kuitenkin Uuden Kalevalan esipuhe, jossa Lönnrot päinvastoin erikseen kiittää von Beckeriä siitä, että hän keksi ensimmäisenä yhdistellä yksittäisiä runoja isommiksi kokonaisuuksiksi
+            toimittamassaan <hi rend="italics">Turun Wiikko-Sanomissa</hi> vuonna 1820 (<ref target="http://digi.kansalliskirjasto.fi/sanomalehti/binding/415166?page=2">nro 10, 11.3.1820</ref>).</ab>
+        </note>
+        <note n="c11">
+          <ab>11.<lb/><lb/>Lönnrot tunsi Eddan ja homeeristen eeposten tavan yhdistellä yksittäisiä runoja suuremmaksi kokonaisuudeksi. Hän oli myös tutustunut saksalaisen F. A. Wolfin eeposteoriaan, jonka mukaan
+            homeeristen eeposten kirjallisen asun syntyyn ovat vaikuttaneet merkittävästi yksilölliset toimittajat.  Taustana Wolfin teorialle oli ajatus, että alun perin vain suullisesti sepitettyjä
+            lauluja voidaan koota yhteen eepokseksi yhden tai useamman henkilön toimesta. (Ks. Kaukonen 1979: 49−50; Honko 1987; Karkama 2001: 242.) Ks. miten Lönnrot selvittää eepoksen syntyä muutamaa
+            vuotta myöhemmin Vanhan Kalevalan välilehdillä: "Alkutarinaan, joka ei suinkaan ollut nykyisen runon laajuinen, [kutoivat] liittivät runoniekat polvi polvelta omia [rihmojaan] kuteitaan
+            tehden sitä vielä tänäkin päivänä - - Kreikkalaiset mahtoivat juuri samalla tavalla saada kokoon mainiot Homeiro-runonsa. Monina vuosisatoina kulkivat suullisina tarinoina Kreikalaisten
+            kansain seassa Europassa sekä Aasiassa, muuttuivat, [lisäytyivät] kasvoivat ja kaunistuivat sillä ajalla valmiiksi aineiksi vastaulevalle kerääjälle ja yhteen kutojalle." (Borenius ja Krohn
+            1895: 2.) Kirjallisuuden lajina eepos vastasi myös ajan kansallis-romanttisiin aatteisiin ja ihanteellisen menneisyyden etsintään sekä oli antiikista periytyvänä lajina arvostettu (Lyytikäinen
+            2005: 25).</ab>
+        </note>
+        <note n="c12">
+          <ab>12.<lb/><lb/>Lönnrot ihaili Christfrid Gananderin teosta <hi rend="italics">Mythologia Fennica</hi> (1789) ja pohti runojen julkaisemista mytologisena sanakirjana (Honko 1999: xx). Ks.
+            <ref target="http://lonnrot.finlit.fi/omeka/items/show/159">Lönnrotin kirje Keckmanille 14.3.1834</ref>: --"mitä jos panisi kaikki kolme urosta ja nimittäisi kirjan Väinämöinen, Ilmarinen ja
+            Lemminkäinen taikka jos panisi nimeksi Suomen Kansan mythologia vanhoilla runoilla toimitettu eli Väinölä ja Pohjola (nimittäin paikoista joista näissä muassa mainitut (tapaukset) asiat enimmiten
+            tapahtu) taikka miksi itse tahdot, sillä näistä nimistä ei ole yksikään juuri otollinen. Saattaisi vielä panna nimen Väinämöisen Kantele."</ab></note>
+        <note n="c13">
+          <ab>13.<lb/><lb/>Lönnrot ilmoittaa noudattaneensa laulajien mallia ja jos siitä ei ole ollut apua, hän on seurannut itse runoja. Erityisesti Vanhan Kalevalan kokoonpanossa Lönnrot hyödynsi laulajien esimerkkiä
+            ottaen Uudessa Kalevalassa runsaammin runoilijan vapauksia. (Apo 2008: 365.) Kalevalan taustalla vaikuttivat lukijoiden odotukset (odotushorisontti) eepoksesta (Honko 1987; Apo 2008). Lönnrotin
+            aikalaisilla oli varhaisten runokokoelmien ja omien keruiden pohjalta käsitys kansanrunoista ja niiden keskinäisistä suhteista. Euroopassa kansanrunojen julkaisu oli alkanut jo edellisellä
+            vuosisadalla (Apo 2008: 360−364; lisää Apo 2006).</ab>
+        </note>
+        <note n="c14">
+          <ab>14.<lb/><lb/>Erityisesti tämä kohta osoittaa, kuinka Lönnrot lähestyy eeposkäsityksessään saksalaista F. A. Wolfia. Wolf esitteli teoksessaan <hi rend="italics">Prolegomena ad Homerum</hi> (1795) uuden
+            teorian Homeroksesta, jonka Lönnrot myös tunsi hyvin (Kaukonen 1990: 159). Sen mukaan Ilias ja Odysseia eivät ole yhden henkilön luomuksia, vaan 1) eepokset ovat syntyneet joukosta erillisiä
+            kertovia suullisia runoja, joita 2) kerrottiin useiden esittäjien toimesta esikirjallisella ajalla. Näitä runoja alettiin 3) yhdistellä ja muokata kirjalliseen pidempään muotoon 500-luvulla
+            eea. ja vasta 4) filologinen toimitustyö Aleksandrian kirjastossa 300-luvulla eea. antoi niille modernina aikana tunnetun asun. Wolfin malli sopii erinomaisesti Lönnrotin tapaan koostaa Kalevala
+            (Honko 1987: 143). Lönnrotin voi nähdä erillisten suullisten runojen kirjallisena yhdistäjänä ja niiden kieliasun muokkaajana, kuin myös filologisten ja tieteellisten pyrkimysten edistäjänä.
+            Lönnrot myös kertoi eksplisiittisesti intentiostaan, joka ei ollut hänen kohtaamansa kansanrunojen toistaminen sellaisenaan, vaan erillisten runojen koostaminen ja toimittaminen pidempään muotoon
+            (Anttonen 2014: 79; Kaukonen 1988: 240). Silti Vanhan Kalevalan ilmestyttyä monilta aikalaisilta jäi huomaamatta Lönnrotin toimitustyön yhtäläisyydet Wolfin teorian kanssa ja eeposta pidettiin
+            aitona kansaneepoksena (Honko 1987: 143). Monista poiketen A. I. Arwidsson ja <label type="popup" n="7">C. A. Gottlund</label> kiinnittivät huomiota Lönnrotin osuuteen eepoksen synnyssä (Sarajas 1984: 40; Kaukonen 1956: 441).</ab>
+        </note>
+        <note n="c15">
+          <ab>15.<lb/><lb/>Lönnrot luopui Vanhan Kalevalan kohdalla ajatuksesta runojen alkuperäisestä kokonaisuudesta, joka olisi mahdollista palauttaa alkuperäiseen muotoonsa. Tämän vuoksi hän ei myöskään asettanut
+            eri runotoisintoja paremmuusjärjestykseen. (Kaukonen 1939: 41–42.) Ks. Vanhan Kalevalan esipuheen jälkeen, Kalevalan työversiossa (Välilehditetty Kalevala) Lönnrotin näkemys runojen synnystä
+            on vielä suorempi (Borenius ja Krohn 1895).</ab>
+        </note>
+        <note n="c16">
+          <ab>16.<lb/><lb/>Vanhan Kalevalan loppuun Lönnrot sijoitti listan toisinnoista. Jacob Grimm kiitti niiden todistavan sekä kansanrunojen luonnollisesta vaihtelevuudesta että niiden tallentamisen tarkkuudesta.
+            Toisinnot lisäsivät eepoksen vakuuttavuutta ja tieteellistä auktoriteettia (Hyvönen 2004: 308-309; ks. myös Hyvönen 2008: 346). Lönnrotilla olikin halu osoittaa esipuheessa Kalevalan tieteelliset
+            lähtökohdat (Hyvönen 2008: 358–359). Vielä vuonna 1851 hän korosti kirjeessään Kalevalan ranskantajalle Louis Léouzon Le Ducille toisintojen merkitystä Kalevalan uskottavuudelle
+            (<hi rend="italics">VT</hi> 5, 472. Ks. myös Saarelainen 2016: 122). Vanhaa Kalevalaa voikin luonnehtia Lauri Hongon tavoin "avoimeksi eepokseksi" (Honko 2000: 18). Eepoksen loppuun liitetty
+            toisintoluettelo sekä esipuheen pohdinnat runoista, jotka pakenevat yhtä muotoa, osoittavat Lönnrotin ajatuksen Vanhasta Kalevalasta keskeneräisenä, yhä muotoutuvana prosessina.</ab>
+        </note>
+        <note n="c17">
+          <ab>17.<lb/><lb/>Lönnrot pyrki luomaan pakanuuden aikaa kuvaavan eepoksen ja siksi vältti käyttämästä ja poisti lähdemateriaalinsa kristillisiä vaikutteita (Kaukonen 1979: 66). Tässä hän selittää menettelyään
+            sillä, että uudempi kristillinen nimistö on oletettavasti korvannut vanhempia nimiä. Myös muita uudenaikaisuuksia on muokattu, esimerkiksi kahvi on vaihdettu kaljaksi ja viittaukset tuliaseisiin
+            poistettu (Kaukonen 1979: 68).</ab>
+        </note>
+        <note n="c18">
+          <ab>18.<lb/><lb/>Lönnrot uskoi Kalevalan lähdemateriaalin historiallisuuteen, eli siihen, että kansanrunouden kertomusten taustalla ovat historiallisesti kaukaiset, mutta todelliset henkilöt, teot ja tapahtumat
+            (Siikala 2008: 313). Useat aikalaiset keskustelivat siitä, onko Kalevala mytologiaa vai historiaa (Kaukonen 1956: 425). Lönnrotin käsityksen mukaan tämä kysymys oli väärin muotoiltu, Kalevalan
+            lähteenä toiminut kansanrunous oli hänelle mytologis-historiallista, sillä myytit syntyvät historiallisessa prosessissa (Siikala 2008: 313–314). Tässä kohtaa esipuhetta Lönnrot tarjoaa esimerkin
+            siitä, miten hänen käsityksenä mukaan myyttinen aines runoihin syntyy historiallisesti. Auringon ja kuun katoaminen ja vuoreen lukitseminen ei ole todellinen tapahtuma, mutta kertomus siitä on
+            syntynyt empiirisestä kokemuksesta, kun pohjoisen talvessa aurinko pysyy horisontin alapuolella, eikä luonnontieteellistä selitystä ole tarjolla.</ab>
+        </note>
+        <note n="c19">
+          <ab>19.<lb/><lb/>Kalevanpojat olivat tarinaperinteen mukaan entisaikojen väkivahvoja, tuhoa ympärilleen kylväviä jättiläisiä (Krohn 1903−1910: 677−681; Haavio 1935: 254−255; Siikala 2012). Myös Christfrid
+            Gananderin <hi rend="italics">Mythologia Fennicassa</hi> (1789) mainitaan 12 Kalevan jättiläistä (Ganander 1984: 86−87). Lönnrot tulkitsee tässä Kalevalan miessankareiden lukeutuvan Kalevanpoikien
+            jatkumoon. Ks. Kalevalan Kullervo (VK 19, UK  31−36), jonka taustalla oleva kansanrunoaineisto pohjautuu osin myyttisiin Kalevanpoika-runoihin ja tarinoihin (I1 931/I2 80; XII1 120−122; Ganander 1984: 29−30).</ab>
+        </note>
+        <note n="c20">
+          <ab>20.<lb/><lb/>Lönnrotin tarkoituksena oli luoda kokonaisvaltainen kuva muinaisesta maailmasta, ihmisistä ja tavoista. Tämän vuoksi hän mm. lisäsi eri runolajeja osaksi eepostarinaa. Ks. Vanhan Kalevala
+            Välilehdillä hän perustelee eri lajien mukana oloa: "Järestymisessä sekin huolena: että Suomalaisten sen aikuinen elämä ja tavat tulisivat niin tarkoin ja monipuolisesti kuvatuksia, kuin runoin
+            avulla mahdollinen on ollut. Siitä häälauluja niin paljo, - - Siitä loihturunot --." (Borenius ja Krohn 1895: 4.)</ab>
+        </note>
+        <note n="c21">
+          <ab>21.<lb/><lb/>Lönnrot ohjaa lukijoita viittaamalla romaanin kevytmieliseen maailmaan. Toisin kuin uudessa kirjallisuuden lajityypissä, Kalevalassa ei keskitytä rakkauden ja rakastumisen ongelmiin, vaan
+            muinaisten sankareiden kosintamatkoihin ja sodankäyntiin. Lönnrotin näkemys romaanista oli vielä tässä vaiheessa kielteinen, eikä hän halunnut Kalevalan yhdistyvän kevytmieliseen kirjallisuuteen.
+            (Hämäläinen 2012: 200−201; ks. lisää Karkama 2001: 324−325.) Ks. Lönnrot halusi ohjata Kalevalan luentaa menneisyyttä kohti myös nimen avulla: "Kalevala taikka Vanhoja Kalevalan Runoja Suomen
+            entisistä ajoista" olisi muutettava seuraavasti: "tahtoisin sanan <hi rend="underline">entisistä</hi> muutettavaksi sanaksi <hi rend="underline">muinosista</hi>, sillä
+            <hi rend="underline">entisellä</hi> ymmärretään jos kohta nykysempää mennyttä aikaa, joka on sopimaton ja liianki vältettävä, koska <hi rend="underline">muinonen</hi> koskee vaan kaukasempiin
+            aikoihin" (kirje <label type="popup" n="5">Rabbelle</label> <ref target="http://lonnrot.finlit.fi/omeka/items/show/532">3.3.1837</ref>). Perhettä, avioliittoa ja ihmissuhdeongelmia usein sentimentaalisesti käsittelevää romaania
+            pidettiin aluksi naisten lajina (Launis 2005: 18; Ihonen 1999). Ks. Lönnrotin ja J. V. Snellmanin ajatus perustaa romaaniyhtiö 1840-lopulla. Taustalla oli valistuksellisia tavoitteita: yhtiö
+            julkaisi ns. hyvää romaanikirjallisuutta vastalauseena kevyelle ajanvietekirjallisuudelle. Romaaniyhtiön perustaminen tyrehtyi sensuuriasetuksen vuoksi. (Anttila 1985: 335−336.)</ab>
+        </note>
+        <note n="c22">
+          <ab>22.<lb/><lb/>Lönnrot koki tärkeäksi selvittää runo-oppia ja ottaa tätä kautta kantaa muihin suomen kieltä ja kansanrunoja käsitteleviin kirjoituksiin, joita oli ilmestynyt eri sanomalehdissä. Erityisesti
+            Lönnrotilla oli huoli oppineista runoilijoista, jotka "ovat paljo syrjäytyneet oikiasta runolaausta ja tarvitsisivat muistutettaa", kuten Lönnrot kirjoittaa
+            <ref target="http://lonnrot.finlit.fi/omeka/items/show/199">C. N. Keckmanille huhtikuussa 1835</ref>. 1820- ja 30-luvulla yleisesti katsottiin, että lähinnä hengellisiin teoksiin perustuva suomen
+            kirjakieli ei kyennyt toimimaan sellaisten kulttuuri-instituutioiden kuten kaunokirjallisuuden, tieteen tai lehdistön välineenä (Häkkinen 1994: 15). Lönnrot ja useat muut pyrkivät tietoisesti
+            kehittämään ja modernisoimaan kirjakieltä. Kalevalan kielen onkin korostettu olleen ainutlaatuista Lönnrotin luomaa uutta kirjallista runokieltä (Kaukonen 1987: 131).</ab>
+        </note>
+        <note n="c23">
+          <ab>23.<lb/><lb/>Lönnrot viittaa kansanrunon syntymiseen luonnostaan, ilman runon varsinaista tekemistä ja ajattelemista erotuksena oppineiden runoihin, jotka syntyvät tietoisesti tekemällä. Ajatus toistui
+            myös Kantelettaren alkulauseessa (1840), jossa Lönnrot linjasi keskeisen eron kansanrunon ja taiderunon välillä: tunteet ja järjen. Määrittelemällä kansanrunouden luonnonrunoudeksi Lönnrot
+            yhdistyi käsitteellisesti J. G. Herderin aloittamaan perinteeseen, joka oli edelleen ajankohtainen myös Saksassa 1800-luvulla mm. Grimmin veljesten ajatuksissa. (Anttonen 2014: 75) Siinä
+            kansanrunoutta tarkastellaan kollektiivisen mielikuvituksen luonnollisena ilmauksena, joka määrittelee kansallista yhteisöllistä identiteettiä ja näyttäytyy vastakohtana modernille yksilölliselle
+            identiteetille (Saarelainen 2016: 116). Suomessa esimerkiksi Robert Tengström tulkitsi Kalevalaa juuri tähän tapaan (Karkama 2001: 275).</ab>
+        </note>
+        <note n="c24">
+          <ab>24.<lb/><lb/>Lönnrot uskoo, että hänen käsityksensä kansanrunojen runousopista, ei tule miellyttämään kaikkia lukijoita. Hän viittaa myös Reinhold von Beckeriä kritisoineisiin kirjoituksiin
+            <hi rend="italics">Mnemosyne</hi>-lehdessä vuoden 1820 aikana. Von Becker oli puolustanut itämurteiden mukaanottoa suomen kirjakieleen ja esittänyt länsimurteiden olevan merenrannan mukanaan
+            tuomien kielikontaktien turmelemaa (Esim. <hi rend="italics">Turun Wiikko-Sanomat</hi> <ref target="http://digi.kansalliskirjasto.fi/sanomalehti/binding/415147?page=1">2/1820</ref>. Ks. myös
+            Lauerma 2005: 145). Von Beckerin kirjoitukset käynnistivät ns. murteiden taistelun, jossa puolustettiin ja vastustettiin itämurteiden käyttöä uudistuvassa kirjakielessä. Lönnrot oli von Beckerin
+            tavoin itämurteiden ihailija ja kannatti eri murteita yhdistelevää ortografiaa, tätä ajatusta hän myös toteutti kansanrunojulkaisuissaan vaikuttaen merkittävästi kirjasuomen vakiintumiseen
+            nykyiseen moderniin asuun (Lauerma 2005: 155–157).</ab>
+        </note>
+        <note n="c25">
+          <ab>25.<lb/><lb/>Lönnrot puolustaa toimitustyötään koskevia valintoja vedoten siihen, että laulajat ovat laulaneet samaa runoa monin eri tavoin ja usein epätäydellisenä.</ab>
+        </note>
+        <note n="c26">
+          <ab>26.<lb/><lb/>Lönnrot vähättelee Kalevalan kokoonpanoa antiikin eeposten rinnalla. Vrt. kirje Henrik Cajanderille vuonna 1833, jossa Lönnrot ilmoittaa keränneensä niin paljon runoa, että ne tulevat
+            vastaamaan puolta Homerosta. <ref target="http://lonnrot.finlit.fi/omeka/items/show/2287">Kirje 3.12.1833</ref>.</ab>
+        </note>
+        <note n="c27">
+          <ab>27.<lb/><lb/>Lönnrot korostaa, ettei runojen toimitustyö ole ollut aikaa vievää tai raskasta. Tämä on kuitenkin ristiriidassa sen kanssa, miten Lönnrot puhuu Kalevala-työskentelystä yksityisissä
+            kirjeissään (esim. <ref target="http://lonnrot.finlit.fi/omeka/items/show/196">24.2.1835</ref> ja <ref target="http://lonnrot.finlit.fi/omeka/items/show/195">6.2.1835</ref>: "Paljo niistä
+            runoista on työtä ollut, enkä sitä surisi, kun olisivat nyt viimmenkänä kelpaavaiset"). Ks. lisää <ref target="http://neba.finlit.fi/blogi/vainamoinen-on-kylliksi-antanut-tyota/">Hämäläinen 2017</ref>.
+            Lönnrot ei myöskään toiminut yksin, vaan sai taloudellista apua ja muuta tukea sekä SKS:lta että ystäviltään.</ab>
+        </note>
+        <note n="c28">
+          <ab>28.<lb/><lb/>Lönnrot toistaa esipuheen alussa esittämänsä ajatuksen: hän pitää nyt julkaistua teosta keskeneräisenä. Uuden Kalevalan julkaisun jälkeen Vanha Kalevala jäikin unohduksiin pitkäksi
+            aikaa (Honko 1999: viii). Teoksesta otettiin näköispainos vuonna 1930 ja uudestaan se julkaistiin vasta 1990-luvulla ensin Lönnrotin valituissa teoksissa sekä itsenäisenä niteenä vuonna
+            1999. Vanhan Kalevalan esipuheen lopetuksen voi lukea myös Lönnrotin tietoisena valintana siirtää lukijoiden huomio itse runoihin, ja itse asiassa, runojen keskeneräisyyteen. Näin Lönnrot
+            antaa viimeisinä sanoinaan ymmärtää, että eepoksen hajanaisuus ja vaillinainen lopputulos onkin pohjimmiltaan peräisin laulettujen runojen sekavuudesta.</ab>
+        </note>
+        <note n="c29">
+          <ab>29.<lb/><lb/>Nimimerkkien sijaan Lönnrot on allekirjoittanut esipuheen koko nimellä (vrt. Uuden Kalevalan esipuhe).</ab>
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+      <div type="esipuhe_vanha">
+        <pb n="1" facs="esipuhe_vanha_01" />
+        <p>Esipuhe</p>
+        <p>Wiimmenkänä nämät runot präntin alaseksi saatua owat ne walitettawasti wieläki paljoa puuttuwaiset. Ainaki toiwossa, niitä uusien keruulla
+          lisäytywän, en niitä niin olisikkana keskosena käsistä työntänyt, jos en toisappäinki ajattelewa olisi pelännyt, että taitaisiwat jäähä iäti
+          minusta<label type="commentary" n="c1">1</label> waillinaisiksi. Jo monelta on ennen paremmatki hankkeet ja yritelmät sillä tawalla tyhjään
+          rauenneet.<label type="commentary" n="c2">2</label></p>
+        <p>Ennen muita piän welwollisuutena selwittää, millä tawalla näitä runoja on saatu. Usiampia niistä luetaan jo ennestään, ehkä wielä waillinaisempina,
+          <label type="popup" n="11">Lencqwisti</label>, <label type="popup" n="13">Gananderi</label>, <label type="popup" n="12">Porthani</label> ja <label type="popup" n="10">Topelius</label> wainajoitten kirjoissa, waan paljoa suurempi osa on 
+          ennen tuntematon. Nämät olen itse Suomen ja Wenäjän Karjalasta, muutamia Kajaaninki maasta, aikaa myöten kooskennellut. On myös moniahta minulle kirjotettuna muu­ alta lähetetty. Paikat,
+          joissa</p>
+        <pb n="2" facs="esipuhe_vanha_02" />
+        <p>näitä runoja enimmästi on koottu, owat Suomen Karjalassa Kitteen, Kesälahden, Tohmajärwen, Ilomantsin ja Pielisen, Wenäjällä Wuokkiniemen,
+          Paanajärwen ja Repolan pitäjäät, Kajaanin maassa Kuhmon ja Kiannan seurakunnat.<label type="commentary" n="c3">3</label> Muilta paikoilta, joita
+          sitä warten olen käynyt, en ole nimitettäwätä saanut. Wuonna 1828 keräsin näitä esinnä nimitetyiltä paikoilta Suomen Karjalassa, wuonna 1831
+          ja wuosina jälestä Kuhmosta ja Kiannalta, 1832 Repolasta ja sitte itse Kajaaniin muuttautunut olen neljä kertaa käynyt Wenäjän pitäjissä, usiammat
+          wiikot joka kerralla.<label type="commentary" n="c4">4</label></p>
+        <p>Ehkä senlaisia runoja kun nämät wielä joksiki löytyy kansan muistossa, niin mahto niitä ennen wanhaan olla paljolta enemmin.<label type="commentary" n="c5">5</label>
+          Latwajärwessä Wuokkiniemellä haasto talon ukko <label type="popup" n="9">Arhippa</label><label type="commentary" n="c6">6</label>, joka nyt oli 80:nen wanha ja jolta yhtäläiseen, mitä ennätin,
+          kirjotin kaksi päiwää perätysten, tästä asiasta seuraawalla tawalla: "Woi, sano hän, kun minä lassa taattoni kera Lapukassa nuotalla käwin. Oli
+          meillä kasakkana eräs mies Lapukasta, sekin oiwa laulaja; ei taattoni weronen. Kaiket yökauet laulettih he rupiamiseen, eikä että kahetsi yksiä sanoja.
+          Lähti sitä sillon pakinata. Minä waan piennä poika hutjukkana istuin wieressä nuotiolla kuun-</p>
+        <pb n="3" facs="esipuhe_vanha_03" />
+        <p>nellen ja oppien mitä tuon tuostaki alon muistaa. Waan paljo minulta heittihen mielestä. Jos nyt taattoni eläisi, niin kahtena netelinä et
+          hänen lauluja kirjoittaisi. Senlaisia laulajoita ei enää maahan synny ja kaikki häwiäwät ne wanhat laulut pois kansasta. Nykynen kansa jo
+          heittää ne wanhat kaunihit runot ja sommitteloo omiaan enimmiten poikien ja tyttöjen keskinäisistä ilwehyksistä, joilla en woisi suutanikana
+          häwäistä."<label type="commentary" n="c7">7</label></p>
+        <p>Näitä runoja olen kokenut johonkuhun järjestykseenki saatella<label type="commentary" n="c8">8</label>, josta siis työstäni lienee tili tehtäwä.<label type="commentary" n="c9">9</label>
+          Koska tieltyäni kukaan sitä ei ennen ole yrittänytkään elikkä ees sanalla maininnut, niin kertonen esiksi millä tawalla minä sihen tuumaan puutuin.<label type="commentary" n="c10">10</label> Jo
+          ainaki ajattelin ma ennen koottuja, liiatenki Gananderin, runoja lukiessa, eikö niitä Wäinämöisestä, Ilmarisesta, Lemminkäisestä ja muista muisteltawista
+          esiwanhemmistamme olisi mahtanut siksikin löytyä, että olisi heistä saanut pitempiäki kertoelmia, niinkun näemmä Greekalaisten, Islandilaisten ja muitten
+          esiwanhempainsa runoja siksi saaneen. Tämä ajatus waan enämmin wahwistu mielessäni, koska w. 1826 Turussa Historian Adjunktin won Beckerin
+          awulla tulin Wäinämöisestä erään kirjan kirjottamaan ja</p>
+        <pb n="4" facs="esipuhe_vanha_04" />
+        <p>sitä laatiessani näin, että hänestä ei puuttunut tarinoita.<label type="commentary" n="c11">11</label> Ihmettelinki miksi Gananderi jo ennen ei ollut sitä tehnyt, waan pian tulin
+          tuntemaanki että hänellä ei siksi ollut tarpeellisia runoja. Parahimmat paikat hänen kootuista runoista on hän Suomalaisessa Mythologiassansa
+          julistanut, waan niistä tuskin mitään täyellistä saisi. Warahinen kuollo poisotti Topeliuksen, jos hän muuten aikaa myöten olisi tainnutki tähän
+          työhön antauta.<label type="commentary" n="c12">12</label></p>
+        <p>Jos nyt tietäisin järjestyksen, johon näitä runoja tässä on suunniteltu, olewan muillenki mielenmyötäisen, niin heittäisin siitä mitänä
+          wirkkamatta. Waan olleeki asia siitä laausta, että mitä toinen luulee täyttäwän, toinen katsoo sopimattomaksi. Juoksewat kyllä mielestäni
+          runot jotensakki siinä suunnassa, johon heitä tässä on laaittu, waan ehkä toisessa juoksisiwat paremminki. Kahta olen järjestäessä nouattanut,
+          ensin mitä parahimpain laulajain hawahtin järjestyksessä waarin ottawan ja toiseksi, kun siitä ei ollut apua, olen asian perustusta itse
+          runoissa kysynyt ja sitä myöten niitä asetellut.<label type="commentary" n="c13">13</label></p>
+        <p>Kysynet lukia jos esiwanhempammeki näitä runoja missään järjestyksessä laulowat taikka yksitellen? Minusta näyttää näien runojen sitä myöten,
+          kun asiatki tapahtuwat, yksitellen</p>
+        <pb n="5" facs="esipuhe_vanha_05" />
+        <p> ilmautuneen. Erityiset runot Wäinämöisestä, Ilmarisesta, Lemminkäisestä eiwät maha olla yhen laatimia, waan usiamman.<label type="commentary" n="c14">14</label> Yksi kerto muistoksi
+          yhen, toinen toisen asian, mitä mikin itse oli nähnyt eli kuullut. Waan tuskin taitaan nykyjään yhtänä runoa tawata, joka juuri alkusanoissaan
+          olisi meihin asti säilynyt.<label type="commentary" n="c15">15</label> Joka tuntee, kuinka helposti runon teentä käypi monelta talonpojista, jos ihka ehiätä rupiaisi mistä tahansa tietystä
+          asiasta laulamaan, keksii kyllä, että paraskana muisti ei woi säilyttää sana sanalta, mitä toiselta pitkissä runoissa kuullaan.<label type="commentary" n="c16">16</label> Waan asian muistaa
+          itsekukin helpommasti ja paikka paikalta, jos enimmätki muistawa, kertoo sen runossa toisellenki unohellen muutamia, toisia parannellen.
+          Wähitellen taitaa itse runoainetki alkulaaustaan mutkistua, jotta sitä kerrotaan peräti toisin. Tämä lienee osiksi wähintäkin nimissä jo
+          tapahtunutki. Mitä ennen wanhaan muisteltawista urohista ja waimoista omilla nimillänsä lienee kerrottu, taisi Kristin opin maahan lewitessä
+          muuttauta, jotta urosten siaan usein pantiin Kiesus, Santta Pietari, Ruotus (Herodes), Juutas j.m., waimojen Neitsy Maaria emonen.<label type="commentary" n="c17">17</label></p>
+        <p>Että asiat, joista runoissa lauletaan, ei kaikki olleet ilman perää, ymmärtää itsekukin</p>
+        <pb n="6" facs="esipuhe_vanha_06" />
+        <p>helposti, waan mikä lienee toen tosi, mikä jollai toisella tawalla runossa kuwailtu, mikä peräti waleheltu, sitä nyt lienee waikiampi erottaa.
+          Muutamat asiat waikka esinnä kummanlaiset kuulla ja wähän toeksi uskottawat, tarkemmin tutkittua sietäwät jollai lailla selwitettää. Kuka meistä
+          ei pitäisi joutawana Wäinämöisen ja Ilmarisen huolia kuun ja auringon katoamisesta ja millä tawalla olisi Pohjan akka ne wuorehen kätkenyt?<label type="commentary" n="c18">18</label> Mutta
+          muistellessa, mitä osittain esiwanhempaimme tänne tulosta mainitaan, heiän eteläisimmiltä mailta tänne Pohjan perukoille saaneen, ja mitä tieämme
+          auringon talwella Pohjaisemmilla mailla katoamisesta, keksimmä, että, jos he niin pohjaseen asti oliwat kulkeneet, tämä asia heille äkkinäisnä
+          mahto suurenki pelon nostattaa, päiwän jo iäksi menneen. Kun heillä myös taisi olla yhtäläiset wainot Suomen maassa ennestään eläwäin Lappalaisten
+          kera, joilta syy oli kaikkea pahaa pelätä ja joita piettiin ylewinä loihtioina, niin sai siitä Pohjan akka pian syyn päällensä. Waan mitä esinnä
+          mahto päiwän katoamisesta kerrottaa, taisi aikaa woittain tulla samati kuusta ja täheistäki mainituksi.</p>
+        <p>Pian kaikissa runoissa osotetaan kaksi kansaa, jotka eiwät ylen hywässä suosiossa wälil-</p>
+        <pb n="7" facs="esipuhe_vanha_07" />
+        <p>länsä eläneet. Toisen näistä nimittäisimme Pohjan, toisen Kalewan kansaksi. Runoa myöten oli päänä Pohjan kansassa usiasti mainittawa Louhi,
+          jota myös Pohjan akaksi nimitetään ja joka heiän töistä näytti parahiten huolen pitäwän. Kalewan kansassa oli monta sankaria, suurimmat Wäinämöinen,
+          Ilmarinen ja Lemminkäinen. Olkoon kuitenki wiimme mainitusta jo aikanansa sanottu, että runot eiwät anna tarkkaa tietoa, jos hän waikka olisi
+          Pohjanki kansaan luettawa. Ne runolaaut, jotka minä tähän olen walinnut, kyllä näyttäwät hänen usein Wäinämöisen apuna olleen, toisinaan
+          itsestänsäki sotia Pohjalassa käyneen, Pohjolassa kosjoneen j.n.e., waan toisissa kerrotaan hänen Päiwilässä eli Jumalisissa kosjoneen, joilla
+          nimillä ennemmin Kalewan kansaa luulisimma osotettawan. Joukahaisen taas pitäisin urohona Pohjan kansasta, ken tiesi waikk’ ollee yksi, jota
+          Pohjan pojaksi ja Lappalaiseksi paikottain nimitetään. Muutamat runot warsin kertowatki hänen Wäinämöiseltä suosta päästetyn samalla tawalla,
+          kun Lappalaisesta ensimmäisessä runossa kerrotaan, Wäinämöistä kosken korwalla wahanneen ja ampuneen. Näyttää myös hänen sisarensa, jonka hän
+          Wäinämöiselle lupasi, olleen Pohjan akan tytti, sillä tämä jo ennenki (K. XI: 346) toiwo Wäinämöistä wäwyksensä.</p>
+        <pb n="8" facs="esipuhe_vanha_08" />
+        <p>Kalewan kansaksi sanoin nimittäwäni sitä, johon Wäinämöinen, Ilmarinen ja Lemminkäinen näissä runoissa luetaan. Waan ettei moitittaisi minun
+          tässä nimityksessä tuiki erehtyneen, koska moniahat pitäwät Kalewan nimeä pian Hiien ja Lemmon werosena, niin saanen ehkä selwemmin sanoa
+          ajatukseni. Minusta näyttää olleen Kalewan kaikkia wanhemman suomalaisen urohon, josta nykyjään mitänä tieämmä. Taisipa olla hän, joka ensin
+          pysywämmästi Suomen niemelle asettautu ja jonka suku sitte maahan lewesi. Paikkoja joissa Wäinämöinen j.m. eleli kutsutaan usein Kalewalaksi,
+          toisissa mainitaan Kalewan kankahista, kaskista, kaiwoista, koirista, käkösistä j.n.e., niinkun e.m. wanhassa Karjalan laulussa tyttö kysyy
+          tulleelta sulholta: "Käwitkö Kalewalassa?" Sulho: "Käwinpä Kalewalassa." Tyttö: "Haukkuko Kalewan koirat Kalewalan kankahilla?" Sulho: "Haukkupa
+          j.n.e." Tyttö: "Kukkuko käet Kalewan Kalewalan kaiwotiellä (kaskimailla)?" Sulho: "Kukkupa j.n.e." Tyttö: "Katsoko Kalewan neiot Kalewalan
+          ikkunoista?" Sulho: "Katsopa j.n.e." Ja koska senlaisia sulosia asioita, kun poikain ja tyttöjen keskinäiset kosjopuheet, Kalewalasta mainitaan,
+          niin häntä en pitäisi Hiitolan eli Lemmon koin</p>
+        <pb n="9" facs="esipuhe_vanha_09" />
+        <p> wertasena. Sillä koskas näistä eli Manalasta ja Tuonelasta kuulet senlaisia?</p>
+        <p>Syy että Kalewata tultiin pahemmalla nimellä tuntemaan lienee tullut siitä, että hän Pohjolan kansalle oli hirwiä ja pelättäwä, joka häntä
+          sentähen mainitti pahaksi, samati kun me aina näihin aikoin asti olemma Turkkia, Koirankuonolaisia ja wähä tätä ennen Punapartaa ei juuri ihmisinä
+          waan wähän mahtawampina pahoina pitäneet. Waan mitäpä näistä, – eikö Paawi esiwanhemmillamme ollut pian Jumalan siasna, waan miksi on hänen
+          nimensä ja arwonsa nyt muuttunut? Elkääme siis nykysistä luulloista, ilman asian tutkimatta, paljo wanhoin asioin päättäkö. Aiwan, kun sanoimma,
+          mahto Pohjan kansassa Kalewan nimi olla pelätty, waan koska aikaa woittain Lappalaiset sitte osittain sekautuwat Suomalaisiin, osittain
+          pakkolaisina ja kasakkoina kiersiwät maata, niin saatti heiän kauttansa Kalewan nimi tulla alkuarwostaan Suomessaki muutetuksi, koska Kalewata
+          ei enää paremmin muistettu. Ja mitä se ei lie waikuttanut, waikutti uuen uskon maahan lewiäminen. Kumma että Wäinämöisenkään ja Ilmarisen nimet
+          owat sikseen alkuarwossaan pysyneet. Kuinka sukkelasti toisinaan senlainen muutos tapahtuu, taitaisin toisessakin</p>
+        <pb n="10" facs="esipuhe_vanha_10" />
+        <p>asiassa mainita. Eikö nyt yhteinen luulo asu kanssassa, ensimmäisten kirkkojen Suomessa jättiläisiltä raketuksi? Minä matkoillani olen tuskin
+          yhtään wanhanaikuista kiwikirkkoa tawannut, josta paikalla ei jotaan senlaista olisi tarinoittu. Waan mikäpä syy sihen? Minusta näyttää tällä
+          lailla: Kristin opin Suomessa leweten oliwat wielä metsissä ja erämaissa Lappalaiset pakanoita, jotka tätä oppia kowasti wihasiwat. Sillä
+          Suomalaisten ylewämmäksi päästyä he ei tarkemmin tainneet asiata tunnustella, waan luulit heiltä otetun uuen opinki jotai waikuttawan, josta
+          sitä oli syy aina enemmin wihata. Kirkkoja tehessä mahto heiän mieleensä johtua, olla heille itselle hywäksi, saaha nämät rakennukset häwitetyksi
+          ja lienewät usein öillä repineetki ja kukistaneet, mitä päiwällä toisilta tehtiin. Waan koska tämä kuitenkana tuskin taisi menestyä ja ollen
+          Suomalaisten ruumiinsa koolta suurempia, päättiwät he rakentajia jättiläisiksi ja aikaa myöten lewittiwät uskonsa Suomeenki, jotta nykyjään
+          Suomalaiset pitäwät ensimmäisiä kirkon rakentajia jättiläisinä, ei tieten, että he itse taisiwat olla mainittuina jättiläisinä. Ja koska taasen
+          heiänki luonansa yötisten häwitysten tähen nousi huuoksi jättiläisten yöllä rakennukset kukistaneen, niin</p>
+        <pb n="11" facs="esipuhe_vanha_11" />
+        <p>synty siitä senlaisia kansan keskinäisiä tarinoita, joita nyt siellä täällä kuulemma.</p>
+        <p>Olkoon tämä sanottu ajattelemiseksi, miten Kalewan nimi taisi tulla alkuarwostaan toiseen muutetuksi. Muuten luulisin itse nimityksen
+          <hi rend="italics">Kalewa</hi> merkitsewän jotai <hi rend="italics">hirwiätä</hi>, <hi rend="italics">surmaawaist</hi>, ollen yhtä rotua kun
+          sanat <hi rend="italics">kalpa</hi>, <hi rend="italics">kalma</hi>, <hi rend="italics">kallo</hi>, <hi rend="italics">kalu</hi> (ensis),
+          <hi rend="italics">kuolen</hi>.</p>
+        <p>Kansan tarinassa nykyjään on Kalewan pojista kahtalainenki huuto. Toiset pitäwät heitä pahoina jättiläisinä, toiset nimittäwät heitä
+          Wäinämöiseksi, Ilmariseksi, Lemminkäiseksi, Joukahaiseksi, Kihawanskoiseksi, Liekkiöksi, Kullerwoksi j.n.e., joista juuri ei erittäin pahaa
+          mainita, jos ei wiimme nimitetystä, Kullerwosta, joka sentähen kotoa erotettiinki. Eilliseen huutoon on jo syy mielestämme mainittu, waan
+          jälkimmäisellä, näitä olleen, lienee parempi perustus, waikka wähän enää heiän nimiänsä taitaan oikein tuta. Ainaki sanotaan heitä olleen 12.
+          Jos nyt Wäinämöinen ensi polwessa eli muussa seuraawassa oli Kalewan poika, sitä emme woi arwata. Kuitenki luulisin hänen olleen jotai
+          jälkimmäistä polwea, sillä ensi polwessa poikia hän ja Ilmarinen olisiwat olleet weljekset, joka ei näytä tapaukseksi, jos heti</p>
+        <pb n="12" facs="esipuhe_vanha_12" />
+        <p>Wäinämöinen Ilmarista paikoin weljeksensä ja emonsa lapseksi nimittää. Samoin olisi Lemminkäinenki saawa weljeksi Wäinämöiselle, waan tämä
+          häntä siksi ei millonkana kutsu, mainiten häntä waan paikoin ylimmäiseksi ystäwäksensä. Jälkimmäistäki polwea olewat heitä kyllä sen wuoksi
+          taitaan Kalewan pojiksi kutsua; wieläpä Juutalaisia nytkin Abrahamin ja Israelin lapsiksi nimitetään. Tästä olisi myös ymmärrettäwä, kuinka
+          Kullerwo, jota nimeltä kutsutaan Kalewan pojaksi (s.o. jälkeentulewaiseksi) taisi Ilmariselle, toiselle Kalewan pojalle, myötyä. Saanen wielä
+          nimittää että olen muutamien kuullut Antero Wipuista Kalewan kanssa yhtenä pitäwän, niinkun runossaki kerta sanotaan.<label type="commentary" n="c19">19</label></p>
+        <p>Waikka näistä ei enää mitään selwää saane, olen kuitenki uskowa Kalewasta, hänen Wäinämöistä, Ilmarista ja muita nimellisiä uroita paljon
+          wanhemmaksi, ehkä, kun sanoinki, siksi, joka ensimmäiset Suomalaiset näille maille saatatti. Ja koska paikkoja, joissa hänen jälkeentulewaisensa
+          asukseliwat, näyttää Kalewalan nimellä kutsutuksi, joka mahto olla yhteinen niille erityisille Wäinölän, Ilman, Utuniemen, Terhensaaren,
+          Suomelan, Kaukoniemen, Päiwilän, Wuojelan, Luotolan, Jumalisten j.n.e. nimityksille: niin olen tämän runokokouksenki</p>
+        <pb n="13" facs="esipuhe_vanha_13" />
+        <p>Kalewalaksi nimittänyt. Nimi sillen piti antaa, ja enimmät työt näissä runoissa owat tätä selitystä myöten Kalewalassa tapahtuneet.</p>
+        <p>Jos Suomen Mythologialla olisi näistä runoista mitään apua, joka juuri ei taia ilmankana olla, niin on yksi toiwoni täytetty, waan wielä
+          olisi toisiakin: toiwoisin näistä jotain selwitystä esiwanhempain wanhasta elämästä, Suomen kielelle ja runo­opille jotai hyötyä saawan. Saanen
+          näistä asioista, jos itsekustaki, moniaan sanan lisätä, koska ne ainaki näitä runoja toimittaessa owat mielessäni olleet.<label type="commentary" n="c20">20</label></p>
+        <p>Suomen Mythologia kyllä jo tätä ennen on tullut ilman Lencqwistiltä, Gananderilta ja Porthanilta joksiki tutkituksi, waan epäilemättä on se
+          wieläki suurten wirhetten alanen, monessa paikassa erehtywäinen. Ilman mitä jo Kalewasta ja hänen pojistansa olemma wähin sanoneet, niin
+          kysymmä, mistä on Ilmarista tuulen, ilman ja walkianki jumalana ruwettu pitämään? Tuskin taiat runoissa yhtään paikkaa tawata, josta tälle
+          luulolle olisi pienintänä perustusta saawa. Näyttää kun olisi nimestänsä häntä tuulen ja ilman jumalaksi tehty, ja takomisistaan walkianki,
+          wai siitäkö tämä wiimmeinen, että hän Wäinämöisen to-</p>
+        <pb n="14" facs="esipuhe_vanha_14" />
+        <p>werina kerran taiwaalla walkiata iski. Niin hän ei kuitenkana runoissa ole. Tuulta rukoiltiin aina Ukolta, joka tuulenki ynnä muien oli
+          hallitsia, ja tuulen käsissä Ilmarinen ennen muita Pohjolasta palatessa hätäyty. Mitä sihen, että hän sampoa takoissa sai tuulet tuulemahan,
+          niin se asia kyllä sietää toisenlaisen selwityksen, ettei siitä häntä tarwitse tuulten jumalaksi tehä. Waan jos hän olisi ilman jumala ollut,
+          niin Wäinämöinen tuskin olisi häntä wastoin mielin saanut ilmassa Pohjolaan työnnetyksi ja Wäinämöinenpä sitä loihti, eikä Ilmarinen, Pohjan
+          akkaa wastaan, kun tämä sateet, rakehet ja wiluilmat uhkasi panna sammon kaswuja turmelemaan. Ilmarinen runoja myöten ei ollut kun mainio
+          rauan, wasken, hopion ja kullan seppä, muuten yksiwakainen, totinen ja rehellinen mies, ainaki kun häntä piti tawata, ahkera työssänsä,
+          harwoin muihin puuttuwa. Ja siinä on hänellä kyllä kunniaksi, ettei häntä enään tarwinne tuulijumalaksi korottaa.</p>
+        <p>Wäinämöisestä nyt taitaan laulettaa, mitä muien nimellä ennen wanhaan on laulettu, waan kukapa sen taisi estää. Mitä maailman, kuun, auringon
+          ja tähtien luomisesta hänelle annetaan, on wanhastaan tainnut jostaan jumalasta kerrottaa, ja sitte nimienki unohettua Wäi-</p>
+        <pb n="15" facs="esipuhe_vanha_15" />
+        <p>nämöiselle mennä. Minkä tähen on Antero Wipuinen, minkä tähen Kalewa, minkä tähen ylijumala Ukko niin pian kokonansa runoamatta jääneet,
+          waikka wieläki puhettarinassa Antero Wipusesta e.m. mainitaan, että "lapsi Wäinämöinen häntä wasten oli."</p>
+        <p>Jos näissä runoissa paikoin Wäinämöistä entisestä jumala-arwostaan alennetaan, niin tiettäwästi minä siihen en woi mitänä. Näitä on minun
+          pitänyt toimittaa, kun heitä itse olen saanut, katsomatta, jos Wäinämöistä pietään jumalana eli ei. Jo ammon olemma tottuneet häntä
+          esiwanhempaimme jumalana pitämään, jossa arwossa hän heillä ei kuitenkana näytä olleen, waan muuten woimallisna, paljo tietäwänä sankarina.
+          Usiasti rukoilee hän itse ylijumala Ukolta apua, ja tunnustaa näin omalla suullaan, ken jumala oli. On myös Wäinämöisellä kyllä ilman
+          jumaluuettaki nimeä ja kunniata ja parempi lienee olla itsekunki ylewinnä talonpoikana, kun huonona herrana, parempi wiisahinna ihmisenä kun
+          puujumalana. Jos wielä nyt rahwaalta niillä seuwuin, joissa muisto Wäinämöisestä parahite elää, kysymmä ku Wäinämöinen oli, niin wastaawat he
+          pian näin. "Olipa hän muistettawa uros ensimmäisiä esiisiämme ja kuuluisa runoja"; waan jos heiltä</p>
+        <pb n="16" facs="esipuhe_vanha_16" />
+        <p>kysynet, ketä he jumalinaan pitiwät, niin usiammasti wastataan, Ukkoa, joka oli taiwaan ja maan luonut, heiän rukoilleen. Enkä epäilekkänä
+          jo ennen Kristinki oppia esiisillämme olleen tieon yhestä ainoasta jumalasta, jota millon nykysellä, millon ukon eli luojan nimellä palweltiin,
+          enkä myös lue sitä heille suureksi tuhmuueksi, jos he ei warsin olleekkana niin nerokkaat suurta jumalajoukkoa itselleen hankkimaan, kun moni
+          muu wanhanaikuinen kansa.</p>
+        <p>Wäinämöinen näissä runoissa enimmiten mainitaan totisek­ si, wiisaaksi, eteensä ajattelewaiseksi, jälkeentulewaisille hyöwytystä hankkiwaksi,
+          suuritietäwäksi, laulussa ja soitannossa ylen mahtawaksi, Suomen sankariksi. Ilman sitä nimitetään häntä ainaki wanhaksi, ehk’ei hänen wanhuus
+          yksin häntä niin suuresti liene kosjotuumissaan haitannut.</p>
+        <p>Toista laatua oli Lemminkäinen, kewytmielinen, nuori, ylpiä, mahistaan ja tieostaan kerskaelewa, wähän eteensä ajattelewa, jos urhoollinenki,
+          sankari. Töistä, joita kosjona ollessa hänelle Pohjolassa määrättiin, ei taia oikein selwää saaha, sillä pian yksiä töitä määrättiin toisella
+          kerralla Ilmarisellenki. Minä olen walinnut runoja, joissa wähänkänä erotaksen.</p>
+        <pb n="17" facs="esipuhe_vanha_17" />
+        <p>Monta muuta nimeä jätän tällä kerralla mainitsematta, joita näissä runoissa taitaan Mythologialle entisistä erehyksistä oikasemiseksi tahi
+          muuksi euksi löytää. Näien erehysten seassa lienee seki kummanlainen, kun kapeesta on sinne erityinen olento saatu, waikka kapeella ei missään
+          ymmärretä kun luotua olentoa, ihmistä eli muuta olentoa; samati myös se kun Ukkoa ja Wäinämöistä toisilta on yhtenä pietty.</p>
+        <p>Enkä paljo aio wiipyä osotuksessa, mitä näistä mahtaisi wanhanaikusten tapojen selwittämiseksi lähteä. Taitaisin kyllä muutamia esimerkkiä
+          siinä saaha, jos olisi aikaa miettiä. XIII.116. näyttää, kun olisiwat wanhat kuumilla kiwillä ja ween sillä waristamisella keitoksiaan
+          laatineet. Monesta muusta paikasta löytäisimmä, että wanhempia piettiin kunniassa, jos kohta miehuutensa innossa Lemminkäinen wähän äitinsä
+          tahostaki poikkesi. Samati näemmä, että sillon oli tapana kosioille e totöitä asetella. Taitaa waan moni luulla ylen paljon näissä heiän
+          kosioasioistaan puhetta olewan, jotta sillä koko kirja pian miksi ei olisi uuenlaatuisten tekokertomusten eli tarujen (Romanien) muotoseksi
+          muuttuwa. Jos niin olleeki, niin olko, waan muistakaammeki, että esiwanhemmissam-</p>
+        <pb n="18" facs="esipuhe_vanha_18" />
+        <p>me, joilla ei ollut nykysiä monikoskewia liikutuksia ja asioita kerrottawana, yksinäisessä elämässään kosiotuumat, sotakäynti, metsän ja
+          kalan pyynti oliwat muisteltawimmia keinoja. Siitä se, että näistä asioista pian yhtäläiseen runossa kerrotaan.<label type="commentary" n="c21">21</label></p>
+        <p>Suomen kieli ja runo näissä ehkä tawataan selwempänä, kun missänä muussa kirjassa. Monet sanat ja sanan­parret tulewat tuo tuostaki ilmi
+          alkuluonnossaan eli samalla kannalla, kun niitä rahwaan suusta kuullaan. Muien kielten oppineilla, waikka kyllä Suomeaki taitawilla, on
+          usiasti waikia estää kieltä omaluonnostaan toisten mukaseksi wääntymästä, mutta talon­ poikasella kansalla, joka muuta ei ymmärrä kun yhtä
+          äitinsä kieltä, siitä ei ole pelkoa.</p>
+        <p>Sanojen kirjottamisessa olen wälistä poikennut niien ennen tawallisesta tawuusta, waan koska se kuitenki harwassa tapahtuu, niin siitä en
+          pelkää suurta moitintoa, liiatenki jos syyt sihen löytäisi otollisiksi. Muuten on koko asia minusta joutawa, siitä kellenkään suuttua, jos
+          hän eritawuutaan seuraapi. Tawuu ja kirjotus kielessämme wielä eiwät ole siksi wakautuneet, jotta yksi ainoa laatu taitaisi oikiaksi luettaa.
+          Waan elköön kukaan sitä pahaksi panko, jos</p>
+        <pb n="19" facs="esipuhe_vanha_19" />
+        <p>minä tässä asiassa näytämme muita huolettomammaksi. Lapselliseksi olen aina lukenut senlaisia kinaamisia, kun wälistä kuullaan esimerkiksi
+          siitä, jos pitäisi kirjottaa <hi rend="italics">meiän</hi>, <hi rend="italics">naia</hi>, <hi rend="italics">luoa</hi>,
+          <hi rend="italics">wieä</hi> eli <hi rend="italics">meijän</hi>, <hi rend="italics">naija</hi>, <hi rend="italics">luuwa</hi>,
+          <hi rend="italics">wiijä</hi>. Kumpanenkana näistä ei taia tarkoin puhetääntä wastata, joka taitaisi tulla tällä tawalla kirjotetuksi:
+          <hi rend="italics">mejjän</hi>, <hi rend="italics">najja</hi>, <hi rend="italics">luwwa</hi>, <hi rend="italics">wijjä</hi>.Waan koska
+          kaksiäänikkeitä <hi rend="italics">ai</hi>, <hi rend="italics">ei</hi>, <hi rend="italics">oi</hi>, <hi rend="italics">ui</hi> – – – ja
+          <hi rend="italics">au</hi>, <hi rend="italics">eu</hi>, <hi rend="italics">iu</hi>, <hi rend="italics">ou</hi>, j.n.e. kerran olemma tottuneet
+          lukemaan kun <hi rend="italics">aj</hi>, <hi rend="italics">ej</hi>, <hi rend="italics">oj</hi>, <hi rend="italics">uj</hi> – – –
+          <hi rend="italics">aw</hi>, <hi rend="italics">ew</hi>, <hi rend="italics">iw</hi>, <hi rend="italics">ow</hi>, j.n.e, niin miksi emme
+          sanassa <hi rend="italics">naia</hi> e.m. taia lukea ensimmäisiä kolme kirjainta <hi rend="italics">nai</hi> kun <hi rend="italics">naj</hi>,
+          josta a:n päätteeksi saatua helposti tulee sana <hi rend="italics">naia</hi> (najja). Kuinkas, jos sitä <hi rend="italics">naija</hi>
+          kirjottanet, erotat sanoa erisioissa, joihin se on saa­ wa, e.m. jos sanot: <hi rend="italics">tulee sille tytölle naija</hi> (l. na­i­ja)
+          ja jos sanot <hi rend="italics">en huoli naia</hi> (l. najja)? Toisia <hi rend="italics">luoa</hi>, <hi rend="italics">wieä</hi>,
+          <hi rend="italics">myöä</hi> j.n.e. mahan sitä ennemmin sillä tawalla kirjottaa, kun niitä meiän puheessa niin paraasta päästä äänelläänki.
+          Myös saanet sanasta <hi rend="italics">wuosi</hi> ennemmin <hi rend="italics">wuoen</hi> kun <hi rend="italics">wuuen</hi>, eli
+          <hi rend="italics">wuuwen</hi>, <hi rend="italics">wuwwen</hi>, samalla tawalla kun sanasta <hi rend="italics">paasi</hi> saat
+          <hi rend="italics">paaen</hi>. Toisissa tapauksissa olen kirjottanut <hi rend="italics">wenehesen</hi>, <hi rend="italics">tarpehesen</hi>,
+          <hi rend="italics">kankahasen</hi> (eli <hi rend="italics">weneesen</hi>, <hi rend="italics">tarpeesen</hi>, <hi rend="italics">kankaasen</hi>)
+          j.n.e. joita muut</p>
+        <pb n="20" facs="esipuhe_vanha_20" />
+        <p>kirjottanewat <hi rend="italics">weneheseen</hi>, <hi rend="italics">tarpeheseen</hi>, <hi rend="italics">kankahaseen</hi>,
+          (eli <hi rend="italics">weneesehen</hi>, <hi rend="italics">tarpeesehen</hi>, <hi rend="italics">kankaasehen</hi>;
+          <hi rend="italics">weneeseen</hi>, <hi rend="italics">tarpeeseen</hi>, <hi rend="italics">kankaaseen</hi>). Näitä sano­ ja toisten
+          samanlaatuisten kanssa rinnatellen näyttää kun e.m. wanhasta pääsanasta <hi rend="italics">wenehi</hi> (nyt: <hi rend="italics">weneh</hi>,
+          <hi rend="italics">wenet</hi>, <hi rend="italics">wene</hi>) samassa siassa kun sanoista <hi rend="italics">pursi</hi>,
+          <hi rend="italics">reki</hi>, <hi rend="italics">kolmansi</hi>, tulewat <hi rend="italics">purtehen</hi>, <hi rend="italics">rekehen</hi>,
+          <hi rend="italics">kolmantehen</hi> tulisi <hi rend="italics">wenehehen</hi>, joista sitte h on s:ksi muutettu, jotta sanotaan
+          <hi rend="italics">wenehesen</hi> eli <hi rend="italics">wenesehen</hi>. Eikä, mitä minä olen luullut tajuawani, näillä seuwuin senlaisissa
+          sanoissa molempia e:itä niin wenytetäkkänä, jotta kirjottaisit <hi rend="italics">weneeseen</hi>, waan ainoastaan
+          <hi rend="italics">weneesen</hi> eli <hi rend="italics">weneseen</hi>, h kummassaki e:tten wälille pantawa, jos niitä kaheksi tawueksi
+          lewitetään.</p>
+        <p>Wielä olen kirjottanut <hi rend="italics">sanowi</hi>, <hi rend="italics">tulewi</hi>, <hi rend="italics">ottawi</hi>, waikka muut
+          kirjottoot <hi rend="italics">sanoowi</hi>, <hi rend="italics">tuleewi</hi>, <hi rend="italics">ottaawi</hi>
+          (eli <hi rend="italics">sanoopi</hi>, <hi rend="italics">tuleepi</hi>, <hi rend="italics">ottaapi</hi>). En senlaisissakana sanoissa
+          ole sitä wenyttämistä ään­ täissä kuullut, jota kahella äänikkeellä perätysten osotettaisi. <hi rend="italics">Tulewi</hi>,
+          <hi rend="italics">sanowi</hi> j.n.e. jo itsestään owat sanoista <hi rend="italics">tulee</hi>, <hi rend="italics">sanoo</hi> lewitetyt
+          yhtä tawutta pitemmäksi; mitä niitä sitte enää pitäisi kahella äänikkeellä kirjottaa?</p>
+        <pb n="21" facs="esipuhe_vanha_21" />
+        <p>Liittösana <hi rend="italics">-kaan</hi> (<hi rend="italics">­kään</hi>) muutellaan monin tawoin. Toiset sanowat ja kirjottawat:
+          ei kertaa<hi rend="italics">kaan</hi>, toiset: ei kertoa<hi rend="italics">kana</hi> ei kertaa<hi rend="italics">kahan</hi>, ei
+          kerto<hi rend="italics">akan</hi>, ei kerto<hi rend="italics">ana</hi>’. Yksi tuo nyt lienee, miten senlaista puolisanoa kirjottaisi,
+          waan täyellisinnä näyttää se olleen <hi rend="italics">­kana</hi> (<hi rend="italics">­känä</hi>). Semmoisena luulen sen alusta alkain
+          jotain seuruuta merkinneen, josta wieläki sanotaan <hi rend="italics">perä kanaa</hi> s.o. yhtä seuruuta toinen toisensa jälestä ja
+          <hi rend="italics">kanssa</hi> (<hi rend="italics">kanassa</hi>) s.o. seuruussa, <hi rend="italics">kansa</hi> (<hi rend="italics">kanasa</hi>)
+          seuruu, joukko, yhteys. Puhetta myöten niillä tienoin, joista enimmät näitä runoja on koottu, olenki, kun muuten runossa sopii, parahasta
+          päästä kirjottanut sen täyellisnä, e.m. <hi rend="italics">Eipä kuu kumotakkana</hi>, <hi rend="italics">Eikä päiwä paistakkana</hi>,
+          joissa toinen taitaisi kirjottaa: <hi rend="italics">kumotakkahan</hi>, <hi rend="italics">paistakkahan</hi>. Luetaan myös paikoin:
+          <hi rend="italics">kun ei tuostakan totelle</hi>, eli <hi rend="italics">En minä mitänä tieä</hi>, <hi rend="italics">Elä koske konnanana</hi>
+          j.n.e. Semmoisia sanoja kun <hi rend="italics">metsä</hi>, <hi rend="italics">katsoo</hi>, <hi rend="italics">suitsi</hi> j.n.e. äännelläänki
+          sillä tawalla Wenäjän Karjalassa, joista runot parahite owat saaut, eikä <hi rend="italics">mehtä</hi>, <hi rend="italics">kahtoo</hi>,
+          <hi rend="italics">suihti</hi> j.n.e. eli jollaan muulla tawalla.</p>
+        <p>Heiän äänelmästä olen taas toisissa poikennut, e.m. sanoja <hi rend="italics">laulamahan</hi>, <hi rend="italics">anneta-</hi></p>
+        <pb n="22" facs="esipuhe_vanha_22" />
+        <p><hi rend="italics">han</hi>, <hi rend="italics">kiwiksi</hi>, <hi rend="italics">akkunaksi</hi>, <hi rend="italics">laatia’</hi>,
+          <hi rend="italics">oikiassa</hi>, <hi rend="italics">kautta</hi>, <hi rend="italics">kosken</hi>, <hi rend="italics">mustalla</hi>,
+          <hi rend="italics">matkassa</hi>, <hi rend="italics">käsillensä</hi> (<hi rend="italics">käsillehen</hi>) olen sillä tawalla kirjottanut,
+          eikä <hi rend="italics">laulamahek</hi>, <hi rend="italics">annetahek</hi>, <hi rend="italics">kiwikse</hi>, <hi rend="italics">akkunakse</hi>,
+          <hi rend="italics">laatie’</hi>, <hi rend="italics">oikiessa</hi>, <hi rend="italics">kautti</hi>, <hi rend="italics">kosen</hi>,
+          <hi rend="italics">mussalla</hi>, <hi rend="italics">matassa</hi>, <hi rend="italics">käsillehek</hi>, kuni niitä he ääntelewät.</p>
+        <p>Semmoisia sanoja, kun <hi rend="italics">otto’oni</hi>, <hi rend="italics">otto’os</hi>, <hi rend="italics">otto’o</hi>,
+          (<hi rend="italics">otto’ohon</hi>, <hi rend="italics">ottuohon</hi>), <hi rend="italics">otto’ome</hi>, <hi rend="italics">otto’ote</hi>,
+          <hi rend="italics">otto’ot</hi>, (<hi rend="italics">otto’ohot</hi>, <hi rend="italics">ottuohot</hi>); <hi rend="italics">tulloni</hi>,
+          <hi rend="italics">tullos</hi>, <hi rend="italics">tulko</hi>, <hi rend="italics">tulkome</hi>, <hi rend="italics">tulkote</hi>,
+          <hi rend="italics">tulkohot</hi> kuullaan niin äännettäwänki eli <hi rend="italics">ottaoni</hi>, <hi rend="italics">ottaos</hi> j.n.e.,
+          waan toisessa siassa näyttää sana olewan sanottaissa: <hi rend="italics">ottakohon</hi>, <hi rend="italics">ottakaame</hi>,
+          <hi rend="italics">ottakaate</hi> j.n.e. – Waan heitän nämät, ja sanon wielä muutaman sanan Suomen runosta.</p>
+        <p>Moni on pitäwä ei minänä työnä Suomen runoja laatia luullen joka tilassa, kun saapi sanoja 8:saan tawuehen asti yhteen sopimaan jo
+          runonki saaneensa. Wai siinäkö se Wäinämöisen kuulusa mahti olisi! Elkääte päättäkö ennen asian tutkittua ja elkääte pitäkö työttömänä
+          asiana, jossa waan yksi ainoa esiwanhemmistamme tuli oikein kuulusaksi. Yhtä wähä, kun mitkä 7 tähtiä tahansa olisiwat Otawa</p>
+        <pb n="23" facs="esipuhe_vanha_23" />
+        <p>taiwaalla, owat mitkä 8:tawuiset sananparret hywänsä kielessämme runoja. Jos wanha Wäinämöinen nyt tulisi ja kuulisi senlaisia runoja,
+          kun owat:</p>
+        <lg>
+          <l>"Mutt’ ei käynyt, eikä kyennyt,</l>
+          <l>Kourat kowat ja kompelot,</l>
+          <l>Ei tainnut tuohon taipua."</l>
+        </lg>
+        <p>* * *</p>
+        <lg>
+          <l>"Herätä herroingin luona,</l>
+          <l>Sowita hywä suosio."</l>
+        </lg>
+        <p>* * *</p>
+        <p>taikka jos tämmöisiäki:</p>
+        <lg>
+          <l>"Korkeus on sinun kotos,</l>
+          <l>Awaruus on asunmajas,</l>
+          <l>Itse kynsit kylmät meret,</l>
+          <l>Itse sauwoit sarkajaot."</l>
+        </lg>
+        <p>* * *</p>
+        <p>Niin pelkään kyllä, jotta itse merien kyntäjä ja sarkajakojen sauoja miksi ei sanoisi:</p>
+        <lg>
+          <l>"Heretkääte, heittäkääte</l>
+          <l>Paremmille laulajoille,</l>
+          <l>Taitawammille runoille,</l>
+          <l>Kaikki käypi karwoilleni,</l>
+          <l>Puhki korwani puhuwi,</l>
+          <l>Läpi pääni läylentäwi,</l>
+          <l>Wiepi wiikoksi iloni."</l>
+        </lg>
+        <p>* * *</p>
+        <pb n="24" facs="esipuhe_vanha_24" />
+        <p>Tosiaan on Suomen Runossa samati kun muienki kielten omat waatimukset nouateltawat ja jos Runon teentä kuitenki Suomessa helpommasti
+          käypi, niin kiittäkääme siitä kielen somaisuutta, waan elkääme sentähen näitä waatimuksia unohtako.</p>
+        <p>Waikka itse runotyössä kehno ja sentähen sihen harwoin puuttuwaki olen kuitenki aikaa myöten toisten tekoja lukeis­ sani ainaki ajatellut,
+          mikä ollee syynä, että toinen niistä on kaunis, toinen korwille waikia kuulla. Perustusta miettiessä olen malttanut että eillisissä on
+          seurattu Runon waatimuksia, jälkimmäisiä näitä wastoin laaittuna. Tässä waan puhumma niistä waatimuksista, jotka koskewat itse sanain
+          sopimiseen, ei mitä ainetten kertomisesta eli muusta Runo­oppiin kuuluwasta olisi sanottawa.<label type="commentary" n="c22">22</label> Näitä Runowaatimuksia yksitellen muistokseni
+          kirjotettua, on siitä jo kaswanut aika tukku kirjotusta, josta nyt tahon ottaa, mitä tähän esipuheesen luulen sopiwan ja mahtuwan. Jos
+          ne ei ollekkana jokaista mieleen, niin muistakaame että eripaikoilla saattaa olla eriwaatimuksensa Runossaki, waan minä olen seurannut,
+          mitä täällä ja rajan yli Wenäjän puolella Runossa waaitaan. Elkään waan kukaan luulko minun tätä seuraawata kellenkänä opiksi kir-</p>
+        <pb n="25" facs="esipuhe_vanha_25" />
+        <p>jottawan. Se ei ole mielessäni, eikä runoja opilla tehäkkänä, ettei luonto niitä saattaisi paremmin. <hi rend="italics">"Luonto laulajan
+          tekewi</hi>, <hi rend="italics">Itse into ilmottawi</hi>, <hi rend="italics">Runojallen rohkialle</hi>, <hi rend="italics">Mitä lauluhun
+            latowi</hi>." Hywä jos waan saisin osotetuksi minkälaisia runoja meiän puolella hywinä pietään.<label type="commentary" n="c23">23</label></p>
+        <p>Ennen muita tulisi nyt selwitettäwäksi mitä pitkällä eli lyhyellä tawutten arwolla ymmärrämme. Itsekukin malttaa helposti, että a on
+          pitempi jos sanomme <hi rend="italics">waara</hi>, kun <hi rend="italics">wara</hi>; i pitempi sanassa <hi rend="italics">siima</hi> kun
+          <hi rend="italics">sima</hi>; o pitempi sanoessa <hi rend="italics">meni taloon</hi> kun <hi rend="italics">möi talon</hi>; ä pitempi jos
+          sanomma <hi rend="italics">näitkö emäntää</hi> kun <hi rend="italics">näkikö emäntä</hi>. Niitä tawuita, joissa äänike sillä lailla on
+          pitempi, nimitämmä <hi rend="italics">pitkäarwosiksi</hi>, jota myöten sanoissa <hi rend="italics">waara</hi>, <hi rend="italics">siima</hi>,
+          ensimmäinen tawut on pitkäarwonen, sanassa <hi rend="italics">taloon</hi> toinen ja sanassa <hi rend="italics">emäntää</hi> kolmas. Samati
+          on missä tahansa sanassa tawut, jota nyt on tapana kahella äänikkeellä perätysten kirjottaa, paitsi jos jälkimmäinen ollee i, pitkäarwonen
+          e.m. 1:nen sanoissa <hi rend="italics">maata</hi>, <hi rend="italics">pöytä</hi>, <hi rend="italics">auttawa</hi>, <hi rend="italics">riennä</hi>,
+          <hi rend="italics">joutawa</hi>, 2:nen sanoissa <hi rend="italics">lupaawa</hi>, <hi rend="italics">rekeen</hi>, <hi rend="italics">kurieri</hi>,
+          <hi rend="italics">rukiita</hi>, sanoo, 3:as sanoissa <hi rend="italics">sotikaa</hi>, <hi rend="italics">sanokoon</hi>,
+          <hi rend="italics">käwelee</hi>, <hi rend="italics">käsiään</hi>, 4:jäs sanoissa <hi rend="italics">käwelemään</hi>,
+          <hi rend="italics">hajotetaan</hi> j.n.e.</p>
+        <pb n="26" facs="esipuhe_vanha_26" />
+        <p>Mutta ilmanki kahta äänikettä maltamma, että ensitawut sanassa <hi rend="italics">sakko</hi> on pitempi kun sanassa <hi rend="italics">sako</hi>;
+          samati sanoissa: <hi rend="italics">matto</hi>, <hi rend="italics">mato</hi>; <hi rend="italics">mutta</hi>, <hi rend="italics">muta</hi>;
+          <hi rend="italics">kyllä</hi>, <hi rend="italics">kylä</hi> j.n.e. 2:nen tawut sanoissa <hi rend="italics">sakossa</hi>,
+          <hi rend="italics">sopalla</hi>, pitempi kun <hi rend="italics">sakosa</hi>, <hi rend="italics">sopala</hi>; samati sanoissa
+          <hi rend="italics">ranta</hi>, <hi rend="italics">welka</hi>, <hi rend="italics">pirta</hi>, <hi rend="italics">koski</hi> 1:nen, sanoissa
+          <hi rend="italics">emäntä</hi>, <hi rend="italics">alotti</hi>, <hi rend="italics">lepistö</hi>, <hi rend="italics">kowempi</hi>,
+          <hi rend="italics">kätensä</hi> 2:nen, <hi rend="italics">Amerikka</hi>, <hi rend="italics">lihawaksi</hi>, <hi rend="italics">warawampi</hi>
+          j.n.e. 3:mas tawut lyhyitä pitemmät. Näitä tawuita nimitämmä pitkäsiasiksi, sillä niissä ääniket ei itsestänsä pitkä on waan pitkä nykysessä
+          siassaan. Pitkäsianen on siis se tawut, jossa yhtä äänikettä seuraa wähintäin kaksi äännettäwätä eli i yhen äänikkeen kera, e.m. 1:nen
+          sanoissa <hi rend="italics">wanha</hi>, <hi rend="italics">selkä</hi>, <hi rend="italics">wirka</hi>, <hi rend="italics">tukka</hi>,
+          <hi rend="italics">paita</hi>, <hi rend="italics">walta</hi>, 2:nen sanoissa <hi rend="italics">wäestö</hi>, <hi rend="italics">wetäisi</hi>,
+          <hi rend="italics">kurikka</hi>, <hi rend="italics">nawetta</hi>, <hi rend="italics">olento</hi>, <hi rend="italics">kumarsi</hi>, 3:as
+          sanoissa <hi rend="italics">opetella</hi>, <hi rend="italics">tapaelma</hi>, <hi rend="italics">wetäwäinen</hi>, <hi rend="italics">lewititkö</hi>
+          j.n.e. Samalla tawalla erityisten sanain yhteen saaessa e.m. <hi rend="italics">jos weät</hi>, <hi rend="italics">olin minä</hi>, joissa o sanassa
+          <hi rend="italics">jos</hi>, i sanassa <hi rend="italics">olin</hi> owat pitkäsiasiksi luettawat. Wasta tahomma siitäki puhua, miten moniahat
+          pitkäsiasista tawuista taitaan lyhyiksi käyteltää.</p>
+        <p><hi rend="italics">Lyhytarwosiksi</hi> nimitämmä kaikkia tawuita, jotka eillistä mukaan eiwät ole pitkä-</p>
+        <pb n="27" facs="esipuhe_vanha_27" />
+        <p>arwosia, eikä pitkäsiasia, e.m. <hi rend="italics">kala</hi>, <hi rend="italics">matala</hi>, <hi rend="italics">murehia</hi>,
+          <hi rend="italics">hewosiasi</hi>, <hi rend="italics">wetelemiäni</hi>, jotka owat sanoja waan lyhytarwosilla tawuilla.</p>
+        <p>Nyt ennen kun taiamma tutkia mitkä pitkäsiasista tawuista taitaan runossa lyhyiksi luettaa, tulee peräti toinen asia katseltawaksi,
+          nimittäin tawutten korko. Ääntäissä korotamme muutamia tawuita sanassa, toisia emme korota. Jos seuraawaisissa sanoissa merkitsemmä
+          korotetuita tawuita, niin owat näin: <hi rend="italics">sána</hi>, <hi rend="italics">málttawà</hi>, <hi rend="italics">héwosélla</hi>,
+          <hi rend="italics">wételem´ällä</hi>, <hi rend="italics">k´äyskent´elew´äinen</hi>,<hi rend="italics"> pólttelewáinen</hi> j.n.e.</p>
+        <p>Jokaisessa sanassa korotetaan ensitawut ja usiammissa kolmas, wiies j.n.e. eli joka toinen tawut alusta alkain, joka kuitenkana ei kaikissa
+          ole tapaus, koska muutamissa 4:jäs, 6:es j.n.e. korotetaan. Waan lienee korottamisella wähän eripaikoissa erotustaki, sillä waikia on muuten
+          ymmärtää, kuinka moniahat niin jäykästi asiata wastoin päättäisiwät aina waan 1:sen, 3:nen ja 5:nen tulewan korotetuksi, waikka niin korwin
+          kuultawasti wähintäi meiän Suomessa monessa sanassa 1:stä, 4:ttä ja 6:tta korotetaan, e.m. sanassa<hi rend="italics">árwelewáisemmásti</hi>,</p>
+        <pb n="28" facs="esipuhe_vanha_28" />
+        <p>jota jos korottaisit <hi rend="italics">árweléwaisémmasti</hi> tulisi se pian tuntemattomaksi. Olen myös luullut malttaneeni, korotuksen
+          liiatenki ensitawuissa Turun ja Hämeenki Suomessa olewan paljo teräwämmän kun meiän, e.m. koska me sanoisimma: "páljokò siítä sáit héwosésta",
+          sanowat he kun ikäs hakaten: "pálko (palk) siít héwosest sáit", eli meillä: "mónellénko miéhellén t´ästä ty´ötä ólisi", heillä: "mónelko miéhel
+          t´äst ty´öt ols", meillä: "páremmán emänn´än talo hänestä sái", siellä: "páremán émänän tálo h´änest sái".</p>
+        <p><label type="commentary" n="1">*</label>Jonka äsken heitimmä puheen pitkäsiasista tawuista, taiamma nyt uuelleen tutkinnon alaseksi ottaa:
+          korotetuissa tawuissa pietään pitkäsiasia pitkäarwosten werosna e.m. <hi rend="italics">ihmisellä</hi>, <hi rend="italics">sallittawainen</hi>,
+          joita jos pitkiä merkitsemmä wetämällä ­, lyhyitä wempelellä ˘, tulisi merkittäwäksi <hi rend="italics">ihmisellä</hi>,
+          <hi rend="italics">sallittawainen</hi>. Korottomassa tawuessa owat pitkäsiaset lyhyen jälessä pitkät, <hi rend="italics">emäntä</hi>,
+          <hi rend="italics">erotetuksi</hi>, <hi rend="italics">isäntiänsä</hi>, pitkän jälestä epäarwoset s.o. pitkiksi eli lyhyiksi luettawat
+          e.m. <hi rend="italics">soitollla</hi>, <hi rend="italics">sorranta</hi>, eli</p>
+        <pb n="29" facs="esipuhe_vanha_29" />
+        <p><hi rend="italics">sorranta</hi>, <hi rend="italics">warawammalla</hi> eli <hi rend="italics">warawammalla</hi> j.n.e.</p>
+        <p>Ja nyt äsken nähtyämme mitä pitkällä, mitä lyhyellä tawut­arwolla ymmärrämme, taiamma antauta katselemaan, kuinka erityiset sanat näien
+          arwoinsa wuoksi owat montaki laatua ja nimitellä niitä, kun seuraa, nelitawuisia jonkun otuksen lailla ja’aten eli werraten päähän, niskaan,
+          selkään ja häntään, niin että 1:nen tawut werrataan pääksi, 2:nen niskaksi, 3:mas seläksi ja 4:jäs hännäksi.</p>
+        <p><hi rend="italics">Ykstawuisia</hi></p>
+        <table>
+          <row>
+            <cell>Lyhyt</cell>
+            <cell>– jo, se, ne, ka, en, et, jos, nyt, ku, mi, ken j.n.e.</cell>
+          </row>
+          <row>
+            <cell>Pitkä</cell>
+            <cell>– maa, tie, pää, suo, sai, syyt, toit, mie, j.n.e.</cell>
+          </row>
+        </table>
+        <p><hi rend="italics">Kakstawuisia</hi></p>
+        <table>
+          <row>
+            <cell>Kakslyhyt</cell>
+            <cell>– sana, kylä, meni, otit, kalan, wähä, wene.</cell>
+          </row>
+          <row>
+            <cell>Lyhytpitkä</cell>
+            <cell>– wetää, tulee, weneen, sanoo, pataa, taloon.</cell>
+          </row>
+          <row>
+            <cell>Pitkälyhyt</cell>
+            <cell>– suoli, maata, ranta, toimi, kyllä, äyräs.</cell>
+          </row>
+          <row>
+            <cell>Kakspitkä</cell>
+            <cell>– kantaa, luottaa, kirween, pirttiin, altaan.</cell>
+          </row>
+        </table>
+        <p><hi rend="italics">Kolmitawuisia</hi></p>
+        <table>
+          <row>
+            <cell>Kolmilyhyt</cell>
+            <cell>– matala, wesiä, käweli, ihana, minua, ahawa.</cell>
+          </row>
+          <row>
+            <cell>Alkupitkä</cell>
+            <cell>– kantele, rintawa, polttanut, kultana.</cell>
+          </row>
+          <row>
+            <cell>Keskipitkä</cell>
+            <cell>– weneellä, lupaawa, sanoilla, käteensä.</cell>
+          </row>
+          <row>
+            <cell>Loppupitkä</cell>
+            <cell>– wetäköön, sanokaa, käsiään, menemään.</cell>
+          </row>
+          <row>
+            <cell>Alkulyhyt</cell>
+            <cell>– mureessaan, lupaawaa, weneisiin, tapaamaa.</cell>
+          </row>
+          <row>
+            <cell>Keskilyhyt</cell>
+            <cell>– kantakoon, auttakaa, werkkojaan, rantamaa.</cell>
+          </row>
+        </table>
+        <pb n="30" facs="esipuhe_vanha_30" />
+        <table>
+          <row>
+            <cell>Loppulyhyt</cell>
+            <cell>– keihäällä, ottoote, hakkaawa, seipäättä.</cell>
+          </row>
+          <row>
+            <cell>Kolmipitkä</cell>
+            <cell>– kirweessään, keträäwää, nakkaamaan, leikkuullaan.</cell>
+          </row>
+        </table>
+        <p><hi rend="italics">Nelitawuisia</hi></p>
+        <table>
+          <row>
+            <cell>Nelilyhyt</cell>
+            <cell>– wetelete, tulewana, wenosia, käwelewä, ihoawa.</cell>
+          </row>
+          <row>
+            <cell>Päisewä</cell>
+            <cell>– polttelewa, kantawana, poikinesi, heinäaho.</cell>
+          </row>
+          <row>
+            <cell>Niskawa</cell>
+            <cell>– lupaawana, weneitäni, erotteli, murheessani.</cell>
+          </row>
+          <row>
+            <cell>Selkäwä</cell>
+            <cell>– tulewaksi, matalalla, sopineeksi, wesimatka.</cell>
+          </row>
+          <row>
+            <cell>Häntäwä</cell>
+            <cell>– lewitetään, menewään, elelewää, petäjäsuo.</cell>
+          </row>
+          <row>
+            <cell>Etewä</cell>
+            <cell>– kirweitäsi, tarpeessasi, hakkaawana, seiwäspino.</cell>
+          </row>
+          <row>
+            <cell>Keskewä</cell>
+            <cell>– mureessamme, lupaawalla, wakuuttansa, sanottiinpa.</cell>
+          </row>
+          <row>
+            <cell>Takawa</cell>
+            <cell>– menemällään, sanomaankaan, warotelkaa, tulewakseen.</cell>
+          </row>
+          <row>
+            <cell>Äärewä</cell>
+            <cell>– käyttelemään, matkaelee, kantelemaa, kirwehiään.</cell>
+          </row>
+          <row>
+            <cell>Nousewa</cell>
+            <cell>– weneelläkään, lupaawanaan, keräilewää, potakkamaa.</cell>
+          </row>
+          <row>
+            <cell>Laskewa</cell>
+            <cell>– waiwasella, auttakaate, werkkojansa, kartanoonsa.</cell>
+          </row>
+          <row>
+            <cell>Lyhytpää</cell>
+            <cell>– lupaamallaan, wenettäänkään, keräilmissään.</cell>
+          </row>
+          <row>
+            <cell>Lyhytniska</cell>
+            <cell>– akkunaakaan, laulaessaan, matkaelkaa, keträelmää.</cell>
+          </row>
+          <row>
+            <cell>Lyhytselkä</cell>
+            <cell>– hakkaawinaan, kirweensäkään, muistelmiaan.</cell>
+          </row>
+          <row>
+            <cell>Lyhythäntä</cell>
+            <cell>– leikkaamalla, keihäälläänki, luonnokkaampi.</cell>
+          </row>
+          <row>
+            <cell>Nelipitkä</cell>
+            <cell>– arwaamallaan, suuruuttaankaan, seiwästelmään.</cell>
+          </row>
+        </table>
+        <p>Wiisi­ ja usiampitawuisia eilliseen emme pannekkana, sillä niistä waan suotta olisi erityönsä, koska niitä ainaki sopii korkoja
+          myöten jaella kahteen eli usiampaan osaan, jotka sitte käytetään kaks­ eli kolmitawuisten mukaan. Jopa nelitawuisiaki sillä tawalla
+          saattais kahtia panna.</p>
+        <pb n="31" facs="esipuhe_vanha_31" />
+        <p>Otetaanpas nyt työksi katsella, miten näitä sanoja taitaan runoon suunnitella; jos lienee yksi millä tawalla niitä siihen pannet.
+          Waan sitä ennen täytyy saaha runon osista ja niihin koskewista selwä.</p>
+        <p>Runo laulussa jakaupi tawallisesti wiiteenki osaan e.m. <hi rend="italics">Hywin soitti hauin hammas</hi>, josta kolme eillimmäistä
+          sanaa tekewät itsekukin yhen osan ja 4:jäs halkastuna 4:nen ja 5:nen; | Hywin | soitti | hauin | ham­ | mas | . Paremmaksi näyttää
+          kuitenki waan 4:jään osaan runoa lukea ja niin owat entisetki runo­opin kirjottajat tehneet. Muutamissa paikossa, joilla on
+          erinuottinsa runoilla, se niin laulaessaki jakaupi ja lukemalla saapi se ainaki 4:osaseksi. Sitä wastoin runoa taas paikoin lauletaan
+          6:teenki osaan e.m. | Käkö­ | nen | ku­ | kahte­ | le­ | wi |, ettei sitä warsin sowikkana laulua myöten ositella. Kuin sanoimmaki,
+          ositamma runoa 4:ksi ja senlaisia on runossa: <hi rend="italics">sana wieä</hi>, <hi rend="italics">toinen tuoa</hi>, joka erityinen
+          sana yksi, waan runossa: <hi rend="italics">sano lieto Lemminkäinen</hi>, tekewät kaksi eillimäistä sanaa kumpanenki yhen ja
+          jälkimmäinen yksin 2 osaa. Runossa: <hi rend="italics">itki impyen hiwukset</hi>, tekee 1:nen sana yhen, 2:nen ja 3:mas yhteensä 3
+          osaa, ja runossa: <hi rend="italics">en tunne tätä tupoa</hi>, ei tee yksikään erityinen sana</p>
+        <pb n="32" facs="esipuhe_vanha_32" />
+        <p>täyttä osaa, waan osat saahaan murtamalla toisesta sanasta toisen täytteeksi, niin että 1:nen on <hi rend="italics">en tun-</hi>,
+          2:nen <hi rend="italics">ne tä-</hi>, 3:mas <hi rend="italics">tä tu-</hi>, 4:jäs <hi rend="italics">poa</hi>.</p>
+        <p>Koska näistä osista wielä itsekustaki on enemmänki puhetta, niin olisi ehkä hyöwyksi niille myös itsekullenki saaha omat nimensä,
+          sillä paha on nimetöntä mainita. Semme saammeki ja helposti jos samati kun nelitawuisissa sanoissa eritawuita, tässä eriosia nimitämmä
+          1:stä <hi rend="italics">pääksi</hi>, 2:sta <hi rend="italics">niskaksi</hi>: 3:tta <hi rend="italics">seläksi</hi>, 4:ttä
+          <hi rend="italics">hännäksi</hi>. Sitä myöten on seuraawissa runoissa:</p>
+        <table>
+          <row>
+            <cell><hi rend="italics">Pää</hi></cell>
+            <cell><hi rend="italics">Niska</hi></cell>
+            <cell><hi rend="italics">Selkä</hi></cell>
+            <cell><hi rend="italics">Häntä</hi></cell>
+          </row>
+          <row>
+            <cell>Yöllä</cell>
+            <cell>synty</cell>
+            <cell>Wäinä­</cell>
+            <cell>möinen,</cell>
+          </row>
+          <row>
+            <cell>Päiwäl­</cell>
+            <cell>lä me­</cell>
+            <cell>ni pa­</cell>
+            <cell>jahan;</cell>
+          </row>
+          <row>
+            <cell>Tako­</cell>
+            <cell>a ta­</cell>
+            <cell>putte­</cell>
+            <cell>lewi,</cell>
+          </row>
+          <row>
+            <cell>Lyöä</cell>
+            <cell>lynnä­</cell>
+            <cell>hytte</cell>
+            <cell>lewi,</cell>
+          </row>
+          <row>
+            <cell>Tako</cell>
+            <cell>olki­</cell>
+            <cell>sen o­</cell>
+            <cell>rihin,</cell>
+          </row>
+          <row>
+            <cell>Herne­</cell>
+            <cell>warti­</cell>
+            <cell>sen he­</cell>
+            <cell>wosen.</cell>
+          </row>
+        </table>
+        <p>Murtamisesta mainitsimma jo äskenki ja saamma nyt parem­ min selwittää, mitä sillä ymmärrämmä. – Joka runon osa on kaksitawuinen
+          (kolmetawuisista wasta), eillisen niistä nimitämme <hi rend="italics">iskuksi</hi>, jälkimmäisen <hi rend="italics">laskuksi</hi>.
+          Jos nyt missä osassa tahansa sana loppuu iskussa</p>
+        <pb n="33" facs="esipuhe_vanha_33" />
+        <p>ja lasku alottaa toisen, niin sanomma sitä osaa <hi rend="italics">murretuksi</hi> ja senlaista sanain yhteensaamista
+          <hi rend="italics">murroksi</hi>. Sitä myöten on runossa</p>
+        <table>
+          <row>
+            <cell>1.</cell>
+            <cell>Ompi</cell>
+            <cell>saarel­</cell>
+            <cell>la si­</cell>
+            <cell>oa</cell>
+          </row>
+          <row>
+            <cell>2.</cell>
+            <cell>Jos we­</cell>
+            <cell>ät sa­</cell>
+            <cell>an we­</cell>
+            <cell>nettä</cell>
+          </row>
+          <row>
+            <cell>3.</cell>
+            <cell>Tuhat</cell>
+            <cell>purtta</cell>
+            <cell>puuja­</cell>
+            <cell>elet</cell>
+          </row>
+        </table>
+        <p>1:sessä selkä, 2:sessa pää, niska ja selkä murretut, waan 3:mas on murroton.</p>
+        <p>Parahimmat runojat pitäwät senlaista murrelmata niin kauniina runossa, että wähintäki kaksi kolmesta tawataan murrettuna;
+          sitä wastoin on murroton runo, jossa korko ja isku sopiwat yhteen tawuehen, wähemmin kaunis, lyhyttawuisissa tuskin sallittawakaan.
+          Murrelmassa katsotaan kuitenki ettei tawutten arwoa niin sorreta, että yhessä osassa iskuun tulisi lyhyt, laskuun pitkä tawut. Molemmat
+          lyhyenä kelpaawat kyllä. Nähään sitä wälistä murrelman somuuen tähen kyllä niinki runoa laaituksi, että isku on lyhyt ja lasku pitkä,
+          päässä eli niskassa, ja se ei haittaakkana, jos se waan harwoin tapahtuu liiatenki jos lasku ei ole arwostaan waan siassaan pitkä.
+          Esimerkkiä näihin saisimma kyllä mistä tahansa runoista. <hi rend="italics">En ole iso iältä</hi> on kaunis runo näin 3:ssa osassa
+          murrettuna, waan jos sanoisit yhellä</p>
+        <pb n="34" facs="esipuhe_vanha_34" />
+        <p>murroksella: <hi rend="italics">en iältä iso ole</hi>, niin tulisi se kelpaamattomaksi; samati <hi rend="italics">jo kumu kujasta kuulu</hi>
+          kaunis, <hi rend="italics">kujasta jo kumu kuulu</hi> kehno; <hi rend="italics">jo minua noiat noitu</hi> ja
+          <hi rend="italics">jo noiat minua noitu</hi> somaat, <hi rend="italics">jopa mua noiat noitu</hi> kehnompi.
+          <hi rend="italics">Wene näky, weli tuli</hi> olisi peräti kelpaamaton, sillä siinä on joka osan iskussa lyhyet tawuet ja runo murroton;
+          toisella kannalla on runo ei <hi rend="italics">weä wäheäkänä</hi> eli <hi rend="italics">emeä eriwenehen</hi>, sillä waikka lyhyttawuisilla
+          iskuilla neki, owat ne murretut. Murrosta, kun sanoinki, on niin kaunistawana pietty, että sitä toisinaan rakastetaan, jos kohta sen kautta
+          isku tulee lyhyeksiki ja lasku pitkäksi e.m. <hi rend="italics">jo päiwänä kolmantena</hi> sanotaan ennemmin
+          <hi rend="italics">kun päiwänä jo kolmantena</hi>, eli <hi rend="italics">päiwänäpä kolmantena</hi>; <hi rend="italics">suot kylwi</hi>,
+          <hi rend="italics">kanerwat kaswo</hi>, <hi rend="italics">ei ollut isoni syytä</hi>, ennemmin kun <hi rend="italics">kylwi suot</hi>,
+          <hi rend="italics">kanerwat kaswo</hi>, <hi rend="italics">isoni ei ollut syytä</hi>, waikka jälkimmäisellä tawalla osat arwonsa wuoksi
+          olisiwatki paremmat. Mitä siis pitäis ajatteleman niistä, jotka waan kiittäwät hywiksi senlaisia murrottomia runoja kun e.m.
+          <hi rend="italics">waka wanha Wäinämöinen</hi>, <hi rend="italics">otti soiton sormillensa</hi>, ja wielä senlaisiaki (peräti kelpaamattomia)
+          kun <hi rend="italics">panee aitaa kaiken päiwän</hi>.</p>
+        <pb n="35" facs="esipuhe_vanha_35" />
+        <p>Seuraawa osotelma <label type="commentary" n="2">*)</label> näyttää, miten erilaatusia sanoja taitaan runoon sowittaa. Usiampi­ kun
+          nelitawuisia sihen emme weäkkänä, sillä, kun jo wirkomma, ne korkoja myöten kahteen eli usiampaan osaan jaettuna käytetään, kun olisi
+          joka osa erisanana. Emmekä myös ole pitkäsiasia waan pitkäarwosia tawuita tähän esimerkiksi walinneet, sillä se runolle ei olisi pahaksi,
+          jos pitkäsiasiaki pitkäarwosten mukaan käytettäisi, paitsi mitä näien lewittämisestä puhutaan, joka pitkäsiasissa ei woi tapahtua. Merkeillä
+          1, *, † ja 0 osottaisimma, ensimmäisellä, että sana siinä siassa on somas; toisella että sana niinki, jos harwemmin, käytetään; kolmannella
+          että sana sillä paikalla, jos muutamilta niin käytettynäki, on sopimaton, ja neljännellä, että sana niin ei taia eli piä käytettää. I. II.
+          III. IW. merkitsewät runon osia, päätä, niskaa, selkää ja häntää. Lewittämäksi mainitsemma sitä, koska yhessä pitkäarwosessa tawuessa molemmat
+          äänikkeet siltään eli toisen muuttamalla tehään eritawueksi. Sillä tawalla saahaan sanoista: <hi rend="italics">rantaa</hi>,
+          <hi rend="italics">lupaawa</hi>, <hi rend="italics">arwelee</hi>, <hi rend="italics">weneellä</hi>, <hi rend="italics">päiwää</hi>,
+          sanat <hi rend="italics">rantoa lupoawa arwelewi (arwelepi)</hi>, <hi rend="italics">wenehellä</hi>, <hi rend="italics">päiweä</hi>.</p>
+        <pb n="36" facs="esipuhe_vanha_36" />
+        <p>Lewitettynä sana käytetään niin monitawuisena kun se siltä saapi e.m. <hi rend="italics">tulewi</hi> lewitetty sanasta
+          <hi rend="italics">tulee</hi> kolmilyhyenä, lupoawata sanasta <hi rend="italics">lupaawaa</hi> wiisilyhyenä j.n.e. Päätawut lewitetään
+          aiwan harwassa, waan sitä useimmin lewitetään muut tawuet runojoilta estämiseksi ettei laskut tulisi pitkäksi.</p>
+        <p>Jos nyt tahomma tarkemmin runoja tutkia, joissa kukin osa on pitkälyhyt taikka kakslyhyt (lyhytpitkistä ja kakspitkistä osista wasta
+          puhetta); niin näämmä niitä seuraawan osotelman mukaan saawan 16. erilaatua, joille myös helposti, jos pitkä­ lyhyitä osia pitkänä,
+          kakslyhyitä lyhyenä piämmä, saamma seuraawat erityiset nimityksensä <label type="commentary" n="3">*)</label>.</p>
+        <p>Wieläpä niitä on senkilaisia runoja, joissa ensimmäinen eli (ehkä harwoin ja kehnosti) molemmat ensimmäiset osat owat kakspitkiä eli
+          lyhytpitkiä e.m. <hi rend="italics">Jäi neiet syliämättä</hi>, <hi rend="italics">En tieä Ahin kotia</hi>,
+          <hi rend="italics">Jo tunsi tuhon tulewan</hi>, (<hi rend="italics">Raukka jo rannalta huusi</hi> ja
+          <hi rend="italics">Wesiä wuoattelemma</hi> kehnoja). Niillä emme kuitenkana ole tahtoneet eillistä runolu-</p>
+        <pb n="37" facs="esipuhe_vanha_37" />
+        <p>kua enentää, koska ne, jos sallit­ tawatki, taitaan pitkinä osina pitää.</p>
+        <p>Waan tutkitaanpa nyt waan näitä 16:taki runolaatua; kuinka monella sowulla eikö niihin ole sanoja saatu. Emme nyt kehtaa lyhyistä
+          yksitawuisista, emmekä usiampi­ kun kuusitawuisista puhuakkana, waan ainoastaan pitkistä ykstawuisista ja siitä aina kuusitawuisihin. Lyhyet
+          ykstawuiset taitaan (paitsi runon alussa, jossa ne ajawat pitkän asian) yhistettää eilliseen sanaan, joka siitä tulee yhtä tawutta pitemmäksi,
+          e.m. runossa: <hi rend="italics">Mie ja sie ja hän ja muutki</hi> taitaan <hi rend="italics">mie ja</hi> luettaa pitkälyhyeksi; samati
+          <hi rend="italics">sie ja</hi>, <hi rend="italics">hän ja</hi>. Sillä tawalla muuttuu runo, siltään seitsensananen, waan nelisanaseksi.
+          Runossa: <hi rend="italics">Sano mennehen jo miehet</hi>, <hi rend="italics">Laulanen ma</hi>, <hi rend="italics">taitanen ma</hi> luetaan
+          eillisessä sanat <hi rend="italics">mennehen jo</hi> kun olisiwat yksi laskewa ja jälkimmäisessä <hi rend="italics">laulanen ma</hi>,
+          <hi rend="italics">taitanen ma</hi>, kumpasetki laskewaksi sanaksi. Niin luemma myös pitkiä ykstawuisia laskussa yhteen eillisen kanssa e.m
+          runossa: <hi rend="italics">ei saa maata matkamiesi</hi>, <hi rend="italics">ei saa</hi> kun kakspitkä sana.</p>
+        <p>Seitsen­ ja usiampitawuiset sanat, kielessämmeki harwat, runoa eiwät warsin kaunista,</p>
+        <pb n="38" facs="esipuhe_vanha_38" />
+        <p>waan jos niitä sihen jollon otettaisi, taitaan ne korkoja myöten jaettaa usiampaan osaan ja joka osa piettää erisanan werosna.</p>
+        <p>Niin meiän nyt ei tarwitsekkana tutkia muita kun kaksi­, kolmi­ ja nelisanasia runoja, waan ompi niitäki 25:llä erilaaul­ la runoon
+          rakettu. Jos olisimma eritellen kaikkia ykstawuisia lukeneet, niin olis näitä runolaatuja tullut 46. ja kaheksatawuisista saisi yksi
+          päälliseksi. Otamma nyt e.m. nelipitkän runon erilaatusia sanarakennuksia katseltawaksi.</p>
+        <p><hi rend="italics">Nelisanasia</hi></p>
+        <table>
+          <row>
+            <cell>1.</cell>
+            <cell>Wielä kerran kellot soisi.</cell>
+          </row>
+          <row>
+            <cell>2.</cell>
+            <cell>Tuo wenettä Tuonen tytti.</cell>
+          </row>
+          <row>
+            <cell>3.</cell>
+            <cell>Sen tytöt kaluksi katso.</cell>
+          </row>
+          <row>
+            <cell>4.</cell>
+            <cell>Jos weät saan wenettä.</cell>
+          </row>
+          <row>
+            <cell>5.</cell>
+            <cell>Mistä sie sisälle pääsit.</cell>
+          </row>
+          <row>
+            <cell>6.</cell>
+            <cell>Monta maassa, maa monessa.</cell>
+          </row>
+          <row>
+            <cell>7.</cell>
+            <cell>Sillä mies meret waelsi.</cell>
+          </row>
+          <row>
+            <cell>8.</cell>
+            <cell>Suo järähti, maa tärähti.</cell>
+          </row>
+        </table>
+        <p><hi rend="italics">Kolmisanasia</hi></p>
+        <table>
+          <row>
+            <cell>9.</cell>
+            <cell>Otti soiton sormillensa.</cell>
+          </row>
+          <row>
+            <cell>10.</cell>
+            <cell>Monta maalimassa muuta.</cell>
+          </row>
+          <row>
+            <cell>11.</cell>
+            <cell>Lemminkäinen lieto poika.</cell>
+          </row>
+          <row>
+            <cell>12</cell>
+            <cell>Joutu Tuonelan joelle.</cell>
+          </row>
+        </table>
+        <pb n="39" facs="esipuhe_vanha_39" />
+        <table>
+          <row>
+            <cell>13.</cell>
+            <cell>Syöjätär wesillä souti.</cell>
+          </row>
+          <row>
+            <cell>14.</cell>
+            <cell>Wäinölän wenet wäsähty.</cell>
+          </row>
+          <row>
+            <cell>15.</cell>
+            <cell>Jos wähän walehtelinki.</cell>
+          </row>
+          <row>
+            <cell>16.</cell>
+            <cell>Sai sanalliseksi neiti.</cell>
+          </row>
+          <row>
+            <cell>17.</cell>
+            <cell>Tuuli puut hawuttomaksi.</cell>
+          </row>
+          <row>
+            <cell>18.</cell>
+            <cell>Tuo olutta tuoppisella.</cell>
+          </row>
+          <row>
+            <cell>19.</cell>
+            <cell>Ei murettakaan minusta.</cell>
+          </row>
+          <row>
+            <cell>20.</cell>
+            <cell>Lustuloissa mies lujempi.</cell>
+          </row>
+        </table>
+        <p><hi rend="italics">Kaksisanasia</hi></p>
+        <table>
+          <row>
+            <cell>21.</cell>
+            <cell>Kaupunnissa kaswatettu.</cell>
+          </row>
+          <row>
+            <cell>22.</cell>
+            <cell>Waiwanen walittamassa.</cell>
+          </row>
+          <row>
+            <cell>23.</cell>
+            <cell>Toiwotelkohot toella.</cell>
+          </row>
+          <row>
+            <cell>24.</cell>
+            <cell>Tullut tuntemattomaksi.</cell>
+          </row>
+          <row>
+            <cell>25.</cell>
+            <cell>Muistutellessamme muita.</cell>
+          </row>
+        </table>
+        <p>Jos näis<del>s</del><add>t</add>ä 10, 16 ja 25 kyllä ei olekkana hywiä runoja, waan muutettawat jotta kuuluwat 9:nen, 15:nen ja 24:nen
+          mukaan: <hi rend="italics">Monta muuta maalimassa</hi>, <hi rend="italics">Sai neiti sanalliseksi</hi>,
+          <hi rend="italics">Muita muistutellessamme</hi>, niin jääpi nelipitkiä runoja kuitenki 22 lu’ulta jälelle. Lyhytpäitä, lyhytniska­
+          j.n.e. runoja löytyy seuraawan Osotelman mukaan <label type="commentary" n="4">*)</label>, jossa merkeillä 1. *. †. 0. on sama ym­
+          märrys kun niillä oli ennenki.</p>
+        <pb n="40" facs="esipuhe_vanha_40" />
+        <p>Ei nyt haittaisikana tähän esimerkkiä hankkia niin hywistä, kun kehnommista ja kelpaamattomista runoista joka erityisessä laaussa,
+          waan kauan jo ilmanki tässä esipuheessa wiiwyttyäni täytyy se tällä kerralla heittää. Kellä korwat, saaneehan ne itsekkin jos näistä
+          Kalewalanki runoista, sillä näissäkään ei kaikki ole hywiä ja kauniita.</p>
+        <p>Mitä nyt muuta olisi runo­opista sanottawata, sen heitän nyt ja ken tiesi jos iätikki. Harwassa taitaa olla, jollen tämäkään nyt runosta
+          kerrottu olisi mielenmyötäinen, sillä suuri osa tässä ei parempata tunne, kun sortaa ja wääntää suomalaisia sanoja muien kielten mukaan
+          runoissa ja lauluissa. Jos Wäinämöisen "nuorisossa nousewassa, kansassa ylenewässä" lienee sama tunti ja sama mieli, niin antakoot anteeksi,
+          jos olen toisin ajatellut; muilta minä en juuri anokkana, sillä mitä heiltä olisi uotettawa nähään ilman muita niistä kauniista kirjotuksista,
+          joita siellä täällä <label type="popup" n="15">Turun Wiikko­Sanomain</label> kirjottajia wastaan luemma 1820 wuoen 
+          <label type="popup" n="14">Mnemosynessä</label>.<label type="commentary" n="c24">24</label></p>
+        <p>Taitaisi wielä olla paljoltaki puhetta runosta jos aika ja tila myöistäisi, waan eiwätpä myöistä. Ilman muita täytyy heittää mitä o-</p>
+        <pb n="41" facs="esipuhe_vanha_41" />
+        <p>lisi sanottawata kolmitawuisista runo­osista, sillä tähän asti olemma waan kaksitawuisista puhuneet. Kolmitawuisia osia pannaan wälistä
+          kylläki kaunihisti runon alkuun ja niskaanki, harwoin selkään, waan millä eholla, se nyt heittäypi puhumatta. Mitä runon alkumyötäisyyestä
+          (allitteratio) tawallisesti opetetaan, on minusta kyllä kehnosti toimitettu. Alkumyötäisyyttä ei sillä hywäsesti saaha, että kaksi sanaa
+          runossa yhellä äännettäwällä aletaan, äänike olla mikä tahansa. Näyttää kun waaittaisi sihen kokonaisen alkutawuen kahessa sanassa olla
+          yhtäläisen. Mutta jos niinki ei, walikoiaan niitä sillä tawalla, että jos toisen alkutawuessa olle a, toisehen tullee a eli o; jos toisessa
+          e, toisehen i eli ä; jos toisessa o, toisehen a, u eli ö; jos toisessa u, toisehen o, y, j.n.e., joihin kyllä kansan, harwoin muien laatimissa,
+          runoissa, saahaan esimerkkiä.</p>
+        <p>Suomen runoista lienee jo ennenki kirjotettu, miten niitä kaiketikki on kahta erilajia, <hi rend="italics">tarina- ja loihtorunoja</hi>.
+          Lienee myös jossai nimitetty, kuinka loihtorunotki alusta eiwät olleet kun tarinarunoja, joita sitte asiata mukaan ruwettiin toiseksi kääntämään.
+          Nämät tässä kirjassa runot parahasta päästä owat tarinarunoja. Mitä minulta niissä on päälu’uksi arwattu,</p>
+        <pb n="42" facs="esipuhe_vanha_42" />
+        <p>ei sen wuoksi wanhanaikaisten asiain tutkinnassa ole paremmin toenlainen, kun mitä toisin kuuluwissakin on. Kumpiaki on yksiltä paikoilta
+          ja yhtä wanhana saatu. Muutamia yksiä runoja olen niin monelta laulajalta ja niin moneen eri laatuun saanut, että kylläkin on ollut
+          epäilemistä, jos mikä niistä olisi päälu’uksi paras. Toisissa runoissa on taas ollut esteenä, etten ole niitä, jos yheltä eikä siltään
+          täyelliseen saanut.<label type="commentary" n="c25">25</label></p>
+        <p>On kumpiaki, jotka pitäwät meiän wanhoja runoja isossaki arwossa ja jotka niillen ei anna pientäkänä. Minä niitä en soisi sorrettawan,
+          jos ei yksipuolisesti ylen suurinakaan piettäwän. Ei niistä suinkaan ole Greekalaisten ja Ruomalaisten rinnalle, waan hywä jos ees näyttäwät,
+          etteiwät esiwanhempamme mielellisissäkään yrityksissä olleet älyttömät – ja sen he kuitenki näyttänewät.<label type="commentary" n="c26">26</label></p>
+        <p>Tämä työ minulle ei ole ollut rasittawa eikä suuria kulukkeitakaan waatiwa, jotta niistä mitänä erittäin olisi mainittawa. Mitä mielisuosiolla
+          ei pakolla, laaitaan, on ainaki hupaseksi luettawa ja mielisuosiolla, kenenkään toisen waatimatta, olen näitä keräillyt ja yhteen sowitellut.
+          Yhät työn huwituksena on seki ollut, että olen hawannut yritykseni monelle muullen-</p>
+        <pb n="43" facs="esipuhe_vanha_43" />
+        <p>ki otolliseksi. Heiän kehottawasta ja ystäwällisestä kohtaamisesta on minun syy paljoki heitä kiittää.<label type="commentary" n="c27">27</label></p>
+        <p>Peräti toisin on sen asian kanta, josta monella muulla on töissään apu, nimittäin toiwo kauniiksi ja walmiiksi työnsä saaha. Tämä toiwo
+          minussa on peräti puuttunut. Ainaki epäilewä jaksannostani mitään kelpaawata toimittaa, on tässä työssä toisinaan siksiki epäillys kaswanut,
+          jotta eräät kerrat juuri olen ollut kaikki tukkunaan tuleen nakata, koska en ole woimiani uskonut niitä mielenmyötäsesti toimittaa, enkä taas
+          ole sopiwaksi luullut itsiäni omalla työllä ja waiwalla tutkinnon alaseksikaan keskosesta työstä saattaa. Menkäät nyt kuitenki Kalewalan runot
+          jos wähemminki walmisna, ettei wieläki ajan käsissäni wiiwyttyä tuli teistä tekisi walmiimpata!<label type="commentary" n="c28">28</label></p>
+        <p><hi rend="italics">Kajanissa 28 Helmikuuta 1835</hi></p>
+        <p><hi rend="italics">Elias Lönnrot</hi><label type="commentary" n="c29">29</label></p>
+        <pb n="44" facs="esipuhe_vanha_44" />
+        <p>Taulu I</p>
+        <pb n="45" facs="esipuhe_vanha_45" />
+        <p>Taulu II</p>
+        <pb n="46" facs="esipuhe_vanha_46" />
+        <p>Taulu III</p>
+      </div>
+    </body>
+  </text>
+</TEI>

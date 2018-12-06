@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalevalan kahdeksas runo</title>
+        <author>Elias Lönnrot</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Avoin Kalevala</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>Suomalaisen Kirjallisuuden Seura</distributor>
+        <date when="2018-01-09">9.1.2018</date>
+      </publicationStmt>
+      <notesStmt>
+        <note n="1"><ab>Pohjolan nuori nainen</ab></note>
+        <note n="2"><ab>(Väinämöisen epiteettinä) oikeamielinen, luja, vakava</ab></note>
+        <note n="3"><ab>Väinämöinen : tietäjä, runonlaulaja, Kalevalan keskushahmo
+          Karjalan eeppisten runojen päähenkilö, jonka epiteettejä ovat vaka vanha, tietäjä tai laulaja iänikuinen (vrt. inkeriläisissä runoissa V. esiintyy harvoin).
+        </ab><ab>Väinä : leveä, syvä, tyynesti virtaava joki (Turunen 1979).<lb/><lb/>Väinämöiseen liittyviä jumala-käsityksiä: hämäläisten jumala (Mikael Agricolan jumalluettelo), 
+          suomalainen Orfeus (Porthan), loitsija, ilman, veden ja tuulen jumala, kanteleen luoja (Ganander), veden jumala (Setälä, Krohn).<lb/><lb/>Väinämöinen historiallisena 
+          sankarina (Lönnrot, Gottlund, Ahlqvist, K. Krohn). Väinämöinen myyttisenä tietäjä-samaanina, laulajana ja loitsijana (Haavio). (Turunen 1979: 395−397.)<lb/><lb/>
+          Lönnrot itse piti aluksi Väinämöistä myyttisenä sankarina, mutta Uuden Kalevalan esipuheessa hän kallistui historialliseen tulkintaan ja esitti Kalevalan ja Pohjolan 
+          heimojen olleen alunperin suomalaisia heimoja. Ks. lisää Väinämöisestä: Siikala 1999, 2012.</ab>
+        </note>
+        <note n="4"><ab>Pohjola : Louhen asuinpaikka, Kalevalassa ja kansanrunoissa yleisesti esiintyvä paikannimi</ab><ab>Vrt. <hi rend="italics">pohja</hi>-sanan merkitys pohjoisena 
+          ilmansuuntana ja käsitettynä paikaksi, joka on pimeän, kylmän ja kaiken pahuuden koti, paikkana, jonne kivut ja taudit manataan. Kalevalassa Pohjola on Väinölän eli Kalevalan 
+          vastakohta, kokonaisen heimon asuinsija, jota Louhi eli Pohjolan emäntä hallitsee. Sampo taotaan Pohjolaan ja ryöstetään sieltä; Pohjola on myös esimerkiksi paikka, jonne päivänvalot 
+          kätketään. Sekä Kalevalassa että muinaisrunoissa Pohjolasta käytetään nimityksiä, jotka kuvaavat sen luonnetta, kuten Pimentola, Untamola, kylmä kylä, miesten syöjä sija, urosten 
+          upottaja, pahan valta. Vaikka Kalevalan Pohjola pohjautuu pääpiirteissään kansanrunoihin, eepoksen Pohjola on saanut Lönnrotin työn vaikutuksesta lisäpiirteitä. (Turunen 1979: 258−259.)</ab></note>
+        <note n="5"><ab>Sariola : Pohjolan rinnakkaisnimi</ab></note>
+        <note n="6"><ab>mesileipä : makea leipä tai kakku</ab><ab>Hunajaleipä, hunajakakku; vrt. sokerileipä (kauruska).
+          Karjalassa nimitystä on käytetty pitkään siirapilla maustetusta leivästä sekä sokerileivästä(kauruska), jota kaupunkien ja kirkonkylien 
+          kauppiaat antoivat ennen kaupanpäälliseksi. Kalevalaisen sanonnan taustalla ovat kuitenkin todennäköisesti vanhemmat mesileipä- ja 
+          mesiruokatavat. Ortodoksisen kirkon piirissä vainajien muistojuhlissa käytettiin venäläisten ja karjalaisten tuntemaa hunajaruokaa, joka 
+          valmistettiin ryyneistä, keitettiin hunajassa ja höystettiin myöhempinä aikoina rusinoilla. (Turunen 1979: 207.)</ab></note>
+        <note n="7"><ab>Väinölä : Väinämöisen asuinpaikaksi kuviteltu paikka</ab><ab>Kansanrunoissa Väinölä ei yhdisty Kalevalan käsitteeseen, vaan Lönnrot on itse muodostanut yhteyden niiden välille 
+          (Kaukonen 1945: 502−503; ks. myös Turunen 1979).</ab></note>
+        <note n="8"><ab>Kalevala : Kalevalaisten asuinpaikka, Väinämöisen, Ilmarisen ja Lemminkäisen kotiseutu</ab><ab>Lönnrot yleisti nimen <hi rend="italics">Väinölän</hi>, <hi rend="italics">Ilman</hi>, 
+          <hi rend="italics">Utuniemen</hi>, <hi rend="italics">Terhensaaren</hi>, <hi rend="italics">Suomelan</hi>, <hi rend="italics">Kaukoniemen</hi>, <hi rend="italics">Päivölän</hi>, <hi rend="italics">Vuojelan</hi>,
+          <hi rend="italics">Luotolan</hi>, <hi rend="italics">Jumalisten</hi> yms. yhteisnimeksi, ja enimmät eepoksen tapahtumista voitiin näin sijoittaa Kalevalaan. Kansanrunoissa <hi rend="italics">Kalevala</hi> 
+          kuitenkin esiintyy vain harvoin, ja se sai paikannimenä keskeisen aseman nimenomaan Lönnrotin henkilökohtaisen käsityksen perusteella. (Turunen 1979.)</ab></note>
+        <note n="9"><ab>paholainen, piru</ab></note>
+        <note n="10"><ab>tietäjä iänikuinen : Väinämöisen epiteetti</ab></note>
+        <note n="11"><ab>sanella : loitsia</ab><ab>Vrt. <hi rend="italics">sanella</hi>-verbin toinen merkitys: laususkella, lauleskella (ks. 1:4) (ks. Turunen 1979).</ab></note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Helsinki</settlement>
+            <repository>Suomalaisen Kirjallisuuden Seuran arkiston kirjallisuuden ja kulttuurihistorian arkistoaineistot</repository>
+            <idno/>
+          </msIdentifier>
+          <msContents>
+            <msItem n="1" class="letter">
+              <author><surname>Lönnrot</surname>
+                <forename>Elias</forename></author>
+            </msItem>
+            <msItem n="2" class="transcription">
+              <bibl/>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="runo">
+        <pb n="1" facs="page_062" />
+        <p>Kahdeksas Runo</p>
+        <lg>
+          <l>Tuo oli kaunis <label type="popup" n="1">Pohjan neiti</label>,</l>
+          <l>Maan kuulu, ve'en valio,</l>
+          <l>Istui ilman vempelellä,</l>
+          <l>Taivon kaarella kajotti,</l>
+          <l>Pukehissa puhtaissa,</l>
+          <l>Valkeissa vaattehissa;</l>
+          <l>Kultakangasta kutovi,</l>
+          <l>Hopeista huolittavi</l>
+          <l>Kultaisesta sukkulasta,</l>
+          <l>10. Pirralla hopeisella.</l>
+        </lg>
+        <lg>
+          <l>Suihki sukkula piossa,</l>
+          <l>Käämi käessä kääperöitsi,</l>
+          <l>Niiet vaskiset vatisi,</l>
+          <l>Hopeinen pirta piukki</l>
+          <l>Neien kangasta kutoissa,</l>
+          <l>Hopeista huolittaissa.</l>
+        </lg>
+        <lg>
+          <l><label type="popup" n="2">Vaka</label> vanha <label type="popup" n="3">Wäinämöinen</label></l>
+          <l>Ajoa karittelevi</l>
+          <l>Pimeästä <label type="popup" n="4">Pohjolasta</label>,</l>
+          <l>20. Summasta <label type="popup" n="5">Sariolasta</label>;</l>
+          <l>Ajoi matkoa palasen,</l>
+          <l>Pikkaraisen piirrätteli,</l>
+          <l>Kuuli sukkulan surinan</l>
+          <l>Ylähältä päänsä päältä.</l>
+        </lg>
+        <lg>
+          <l>Tuossa päätänsä kohotti,</l>
+          <l>Katsahtavi taivahalle,</l>
+          <l>Kaari on kaunis taivahalla,</l>
+          <l>Neiti kaaren kannikalla,</l>
+          <l>Kultakangasta kutovi,</l>
+          <l>30. Hopeista helkyttävi.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Heti seisatti hevoisen,</l>
+          <l>Tuossa tuon sanoiksi virkki,</l>
+          <l>Itse lausui, noin nimesi:</l>
+          <l>"Tule neiti korjahani,</l>
+          <l>Laskeite rekoseheni!"</l>
+        </lg>
+        <lg>
+          <l>Neiti tuon sanoiksi virkki,</l>
+          <l>Itse lausui ja kysyvi:</l>
+        </lg>
+        <pb n="2" facs="page_063" />
+        <lg>
+          <l>"Miksi neittä korjahasi,</l>
+          <l>40. Tyttöä rekosehesi?"</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Tuop' on tuohon vastaeli:</l>
+          <l>"Siksi neittä korjahani,</l>
+          <l>Tyttöä rekoseheni:</l>
+          <l><label type="popup" n="6">Mesileivän</label> leipojaksi,</l>
+          <l>Oluen osoajaksi,</l>
+          <l>Joka lautsan laulajaksi,</l>
+          <l>Ikkunan iloitsiaksi</l>
+          <l>Noilla <label type="popup" n="7">Wäinölän</label> tiloilla,</l>
+          <l>50. <label type="popup" n="8">Kalevalan</label> kartanoilla."</l>
+        </lg>
+        <lg>
+          <l>Neiti tuon sanoiksi virkki,</l>
+          <l>Itse lausui ja pakisi:</l>
+          <l>"Kun kävin matara-maalla,</l>
+          <l>Keikuin kelta-kankahalla</l>
+          <l>Eilen ilta-myöhäsellä,</l>
+          <l>Aletessa aurinkoisen,</l>
+          <l>Lintu laulehi lehossa,</l>
+          <l>Kyntörastas raksutteli,</l>
+          <l>Lauleli tytärten mielen</l>
+          <l>60. Ja lauloi miniän mielen."</l>
+        </lg>
+        <lg>
+          <l>"Mie tuota sanelemahan,</l>
+          <l>Linnulta kyselemähän:</l>
+          <l>Oi sie kyntörastahainen,</l>
+          <l>Laula korvin kuullakseni,</l>
+          <l>Kumman on parempi olla,</l>
+          <l>Kumman olla kuulusampi:</l>
+          <l>Tyttärenkö taattolassa</l>
+          <l>Vai miniän miehelässä?"</l>
+        </lg>
+        <lg>
+          <l>"Tiainenpa tieon antoi,</l>
+          <l>70. Kyntörastas raksahutti:</l>
+          <l>'Valkea kesäinen päivä,</l>
+          <l>Neiti-valta valkeampi,</l>
+          <l>Vilu on rauta pakkasessa,</l>
+          <l>Vilumpi miniä-valta,</l>
+          <l>Niin on neiti taattolassa,</l>
+          <l>Kuin marja hyvällä maalla,</l>
+          <l>Niin miniä miehelässä,</l>
+          <l>Kuin on koira kahlehissa,</l>
+          <l>Harvoin saapi orja lemmen,</l>
+          <l>80. Ei miniä milloinkana.'"</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Tyhjiä tiaisen virret,</l>
+          <l>Rastahaisen raksutukset;</l>
+          <l>Lapsi on tytär kotona,</l>
+          <l>Vasta on neiti naituansa;</l>
+          <l>Tule neiti korjahani,</l>
+          <l>Laskeite rekoseheni,</l>
+          <l>En ole mitätöin miesi,</l>
+          <l>90. Uros muita untelompi!"</l>
+        </lg>
+        <lg>
+          <l>Neiti taiten vastaeli,</l>
+          <l>Sanan virkkoi, noin nimesi:</l>
+          <l>"Sitte sun mieheksi sanoisin,</l>
+          <l>Urohoksi arveleisin,</l>
+          <l>Jospa jouhen halkaiseisit</l>
+          <l>Veitsellä kärettömällä,</l>
+          <l>Munan solmuhun vetäisit</l>
+          <l>Solmun tuntumattomaksi."</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>100. Jouhen halki halkaisevi</l>
+          <l>Veitsellä kärettömällä,</l>
+          <l>Aivan tutkaimettomalla,</l>
+          <l>Munan solmuhun vetävi</l>
+          <l>Solmun tuntumattomaksi;</l>
+          <l>Käski neittä korjahansa,</l>
+          <l>Tyttöä rekosehensa.</l>
+        </lg>
+        <lg>
+          <l>Neiti taiten vastaeli:</l>
+          <l>"Ehkäpä tulen sinulle,</l>
+          <l>Kun kiskot kivestä tuohta,</l>
+          <l>110. Säret jäästä aiaksia</l>
+          <l>Ilman palan pakkumatta,</l>
+          <l>Pilkkehen pirahtamatta."</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Ei tuosta kovin hätäile,</l>
+          <l>Kiskoipa kivestä tuohta,</l>
+          <l>Särki jäästä aiaksia</l>
+        </lg>
+        <pb n="3" facs="page_064" />
+        <lg>
+          <l>Ilman palan pakkumatta,</l>
+          <l>Pilkkehen pirahtamatta;</l>
+          <l>Kutsui neittä korjahansa,</l>
+          <l>120. Tyttöä rekosehensa.</l>
+        </lg>
+        <lg>
+          <l>Neiti taiten vastoavi,</l>
+          <l>Sanovi sanalla tuolla:</l>
+          <l>"Sillenpä minä menisin,</l>
+          <l>Kenp' on veistäisi venosen</l>
+          <l>Kehrävarteni muruista,</l>
+          <l>Kalpimeni kappaleista,</l>
+          <l>Työntäisi venon vesille,</l>
+          <l>Uuen laivan lainehille</l>
+          <l>Ilman polven polkematta,</l>
+          <l>130. Ilman kouran koskematta,</l>
+          <l>Käsivarren kääntämättä,</l>
+          <l>Olkapään ojentamatta."</l>
+        </lg>
+        <lg>
+          <l>Siitä vanha Wäinämöinen</l>
+          <l>Itse tuon sanoiksi virkki:</l>
+          <l>"Liene ei maassa, maailmassa,</l>
+          <l>Koko ilman kannen alla</l>
+          <l>Mointa laivan laatiata,</l>
+          <l>Vertoani veistäjätä."</l>
+        </lg>
+        <lg>
+          <l>Otti värttinän muruja,</l>
+          <l>140. Kehrävarren kiertimiä,</l>
+          <l>Läksi veistohon venosen,</l>
+          <l>Satalauan laittelohon</l>
+          <l>Vuorelle teräksiselle,</l>
+          <l>Rautaiselle kalliolle.</l>
+        </lg>
+        <lg>
+          <l>Veikaten venettä veisti,</l>
+          <l>Purtta puista uhkaellen;</l>
+          <l>Veisti päivän, veisti toisen,</l>
+          <l>Veisti kohta kolmannenki,</l>
+          <l>Ei kirves kivehen koske,</l>
+          <l>150. Kasa ei kalka kalliohon.</l>
+        </lg>
+        <lg>
+          <l>Niin päivällä kolmannella</l>
+          <l>Hiisi pontta pyörähytti,</l>
+          <l><label type="popup" n="9">Lempo</label> tempasi tereä,</l>
+          <l>Paha vartta vaapahutti,</l>
+          <l>Kävipä kivehen kirves,</l>
+          <l>Kasa kalkkoi kalliohon,</l>
+          <l>Kirves kilpistyi kivestä,</l>
+          <l>Terä liuskahti liha'an,</l>
+          <l>Polvehen pojan pätösen,</l>
+          <l>160. Varpahasen Wäinämöisen,</l>
+          <l>Sen Lempo lihoille liitti,</l>
+          <l>Hiisi suonille sovitti,</l>
+          <l>Veri pääsi vuotamahan,</l>
+          <l>Hurme huppelehtamahan.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen,</l>
+          <l><label type="popup" n="10">Tietäjä iän-ikuinen</label></l>
+          <l>Tuossa tuon sanoiksi virkki,</l>
+          <l>Noin on lausui ja pakisi:</l>
+          <l>"Oi sie kirves kikkanokka,</l>
+          <l>170. Tasaterä tapparainen,</l>
+          <l>Luulitko puuta purrehesi,</l>
+          <l>Honkoa hotaisnehesi,</l>
+          <l>Petäjätä pannehesi,</l>
+          <l>Koivua kohannehesi,</l>
+          <l>Kun sa lipsahit liha'an,</l>
+          <l>Solahutit suonilleni!"</l>
+        </lg>
+        <lg>
+          <l>Loihe siitä loitsimahan,</l>
+          <l>Sai itse <label type="popup" n="11">sanelemahan</label>,</l>
+          <l>Luki synnyt syitä myöten,</l>
+          <l>180. Luottehet lomia myöten,</l>
+          <l>Mutt' ei muista muutamia</l>
+          <l>Rauan suuria sanoja,</l>
+          <l>Joista salpa saataisihin,</l>
+          <l>Luja lukko tuotaisihin</l>
+          <l>Noille rauan ratkomille,</l>
+          <l>Suu sinervän silpomille.</l>
+        </lg>
+        <lg>
+          <l>Jo veri jokena juoksi,</l>
+          <l>Hurme koskena kohisi,</l>
+          <l>Peitti maassa marjan varret,</l>
+          <l>190. Kanervaiset kankahalla,</l>
+        </lg>
+        <pb n="4" facs="page_065" />
+        <lg>
+          <l>Eik' ollut sitä mätästä,</l>
+          <l>Jok' ei tullut tulvillehen</l>
+          <l>Noita liikoja veriä,</l>
+          <l>Hurmehia huurovia</l>
+          <l>Polvesta pojan totisen,</l>
+          <l>Varpahasta Wäinämöisen.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Ketti villoja kiveltä,</l>
+          <l>Otti suolta sammalia,</l>
+          <l>200. Maasta mättähän repäsi</l>
+          <l>Tukkeheksi tuiman reiän,</l>
+          <l>Paikaksi pahan veräjän;</l>
+          <l>Ei vääjä vähäistäkänä,</l>
+          <l>Pikkuistakana piätä.</l>
+        </lg>
+        <lg>
+          <l>Jopa tuskaksi tulevi,</l>
+          <l>Läylemmäksi lankeavi,</l>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Itse itkuhun hyräytyi,</l>
+          <l>Pani varsan valjahisin,</l>
+          <l>210. Ruskean re'en etehen,</l>
+          <l>Siitä reuoikse rekehen,</l>
+          <l>Kohennaikse korjahansa.</l>
+        </lg>
+        <lg>
+          <l>Laski virkkua vitsalla,</l>
+          <l>Helähytti helmisvyöllä,</l>
+          <l>Virkku juoksi, matka joutui,</l>
+          <l>Reki vieri, tie lyheni;</l>
+          <l>Jo kohta kylä tulevi,</l>
+          <l>Kolme tietä kohtoavi.</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>220. Ajavi alinta tietä</l>
+          <l>Alimaisehen talohon,</l>
+          <l>Yli kynnyksen kysyvi:</l>
+          <l>"Oisiko talossa tässä</l>
+          <l>Rauan raannan katsojata,</l>
+          <l>Uron tuskan tuntiata,</l>
+          <l>Vammojen vakittajata?"</l>
+        </lg>
+        <lg>
+          <l>Olipa lapsi lattialla,</l>
+          <l>Poika pieni pankon päässä,</l>
+          <l>Tuop' on tuohon vastoavi:</l>
+          <l>230. "Ei ole talossa tässä</l>
+          <l>Rauan raannan katsojata,</l>
+          <l>Uron tuskan tuntiata,</l>
+          <l>Kivun kiinni ottajata,</l>
+          <l>Vammojen vakittajata;</l>
+          <l>Onpi toisessa talossa,</l>
+          <l>Aja toisehen talohon."</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>Laski virkkua vitsalla,</l>
+          <l>Ajoa suhuttelevi,</l>
+          <l>240. Ajoi matkoa palasen</l>
+          <l>Keskimäistä tietä myöten</l>
+          <l>Keskimäisehen talohon,</l>
+          <l>Kysyi kynnyksen takoa,</l>
+          <l>Anoi alta ikkunaisen:</l>
+          <l>"Oisiko talossa tässä</l>
+          <l>Rauan raannan katsojata,</l>
+          <l>Salpoa verisatehen,</l>
+          <l>Suonikosken sortajata?"</l>
+        </lg>
+        <lg>
+          <l>Akka oli vanha vaipan alla,</l>
+          <l>250. Kielipalku pankon päässä,</l>
+          <l>Akka varsin vastaeli,</l>
+          <l>Hammas kolmi kolkkaeli:</l>
+          <l>"Ei ole talossa tässä</l>
+          <l>Rauan raannan katsojata,</l>
+          <l>Verisynnyn tietäjätä,</l>
+          <l>Kivun kiinni ottajata,</l>
+          <l>Onpi toisessa talossa,</l>
+          <l>Aja toisehen talohon."</l>
+        </lg>
+        <lg>
+          <l>Vaka vanha Wäinämöinen</l>
+          <l>260. Laski virkkua vitsalla,</l>
+          <l>Ajoa suhuttelevi,</l>
+          <l>Ajoi matkoa palasen</l>
+          <l>Ylimäistä tietä myöten</l>
+          <l>Ylimäisehen talohon,</l>
+          <l>Yli kynnyksen kysyvi,</l>
+        </lg>
+        <pb n="5" facs="page_066" />
+        <lg>
+          <l>Lausui lakkapuun takoa:</l>
+          <l>"Oisiko talossa tässä</l>
+          <l>Rauan raannan katsojata,</l>
+          <l>Tämän tulvan tukkiata,</l>
+          <l>270. Veren summan sulkiata?"</l>
+        </lg>
+        <lg>
+          <l>Ukko oli uunilla asuva,</l>
+          <l>Halliparta harjun alla,</l>
+          <l>Ukko uunilta urahti,</l>
+          <l>Halliparta paukutteli:</l>
+          <l>"On sulettu suuremmatki,</l>
+          <l>Jalommatki jaksettuna</l>
+          <l>Luojan kolmella sanalla,</l>
+          <l>Syvän synnyn säätämällä,</l>
+          <l>Joet suista, järvet päistä,</l>
+          <l>280. Virrat niskalta vihaiset,</l>
+          <l>Lahet niemien nenistä,</l>
+          <l>Kannakset kapeimmilta."</l>
+        </lg>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
