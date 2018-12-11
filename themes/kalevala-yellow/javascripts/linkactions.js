@@ -553,6 +553,7 @@ $(document).ready(function() {
     });
 
 
+    /* Dynamically add SKVR links from skvr.js to commentary texts shown in 3rd column */
     $('.tooltp3').on('click', function() {
      $('#show_col_3').css('padding','1em');
      $('#show_col_3').html($(this).next('.value3').html());
@@ -567,7 +568,7 @@ $(document).ready(function() {
     /* show/hide popup comments and links for longer commentaries in third column */
     $('#pic_nav1').find('input').on('click',function() {
       if ($(this).is(':checked')) {
-        $('.tooltp').css('background-color','#92b6f9');
+        $('.tooltp').css('background-color','rgba(205, 161, 191, 0.3)');
       } else {
         $('.tooltp').css('background-color','');
       }

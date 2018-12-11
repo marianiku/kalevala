@@ -15,6 +15,7 @@
            <li id="pic_nav1" class="nav-item">
              <input type="checkbox"> Sananselitykset
            </li>
+           <!-- display different checkboxes depending on item -->
            <?php if (metadata('item', array('Dublin Core', 'Title')) == 'Neljäs runo'): ?>
              <li id="pic_nav2" class="nav-item">
                <input type="checkbox"> Säeviitteet
@@ -35,13 +36,14 @@
             </li>
           <?php endif ?>
            <li id="pic_nav4" class="nav-item">
-             <a id="prevPic" class="nav-link">&#8592;</a><a id="nextPic" class="nav-link">&#8594;</a>
+             <a id="prevPic" class="nav-link"><i class="fas fa-arrow-left"></i></a><a id="nextPic" class="nav-link"><i class="fas fa-arrow-right"></i></a>
            </li>
          </ul>
        </nav>
     </div>
     <div class="col-sm">
-      <nav id="pic_nav2" class="navbar navbar-expand-md">
+      <!-- download link for XML/TEI files -->
+      <nav id="pic_nav5" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="showFacs" class="nav-item">
              <a class="nav-link">Käsikirjoitus</a>
@@ -51,7 +53,7 @@
              $files = $item->Files;
              foreach ($files as $file) {
                if ($file->getExtension() == 'xml') {
-                 echo '<a href="http://128.214.12.169/kalevala/files/original/'.metadata($file, 'filename').'" download>TEI</a>';
+                 echo '<a href="http://kalevala.finlit.fi/kalevala/files/original/'.metadata($file, 'filename').'" download>TEI</a>';
                }
              }
              ?>
@@ -68,7 +70,7 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'jpg'
         && (strpos(metadata($file, 'filename'), 'page') !== false || strpos(metadata($file, 'filename'), 'esipuhe') !== false)) {
-          echo '<img class="pic" src="http://128.214.12.169/kalevala/files/original/'.metadata($file, 'filename').'" />';
+          echo '<img class="pic" src="http://kalevala.finlit.fi/kalevala/files/original/'.metadata($file, 'filename').'" />';
         }
       }
       ?>
@@ -81,9 +83,9 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'xml') {
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load("http://128.214.12.169/kalevala/files/original/".metadata($file, 'filename'));
+          $xmlDoc->load("http://kalevala.finlit.fi/kalevala/files/original/".metadata($file, 'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load("http://128.214.12.169/kalevala/files/original/TEI-to-HTML.xsl");
+          $xslDoc->load("http://kalevala.finlit.fi/kalevala/files/original/TEI-to-HTML.xsl");
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
@@ -106,7 +108,7 @@
   $files = $item->Files;
   foreach ($files as $file) {
     if ($file->getExtension() == 'jpg' && (strpos(metadata($file, 'filename'), 'lna038') !== false || strpos(metadata($file, 'filename'), 'lna036') !== false)) {
-      echo '<img class="pic2" src="http://128.214.12.169/kalevala/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img class="pic2" src="http://kalevala.finlit.fi/kalevala/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>

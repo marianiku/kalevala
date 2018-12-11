@@ -101,7 +101,6 @@
     queue_js_file('wheelzoom');
     queue_js_file('comments');
     queue_js_file('skvr');
-    queue_js_file('simplepages');
     queue_js_file('imageviewer');
     queue_js_file('linkactions');
     queue_js_file('pagination');
@@ -117,7 +116,7 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title">
               <?php echo link_to_home_page(theme_logo()); ?>
-              <img src="http://128.214.12.169/kalevala/logo-SKS@2x.png" />
+              <img src="http://kalevala.finlit.fi/kalevala/logo-SKS@2x.png" />
             </div>
             <div style="width: 100%; display:inline;">
             <nav class="navbar navbar-expand-md">

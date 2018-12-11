@@ -139,7 +139,7 @@
 <!-- Results. -->
 <div id="solr-results">
   <p>
-    <!-- Number found. -->
+    <!-- Button for downloading search results in plain text -->
     <h2 id="num-found">
       <?php echo "Tuloksia löytyi: "/*.$results->response->numFound*/; ?>
       <span style="display:inline-block;float:right;">
