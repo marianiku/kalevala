@@ -58,7 +58,7 @@ class SolrSearch_Helpers_Index
       foreach ($item->getFiles() as $file) {
         if ($file->getExtension() == 'xml') {
           // Fetch TEI file for indexing, reads it into string
-          $contents = file_get_contents("http://kalevala.finlit.fi/kalevala/files/original/".metadata($file,'filename'));
+          $contents = file_get_contents("http://kalevala.finlit.fi/files/original/".metadata($file,'filename'));
           // Cut out teiHeader
           $cut = strpos($contents, '</teiHeader>') + strlen('</teiHeader>');
           $end = strlen($contents);
