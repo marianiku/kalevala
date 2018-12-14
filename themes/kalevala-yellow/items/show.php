@@ -51,7 +51,7 @@
              $files = $item->Files;
              foreach ($files as $file) {
                if ($file->getExtension() == 'xml') {
-                 echo '<a href="http://kalevala-dev.ngrok.io/kalevala/files/original/'.metadata($file, 'filename').'" download>TEI</a>';
+                 echo '<a href="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" download>TEI</a>';
                }
              }
              ?>
@@ -68,7 +68,7 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'jpg'
         && (strpos(metadata($file, 'filename'), 'page') !== false || strpos(metadata($file, 'filename'), 'esipuhe') !== false)) {
-          echo '<img class="pic" src="http://kalevala-dev.ngrok.io/kalevala/files/original/'.metadata($file, 'filename').'" />';
+          echo '<img class="pic" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
         }
       }
       ?>
@@ -81,9 +81,9 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'xml') {
           $xmlDoc = new DOMDocument();
-          $xmlDoc->load("http://kalevala-dev.ngrok.io/kalevala/files/original/".metadata($file, 'filename'));
+          $xmlDoc->load("http://kalevala.finlit.fi/files/original/".metadata($file, 'filename'));
           $xslDoc = new DOMDocument();
-          $xslDoc->load("http://kalevala-dev.ngrok.io/kalevala/files/original/TEI-to-HTML.xsl");
+          $xslDoc->load("http://kalevala.finlit.fi/files/original/TEI-to-HTML.xsl");
           $proc = new XSLTProcessor();
           $proc->importStylesheet($xslDoc);
           echo $proc->transformToXML($xmlDoc);
@@ -106,7 +106,7 @@
   $files = $item->Files;
   foreach ($files as $file) {
     if ($file->getExtension() == 'jpg' && (strpos(metadata($file, 'filename'), 'lna038') !== false || strpos(metadata($file, 'filename'), 'lna036') !== false)) {
-      echo '<img class="pic2" src="http://kalevala-dev.ngrok.io/kalevala/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img class="pic2" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>

@@ -32,23 +32,7 @@
           </li>
       <?php endforeach; ?>
     </ul>
-    <!--<ul class="nav navbar-nav flex-column" id="frontpage_list">
-      <?php
-      $items = get_records('Item');
-      // Sort items by id
-      function cmp($a, $b) {
-        return strcmp(metadata($a, array('Dublin Core', 'Identifier')), metadata($b, array('Dublin Core', 'Identifier')));
-      }
-      usort($items, "cmp");
-      $v = $items[7];
-      unset($items[7]);
-      $items[8] = $v;
-      set_loop_records('items', $items);
-      foreach (loop('items') as $item) {
-        echo '<li><h5>'.link_to_item(item_image()).' '.link_to_item().'</h5></li>';
-      }
-      ?>
-    </ul>-->
+
   </nav>
   <?php fire_plugin_hook('public_home', array('view' => $this)); ?>
 </div>
