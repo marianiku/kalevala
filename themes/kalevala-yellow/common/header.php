@@ -122,29 +122,29 @@
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala">Etusivu</a>
+                   <a class="nav-link" href="/">Etusivu</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/esittely">Esittely</a>
+                   <a class="nav-link" href="/esittely">Esittely</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/esipuhe">Esipuhe</a>
+                   <a class="nav-link" href="/esipuhe">Kalevalan esipuhe</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/collections">Runot</a>
+                   <a class="nav-link" href="/collections">Runot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/toimitustasot">Toimitustasot</a>
+                   <a class="nav-link" href="/toimitustasot">Toimitustasot</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/kalevala/kirjallisuus">Kirjallisuus</a>
+                   <a class="nav-link" href="/kirjallisuus">Kirjallisuus</a>
                  </li>
                </ul>
             </nav>
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
                 <li class="nav-item" id ="search_help">
-                  <a class="nav-link" href="/kalevala/hakuohjeet" target="_blank">Hakuohjeet</a>
+                  <a class="nav-link" href="/ohjeet">Ohjeet</a>
                 </li>
                 <li class="nav-item" id="solr_box">
                   <?php echo search_form(); ?>

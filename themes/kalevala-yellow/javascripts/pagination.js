@@ -29,6 +29,7 @@ $(document).ready(function() {
       });
     });
 
-    
+    $('.snippet').find('b:contains("Tietosivut")').parent().parent().parent().css('font-style','normal');
+    $('.snippet').find('span').css('font-style','normal');
 
 });

@@ -568,9 +568,9 @@ $(document).ready(function() {
     /* show/hide popup comments and links for longer commentaries in third column */
     $('#pic_nav1').find('input').on('click',function() {
       if ($(this).is(':checked')) {
-        $('.tooltp').css('background-color','rgba(205, 161, 191, 0.3)');
+        $('.tooltp').css('background-color','rgba(205, 161, 191, 0.7)');
       } else {
-        $('.tooltp').css('background-color','');
+        $('.tooltp').css('background-color','#fff');
       }
     });
 
@@ -598,6 +598,15 @@ $(document).ready(function() {
       } else {
         $(this).parent().next('.hl').show();
         $(this).parent().next('.hl').find('li:contains("Kommentaarit")').first().css('margin-top','1em');
+      }
+    });
+
+    $('.result-header:contains("Kirjallisuus")').find('.resultsBtn').on('click',function() {
+      if ($(this).parent().parent().next('.hl').is(":visible")) {
+        $(this).parent().parent().next().hide();
+      } else {
+        $(this).parent().parent().next('.hl').show();
+        $(this).parent().parent().next('.hl').find('li:contains("Kommentaarit")').first().css('margin-top','1em');
       }
     });
 

@@ -544,7 +544,8 @@ td, th, tr {
   /* @end */
   /* @group ----- Reusable classes ----- */
   .active {
-    font-weight: bold;
+    background-color: #f8f9fb;
+    color: #E48800 !important;
   }
 
   .item-img,
@@ -2254,13 +2255,6 @@ td, th, tr {
     margin-right: 16px;
   }
 
-  header div nav.navbar-expand-mid {
-    position: absolute;
-    height: 25px;
-    top: 105px;
-    margin-top: 0 !important;
-  }
-
   header div nav.navbar-expand-md:nth-child(1) {
     margin-top: -0.6em;
     display: inline-block;
@@ -2272,6 +2266,7 @@ td, th, tr {
     font-size: 16px;
     font-weight: bold;
     color: #333;
+    margin-bottom:
   }
 
   header div nav.navbar-expand-md:nth-child(1) ul li a:hover, header div nav.navbar-expand-md:nth-child(1) ul li a:active {
@@ -2419,12 +2414,17 @@ td, th, tr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    /*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;*/
     margin-bottom: 3em !important;
   }
 
-  #home #primary p:nth-child(3) {
+  #home #primary div {
+    background: #F8F6F4;
+    padding: 15px;
+  }
+
+  #home #primary div p:nth-child(1) {
     font-weight: bold;
     font-style: normal;
     line-height: 1.4em;
@@ -2432,7 +2432,7 @@ td, th, tr {
     color: #887B68;
   }
 
-  #home #primary p:nth-child(4), #home #primary p:nth-child(5) {
+  #home #primary div p:nth-child(2), #home #primary div p:nth-child(3) {
     font-weight: bold;
     font-style: normal;
     line-height: 1.4em;
@@ -2501,6 +2501,12 @@ td, th, tr {
     color: #E48800 !important;
     border-bottom: none !important;
     text-decoration: none !important;
+  }
+
+  .coll_title a span:nth-child(3) {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 5px;
   }
 
   .coll_title a:hover, .coll_title a:active {
@@ -2871,7 +2877,7 @@ td, th, tr {
   /* Styles for bootstrap and other elements in show.php */
 
   #show_container {
-    height: 775px;
+    height: 800px;
     box-sizing: border-box;
     border: 1px solid #C0AC90 !important;
     padding: 0 !important;
@@ -2884,6 +2890,28 @@ td, th, tr {
     margin-bottom: 2em;
   }
 
+  #show_row_3 {
+    height: 25px;
+    width: 100%;
+    background-color: #E3DED5;
+    margin-left: 0;
+  }
+
+  #show_row_3 .col-sm {
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  #show_row_3 .col-sm:nth-child(2) span {
+    margin-left: -15%;
+  }
+
+  #show_row_3 .col-sm span {
+    text-transform: uppercase !important;
+    font-weight: bold;
+  }
+
+
   #show_row_1 {
     height: 50px;
     width: 100%;
@@ -2895,6 +2923,7 @@ td, th, tr {
     height: 725px;
     width: 100%;
     margin-left: 0;
+    border-bottom: 1px solid #C0AC90 !important;
   }
 
   #show_row_1 .col-sm, #show_row_1 .col-sm-3, #show_row_2 .col-sm, #show_row_2 .col-sm-3 {
@@ -2921,6 +2950,8 @@ td, th, tr {
     margin-left: auto;
     margin-right: auto;
   }
+
+
 
   #pic_nav {
     max-height: 100%;
@@ -2981,6 +3012,10 @@ td, th, tr {
     background: #333333;
     padding: 5px;
     margin-right: 5px !important;
+  }
+
+  #pic_nav5 ul li:nth-child(2) i {
+    font-family: FontAwesome !important;
   }
 
   #pic_nav5 ul li:hover {
@@ -3082,11 +3117,6 @@ td, th, tr {
     border-bottom: none;
   }
 
-  a.tooltp {
-    background: rgba(0,0,0,0.0);
-    mix-blend-mode: multiply;
-  }
-
   a.tooltp2, a.tooltp3 {
     vertical-align: super;
     font-size: smaller;
@@ -3094,6 +3124,7 @@ td, th, tr {
     color: #085c01 !important;
     font-weight: bold !important;
     display: none;
+    cursor: pointer;
   }
 
 
@@ -3104,7 +3135,7 @@ td, th, tr {
   a.tooltp:hover {
     text-decoration:none;
     outline:none;
-    background: rgba(205, 161, 191, 0.7) !important;
+    background: rgba(205, 161, 191, 0.7);
   }
 
   span.value1, span.value2, span.value3, span.value4 {
@@ -3177,32 +3208,64 @@ td, th, tr {
 
   /* Pages linked in header */
 
+  #ohjeet #wrap #content #primary {
+    background: #F8F6F4;
+    padding-bottom: 15px;
+  }
+
+  #ohjeet #wrap #content #primary h5:nth-child(1) {
+    margin-top: 0px;
+    margin-bottom: 1.5em !important;
+    padding-top: 10px !important;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background: #E3DED5;
+  }
+
+  #ohjeet #wrap #content #primary p {
+    width: 80%;
+    padding-left: 15px;
+  }
+
+  #ohjeet #wrap #content #primary table tbody tr td {
+    padding-left: 15px;
+  }
+
+
+  #poems {
+    background: #F8F6F4;
+    padding-top: 10px;
+  }
+
   #poems ul {
-    width: 100% !important;
+    width: 80%;
   }
 
   #poems ul li {
-    width: 100% !important;
     display: inline;
     margin-bottom: 1em;
   }
 
   #poems ul li span:nth-child(1) {
     float: left;
-    width: 10%;
+    width: 8%;
   }
 
   #poems ul li span:nth-child(2) {
     width: 89.5%;
     float: left;
-    margin-left:0.5%;
     margin-bottom: 1em;
+    padding-left: 20px;
   }
 
   #poems ul li span:nth-child(2) span:nth-child(1), #poems ul li span:nth-child(2) span:nth-child(2) {
     width: 100%;
   }
 
+  #poems ul li span:nth-child(2) span:nth-child(1) a {
+    padding-left: 20px;
+
+  }
   #poems ul li span:nth-child(1) {
     float: left;
   }
@@ -3212,9 +3275,103 @@ td, th, tr {
     /*box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
     -moz-box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
     -webkit-box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);*/
+    
     border-radius: 5px !important;
     padding: 5px;
     float: left !important;
+  }
+
+  #coll2 div h5 {
+    margin-top: 0px;
+    margin-bottom: 1.5em !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    background: #E3DED5;
+  }
+  .collections #wrap #content .container-fluid .row ul li a span:nth-child(3) {
+    display: none;
+  }
+
+  .simple-page {
+    font-family: 'Overpass', sans-serif !important;
+    font-size: 1rem;
+    padding: 0px !important;
+  }
+
+  .simple-page #wrap #content #primary .container-fluid .row .col-9 {
+    background: #F8F6F4;
+    margin: 0;
+    padding: 0px !important;
+  }
+
+  #geneettinen-content {
+    background: #fff !important;
+  }
+
+  .simple-page #wrap #content #primary .container-fluid .row .col-9 div p {
+    margin-left: 15px;
+    width: 80%;
+    float: left;
+  }
+
+  .simple-page #wrap #content #primary .container-fluid .row .col-9 div h5 {
+    padding-left: 15px;
+    width: 100%;
+    float: left;
+  }
+
+  .simple-page #wrap #content #primary .container-fluid .row .col-9 div ul {
+    float: left;
+    width: 85%;
+  }
+
+  .simple-page #wrap #content #primary .container-fluid .row .col-9 div h5:nth-child(1) {
+    margin-top: 0px;
+    margin-bottom: 1.5em !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    background: #E3DED5;
+  }
+
+  #kirjallisuus #wrap #content #primary .container-fluid {
+    background: #F8F6F4;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #kirjallisuus #wrap #content #primary .container-fluid p {
+    width: 80%;
+    padding-left: 15px;
+  }
+
+  #kirjallisuus #wrap #content #primary .container-fluid p:nth-child(1) {
+    width: 100% !important;
+    margin-right: 0px !important;
+    margin-top: 0px;
+    margin-bottom: 1.5em !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    background: #E3DED5;
+  }
+
+  .simple-page #wrap #content #primary .container-fluid .row .col-3 ul li a:hover, .simple-page #wrap #content #primary .container-fluid .row .col-3 ul li ul li a:hover {
+    background-color: #f8f9fb;
+    color: #E48800 !important;
+  }
+
+  /*#yleisesittely, #geneettinen-esittely, #kielellinen-esittely, #temaattinen-esittely, #aatehistoriallinen-esittely, #esipuhe-intro {
+    padding-top: 15px;
+  }*/
+
+  #styles {
+    width: 100% !important;
+    height: 100% !important;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  #styles, #styles span {
+    text-transform: uppercase;
   }
 
 
@@ -3223,7 +3380,6 @@ td, th, tr {
     color: #999;
     text-transform: none;
   }
-
 
   #poems ul:not(:nth-child(1)) {
     display: none;
@@ -3236,8 +3392,30 @@ td, th, tr {
     cursor: pointer;
   }
 
-  #tekstit-nav li a:hover, #toimitus-nav li a:hover, #runot-nav li a:hover {
+  #geneettinen-content table tbody tr th {
+    background: #E3DED5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #geneettinen-content table tbody tr td {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #F8F6F4;
+  }
+
+  #geneettinen-content table tbody tr td, #geneettinen-content table tbody tr th {
+    font-family: 'Overpass', sans-serif !important;
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(192,172,144,0.3) !important;
+    padding-left: 15px;
+  }
+
+
+  #runot-nav li a:hover, #runot-nav li ul li a:hover {
     background-color: #f8f9fb;
+    color: #E48800 !important;
   }
 
   #geneettinen-vertailu h5, #geneettinen-content h5, #geneettinen-content-2 h5, #temaattinen-toimitustavat h5,
@@ -3246,15 +3424,11 @@ td, th, tr {
     margin-bottom: 1em;
   }
 
-  #esipuhe-lajina h5, #esipuhe-aani h5, #traditio-esittely h5, #traditio-skvr h5, #kielellinen-suomi h5, #kielellinen-periaatteet h5 {
+  #esipuhe-lajina h5, #esipuhe-aani h5, #traditio-esittely h5, #traditio-skvr h5, #kielellinen-suomi h5, #kielellinen-periaatteet h5, #geneettinen-versiot h5 {
    margin-bottom: 1em;
  }
 
-  #esipuhe-erot h5:nth-child(1), #temaattinen-toimitustavat h5:nth-child(1), #temaattinen-lyriikka h5:nth-child(1),
-  #aatehistoriallinen-kansa h5:nth-child(1), #aatehistoriallinen-perhe h5:nth-child(1), #traditio-esittely h5:nth-child(1),
-  #traditio-content h5:nth-child(1), #geneettinen-vertailu h5:nth-child(1), #aatehistoriallinen-kehys h5:nth-child(1) {
-    margin-top: 0px;
-  }
+
 
   #geneettinen-content, #geneettinen-content-2, #traditio-content, #traditio-content-2, #kaukonen-ohjeet, #temaattinen-content,
   #kielellinen-content, #traditio-esittely {
@@ -3495,8 +3669,34 @@ td, th, tr {
     display: none;
   }
 
+  .snippet span {
+    font-style: italic !important;
+  }
   #search_help a {
     font-size: 14px;
+  }
+
+  #solr-results {
+    background: #F8F6F4;
+    padding-bottom: 10px;
+  }
+
+  #solr-results h2 {
+    background: #E3DED5;
+    padding: 10px;
+  }
+
+  #solr-results .result {
+    padding-left: 15px;
+    width: 80%;
+  }
+
+  .facet-value:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    outline: 0 !important;
+    text-decoration: none;
+    color: #E48800 !important;
   }
   /* @end */
 }

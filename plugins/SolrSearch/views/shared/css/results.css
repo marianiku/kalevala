@@ -482,9 +482,7 @@ span.float-wrap {
 #solr-results div.result a.result-title {
   font-weight:bold;
 }
-#solr-results div.result ul.hl em {
-  font-weight:bold;
-}
+
 #solr-results .snippet em {
   font-style: normal;
   background-color: #eee;
@@ -504,7 +502,5 @@ span.float-wrap {
   /*border:1px solid;
   border-radius:2px;*/
 }
-#solr-results h2#num-found {
-  color: #999;
-}
+
 /*# sourceMappingURL=results.css.map */

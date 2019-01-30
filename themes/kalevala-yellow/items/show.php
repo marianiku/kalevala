@@ -6,21 +6,32 @@
 
 <!-- Display images, transcription -->
 <div class="container-fluid" id="show_container">
+  <div class="row" id="show_row_3">
+    <div class="col-sm">
+      <span>Kalevalan 1849 ensimmäinen painos</span>
+    </div>
+    <div class="col-sm">
+      <span>Transkriptio</span>
+    </div>
+    <div class="col-sm">
+      <span>Kommentaarit ja käsikirjoitus</span>
+    </div>
+  </div>
   <div class="row" id="show_row_1">
     <div class="col-sm">
     </div>
     <div class="col-sm">
       <nav id="pic_nav" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
-           <li id="pic_nav1" class="nav-item">
-             <input type="checkbox"> Sananselitykset
+           <li id="pic_nav1" class="nav-item" title="näytä sananselitykset">
+             <input type="checkbox" title="näytä sananselitykset"> Sananselitykset
            </li>
            <?php if (metadata('item', array('Dublin Core', 'Title')) == 'Neljäs runo'): ?>
-             <li id="pic_nav2" class="nav-item">
-               <input type="checkbox"> Säeviitteet
+             <li id="pic_nav2" class="nav-item" title="näytä säeviitteet">
+               <input type="checkbox" title="näytä säeviitteet"> Säeviitteet
              </li>
-             <li id="pic_nav3" class="nav-item">
-               <input type="checkbox"> Kommentaarit
+             <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
+               <input type="checkbox" title="näytä kommentaarit"> Kommentaarit
              </li>
           <?php elseif (metadata('item', array('Dublin Core', 'Title')) == 'Uuden Kalevalan esipuhe'
           || metadata('item', array('Dublin Core', 'Title')) == 'Vanhan Kalevalan esipuhe'
@@ -30,12 +41,12 @@
           || metadata('item', array('Dublin Core', 'Title')) == 'Viides runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Kahdestoista runo'
           || metadata('item', array('Dublin Core', 'Title')) == 'Yhdestoista runo'): ?>
-            <li id="pic_nav3" class="nav-item">
-              <input type="checkbox"> Kommentaarit
+            <li id="pic_nav3" class="nav-item" title="näytä kommentaarit">
+              <input type="checkbox" title="näytä kommentaarit"> Kommentaarit
             </li>
           <?php endif ?>
            <li id="pic_nav4" class="nav-item">
-             <a id="prevPic" class="nav-link"><i class="fas fa-arrow-left"></i></a><a id="nextPic" class="nav-link"><i class="fas fa-arrow-right"></i></a>
+             <a id="prevPic" class="nav-link" title="edellinen sivu"><i class="fas fa-arrow-left"></i></a><a id="nextPic" class="nav-link" title="seuraava sivu"><i class="fas fa-arrow-right"></i></a>
            </li>
          </ul>
        </nav>
@@ -44,14 +55,14 @@
       <nav id="pic_nav5" class="navbar navbar-expand-md">
         <ul class="navbar-nav">
            <li id="showFacs" class="nav-item">
-             <a class="nav-link">Käsikirjoitus</a>
+             <a class="nav-link" title="avaa käsikirjoitus">Käsikirjoitus</a>
            </li>
            <li class="nav-item">
              <?php
              $files = $item->Files;
              foreach ($files as $file) {
                if ($file->getExtension() == 'xml') {
-                 echo '<a href="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" download>TEI</a>';
+                 echo '<a title="lataa TEI-tiedosto" href="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" download><i class="fa fa-download"></i> TEI</a>';
                }
              }
              ?>

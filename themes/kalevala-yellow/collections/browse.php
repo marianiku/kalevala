@@ -6,10 +6,10 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
 
 
 
-<div class="content-fluid" style="margin-top:2em;">
+<div class="container-fluid" style="margin-top:2em;">
   <div class="row">
     <!-- list collections in menu to the left -->
-    <div class="col-2">
+    <div class="col-3">
       <ul id="runot-nav" class="navbar-nav">
         <?php $collections = get_records('Collection',array('sort_field'=>'Dublin Core,Identifier','sort_dir'=>'a')); ?>
         <?php set_loop_records('collections',$collections);?>
@@ -22,13 +22,14 @@ echo head(array('title'=>$pageTitle,'bodyclass' => 'collections browse'));
       </ul>
     </div>
     <!-- list items for each collection -->
-    <div class="col-10" id="poems">
+    <div class="col-9" id="poems">
       <?php foreach (loop('collections') as $collection): ?>
 
         <?php $collId = metadata('collection', array('Dublin Core', 'Identifier')); ?>
         <?php if (strpos($collId, 'coll') !== false):?>
 
           <ul id="<?php echo $collId;?>" class="navbar-nav">
+            
             <?php echo metadata($collection,array('Dublin Core', 'Description'));?>
             <?php $items = get_records('Item', array('collection'=>$collection)); ?>
             <?php set_loop_records('items',$items); ?>

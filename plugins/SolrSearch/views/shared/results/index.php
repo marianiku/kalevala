@@ -251,9 +251,14 @@
             <!-- print sorted results -->
             <?php
             foreach ($result_fields as $rs) {
-              echo '<li class="snippet"><b>'.$rs->title.'</b>: '.strip_tags($rs->field, '<em>').'</li>';
+              if ($rs->title !== 'Tietosivut') {
+                echo '<li class="snippet"><b>'.$rs->title.'</b>: '.strip_tags($rs->field, '<em>').'</li>';
+              } else {
+                echo '<li class="snippet"><b>'.$rs->title.'</b>: '.strip_tags($rs->field, '<em><span>').'</li>';
+              }
             }
             ?>
+
           </ul>
 
         <?php endif; ?>
