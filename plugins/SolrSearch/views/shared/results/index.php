@@ -213,7 +213,7 @@
                   $prop = 'Kommentaarit';
                   break;
                   case "7_t":
-                  $prop = 'Runoteksti';
+                  $prop = 'Kalevalan tekstit';
                   break;
                   case "simple_pages_text_t":
                   $prop = 'Tietosivut';
