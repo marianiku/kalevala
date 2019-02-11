@@ -128,7 +128,7 @@
                    <a class="nav-link" href="/esittely">Esittely</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="/esipuhe">Kalevalan esipuhe</a>
+                   <a class="nav-link" href="/esipuhe">Kalevalan esipuheet</a>
                  </li>
                  <li class="nav-item">
                    <a class="nav-link" href="/collections">Runot</a>
