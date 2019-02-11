@@ -186,7 +186,7 @@ var skvr = {
 'I4 1856':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr01218560',
 'I4 1870':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr01218700',
 'I4 1872':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr01218720',
-'I1 erilliset ':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr01300020',
+'I1 erilliset':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr01300020',
 'II 25':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02100250',
 'II 26':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02100260',
 'II 27':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02100270',
