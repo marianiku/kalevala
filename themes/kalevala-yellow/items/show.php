@@ -143,7 +143,7 @@
     <li id="next-item" class="next"><?php /*echo link_to_next_item_show();*/ ?></li>
 </ul>
 </nav>-->
-<!-- default item paging is by order of addition to database; this is the only way to get correct order -->
+<!-- default item paging is by order of addition to database; this is the only way to get correct order
 <nav>
 <?php
 $ids = array('9','21','6','7','8','24','25','26','27','32','23','28','29','30','31','22','5');
