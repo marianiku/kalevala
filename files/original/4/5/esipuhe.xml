@@ -15,7 +15,8 @@
         <date when="2018-08-17">17.8.2018</date>
       </publicationStmt>
       <notesStmt>
-        <note n="1"><ab>järestys : järjestys; asettelu, jäsennys</ab></note>
+        <note n="1">
+          <ab>järestys : järjestys; asettelu, jäsennys</ab></note>
         <note n="2"><ab>korjuu : kunto, tila; säilö</ab></note>
         <note n="3"><ab>omituinen : oma, ominainen, alkuperäinen</ab></note>
         <note n="4"><ab>pyytää : yrittää, pyrkiä</ab></note>
@@ -198,19 +199,19 @@
             kollegat (ks. esim. Vanhan Kalevalan esipuhe) sekä aikakauden kirjalliset konventiot ja aatteelliset keskustelut (Apo 2002; Karkama 2001).</ab>
         </note>
         <note n="e2">
-          <ab>2.<lb/><lb/>Eepoksen aloittava esipuhe määrittelee Kalevalan kirjaksi. Siten Lönnrot erotti teoksena suullisesta kansanperinteestä ja muistutti sen olevan kirjallisen kulttuurin tuote,
+          <ab>2.<lb/><lb/>Eepoksen aloittava esipuhe määrittelee Kalevalan kirjaksi. Siten Lönnrot erotti teoksensa suullisesta kansanperinteestä ja muistutti sen olevan kirjallisen kulttuurin tuote,
             vaikka se perustuukin suulliseen laulukulttuuriin. Taustalla vaikutti romantiikan eeposkäsitys, jonka seurauksena Lönnrot tavoitteli runoihin juonellista eheyttä. Lönnrot ja muutkin
-            koulutuksen saaneet korostivat suullisen ja kirjallisen eroa, ja jakoivat huolen suullisen runon rappeutumisesta ja häviämisestä. Kuitenkin runonlaulajille ero suullisen ja
-            kirjallisen runon välillä ei välttämättä ollut merkittävä. (Tarkka 2005: 57, 59.) Huoli saattoi liittyä vanhan ja uuden, riimillisen laulun suhteisiin. Kalevalamittaisen, ns. vanhan
-            runon rinnalla nuorison suosiman uudemman laulun rohkea ja rempseä sanasto kuulosti moraaliltaan arveluttavalta niin kerääjistä (Asplund 1981: 105) kuin vanhemmista laulajista. Ks.
+            koulutuksen saaneet korostivat suullisen ja kirjallisen eroa, ja jakoivat huolen suullisen runon rappeutumisesta ja häviämisestä. Kuitenkaan runolaulajille ero suullisen ja
+            kirjallisen runon välillä ei välttämättä ollut merkittävä. (Tarkka 2005: 57, 59.) Huoli saattoi liittyä myös vanhan ja uuden, riimillisen laulun suhteisiin. Kalevalamittaisen, ns. vanhan
+            runon rinnalla nuorison suosiman uudemman laulun rohkea ja rempseä sanasto kuulosti moraaliltaan arveluttavalta niin kerääjistä (Asplund 2006) kuin vanhemmista laulajista. Ks.
             Arhippa Perttusen kommentti: "Ei enää pidetä vanhoista lauluista niin kuin minun lapsuudessani, jolloin niillä oli etusija, tehtiinpä työtä tai kokoonnuttiin joutohetkinä kylässä"
             --- nuori väki nyt laulelee omia rivoja laulujaan, joilla en edes tahtoisi huuliani saastuttaa." (<hi rend="italics">Lönnrotin matkat</hi> I: 221–222; myös Vanhan Kalevalan esipuhe).
-            Ks. Timonen 2008:16. Vrt. Perttusen sanojen taustalla saattoivat vaikuttaa myös ortodoksinen uskonto, jonka mukaan uudemmat laulut (aikalaisrunot) kuuluivat synnin kategoriaan (Tarkka 2005:41)
+            Ks. Timonen 2008: 16. Vrt. Perttusen sanojen taustalla saattoivat vaikuttaa myös ortodoksinen uskonto, jonka mukaan uudemmat laulut (aikalaisrunot) kuuluivat synnin kategoriaan (Tarkka 2005:41)
             tai kerääjien odotukset (haluttiin talteen vanhoja, myyttisiä runoja), joista laulajat saattoivat olla hyvinkin tietoisia.</ab>
         </note>
         <note n="e3">
           <ab>3.<lb/><lb/>Lönnrot täsmentää Kalevalan kertovan kaukaisesta menneisyydestä. Näin se kertoo muinaisten suomalaisten elintavoista ja toiminnasta. Koska suomalaisten menneisyydestä ei ollut
-            kirjallisia lähteitä, korostettiin kansanrunouden historiallista merkitystä (Karkama 2008: 125). <label type="popup" n="118"><hi rend="italics">Mehiläisensä</hi></label> historialiitteessä
+            kirjallisia lähteitä, korostettiin kansanrunouden historiallista merkitystä (Karkama 2008: 125). <hi rend="italics"><label type="popup" n="118">Mehiläisensä</label></hi> historialiitteessä
             (<ref target="https://digi.kansalliskirjasto.fi/aikakausi/binding/502100">12/1837</ref>) Lönnrot kirjoitti
             saksalaista C. F. Beckeriä mukaillen, että kansanrunoutta voidaan käyttää lähteenä menneisyydestä, mutta siinä tapauksessa sen antama tieto menneisyyden maailmasta pitää ymmärtää
             oikein. Kansanrunot eivät kerro "historiallista totuutta", vaan ne esittävät Lönnrotin määritelmän mukaan "luonnollisen totuuden". 1800-luvulle oli tyypillistä käsittää kansanrunous
@@ -230,20 +231,20 @@
         <note n="e6">
           <ab>6.<lb/><lb/>Esteettisten ja historiallisten tavoitteiden ohella kansanrunouden keräämisen keskeisiä motiiveja oli suomen kielen tutkiminen (Sulkunen 2004: 65). Myös Lönnrot on korostanut
             useissa yhteyksissä, että laulut tuottavat tietoa suomen kielestä itsestään (Ks. esim. <ref target="http://lonnrot.finlit.fi/omeka/items/show/174">Lönnrotin kirje Keckmanille 2.6.1837</ref>).
-            Kansanrunous käsitettiin kielen alkuperäiseksi muodoksi, jossa suomalaisten sisäiset ominaisuudet tulevat esille. Lönnrotin ymmärrys kielestä oli kuitenkin orgaaninen ja hän korosti usein
-            kielen muutosta ajassa. Menneisyyden suulliseen kansanperinteen luonnollinen kehitys oli kulkea kohti kirjoitettua kieltä. Tästä hän piti esimerkkinä skandinaavista Edda -kirjallisuutta
+            Kansanrunous käsitettiin kielen alkuperäiseksi muodoksi, jossa suomalaisten luonteenlaadulle ominaiset piirteet tulevat esille. Lönnrotin ymmärrys kielestä oli kuitenkin orgaaninen ja hän korosti usein
+            kielen muutosta ajassa. Menneisyyden suulliseen kansanperinteen luonnollinen kehitys oli kulkea kohti kirjoitettua kieltä. Tästä hän piti esimerkkinä skandinaavista Edda-kirjallisuutta
             (Hyvönen 2004: 329–330). Koska suullisen runouden perinne oli vielä elossa kansan parissa, oli mahdollista ajatella siitä voitavan orgaanisesti kehittää moderni kirjakieli joka edelleen pystyisi
             ilmentämään erityistä suomalaista identiteettiä.</ab>
         </note>
         <note n="e7">
-          <ab>7.<lb/><lb/>Lönnrot toistaa näkemyksensä kansanrunoista tiedonlähteenä suomalaisten menneisyydestä ja kulttuurista. Hänen tavoitteenaan oli edistää suomen kieltä ja kuvata runojen avulla
+          <ab>7.<lb/><lb/>Lönnrot toistaa näkemyksensä kansanrunoista tiedonlähteenä suomalaisten menneisyydestä ja kulttuurista. Hänen tavoitteenaan oli edistää suomen kielen kehitystä ja kuvata runojen avulla
             mahdollisimman monipuolisesti vanhakantaista elämää, ihmisiä ja tapoja. Tämän vuoksi Lönnrot otti Kalevalaan mukaan myös loitsuja ja lyyrisiä lauluja. (Borenius ja Krohn 1895: 4.)
             Kantele-vihkon esipuheessa Lönnrot määrittelee tavoitteensa seuraavasti: "-- toivoisin niistä ei ainoastansa voittoa ja etua Suomen kielelle, vaan myöskin jonkunlaista tiedonlisäntöä
             esivanhempainme menneistä ajoista,--" (<hi rend="italics">VT</hi> 5: 165). Lönnrotin toimitustapaa on tältä osin nimitetty ensyklopediseksi (Hyvönen 2008: 344; 2004). Näin Kalevala
-            oli myös monitieteellinen projekti, joka liittyy 1700- ja 1800-lukujen taitteessa syntyneeseen historistiseen perinteeseen. Sen mukaan erilaisia (kansallisia) kulttuureja tuli
+            oli myös monitieteellinen projekti, joka liittyy 1700- ja 1800-lukujen taitteessa syntyneeseen historistiseen perinteeseen. Sen mukaan erilaisia kansallisia kulttuureja tuli
             tarkastella niiden sisäisten lainalaisuuksien mukaisesti (Toews 2008: 326–327). Kieli, kulttuuri ja historia käsitettiin kontekstisidonnaiseksi. Tähän perinteeseen vaikutti
             merkittävästi J. G. Herderin ajatukset, jotka tunnettiin hyvin Suomessa. Hänen mukaansa kansanrunous muodostaa täysin ainutlaatuisen kansallisen olemuksen (Saariluoma 2006: 195–196).
-            Muinaisaikana ennen kulttuurin osa-alueiden eriytymistä runouden uskottiin edustaneen kollektiivisesti taidetta, uskontoa, historiankirjoista ja yhteisön normeja. Herderiltä voidaan
+            Muinaisaikana ennen kulttuurin osa-alueiden eriytymistä runouden uskottiin edustaneen kollektiivista taidetta, uskontoa, historiankirjoista ja yhteisön normeja. Herderiltä voidaan
             katsoa periytyvän myös 1800-luvun kansallisen historismin universaali ihmiskäsitys, jonka mukaan ihmisyyttä määrittää kyky kulttuuriin (Oergel 2006: 287). Juuri siksi kansanrunouden
             merkitys korostui, sillä sen olemassaolo todisti suomalaisten sisäisestä mahdollisuudesta kehittää omaa kulttuuriaan.</ab>
         </note>
@@ -253,9 +254,9 @@
             alkuperäistä kansanrunoutta (Anttonen 2014: 61–62). Tämä on mahdollistanut Kalevalan tulkitsemisen epäautenttiseksi. Kuitenkin Lönnrotin aikana autenttisuuden käsite ja vaatimus oli
             varsin toisenlainen kuin myöhemmin (Anttonen 2014: 79). Runoja kerättiin julkaisemista varten, ja niiden muokkaamiseen suhtauduttiin käytännöllisesti, sillä niiden säilyttämiseen ei
             ollut vielä asianmukaisia arkistoja. Runotoisintojen murre-eroja siloteltiin ja runot kirjoitettiin yleiskielisempään muotoon. Valistukseen ja määrään perustuva keruuintressi pyrki
-            tuomaan kalevalamittaista runoutta yleiseen tietoon mahdollisimman kattavasti. (Saarinen 2018: 17−18.) Lönnrot jäljitteli suullisen esityksen piirteitä ja ymmärsi itsensä sen
+            tuomaan kalevalamittaista runoutta yleiseen tietoon mahdollisimman kattavasti. (Saarinen 2018: 17−18.) Lönnrot jäljitteli suullisen esityksen piirteitä ja ymmärsi itsensä tämän
             perinteen jatkajana (Honko 1987: 152−153). Silti tarkoitus ei ollut toistaa suullisen kulttuurin runoutta sellaisenaan, vaan kehittää sitä eteenpäin kohti kirjallisuutta. 1980-luvulta
-            alkaen on korostettu uudelleen kansanrunouden merkitystä Kalevalan syntyprosessissa. Lönnrot ei olisi voinut koostaa eeposta ilman kansan laulukulttuuria, joka oli käytännössä
+            alkaen on korostettu uudelleen kansanrunouden merkitystä Kalevalan syntyprosessissa. Lönnrot ei olisi voinut koostaa eeposta ilman rahvaan laulukulttuuria, joka oli käytännössä
             Kalevalan jokaisen säkeen lähteenä.</ab>
         </note>
         <note n="e9">
@@ -299,22 +300,22 @@
         <note n="e16">
           <ab>16.<lb/><lb/>Loitsurunot ja rituaalisissa yhteyksissä (häät, peijaiset) käytetyt laulut on otettu osaksi Kalevalan eeppistä kerrontaa. Tätä ratkaisua sekoittaa eri lajeja kritisoitiin jo
             Vanhan Kalevalan yhteydessä (Sulkunen 2004: 63; Karkama 2008: 148). Ks. kritiikistä Castrén 1841; Gottlund 1843; Tengström 1844. Tässä Lönnrot vastaa kritiikkiin toteamalla, että
-            myös runonlaulajat toimivat samaan tapaan. Lisäksi sekoittaminen palveli tieteellistä tarkoitusta esitellä suullisen runouden eri lajeja (Hyvönen 2004: 327; ks. myös Honko 1987: 153).
-            Ks. Lönnrot puolustaa Vanhan Kalevalan välilehdillä eri lajeja Kalevalan kokonaisuudessa: eri laululajit (epiikka, lyriikka, loitsut) ovat sekoittuneet alkuperäisessä runonlaulussa
+            myös runolaulajat toimivat samaan tapaan. Lisäksi sekoittaminen palveli tieteellistä tarkoitusta esitellä suullisen runouden eri lajeja (Hyvönen 2004: 327; ks. myös Honko 1987: 153).
+            Ks. Lönnrot puolustaa Vanhan Kalevalan välilehdillä eri lajeja Kalevalan kokonaisuudessa: eri laululajit (epiikka, lyriikka, loitsut) ovat sekoittuneet alkuperäisessä runolaulussa
             toisiinsa (Borenius ja Krohn 1895: 3). Ks. myös Lönnrotin kirjoitus "Anmärkningar till den nya Kalevala upplagen"
             (<label type="popup" n="117"><hi rend="italics">Litteraturblad</hi></label> <ref target="https://digi.kansalliskirjasto.fi/aikakausi/binding/102473">1849: 1</ref>). Vrt. suullisen
             kansanrunon (perinteen) lajit (genret) ovat tutkijoiden luomia käsitteellisiä kategorioita, jotka eivät olleet välttämättä samalla tavalla tunnistettavia itse perinteenkäyttäjille.
-            Käsitys lajista saattaa runonlaulajilla pohjautua esim. käyttötilanteeseen (lasta nukuttaessa) tai sävelmään (tulovirsi). (Ks. Timonen 2004b: 86−92.)</ab>
+            Käsitys lajista saattaa runolaulajilla pohjautua esim. käyttötilanteeseen (lasta nukuttaessa) tai sävelmään (tulovirsi). (Ks. Timonen 2004b: 86−92.)</ab>
         </note>
         <note n="e17">
           <ab>17.<lb/><lb/>Lönnrot kehottaa lukijoita hyväksymään runot sellaisenaan, "tarina-maalle kylvettyinä siemeninä". Lönnrot ymmärsi runojen elävän sekoittuneina, eri kerroksissa, aikojen ja ihmisten
             käytössä eläneinä teksteinä, joista on lähes mahdotonta erottaa alkuperäinen runotoisinto. (Tarkka 2005: 57.) Hän argumentoi sen puolesta, että hänen aikakautensa kansanrunot eroavat
-            vanhoista edellisten sukupolvien lauluista. Ne ovat muodostuneet prosessuaalisesti satojen ja tuhansien vuosien aikana, koko ajan lisääntyen. Lönnrot käyttää tässä hänelle hyvin
+            vanhoista, edellisten sukupolvien lauluista. Ne ovat muodostuneet prosessuaalisesti satojen ja tuhansien vuosien aikana, koko ajan lisääntyen. Lönnrot käyttää tässä hänelle hyvin
             tyypillistä orgaanista metaforaa. Alkuperäiset runot ovat siemeniä, jotka on kylvetty maahan. Kasvien tavoin ne kehittyvät ja lisääntyvät. Kylvön ja viljan vertaukset myös
             assosioituivat kulttuurin käsitteeseen, joka vielä 1800-luvulla saatettiin ymmärtää myös alkuperäisessä maanviljelyksen merkityksessä (Rantala 2013: 77). Tässä tapauksessa maan-
             ja hengenviljely sekoittuvat toisiinsa. Muinaiset kansanrunot ovat suomalaisen kielen ja kulttuurin alkuperä, joka Kalevalassa kasvaa uuteen kirjalliseen muotoon. Kulttuurin
-            historiallinen kehittyminen ja sivistyminen (ruots <hi rend="italics">bildning</hi>, saks. <hi rend="italics">Bildung</hi>) oli 1800-luvun merkittävimpiä ajatuksellisia paradigmoja
-            (Koselleck 2006: 112. Suomen tapauksesta ks. esim. Rantala 2010: 39). Sekä ihmisen kulttuuri että luonto nähtiin ajallisten prosessien tuloksena. Lönnrot vertaa runoutta ja kieltä
+            historiallinen kehittyminen ja sivistyminen (ruots. bildning, saks. Bildung) oli 1800-luvun merkittävimpiä ajatuksellisia paradigmoja
+            (Koselleck 2006: 112; Suomen tapauksesta ks. esim. Rantala 2010: 39). Sekä ihmisen kulttuuri että luonto nähtiin ajallisten prosessien tuloksena. Lönnrot vertaa runoutta ja kieltä
             toistuvasti orgaanisiin eläviin olioihin. Päiväkirjaansa hän kirjoitti eksplisiittisesti kielen itsensä olevan kuin elävä olio, joka syntyy, kasvaa ja kehittyy sekä myös aikanaan
             kuolee (<hi rend="italics">VT</hi> 3: 116). Kyse ei ole kuitenkaan ainoastaan vertauksesta, vaan aikakaudelle tyypillinen metafyysinen maailmankatsomus, jossa koko todellisuutta
             tarkasteltiin perimmältään dynaamisena ja muuttuvana prosessuaalisena kokonaisuutena (Saarelainen 2016: 123–124).</ab>
@@ -323,7 +324,7 @@
           <ab>18.<lb/><lb/>Tässä pykälässä Lönnrot näyttää väittävän, että hänen kirjansa julkaisu tulee ennen pitkää aiheuttamaan kansanrunojen laulukulttuurin katoamisen. Lönnrotin mukaan kirjan
             materiaaliset ominaisuudet ylittävät tietyissä yhteyksissä inhimilliset kyvyt: kukaan yksittäinen laulaja ei pysty muistamaan yhtä laajaa runoteosta, joka kirjassa on mahdollista.
             Siten suullinen laulukulttuuri hiljalleen menettää merkityksensä. Kirja keskeyttää suulliselle runoudelle tyypillisen varioinnin, koska painettu sana ei muutu. Toisaalta se tarjoaa
-            kattavamman esityksen, kuin kukaan yksittäinen runonlaulaja. (Saarelainen 2014: 170–171.) Tämän kulttuurin kirjallistumisen prosessin Lönnrot yhdistää yleiskielen kehitykseen, jonka
+            kattavamman esityksen, kuin kukaan yksittäinen runolaulaja. (Saarelainen 2014: 170–171.) Tämän kulttuurin kirjallistumisen prosessin Lönnrot yhdistää yleiskielen kehitykseen, jonka
             hän uskoo syrjäyttävän paikalliset murteet. Historiantutkija Benedict Anderson on korostanut painetun kirjallisuuden synnyttämää yhteenkuuluvuuden tunnetta kansakunnan synnyn
             mahdollistajana (Anderson 2007: 85). Lönnrotin tässä esittämä käsitys on periaatteessa sama, yleinen kirjakieli tulee korvaamaan paikalliset murteet ja siten yhdistämään eri heimot
             yhdeksi suomalaiseksi kansaksi.</ab>
@@ -344,18 +345,19 @@
         <note n="e21">
           <ab>21.<lb/><lb/>Esipuheen käsikirjoituksessa on yliviivattu ja siten painamatta jätetty <hi rend="italics">§ 10 Tarpeellisista selityksistä</hi> ja vasta sen jälkeen uudelleennumeroitu <hi rend="italics">§ 10
           Kielenlaatu näissä runoissa</hi>. Yliviivatussa pykälässä Lönnrot kertoo loitsurunojen merkityksistä ja neuvoo tulkitsemaan eepoksen monia yliluonnollisia elementtejä metaforisesti kuvallisena runokielenä.
-          Ks. tarkemmin erillinen teksti "Eroja painetun Kalevalan ja käsikirjoituksen välillä" [ks. Kalevala osana 1800-lukua osion artikkeli "Eroja painetun Kalevalan esipuheen ja käsikirjoituksen välillä"]</ab>
+          Ks. tarkemmin erillinen teksti "Eroja painetun Kalevalan ja käsikirjoituksen välillä"</ab>
         </note>
         <note n="e22">
           <ab>22.<lb/><lb/>Lönnrotin tavoitteena oli sovittaa yhteen eri murteita ja kieleen liittyviä käsityksiä, jotta kieli olisi ymmärrettävissä mahdollisimman laajasti, ja kielen
-            uudistajana hän vältti vierasperäisiä sanoja ja loi uusia, suomalaisia sivistyssanoja, kuten kirjallisuus (Anttila 1985: 448-450). Lönnrot myös pyrki erottamaan kielestä äänteet ja
+            uudistajana hän vältti vierasperäisiä sanoja ja loi uusia, suomalaisia sivistyssanoja, kuten kirjallisuus (Anttila 1985: 448−450). Lönnrot myös pyrki erottamaan kielestä äänteet ja
             kirjaimet (Häkkinen 2002: 125). Vrt. myös miten Lönnrotin valintojen seurauksena runot ja niiden kieli menettivät maantieteellisen paikkansa. Tämän on katsottu olleen Lönnrotin tietoinen pyrkimys,
             jotta Kalevala viittaisi yhtenäiseen kansaan ja kansakuntaan (Anttonen 2002: 45; Honko 1987).</ab>
         </note>
         <note n="e23">
           <ab>23.<lb/><lb/>Lönnrot toteaa, että Kalevala pyrkii yleiskieliseen esitykseen. Hän oli jo varhain omaksunut käsityksen, että tällainen olisi paras keino kirjallistaa suullista runoutta ja
             perusteli vuonna 1829 kantaansa C. A. Gottlundille osoitetussa kirjeessä kertoen valinneensa murteita yhdistelevän kirjoitustavan siinä toivossa, että kaikki suomalaiset "voisivat
-            lukea ja ymmärtää esi-isiensä viisauden täyttämiä runoja niiden yksinkertaisella ja voimakkaalla kielellä." (kirje Gottlundille 22.9.1829). Ks. myös § 6.</ab>
+            lukea ja ymmärtää esi-isiensä viisauden täyttämiä runoja niiden yksinkertaisella ja voimakkaalla kielellä" (<ref target="http://lonnrot.finlit.fi/omeka/items/show/1628">kirje Gottlundille 22.9.1829</ref>). 
+            Ks. myös § 6.</ab>
         </note>
         <note n="e24">
           <ab>24.<lb/><lb/>D. E. D. Europaeuksen erityisesti Inkeristä kerätty aineisto toi Kalevalaan merkittävät eeppiset lisät (mm. Kullervo-runosto) (ks. kirje <label type="popup" n="114">F. J. Rabbelle</label>
@@ -363,11 +365,11 @@
             epätäydellinen ilman inkeriläistä aineistoa. Lönnrot hyödynsi Europaeuksen runotallenteita, mutta niiden yhä lisääntyvästä runsaudesta (Europaeus lähetti Lönnrotille yhtenään runoja ja parannusehdotuksia) johtuen hän
             ei hyödyntänyt kaikkea saamaansa aineistoa. (Kaukonen 1956: 416; 1988.) Ks. myös miten Europaeuksen ja Lönnrotin näkemykset eepoksesta erosivat toisistaan. Europaeus katsoi, että
             runojen kielen tuli olla mahdollisimman lähellä kansan laulamaa runoutta. Lönnrot puolestaan ymmärsi, että Kalevalan esittämistapaa ja kieltä tuli muokata niin että mahdollisimman
-            moni kykenisi sitä ymmärtämään. Ks. lisää Kuusi &amp; Timonen 1988; Knuuttila 2008; Apo 2009; Hämäläinen 2012.</ab>
+            moni kykenisi sitä ymmärtämään. Ks. Kuusi &amp; Timonen 1988; Knuuttila 2008; Apo 2009; Hämäläinen 2012.</ab>
         </note>
         <note n="e25">
           <ab>25.<lb/><lb/>Kuten Lönnrot tässä mainitsee, hän kehitteli Kalevalaa varhaisten runokokoelmien pohjalta. Zacharias Topeliuksen julkaisun lisäksi C. A. Gottlundin <hi rend="italics">Pieniä
-          Runoja Suomen Pojille Ratoxi</hi> ilmestyi kahdessa osassa vuosina 1818 ja 1821 sekä eeppinen runoelma <hi rend="italics">Runola</hi> 1840. Myös Europaeus oli julkaissut vuonna 1847
+          Runoja Suomen Poijille Ratoxi</hi> ilmestyi kahdessa osassa vuosina 1818 ja 1821 sekä eeppinen runoelma <hi rend="italics">Runola</hi> 1840. Myös Europaeus oli julkaissut vuonna 1847
           inkeriläisiin runomuistiinpanoihin pohjautuvan kokoelman <hi rend="italics">Pieni Runon-Seppä</hi>.</ab>
         </note>
         <note n="e26">

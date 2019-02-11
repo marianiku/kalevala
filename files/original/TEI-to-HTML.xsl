@@ -148,5 +148,10 @@
       <span class="blue"><xsl:apply-templates /></span>
     </xsl:template>
 
+    <xsl:template match="tei:label[@type = 'super']">
+      <span class="super"><xsl:apply-templates /></span>
+    </xsl:template>
+
+
 
   </xsl:stylesheet>

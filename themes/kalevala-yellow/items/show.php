@@ -137,10 +137,41 @@
     <div class="element-text"><?php echo output_format_list(); ?></div>
 </div>-->
 
-<nav>
+<!--<nav>
 <ul class="item-pagination navigation">
-    <li id="previous-item" class="previous"><?php echo link_to_previous_item_show(); ?></li>
-    <li id="next-item" class="next"><?php echo link_to_next_item_show(); ?></li>
+    <li id="previous-item" class="previous"><?php /*echo link_to_previous_item_show();*/ ?></li>
+    <li id="next-item" class="next"><?php /*echo link_to_next_item_show();*/ ?></li>
+</ul>
+</nav>-->
+<!-- default item paging is by order of addition to database; this is the only way to get correct order -->
+<nav>
+<?php
+$ids = array('9','21','6','7','8','24','25','26','27','32','23','28','29','30','31','22','5');
+$current_id = array_search($item->id, $ids);
+$previous_item = '';
+$next_item = '';
+if ($current_id >= 1 && $current_id <= sizeof($ids)-2) {
+  $previous_item = $ids[$current_id-1];
+  $next_item = $ids[$current_id+1];
+} elseif ($current_id == 0) {
+  $previous_item = $ids[sizeof($ids)-1];
+  $next_item = $ids[$current_id+1];
+} elseif ($current_id == sizeof($ids)-1) {
+  $previous_item = $ids[$current_id-1];
+  $next_item = $ids[0];
+}
+?>
+<ul class="item-pagination navigation">
+    <li id="previous-item" class="previous">
+      <?php
+      echo '<a title="edellinen runo (edellinen esipuhe)" href="http://kalevala.finlit.fi/items/show/'.$previous_item.'">edellinen</a>';
+      ?>
+    </li>
+    <li id="next-item" class="next">
+      <?php 
+      echo '<a "seuraava runo (seuraava esipuhe)" href="http://kalevala.finlit.fi/items/show/'.$next_item.'">seuraava</a>'; 
+      ?>
+    </li>
 </ul>
 </nav>
 

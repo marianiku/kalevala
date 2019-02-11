@@ -291,7 +291,7 @@
     if (isset($_POST['txt'])) {
       // Initialize txt file for writing
       $txtfile = 'results.txt';
-      $fh = fopen($txtfile, 'w');
+      $fh = fopen(sys_get_temp_dir().'/'.$txtfile, 'w');
 
       // Write search terms and search results into text files
       fwrite($fh,strtoupper("Hakutermit: ".$results->responseHeader->params->q)."\n\n");
@@ -318,8 +318,8 @@
       header("Content-Disposition: attachment; filename=".sys_get_temp_dir().'/'.$txtfile);
       ob_clean();
       flush();
-      readfile($txtfile);
-      unlink($txtfile);
+      readfile(sys_get_temp_dir().'/'.$txtfile);
+      unlink(sys_get_temp_dir().'/'.$txtfile);
       exit();
     }
 

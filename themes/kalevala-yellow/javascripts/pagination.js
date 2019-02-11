@@ -32,4 +32,7 @@ $(document).ready(function() {
     $('.snippet').find('b:contains("Tietosivut")').parent().parent().parent().css('font-style','normal');
     $('.snippet').find('span').css('font-style','normal');
 
+    $('.item-pagination').find('#next-item').prop('title','seuraava runo (esipuhe)');
+    $('.item-pagination').find('#previous-item').prop('title','seuraava runo (esipuhe)');
+
 });

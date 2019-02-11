@@ -2040,15 +2040,17 @@ td, th, tr {
 
 
   #footer-text {
-    width: 40%;
-    float:right;
+    width: 100%;
+    position:relative;
   }
 
   #footer-text .row {
-    width: 100%;
-    float:right;
-    margin-right: 16px;
-    margin-top: 7%;
+    width: auto;
+    position:absolute;
+    right: 16px;
+    top:5px;
+    max-width: 40%;
+    max-height: 100%;
   }
 
   #sks {
@@ -2936,22 +2938,21 @@ td, th, tr {
     margin: 0px !important;
   }
 
-  #show_row_2 .col-sm, #show_row_2 .col-sm-3 {
-  }
-
   #show_col_1 {
     overflow: hidden;
     padding: 0px;
   }
 
   #show_col_1 .pic, #show_col_3 .pic2 {
-    background-size: cover;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+     background-size: 100% !important;
+    -webkit-background-size: 100% !important;
+    -moz-background-size: 100% !important;
+    -o-background-size: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    width: auto !important;
   }
-
-
 
   #pic_nav {
     max-height: 100%;
@@ -3127,6 +3128,10 @@ td, th, tr {
     cursor: pointer;
   }
 
+  span.super {
+    vertical-align: super;
+    font-size: smaller;
+  }
 
   a.tooltp strong, a.tooltp2 strong, a.tooltp3 strong {
     line-height:30px;
