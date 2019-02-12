@@ -19,7 +19,7 @@
     <!-- Plugin Stuff -->
 
     <?php fire_plugin_hook('public_head', array('view'=>$this)); ?>
-
+                                                                            
 
     <!-- Stylesheets -->
     <?php
@@ -116,7 +116,7 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
             <div id="site-title">
               <?php echo link_to_home_page(theme_logo()); ?>
-              <a href="https://www.finlit.fi"><img src="http://kalevala.finlit.fi/logo-SKS@2x.png" /></a>
+              <img src="http://kalevala.finlit.fi/logo-SKS@2x.png" />
             </div>
             <div style="width: 100%; display:inline;">
             <nav class="navbar navbar-expand-md">

@@ -2045,12 +2045,10 @@ td, th, tr {
   }
 
   #footer-text .row {
-    width: auto;
+    width: 40%;
     position:absolute;
     right: 16px;
     top:5px;
-    max-width: 40%;
-    max-height: 100%;
   }
 
   #sks {
