@@ -1181,9 +1181,8 @@ td, th, tr {
     color: #E48800;
   }
 
-  #site-title a img {
-    vertical-align: bottom;
-    max-width: 100%;
+  #site-title a:nth-child(2) {
+    width: 476px !important;
     height: auto;
   }
 
@@ -2038,17 +2037,18 @@ td, th, tr {
     float: left;
   }
 
-
   #footer-text {
     width: 100%;
     position:relative;
   }
 
   #footer-text .row {
-    width: 40%;
+    float: right;
     position:absolute;
-    right: 16px;
-    top:5px;
+    right: 5px;
+    top: 20px;
+    display: inline !important;
+    width: auto;
   }
 
   #sks {
@@ -2059,20 +2059,25 @@ td, th, tr {
   #kordelin {
     width: auto;
     height: 110px;
+    margin-right: 10px !important;
   }
 
   #kalevalas {
     width: auto;
     height: 110px;
+    margin-right: 16px;
   }
 
-  .column {
-    float:left;
+  #footer-text .row .col-xs-6, #footer-text .row .col-md-6, 
+  #footer-text .row .col-xs-4, #footer-text .row .col-md-4, 
+  #footer-text .row .col-xs-2, #footer-text .row .col-md-2 {
     width: auto;
-    padding: 5px;
+    float: left;
   }
 
-
+  #footer-text .row .col-xs-4, #footer-text .row .col-md-4 {
+    padding-left: 5px !important;
+  }
 }
 @media screen and (min-width: 48em) {
   footer p {

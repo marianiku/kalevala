@@ -8,7 +8,11 @@
 <div class="container-fluid" id="show_container">
   <div class="row" id="show_row_3">
     <div class="col-sm">
-      <span>Kalevalan 1849 ensimmäinen painos</span>
+      <?php if ($item->id == '22'): ?>
+        <span>Kalevalan 1833 ensimmäinen painos</span>
+      <?php else: ?>
+        <span>Kalevalan 1849 ensimmäinen painos</span>
+      <?php endif ?>
     </div>
     <div class="col-sm">
       <span>Transkriptio</span>

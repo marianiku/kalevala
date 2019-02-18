@@ -531,18 +531,32 @@ $(document).ready(function() {
      $('#show_col_3').html($(this).parent().next().html());
      $('#switchImg').hide();
      $('#show_col_3').html($('#show_col_3').html().replace('Mythologia Fennica','<em>Mythologia Fennica</em>'));
+     /* find and replace SKVR references with links to SKVR */
+     $.each(skvr, function(key, value) {
+      var after = $('#show_col_3').html().indexOf(key) + key.length;
+      var pos_after = $('#show_col_3').html().charAt(after);
+      var before = $('#show_col_3').html().indexOf(key) - 1;
+      var pos_before = $('#show_col_3').html().charAt(before);
+      var regex = new RegExp(key, 'gi');
+      if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')')) {
+        $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
+      }
+     });
     });
 
+    
     /* show longer commentaries in third column */
     $('.tooltp2').on('click', function() {
      $('#show_col_3').css('padding','1em');
      $('#show_col_3').html($(this).next('.value3').html());
      $.each(skvr, function(key, value) {
+        var after = $('#show_col_3').html().indexOf(key) + key.length;
+        var pos_after = $('#show_col_3').html().charAt(after);
+        var before = $('#show_col_3').html().indexOf(key) - 1;
+        var pos_before = $('#show_col_3').html().charAt(before);
         var regex = new RegExp(key, 'gi');
-        if (key != 'I1 234') {
-          $('#show_col_3').html($('#show_col_3')
-          .html()
-          .replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>'));
+        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')')) {
+          $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
         }
       });
       $('#show_col_3').find('a.tooltp').each(function() {
@@ -558,10 +572,14 @@ $(document).ready(function() {
      $('#show_col_3').css('padding','1em');
      $('#show_col_3').html($(this).next('.value3').html());
      $.each(skvr, function(key, value) {
+        var after = $('#show_col_3').html().indexOf(key) + key.length;
+        var pos_after = $('#show_col_3').html().charAt(after);
+        var before = $('#show_col_3').html().indexOf(key) - 1;
+        var pos_before = $('#show_col_3').html().charAt(before);
         var regex = new RegExp(key, 'gi');
-        $('#show_col_3').html($('#show_col_3')
-        .html()
-        .replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>'));
+        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')')) {
+          $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
+        }
       });
     });
 
