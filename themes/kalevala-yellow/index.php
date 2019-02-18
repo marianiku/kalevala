@@ -1,6 +1,6 @@
 <?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col')); ?>
 <div id="primary">
-    <img style="width:90%;" src="http://localhost/kalevala/KalevalaMontage-LowRes.jpg" />
+    <img style="width:90%;" src="http://kalevala.finlit.fi/KalevalaMontage-LowRes.jpg" />
     (Kuva: Gary Wornell, SKS 2018)
     <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
     <p><?php echo $homepageText; ?></p>
