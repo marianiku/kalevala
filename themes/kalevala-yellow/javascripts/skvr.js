@@ -200,7 +200,6 @@ var skvr = {
 'II 118':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02101180',
 'II 134':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02101340',
 'II 142':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02101420',
-'II 146':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02101460',
 'II 219':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02102190',
 'II 220':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02102200',
 'II 232':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr02102320',
