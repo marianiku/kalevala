@@ -738,5 +738,8 @@ var skvr = {
 'VII4 684':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr07227520',
 'VII4 685':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr07227570',
 'XIII1 686':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr13019140',
-'XV 687':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr15101100'
+'XV 687':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr15101100',
+'VII2 1301':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr07113010',
+'VII2 1302':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr07113020',
+'VII2 1303':'https://skvr.fi/poems?page=1&per-page=10&textnorm&metanorm&refsnorm&id=skvr07113030'
 };
