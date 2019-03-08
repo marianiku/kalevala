@@ -25,6 +25,7 @@
     <?php
     queue_css_file(array('iconfonts','style','bootstrap.min','fontawesome.min'));
     queue_css_url('//fonts.googleapis.com/css?family=Overpass');
+    queue_css_url('//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
     echo head_css();
 
     echo theme_header_background();
@@ -98,12 +99,12 @@
     queue_js_file('vendor/jquery-accessibleMegaMenu');
     queue_js_file('globals');
     queue_js_file('default');
-    queue_js_file('wheelzoom');
     queue_js_file('comments');
     queue_js_file('skvr');
     queue_js_file('imageviewer');
     queue_js_file('linkactions');
     queue_js_file('pagination');
+    queue_js_url('//code.jquery.com/ui/1.12.1/jquery-ui.js');
 
     echo head_js();
     ?>
@@ -139,13 +140,14 @@
                  <li class="nav-item">
                    <a class="nav-link" href="/kirjallisuus">Kirjallisuus</a>
                  </li>
+                 <li class="nav-item">
+                  <a class="nav-link" href="/ohjeet">Ohjeet</a>
+                </li>
                </ul>
             </nav>
             <nav class="navbar navbar-expand-md">
               <ul class="navbar-nav">
-                <li class="nav-item" id ="search_help">
-                  <a class="nav-link" href="/ohjeet">Ohjeet</a>
-                </li>
+
                 <li class="nav-item" id="solr_box">
                   <?php echo search_form(); ?>
                 </li>

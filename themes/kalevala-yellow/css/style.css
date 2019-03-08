@@ -2947,14 +2947,11 @@ td, th, tr {
   }
 
   #show_col_1 .pic, #show_col_3 .pic2 {
-    display: block;
-     background-size: 100% !important;
-    -webkit-background-size: 100% !important;
-    -moz-background-size: 100% !important;
-    -o-background-size: 100% !important;
     max-width: 100% !important;
-    height: auto !important;
-    width: auto !important;
+    max-height: auto !important;
+    margin: 0px !important;
+    background-size: 100% !important;
+    -moz-background-size: 100% !important;
   }
 
   #pic_nav {

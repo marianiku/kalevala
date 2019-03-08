@@ -538,7 +538,8 @@ $(document).ready(function() {
       var before = $('#show_col_3').html().indexOf(key) - 1;
       var pos_before = $('#show_col_3').html().charAt(before);
       var regex = new RegExp(key, 'gi');
-      if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' || pos_after == ':')) {
+      if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' 
+      || pos_after == ':' || pos_after == '.')) {
         $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
       }
      });
@@ -555,7 +556,8 @@ $(document).ready(function() {
         var before = $('#show_col_3').html().indexOf(key) - 1;
         var pos_before = $('#show_col_3').html().charAt(before);
         var regex = new RegExp(key, 'gi');
-        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' || pos_after == ':')) {
+        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' 
+        || pos_after == ':' || pos_after == '.')) {
           $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
         }
       });
@@ -577,7 +579,8 @@ $(document).ready(function() {
         var before = $('#show_col_3').html().indexOf(key) - 1;
         var pos_before = $('#show_col_3').html().charAt(before);
         var regex = new RegExp(key, 'gi');
-        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' || pos_after == ':')) {
+        if ((pos_before == ' ' || pos_before == '(' || pos_before == ';') && (pos_after == ' ' || pos_after == ';' || pos_after == ',' || pos_after == ')' 
+        || pos_after == ':' || pos_after == '.')) {
           $('#show_col_3').html($('#show_col_3').html().replace(regex,'<a href="' + value + '" target="_blank">' + key + '</a>')); 
         }
       });

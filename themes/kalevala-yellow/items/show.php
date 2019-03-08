@@ -83,7 +83,7 @@
       foreach ($files as $file) {
         if ($file->getExtension() == 'jpg'
         && (strpos(metadata($file, 'filename'), 'page') !== false || strpos(metadata($file, 'filename'), 'esipuhe') !== false)) {
-          echo '<img class="pic" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
+          echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" class="pic" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
         }
       }
       ?>
@@ -121,7 +121,7 @@
   $files = $item->Files;
   foreach ($files as $file) {
     if ($file->getExtension() == 'jpg' && (strpos(metadata($file, 'filename'), 'lna038') !== false || strpos(metadata($file, 'filename'), 'lna036') !== false)) {
-      echo '<img class="pic2" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
+      echo '<img title="kaksoisklikkaus = kuvan suurennus ja pienennys" class="pic2" src="http://kalevala.finlit.fi/files/original/'.metadata($file, 'filename').'" />';
     }
   }
   ?>
