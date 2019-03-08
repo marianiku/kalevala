@@ -18,6 +18,8 @@
         <note n="1"><ab>uutinen, tieto</ab></note>
         <note n="2"><ab>kauemmas, loitommas</ab></note>
         <note n="3"><ab>neidon</ab></note>
+        <note n="3b"><ab>nukkuma : kuolema</ab></note>
+        <note n="3c"><ab>katoama : kuolema</ab></note>
         <note n="4"><ab>(Väinämöisen epiteettinä) oikeamielinen, luja, vakava</ab></note>
         <note n="5">
           <ab>Väinämöinen : tietäjä, runonlaulaja, Kalevalan keskushahmo</ab>
@@ -58,21 +60,20 @@
         <note n="26"><ab>silmäellä : tarkastella, katsella</ab></note>
         <note n="27"><ab>väkärauta : koukku</ab></note>
         <note n="28"><ab>väsky : laukku, reppu</ab></note>
-        <note n="29"><ab>soutaa melastella : meloa verkalleen</ab><ab><hi rend="italics">Soutoa</hi> 'soutaa' ja <hi rend="italics">melastella</hi> 'meloa'.</ab></note>
+        <note n="29"><ab>soutaa melastella : meloa verkalleen</ab></note>
         <note n="30"><ab>saavuttaa : saapua, päästä johonkin paikkaan</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: saada
           käsiinsä (38:115); saattaa aikaan (49:132) (ks. Turunen 1979).</ab></note>
         <note n="31"><ab>ikuinen onkija</ab></note>
         <note n="32"><ab>käes : käsiverkko, pienisilmäinen kalaverkko</ab></note>
-        <note n="33"><ab>launis : alkeellinen kalastin, molemmista päistään terävä puupuikko</ab><ab>Launis vuoltiin useimmiten
-          katajasta, ja se sidottiin keskeltä kannatuslankaan eli perustimeen. Syöttinä siinä käytettiin onkimatoa eli sättää, 
-          toisinaan myös pientä kalaa. (Turunen 1979: 170).<lb /><lb />Vrt. Lönnrotin selitys: launihin = onki, koukku (?) (Lna 38). 
-          Ks. myös Lönnrotin selitys: launis = (träd) krok (Lna 122).</ab></note>
+        <note n="33"><ab>launis : alkeellinen kalastin, molemmista päistään terävä puupuikko</ab><ab>Launis vuoltiin useimmiten katajasta, ja se sidottiin keskeltä kannatuslankaan eli perustimeen. 
+          Syöttinä siinä käytettiin onkimatoa eli sättää, toisinaan myös pientä kalaa. (Turunen 1979: 170.)<lb/><lb/>Vrt. Lönnrotin selitys: <hi rend="italics">launihin</hi> 'onki, koukku (?)' 
+          (Lna 38). Ks. myös Lönnrotin selitys: <hi rend="italics">launis</hi> '(träd) krok' (Lna 122).</ab></note>
         <note n="34"><ab>ongitella : onkia</ab></note>
         <note n="35"><ab>orhitella : tehdä työtä rehvakkaasti ja uutterasti</ab><ab>Ks. Lönnrotin selitys: orhittelu = knycka på, 
           känna efter (Lna 122).</ab></note>
         <note n="36"><ab>ongenvapa</ab><ab>Useimmiten vain hieman vitsaa tukevampi puu, jonka joustavaan päähän siiman vapaa pää 
           kiinnitettiin (Turunen 1979). Vrt. Lönnrotin selitys: vapa = pahla, raippa (Lna 38).</ab></note>
-        <note n="37"><ab>kuparinen; pronssinen, messinkinen</ab></note>
+        <note n="37"><ab>kuparista valmistettu</ab></note>
         <note n="38"><ab>siukua : viuhua</ab></note>
         <note n="39"><ab>kulista : helistä</ab></note>
         <note n="40"><ab>huomen : päivä</ab></note>
@@ -81,6 +82,7 @@
         <note n="43"><ab>talua : vetää ongella</ab><ab>Ks. Lönnrotin selitys: talua = leda, draga (Lna 122).<lb /><lb />          
           Vrt. sanan muut merkitykset Kalevalassa: taluttaa (3:402); tallustella (24:260) (Turunen 1979).</ab></note>
         <note n="44"><ab>talkapohja : veneen ulkopohjan puuvahvike</ab><ab>Ks. Lönnrotin selitys: talka = köl (Lna 122).</ab></note>
+        <note n="44b"><ab>käännellä : katsella (itsekseen) päätään käännellen</ab></note>
         <note n="45"><ab>sileähkä : melko sileä</ab><ab>Lönnrot kommentoi Kalevalan säkeitä 62−70: "oli entisestään jotenki kalan muotoiseksi 
           muuttunut" (Lna 121).</ab></note>
         <note n="46"><ab>vaaleahko</ab><ab>Vrt. <hi rend="italics">kulea</hi> 'vaalea'.<lb/><lb/>Vrt. Lönnrotin selitys: kuleahka = kiiltävä (Lna 38). Ks. myös Lönnrotin selitys: 
@@ -91,9 +93,9 @@
         <note n="50"><ab>kummallinen, eriskummallinen</ab><ab>Ks. Lönnrotin selitys: ihala = sällsam (Lna 122). Vrt. Lönnrotin selitys: 
           ihala = paljas, alastoin (Lna 38).<lb /><lb />Vrt. sanan toinen merkitys Kalevalassa: (ilmasta) ihana, kuulakka, seesteinen (18:52, 47:182) (ks. Turunen 1979).</ab></note>
         <note n="51"><ab>imehno : ihminen</ab></note>
-        <note n="52"><ab>päärivaton : ilman pääripaa</ab><ab><hi rend="italics">Pääripa</hi> 'neitojen päänkoru'.<lb/><lb/>Värillinen, yleensä punainen leveä tai kapea verka- tai silkkinauha, 
-          jolla oli kova tuohinen sisus ja joka ulottui juuri pään ympäri tai oli kokonaan umpinainen (Turunen 1979: 271).<lb/><lb/>Ks. Lönnrotin selitys: päärivatoin = pääsiteetöin (Lna 38). 
-          Ks. myös Lönnrotin selitys: päärivatoin = utan hufvudbådel (Lna 122).</ab></note>
+        <note n="52"><ab>päärivaton : ilman pääripaa oleva</ab><ab><hi rend="italics">Pääripa</hi> 'neitojen päänkoru'.<lb/><lb/>Värillinen, yleensä punainen leveä tai kapea verka- tai silkkinauha, 
+          jolla oli kova tuohinen sisus ja joka ulottui juuri pään ympäri tai oli kokonaan umpinainen (Turunen 1979: 271).<lb/><lb/>Ks. Elias Lönnrotin selitys: <hi rend="italics">päärivatoin</hi> 
+          'pääsiteetöin' (Lna 38). Ks. myös hänen toinen sanaa koskeva selityksensä: <hi rend="italics">päärivatoin</hi> 'utan hufvudbådel' (Lna 122).</ab></note>
         <note n="53"><ab>vyötön</ab></note>
         <note n="54"><ab>korvaton</ab></note>
         <note n="55"><ab>kotikana : vaimo</ab></note>
@@ -110,9 +112,9 @@
           nukkumaanmenoa (Turunen 1979).</ab></note>
         <note n="65"><ab>viiltää</ab></note>
         <note n="66"><ab>loimahtaa : hypähtää, ponnahtaa</ab></note>
-        <note n="67"><ab>kirjava kala</ab></note>
+        <note n="67"><ab>kirjokala : kirjava kala</ab></note>
         <note n="68"><ab>kimmeltää, refl. kimmeltihe : kimpoutui</ab><ab>Vrt. Lönnrotin selitys: kimmeltihe = slingra sig (Lna 122).</ab></note>
-        <note n="69"><ab>vasta sitten</ab></note>
+        <note n="69"><ab>vasta sitten</ab><ab>Adverbilla <hi rend="italics">äsken</hi> on karjalan kielessä merkitykset 'sitten (vasta); oikein, aivan, todella; äsken' (KKS).</ab></note>
         <note n="70"><ab>ylentää : kohottaa, nostaa</ab></note>
         <note n="71"><ab>vihuri : tuulenpuuska, kova tuuli</ab></note>
         <note n="72"><ab>kuvas : nuotan tai verkon koho</ab><ab><hi rend="italics">Kuvas</hi> 'kalanpyydyksen olinpaikan merkki', metonyymisesti 'korkea aalto' (Turunen 1979).<lb/><lb/>Ks. 
@@ -175,9 +177,8 @@
         <note n="111"><ab>Joukola : Joukahaisen asuinsija</ab></note>
         <note n="112"><ab>Lappi : Joukahaisen asuinsijan eli Joukolan kiertosana; Suomen pohjoisin maakunta</ab></note>
         <note n="113"><ab>lahtirantanen : lahdessa oleva ranta, lahden ranta</ab></note>
-        <note n="114"><ab>saada : tulla jonnekin, päästä, saapua</ab></note>
         <note n="115"><ab>mitä mielensä tekee</ab></note>
-        <note n="116"><ab>alakuloisuuden ja melankolian kuvaus</ab><ab><hi rend="italics">Kypäri</hi> 'korkea päähine, lakki', vrt. <hi rend="italics">kypärä</hi>.</ab></note>
+        <note n="116"><ab>alakuloisuuden ja melankolian kuvaus</ab><ab><hi rend="italics">Kypäri</hi> 'korkea päähine, lakki', vrt. <hi rend="italics">kypärä</hi> (Jussila 2009).</ab></note>
         <note n="117"><ab>survoa : sulloa</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: särkeä, murskata (11:78; 21:94; 23:269 yms.).<lb /><lb />Ks. Lönnrotin selitys: survon = gifva rundligt (Lna 122).</ab></note>
         <note n="118"><ab>ennen aikoinaan : kerran, omana aikanaan</ab></note>
         <note n="119"><ab>inha ikä : paha ajanjakso, paha aikakausi</ab><ab><hi rend="italics">Inha</hi> 'paha, huono, ikävä'.<lb/><lb/><hi rend="italics">Ikä</hi> 'aika, ajanjakso'. Vrt. sanan yleismerkitys Kalevalassa: 
@@ -216,7 +217,7 @@
           Pohjolan emäntä hallitsee. Sampo taotaan Pohjolaan ja ryöstetään sieltä; Pohjola on myös esimerkiksi paikka, jonne päivänvalot kätketään. Sekä Kalevalassa että kansanrunoissa Pohjolasta käytetään 
           nimiä, jotka kuvaavat sen luonnetta, kuten <hi rend="italics">Pimentola, Untamola, kylmä kylä, miesten syöjä sija, urosten upottaja, pahan valta</hi>. (Turunen 1979.)<lb/><lb/>Lönnrot kommentoi 
           Kalevalan säkeitä 230−241: "tämä neuvo oli alkuperä Wsen moniin tuleviin onnen vaiheisiin" (Lna 121).</ab></note>
-        <note n="144"><ab>kosimaan tyttäriä</ab></note>
+        <note n="144"><ab>mennä tyttäriin : mennä kosimaan tyttäriä</ab></note>
         <note n="145"><ab>virkeä : eloisa, vilkas</ab></note>
         <note n="146"><ab>Jouko : viitannee Joukolaan, Joukahaisen asuinsijaan</ab></note>
         <note n="147"><ab>jorotar : hidasteleva, jurottava nainen; Pohjolan virkeiden ja kauniiden tytärten vastakohta</ab></note>
@@ -313,8 +314,8 @@
         <lg>
           <l>Jo oli <label type="popup" n="1">sanoma</label> saatu,</l>
           <l>Viety viesti <label type="popup" n="2">tuonnemmaksi</label></l>
-          <l><label type="popup" n="3">Neien</label> nuoren nukkumasta,</l>
-          <l>Kaunihin katoamasta.</l>
+          <l><label type="popup" n="3">Neien</label> nuoren <label type="popup" n="3b">nukkumasta</label>,</l>
+          <l>Kaunihin <label type="popup" n="3c">katoamasta</label>.</l>
         </lg>
         <lg>
           <l><label type="popup" n="4">Vaka</label> vanha <label type="popup" n="5">Wäinämöinen</label>,</l>
@@ -386,7 +387,7 @@
           <l><label type="popup" n="43">Talui</label> <label type="popup" n="44">talka-pohjahansa</label>.</l>
         </lg>
         <lg>
-          <l>Katselevi, kääntelevi,<label n="c4" type="commentary">*</label></l>
+          <l>Katselevi, <label type="popup" n="44b">kääntelevi</label>,<label n="c4" type="commentary">*</label></l>
           <l>60. Sanan virkkoi, noin nimesi:</l>
           <l>"Onp' on tuo kala kalanen,</l>
           <l>Kun en tuota tunnekana,</l>
@@ -512,7 +513,7 @@
           <l><label type="popup" n="112">Lapin</label> <label type="popup" n="113">lahti-rantasia</label>.</l>
         </lg>
         <lg>
-          <l><label type="popup" n="114">Sai</label> kyllin kaloja muita,</l>
+          <l>Sai kyllin kaloja muita,</l>
           <l>Kaikkia ve'en kaloja,</l>
           <l>160. Ei saanut sitä kalaista,</l>
           <l><label type="popup" n="115">Mitä mielensä pitävi</label>,</l>
@@ -595,7 +596,7 @@
           <l>Huolihin katoamatta,</l>
           <l>Niissä päivissä pahoissa,</l>
           <l>Apeissa mielaloissa:</l>
-          <l>230. Mene <label type="popup" n="143">Pohjan</label> <label type="popup" n="144">tyttärihin</label>,</l>
+          <l>230. <label type="popup" n="144">Mene</label> <label type="popup" n="143">Pohjan</label> tyttärihin,</l>
           <l>Siell' on tyttäret somemmat,</l>
           <l>Neiet kahta kaunihimmat,</l>
           <l>Viittä, kuutta <label type="popup" n="145">virkeämmät</label>,</l>
