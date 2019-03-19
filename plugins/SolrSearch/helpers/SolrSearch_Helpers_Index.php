@@ -69,13 +69,13 @@ class SolrSearch_Helpers_Index
 
       if ($field->label == 'Original Format') {
         // Replace indexed text value of TEI file url field with contents of TEI file
-        $text->text = $contents1;
+        $text->text = strip_tags($contents1);
       }
 
 
       if ($field->label == 'Format') {
         // Replace indexed text value of TEI file url field with contents of TEI file
-        $text->text = $contents2;
+        $text->text = strip_tags($contents2);
       }
 
       // Set text field.

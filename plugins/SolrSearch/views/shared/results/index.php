@@ -176,6 +176,7 @@
 
           echo $title;
 
+
           ?></a>
 
           <span><?php echo ': '.$hits; ?></span><a class="resultsBtn">hakutulokset &rarr;</a>
