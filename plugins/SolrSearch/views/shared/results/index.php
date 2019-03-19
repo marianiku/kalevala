@@ -22,7 +22,7 @@
     <span class="float-wrap">
       <input type="text" title="<?php echo __('Search for keywords') ?>" name="q" value="<?php
       echo array_key_exists('q', $_GET) ? $_GET['q'] : '';
-      ?>" placeholder="<?php echo __('Search for letters');?>"/> <!-- add placeholder in input field -->
+      ?>" />
     </span>
   </form>
 </div>
