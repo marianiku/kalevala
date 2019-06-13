@@ -82,7 +82,7 @@
           auterinen, vieno (18:314, 37:168). (Turunen 1979.)</ab></note>
         <note n="42"><ab>terheninen : suojainen; sumuinen</ab></note>
         <note n="43"><ab>karhi : karho, harjanteeksi haravoitu kasa niittoheinää</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: risuäes, hevosen vetämä 
-          oksapiikkinen maanmuokkausväline (21:349).</ab></note>
+          oksapiikkinen maanmuokkausväline (21:349) (Jussila 2009).</ab></note>
         <note n="44"><ab>merihirviö, vedessä elävä haltiaolento</ab><ab>Lönnrot kommentoi Kalevalan säettä 67: "muistutta island. 'thuss', jätte, 'tyr', krigsgud, 
           'turilas', 'väkiturilas', venäl. 'myppaxb', krigsgud" (Lna 121).<lb/><lb/>Vrt. Turisas. Useimmissa kansanrunoissa Tursas/Turisas-niminen 
           hahmo yhdistetään veteen tai mereen.  Itämerensuomalaisessa perinteessä Meri-Tursas oli pahantahtoinen vettä hallitseva olento, meren 
@@ -101,8 +101,8 @@
         <note n="49"><ab>kyven : kipinä; tuhkahöytyvä</ab></note>
         <note n="50"><ab>kyyetellä : poltella </ab></note>
         <note n="51"><ab>kasa</ab></note>
-        <note n="52"><ab>lempi: hyvä, mieluisa</ab><ab>Ks. Lönnrotin selitys: lemmen = hyvän; lempeän (Lna 38).<lb/><lb/>
-          Vrt. sanan toinen merkitys kielessä: (eroottinen) rakkaus.</ab></note>
+        <note n="52"><ab>lempi: hyvä, mieluisa</ab><ab>Ks. Lönnrotin selitys: lemmen = hyvän; lempeän (Lna 38). Lönnrot kommentoi säettä 75 seuraavasti: "joutui l. sattui siihen hyvä, mieluisa, 
+          suotuisa lehti" (Lna 123).<lb/><lb/>Vrt. sanan toinen merkitys kielessä: (eroottinen) rakkaus.</ab></note>
         <note n="53"><ab>tuore, vihannoiva, vahvistuva</ab></note>
         <note n="54"><ab>lehtupuun nuori varsi, taimi</ab><ab>Ks. Lönnrotin selitys: pitkä vesa; raippa (Lna 38).</ab></note>
         <note n="55"><ab>kaksihaarukkainen : kaksihaarainen</ab></note>
@@ -150,6 +150,7 @@
         <note n="88"><ab>sellainen</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: oivallinen, aikamoinen (12:165; 24:22 ym.); kelvoton (30:340; 38:323) (Turunen 1979).</ab></note>
         <note n="89"><ab>murska : hauras</ab></note>
         <note n="90"><ab>murentaa : murskata, rikkoa murusiksi</ab></note>
+        <note n="90b"><ab>juuri, muuten</ab></note>
         <note n="91"><ab>teutaroida : liikkua haparoiden</ab></note>
         <note n="92"><ab>pää</ab></note>
         <note n="93"><ab>pitää : kannattaa</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: ohjata, vallita (12:277; 45:242); tarvita (4:225); turmella (11:96 yms.) (ks. Turunen 1979).</ab></note>
@@ -178,13 +179,16 @@
         <note n="112"><ab>tuiskia : singota ympäriinsä</ab></note>
         <note n="113"><ab>tuli, liekki</ab></note>
         <note n="114"><ab>taipua</ab></note>
-        <note n="115"><ab>rutimoraita : suuri mytologinen puu</ab><ab>Ks. Lönnrotin selitys: iso, kauhea puu (Lna 38). Ks. myös Lönnrotin kommentti Kalevalan säkeeseen 
-          185: "rutimo = helvetti, pahoin ihmisten piinapaikka kuoleman jälkeen, lopuksi rot-aibmo" (Lna 121).<lb/><lb/>Itämerensuomalaisessa mytologiassa rutimonraita 
-          on maailmojen rajojen puu ja kytkeytyy kaaoksen uhkasta kertoviin myytteihin, jotka kuvaavat suurta taivaanvalot pimentävää tammea ja sen kaatamista (Siikala 2012: 457).</ab></note>
+        <note n="115"><ab>rutimoraita : suuri mytologinen puu</ab><ab>Ks. Lönnrotin selitys: iso, kauhea puu (Lna 38). Ks. Lönnrotin selitys: iso, kauhea puu (Lna 38). Lönnrot avasi sanaa 
+          <hi rend="italics">rutimo</hi> seuraavasti: "helvetti, pahasti eläneitten piinapaikka kuoleman jälkeen. Lapinkielellä <hi rend="underline">rotta=aimo</hi>; saman sanan sukua 
+          on suomalainen sana <hi rend="underline">rutto</hi>"; " <hi rend="underline">rutimo-raita</hi>" = kauhea, hiiden suuri puu" (Lna 123).<lb/><lb/>
+          Ks. myös Lönnrotin toinen kommentti Kalevalan säkeen 185 sanaan rutimo-raian: "rutimo = helvetti, pahoin ihmisten piinapaikka kuoleman jälkeen, lopuksi rot-aibmo" (Lna 121).<lb/><lb/>
+          Itämerensuomalaisessa mytologiassa rutimonraita on maailmojen rajojen puu ja kytkeytyy kaaoksen uhkasta kertoviin myytteihin, jotka kuvaavat suurta taivaanvalot pimentävää tammea ja 
+          sen kaatamista (Siikala 2012: 457).</ab></note>
         <note n="116"><ab>murtaa, rusentaa</ab></note>
         <note n="117"><ab>kaataa</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: valua, vuotaa (20:390); kuljettaa, ohjata (39:293); riisua, päästää (21:70) (ks. Jussila 2009; Turunen 1979).</ab></note>
         <note n="118"><ab>työnnyttää : lähettää; työntää</ab></note>
-        <note n="119"><ab>suvi : etelä</ab><ab>Vrt. sanan toinen merkitys: kesä (16:84 ym.) (Turunen 1979, Jussila 2009).</ab></note>
+        <note n="119"><ab>suvi : etelä</ab><ab>Vrt. sanan toinen merkitys: kesä (16:84 ym.) (Turunen 1979; Jussila 2009).</ab></note>
         <note n="120"><ab>pirata : singota, lentää</ab></note>
         <note n="121"><ab>pälähdellä : sinkoilla, lennellä</ab></note>
         <note n="196"><ab>pälkäre : palanen, pirstale</ab></note>
@@ -198,7 +202,7 @@
           esimerkiksi paikka, jonne päivänvalot kätketään. Sekä Kalevalassa että kansanrunoissa Pohjolasta käytetään nimiä, jotka kuvaavat sen luonnetta, kuten <hi rend="italics">Pimentola, Untamola, 
             kylmä kylä, miesten syöjä sija, urosten upottaja, pahan valta</hi>. (Turunen 1979.)</ab></note>
         <note n="127b"><ab>Pohja : Pohjola</ab></note>
-        <note n="127"><ab>palvelustyttö, naispalkollinen</ab><ab><hi rend="italics">Piika</hi>-sanalla on ollut aikaisemmin merkitys 'nuori tyttö, neito, neitsyt' mm. vanhassa raamatunkielessä, 
+        <note n="127"><ab>nainen</ab><ab><hi rend="italics">Piika</hi>-sanalla on ollut aikaisemmin merkitys 'nuori tyttö, neito, neitsyt' mm. vanhassa raamatunkielessä, 
           kansanrunoissa ja virossa <hi rend="italics">(piiga)</hi>. Myöhemmin sanan pejoratiivinen eli halveksiva, väheksyvä merkitys 'palvelijatar' on kuitenkin yleistynyt. (Turunen 1979.)</ab></note>
         <note n="128"><ab>huntu : naimisissa olevien naisten käyttämä päätä peittävä liina</ab><ab>Huntu otettiin käyttöön tavallisesti hääyön jälkeen sulhastalossa (Turunen 1979). Ks. Kalevalan 
           säkeet 22:305−306.</ab></note>
@@ -256,7 +260,8 @@
         <note n="162"><ab>varttua : kasvaa vartta</ab></note>
         <note n="163"><ab>nenä : oras</ab></note>
         <note n="164"><ab>sadoittain</ab></note>
-        <note n="165"><ab>sangen, peräti, todella</ab></note>
+        <note n="165"><ab>suuresti, erittäin</ab><ab>Lönnrot selitti säettä seuraavasti: "<hi rend="underline">varsin vaivani näöstä</hi>" = josta olen erittäin vaivaa nähnyt? = varsinaisesti, 
+          suuresti vaivani näöstä?" (Lna 123).</ab></note>
         <note n="166"><ab>muinaissuomalaisten säänjumala</ab><ab>Lönnrot kommentoi Kalevalan säettä 317: "Ukko rukouksissa aina piti erittäin muistaa" (Lna 121).<lb/><lb/>Ukko asuu 
           ylhäällä ja hallitsee pilviä, ja siltä anotaan sadetta sekä pyydetään apua erilaisissa tilanteissa. Kalevalassa Ukon määreenä on "ylijumala". (Turunen 1979.)</ab></note>
         <note n="167"><ab>isä</ab></note>
@@ -302,7 +307,7 @@
         <note n="202"><ab>kannonkarvainen : kannonvärinen, ruskea</ab></note>
         <note n="c1"><ab>Säkeet 1−13 / Väinämöinen toteaa maan autioksi<lb/><lb/>
           Toisen runon alussa Väinämöinen on saapunut autiolle maalle, josta puuttuu yhtä lailla luonto kuin myös inhimillinen kulttuuri. Aution maan täyttäminen elämällä saattaa viitata Mooseksen 
-          ensimmäisessä kirjassa tehtävään luomistyöhön. Lönnrot uskoi, että suomalaisten muinaisella kosmogonialla oli paljon enemmän liittymäkohtia Raamatun luomiskertomukseen kuin monilla muilla 
+          ensimmäisessä kirjassa tehtävään luomistyöhön. Lönnrot uskoi, että suomalaisten muinaisella kosmogonialla oli paljon enemmän liittymäkohtia <hi rend="italics">Raamatun</hi> luomiskertomukseen kuin monilla muilla 
           kulttuureilla (Kaukonen 1956: 549). 
         </ab></note>
         <note n="c2"><ab>Säkeet 81−88 / Tammen jättimäinen kasvu<lb/><lb/>
@@ -319,7 +324,7 @@
           ihmisten välillä, jotta pellot olisivat hedelmälliset ja viljasato runsas. Kuten Lönnrotkin hyvin tiesi, antiikin Kreikassa useat rituaalit viittasivat taivaan ja maan liittoon, kuten Zeuksen ja 
           Heran myyttiin. (Eliade 2003: 167−168.) On katsottu, että Mikael Agricolan <hi rend="italics">Daavidin Psalttariin</hi> sisällyttämä kuvaus pakanallisesta tavasta juoda Ukon malja ja tehdä paljon 
           "häpeällisiä asioita" kevätkylvön yhteydessä, on suomalainen toisinto <hi rend="italics">hieros gamos</hi> -rituaalista (Haavio 1959: 86). Tulkinta on herättänyt paljon keskustelua, mutta nykyään 
-          sen paikkansapitävyydestä vallitsee opillinen konsensus. (Anttonen 2012, 210–213; Lehtonen 2016: 187−188; ks. myös Anttonen 1997)
+          sen paikkansapitävyydestä vallitsee opillinen konsensus. (Anttonen 2012a: 210−213; Lehtonen 2016: 187−188; ks. myös Anttonen 1997.)
         </ab></note>
         <note n="c5"><ab>Säkeet 349−358 / Kosmogonia päättyy<lb/><lb/>
           Toisen runon lähestyessä loppua maailman luominen on saatettu päätökseen ja inhimillinen kulttuuri viljelyn myötä aluilleen. Seuraavien runojen tapahtumat sijoittuvat oletetusti paljon 
@@ -456,8 +461,8 @@
         <lg>
           <l>Tuli tuhkia läjänen,</l>
           <l><label type="popup" n="51">Koko</label> kuivia poroja;</l>
-          <l>Saip'on siihen lemmen lehti,</l>
-          <l><label type="popup" n="52">Lemmen</label> lehti, tammen terho,</l>
+          <l>Saip'on siihen <label type="popup" n="52">lemmen</label> lehti,</l>
+          <l>Lemmen lehti, tammen terho,</l>
           <l>Josta kasvoi kaunis taimi,</l>
           <l>Yleni <label type="popup" n="53">vihanta</label> <label type="popup" n="54">virpi</label>,</l>
           <l>Nousi maasta mansikkaisna,</l>
@@ -553,7 +558,7 @@
           <l>Puun kamalan kaatajaksi."</l>
         </lg>
         <lg>
-          <l>Sai toki sanoneheksi,</l>
+          <l>Sai <label type="popup" n="90b">toki</label> sanoneheksi,</l>
           <l>150. Katsahtavi vielä kerran,</l>
           <l>Näki miehen muuttunehen,</l>
           <l>Uuistunehen urohon,</l>
@@ -654,7 +659,7 @@
         </lg>
         <lg>
           <l>Siit' alkoi <label type="popup" n="136">salot</label> <label type="popup" n="137">silota</label>,</l>
-          <l>Metsät <label type="popup" n="138">mielin</label> kas vaella,</l>
+          <l>Metsät <label type="popup" n="138">mielin</label> kasvaella,</l>
           <l>Lehti puuhun, ruoho maahan,</l>
           <l>Linnut puuhun laulamahan,</l>
           <l>Rastahat iloitsemahan,</l>

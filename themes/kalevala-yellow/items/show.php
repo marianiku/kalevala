@@ -167,3 +167,4 @@ if ($current_id >= 1 && $current_id <= sizeof($ids)-2) {
 </nav>
 
 <?php echo foot(); ?>
+<script type="text/javascript" src="//eu1.snoobi.com/snoop.php?tili=codicesfennici_fi"></script>

@@ -571,6 +571,10 @@
         <note n="167">
           <ab>kirjakorja : koristeltu ajoreki</ab>
         </note>
+        <note n="167b">
+          <ab>liikkumaliha : paikaltaan irronnut liha, lihas</ab><ab>Elias Lönnrot katsoi sanan merkitsevän paikaltaan irronnutta lihaa (Lna 123). Aimo Turusen mukaan <hi rend="italics">liikkumalihat</hi> 
+            ’liikkeessä olevat, toimivat lihakset’ (Turunen 1979). Raimo Jussilalla puolestaan selitys <hi rend="italics">liikumaliha</hi> ’(liikuttava) lihas’ (Jussila 2009).</ab>
+        </note>
         <note n="168">
           <ab>loitsussa parantava aine</ab>
         </note>
@@ -670,7 +674,8 @@
             <hi rend="italics">Thor</hi>. (Ks. Turunen 1979.)</ab>
         </note>
         <note n="198">
-          <ab>Palvonen : jumalolento</ab><ab>Nimen on arveltu syntyneen <hi rend="italics">palvoa</hi>-verbin pohjalta (Turunen 1979).</ab>
+          <ab>Palvonen : jumalolento</ab><ab>Nimen on arveltu syntyneen <hi rend="italics">palvoa</hi>-verbin pohjalta (Turunen 1979). Vrt. Lönnrot pohti sanan merkitystä seuraavasti: 
+            <hi rend="italics">Palvosen</hi> 'armon = alaisen', 'huonon, raukan'.  <hi rend="italics">Palvonen</hi> 'palonen, polonen'. (Lna 123.)</ab>
         </note>
         <note n="199">
           <ab>laeton : lakea vailla oleva, valtavan suuri</ab>
@@ -710,6 +715,9 @@
         </note>
         <note n="211">
           <ab>runsaasti, rikkaasti</ab>
+        </note>
+        <note n="211b">
+          <ab>puhella : parantaa loitsuilla, loitsia</ab><ab>Elias Lönnrotin mukaan <hi rend="italics">puheli</hi> 'puhalteli' (Lna 123).</ab>
         </note>
         <note n="212">
           <ab>puhdas : kaunis, Jumalan epiteetti</ab>
@@ -941,7 +949,7 @@
           ajatteli, että muinainen sankari Kaleva oli suomalaisten vanhin tunnettu esi-isä. (Siikala 2012: 46; Turunen 1979: 88.)</ab></note>
         <note n="281"><ab></ab><ab>Lönnrot kommentoi Lyhennetyssä Kalevalassa säkeitä 97−100 (tässä 287−294): "Korppi näetsä puhui omaan puoleensa, raadosta ruokaa saadaksensa" 
           (Lönnrot 1862/2005). Lönnrot toimitti Lyhennetyn Kalevalan koulujen tarpeisiin, ja sen vuoksi sen säkeet poikkeavat aikaisemmista.</ab></note>
-        <note n="282"><ab>mielilintu : suosiollinen lintu</ab></note>
+        <note n="282"><ab>mielilintu : mieluinen lintu</ab></note>
         <note n="283"><ab>löyhytellä : liehuttaa, vilkuttaa</ab></note>
         <note n="284"><ab>kohotella, refl. kohotteleitet : kohottaudut</ab> </note>
         <note n="285"><ab>metonen : mesi, hunaja</ab><ab>Vrt. sanan toinen merkitys Kalevalassa: sima, hunajasta valmistettu juoma (Turunen 1979).</ab></note>
@@ -1421,7 +1429,7 @@
           <l>Rakentele ratsujasi,</l>
           <l>Aja <label type="popup" n="167">kirja-korjinesi</label></l>
           <l>Läpi luun, läpi jäsenen,</l>
-          <l>Läpi liikkuma-lihojen,</l>
+          <l>Läpi <label type="popup" n="167b">liikkuma-lihojen</label>,</l>
           <l>Läpi suonten soljuvaisten,</l>
           <l>Liitä luu lihoa myöten,</l>
           <l>360. Suoni suonen päätä myöten,</l>
@@ -1573,7 +1581,7 @@
           <l>Siell' on <label type="popup" n="211">viljalta</label> simoa,</l>
           <l>Siellä mettä mielin määrin,</l>
           <l>Joilla ennen luoja loitsi,</l>
-          <l>480. Puheli <label type="popup" n="212">puhas</label> Jumala,</l>
+          <l>480. <label type="popup" n="211b">Puheli</label> <label type="popup" n="212">puhas</label> Jumala,</l>
           <l>Voiti luoja lapsiansa</l>
           <l>Pahan vallan <label type="popup" n="213">vammaksissa</label>;</l>
           <l>Kasta siipesi simassa,</l>

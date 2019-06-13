@@ -130,7 +130,7 @@
             (Tarkka 2005: 264–265.)</ab>
         </note>
         <note n="31">
-          <ab>saares : saareke</ab>
+          <ab>saares : saareke (suossa); erityinen metsänpaikka</ab>
         </note>
         <note n="32">
           <ab>metsästyssaalis</ab>
@@ -245,6 +245,7 @@
         <note n="63">
           <ab>nopeasti, joutuisasti</ab>
         </note>
+        <note n="63b"><ab>kumminkaan, kuitenkaan</ab></note>
         <note n="64">
           <ab>havaita : huomata, herätä</ab>
         </note>
@@ -451,7 +452,7 @@
             Jälkimmäinen esiintyy kerran myös Tapion puolisona (46:58). (Turunen 1979.)</ab>
         </note>
         <note n="124">
-          <ab>vieremä : reuna</ab>
+          <ab>vieremä : rinnepaikka</ab><ab>Elias Lönnrotin mukaan <hi rend="italics">vieremille</hi> ’liikkeelle’ (Lna 123).</ab>
         </note>
         <note n="125">
           <ab>viiakko : pensaita, vesoja, nuoria puita kasvava metsä</ab>
@@ -545,6 +546,7 @@
         <note n="151">
           <ab>taivuttaa : suostuttaa, saada myöntyväiseksi</ab>
         </note>
+        <note n="151b"><ab>jouduttivat</ab></note>
         <note n="152">
           <ab>lämsä : suopunki, silmukalle kierretty köysi, jolla eläin lassottiin</ab>
         </note>
@@ -632,6 +634,10 @@
         <note n="179">
           <ab>Hiitola : persoonalliseksi käsitetyn Hiiden asuinpaikka</ab><ab>Kalevalassa <hi rend="italics">Hiitola</hi>  esiintyy vain säkeessä "Hiitolan hyvä hevonen, vuoren varsa vaahtileuka". Nimi on 
             kuitenkin tavallinen kansanrunoissa. Rahvaan uskomuksissa vuorta pidettiin vainajien olinpaikkana, ja sen vuoksi Hiisi ja vuori saatettiin liittää toisiinsa. (Turunen 1979.) Ks. Hiisi.</ab>
+        </note>
+        <note n="179b">
+          <ab>kulta turpa : hevonen</ab><ab>Lönnrot selitti sanaa <hi rend="italics">kultaturpa</hi> seuraavasti: "Tuo kultaturpaasi, pistä hopeapäätäsi! Toisissa paikoissa käytetään <hi rend="underlien">kulta</hi> 
+            ja <hi rend="underline">hopea</hi> koko hevosen ylistyssanaksi." (Lna 123.)</ab>
         </note>
         <note n="180">
           <ab>tylysti, ankarasti, pahoin</ab>
@@ -792,7 +798,7 @@
         <note n="227"><ab>metsän naispuolinen haltiaolento, luonnotar</ab><ab>Metsän naispuolisten haltioiden esiintymisestä metsästysloitsuissa, ks. metsän emäntä.</ab></note>
         <note n="228"><ab>päivä : aurinko</ab><ab>Vrt. sanan muut merkitykset Kalevalassa: vuorokauden valoisa aika (1:100, 106); vuorokausi (1:125) (Turunen 1979).</ab></note>
         <note n="229"><ab>tiepuoli : tien vieri</ab></note>
-        <note n="230"><ab>käännellä : katsella päätään käännellen</ab></note>
+        <note n="230"><ab>käännellä : katsella päätään käännellen</ab><ab>Ks. <hi rend="italics">kääntelevi</hi> 'odottelee', 'kääntelee itseänsä l. päätänsä sinne ja tänne' (Lna 123).</ab></note>
       </notesStmt>
       <sourceDesc>
         <msDesc>
@@ -913,7 +919,7 @@
           <l><label type="popup" n="62">Mieluisan</label> metsän emännän,</l>
           <l>Jotta kuulisi <label type="popup" n="63">välehen</label>,</l>
           <l>Nousisi makoamasta,</l>
-          <l>Kun ei kuule kumminkana,</l>
+          <l>Kun ei kuule <label type="popup" n="63b">kumminkana</label>,</l>
           <l>Ei <label type="popup" n="64">hava'a</label> harvoinkana,</l>
           <l>Vaikka <label type="popup" n="65">ainoisin</label> anelen,</l>
           <l><label type="popup" n="66">Kielen kullan</label> <label type="popup" n="67">kuikuttelen</label>!"</l>
@@ -1111,7 +1117,7 @@
           <l><label type="popup" n="151">Taivutti</label> Tapion neiet.</l>
         </lg>
         <lg>
-          <l>Juoksuttivat, juovuttivat</l>
+          <l>Juoksuttivat, <label type="popup" n="151b">juovuttivat</label></l>
           <l>240. Hiien hirven kätköstänsä,</l>
           <l>Takoa Tapion vaaran,</l>
           <l>Hiien linnan liepehiltä</l>
@@ -1224,7 +1230,7 @@
           <l>Itse tuon sanoiksi virkki:</l>
           <l>"<label type="popup" n="179">Hiitolan</label> hyvä hevoinen,</l>
           <l>Vuoren varsa vaahtileuka,</l>
-          <l>Tuo nyt kulta turpoasi,</l>
+          <l>Tuo nyt <label type="popup" n="179b">kulta turpoasi</label>,</l>
           <l>330. Pistä päätäsi hopea</l>
           <l>Kultaisihin koltuskoihin,</l>
           <l>Hopeisihin helyihin!</l>
